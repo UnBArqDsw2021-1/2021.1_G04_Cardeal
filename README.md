@@ -3,34 +3,23 @@
 **Código da Disciplina**: FGA0208<br>
 **Número do Grupo**: 04<br>
 
-## Alunos 
-
+## Alunos
 |Matrícula | Aluno | GitHub |
-
 | -- | -- | -- |
-
-| 18/0117548 | Bruno Carmo Nunes | @brunocmo |
-
-| 17/0140571 | Douglas Farias de Castro | @douglasffcastro |
-
-| 18/0052616 | Estevão de Jesus Reis | @estevaoreis25 |
-
-| 18/0017659 | Giovana Vitor Dionísio Santana | @giovanadionisio |
-
-| 20/0038141 | Gustavo Duarte Moreira | @gustavoduartemoreira |
-
-| 15/0129866 | Igor Araújo de Sousa | @zero101010 |
-
-| 17/0150747 | Marcos Vinícius Rodrigues da Conceição | @marcos-mv |
-
-| 18/0129147 | Pedro de Miranda Haick | @peHaick |
-
-| 18/0138596 | Luiz Gustavo Dias Paes Pinheiro | @tomasvelos0 |
-
-| 14/0169784 | Tomás Veloso Peixoto Matutino | @PinheiroLG | 
+| 18/0117548  |  Bruno Carmo Nunes | [@brunocmo](https://github.com/brunocmo) |
+| 17/0140571  |  Douglas Farias de Castro | [@douglasffcastro](https://github.com/douglasffcastro) |
+| 18/0052616  |  Estevão de Jesus Reis | [@estevaoreis25](https://github.com/estevaoreis25) |
+| 18/0017659  |  Giovana Vitor Dionísio Santana | [@giovanadionisio](https://github.com/giovanadionisio) |
+| 20/0038141  |  Gustavo Duarte Moreira | [@gustavoduartemoreira](https://github.com/gustavoduartemoreira) |
+| 15/0129866  |  Igor Araújo de Sousa | [@zero101010](https://github.com/zero101010) |
+| 17/0150747  |  Marcos Vinícius Rodrigues da Conceição | [@marcos-mv](https://github.com/marcos-mv) |
+| 18/0129147  |  Pedro de Miranda Haick | [@peHaick](https://github.com/peHaick) |
+| 18/0138596  |  Luiz Gustavo Dias Paes Pinheiro | [@PinheiroLG](https://github.com/PinheiroLG) |
+| 14/0169784  |  Tomás Veloso Peixoto Matutino | [@tomasvelos0](https://github.com/tomasvelos0) |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+
+O projeto é uma aplicação web de uma imobiliária que tem como seu principal objetivo apresentar aos seus clientes os imóveis disponíveis.
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
