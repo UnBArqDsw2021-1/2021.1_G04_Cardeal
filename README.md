@@ -1,25 +1,33 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
-
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(NomeDoProjeto)*. !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2021.1_G1_ProjetoPandora*. !!** 
- 
- (Apague essa seção)
-
-# Nome do Projeto
+# Cardeal
 
 **Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 04<br>
 
-## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+## Alunos 
+
+|Matrícula | Aluno | GitHub |
+
+| -- | -- | -- |
+
+| 18/0117548 | Bruno Carmo Nunes | @brunocmo |
+
+| 17/0140571 | Douglas Farias de Castro | @douglasffcastro |
+
+| 18/0052616 | Estevão de Jesus Reis | @estevaoreis25 |
+
+| 18/0017659 | Giovana Vitor Dionísio Santana | @giovanadionisio |
+
+| 20/0038141 | Gustavo Duarte Moreira | @gustavoduartemoreira |
+
+| 15/0129866 | Igor Araújo de Sousa | @zero101010 |
+
+| 17/0150747 | Marcos Vinícius Rodrigues da Conceição | @marcos-mv |
+
+| 18/0129147 | Pedro de Miranda Haick | @peHaick |
+
+| 18/0138596 | Luiz Gustavo Dias Paes Pinheiro | @tomasvelos0 |
+
+| 14/0169784 | Tomás Veloso Peixoto Matutino | @PinheiroLG | 
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
