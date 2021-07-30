@@ -1,1 +1,0 @@
-horario do time

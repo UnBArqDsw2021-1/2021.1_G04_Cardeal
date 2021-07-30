@@ -1,1 +1,0 @@
-Causa e efeito
