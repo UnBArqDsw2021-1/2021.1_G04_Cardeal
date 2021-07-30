@@ -13,7 +13,7 @@ nav:
       - Léxico: desenhoSoftwareBase/lexico.md
       - Causa e efeito: desenhoSoftwareBase/causaEfeito.md
       - Estimativas: desenhoSoftwareBase/estimativas.md
-  - Time:
+  - Planejamento:
     - Horários disponiveis: horarioGrupo/horarioGrupo.md
       
 theme:
