@@ -1,4 +1,27 @@
-site_name: My Docs
+site_name: Cardeal
 
+nav:  
+  - Home: index.md
+  - Desenho de Sofware(Base):
+    - Módulo Projeto Não Orientado a Abordagem Específicas:
+      - Brainstorm: desenhoSoftwareBase/brainstorm.md
+      - Design Sprint: desenhoSoftwareBase/designSprint.md
+      - Rich Picture: desenhoSoftwareBase/richPicture.md
+      - Storyboard: desenhoSoftwareBase/storyboard.md
+      - Protótipo: desenhoSoftwareBase/prototipo.md
+      - 5W2H: desenhoSoftwareBase/5W2H.md
+      - Léxico: desenhoSoftwareBase/lexico.md
+      - Causa e efeito: desenhoSoftwareBase/causaEfeito.md
+      - Estimativas: desenhoSoftwareBase/estimativas.md
+  - Time:
+    - Horários disponiveis: horarioGrupo/horarioGrupo.md
+      
 theme:
   name: gitbook
+  font:
+    text: Roboto
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.top
+plugins: []

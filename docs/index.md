@@ -1,4 +1,4 @@
-# 2021.1_G04_Cardeal
+#Cardeal
 
 <p align="center">
   <img src="https://st2.depositphotos.com/4918199/8662/v/600/depositphotos_86629902-stock-illustration-bird-cardinal-red-heads-painted.jpg" alt="logo" width="300" />
