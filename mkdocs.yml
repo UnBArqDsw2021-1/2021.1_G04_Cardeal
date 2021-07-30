@@ -4,15 +4,18 @@ nav:
   - Home: index.md
   - Desenho de Sofware(Base):
     - Módulo Projeto Não Orientado a Abordagem Específicas:
-      - Brainstorm: desenhoSoftwareBase/brainstorm.md
       - Design Sprint: desenhoSoftwareBase/designSprint.md
+      - 5W2H: desenhoSoftwareBase/5W2H.md
+      - Brainstorm: desenhoSoftwareBase/brainstorm.md
       - Rich Picture: desenhoSoftwareBase/richPicture.md
       - Storyboard: desenhoSoftwareBase/storyboard.md
       - Protótipo: desenhoSoftwareBase/prototipo.md
-      - 5W2H: desenhoSoftwareBase/5W2H.md
       - Léxico: desenhoSoftwareBase/lexico.md
       - Causa e efeito: desenhoSoftwareBase/causaEfeito.md
       - Estimativas: desenhoSoftwareBase/estimativas.md
+    - Módulo Processos/Metodologias/Abordagens:
+      - Metodologia: desenhoSoftwareBase/metodologia.md
+      - Modelagem BPMN: desenhoSoftwareBase/modelagemBpmn.md
   - Time:
     - Horários disponiveis: horarioGrupo/horarioGrupo.md
       
