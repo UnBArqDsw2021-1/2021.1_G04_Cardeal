@@ -15,6 +15,10 @@ nav:
       - Estimativas: desenhoSoftwareBase/estimativas.md
   - Planejamento:
     - Horários disponiveis: horarioGrupo/horarioGrupo.md
+  - Extras:
+    - Atas:
+      - 27/07/2021: Atas/27-07-2021.md
+      - 30/07/2021: Atas/30-07-2021.md
       
 theme:
   name: gitbook
