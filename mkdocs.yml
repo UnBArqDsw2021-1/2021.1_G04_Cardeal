@@ -13,6 +13,9 @@ nav:
       - Léxico: desenhoSoftwareBase/lexico.md
       - Causa e efeito: desenhoSoftwareBase/causaEfeito.md
       - Estimativas: desenhoSoftwareBase/estimativas.md
+    - Módulo Processos/Metodologias/Abordagens:
+      - Metodologia: desenhoSoftwareBase/metodologia.md
+      - Modelagem BPMN: desenhoSoftwareBase/modelagemBpmn.md
   - Extras:
     - Horários disponiveis: horarioGrupo/horarioGrupo.md
     - Atas:
