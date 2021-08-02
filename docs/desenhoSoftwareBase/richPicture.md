@@ -42,10 +42,6 @@ Após a conclusão de todos os desenhos, fizemos uma votação através de uma e
 
 ## Rich Picture 1.0
 ![Giovana Vitor](./RichPicture/rich-picture-giovana.png)
-
-
-
-## Referências
 ## Referências 
 
 > SERRANO, Milene: Arquitetura e Desenho de software - Aula- Projeto e Desenho de Software. Acessado em 02/08/2021
