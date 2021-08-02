@@ -12,7 +12,7 @@
 - Tomás Veloso
 
 ## Metodologia
-O Rich Picuture é uma maneira de modelar ideias, e bastante conveniente para ser aplicada em
+O Rich Picture é uma maneira de modelar ideias, e bastante conveniente para ser aplicada em
 reuniões com clientes ou em equipes de desenvolvimento. Se apoia na atividade de fazer um rascunho de desenhos e usar pequenos textos para evidenciar um momento, um desejo, uma atividade, dentre outras coisas. Os desenhos podem ser feitos à mão ou por um software. Essa técnica é bastante rica poís podemos visualizar mais facilmente os requisitos necessários pra a implementação do software.
 
 ## Resultados
@@ -46,7 +46,11 @@ Após a conclusão de todos os desenhos, fizemos uma votação através de uma e
 
 
 ## Referências
-## Versinamento
+## Referências 
+
+> SERRANO, Milene: Arquitetura e Desenho de software - Aula- Projeto e Desenho de Software. Acessado em 02/08/2021
+
+## Versionamento
 
 | Data | Versão | Descrição| Autor |
 | :--------- | :----- | :--------- | :------------------- |
