@@ -12,13 +12,13 @@
 
 | **Função** | **Quantidade** | **Salário mensal** | **Tempo de execução** | **Valor Total** | 
 | :--- | :---: | :--- | :---: | ---: | 
-| Desenvolvedor Full Stack| 10 | R$3060,00 | 4 meses | R$122.400,00 | 
+| [Desenvolvedor Full Stack](#referencias) | 10 | R$3060,00 | 4 meses | R$122.400,00 | 
  
 #### 2.2. Custo de Ferramentas 
  
 | **Ferramenta** | **Finalidade** | **Quantidade** | **Valor unitário** |**Valor** | 
 | :--- | :---: | :---: | :---: | ---: | 
-| Notebook | Planejamento e Desenvolvimento | 10 | R$3.799,00 | R$37.990,00 | 
+| [Notebook](#referencias) | Planejamento e Desenvolvimento | 10 | R$3.799,00 | R$37.990,00 | 
 | Internet | Conta da Internet | 10 | R$100,07 | R$1.000,70 | 
 | Google Drive |Compartilhamento e edição de arquivos | 10 | 0 | R$0,00 | 
 | Editor de texto | Hospedagem e versionamento do Projeto | 10 | 0 | R$0,00 | 
@@ -31,7 +31,7 @@
 
 | **Capacitação** | **Finalidade** | **Quantidade** | **Valor unitário** |**Valor Total** | 
 | :--- | :---: | :---: | :---: | ---: | 
-| Javascript, TypeScript e Banco de Dados | Capacitar a equipe com a tecnologias de desenvolvimento | 10 | R$34,00 | R$349,00 | 
+| [Javascript, TypeScript e Banco de Dados](#referencias) | Capacitar a equipe com a tecnologias de desenvolvimento | 10 | R$34,00 | R$349,00 | 
  
 ### 2.4. Custo Total 
 
