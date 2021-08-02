@@ -33,3 +33,9 @@ Essas telas possibilitam a execução das seguintes ações:
 
 ### Visualização de um imóvel selecionado
 <img src='./prototipo/visualizar-um-imovel.png'>
+
+## Versionamento
+
+| Data       | Versão | Descrição                                | Autor             |
+| :--------- | :----- | :--------------------------------------- | :---------------- |
+| 02/08/2021 | 1.0    | Criação do Documento          | Pedro Haick    |
