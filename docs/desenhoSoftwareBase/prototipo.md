@@ -20,19 +20,19 @@ Essas telas possibilitam a execução das seguintes ações:
 * Atualizar imóvel (caso seja um corretor)
 
 ### Busca por imóveis
-<img src='./prototipo/buscar-por-imoveis.png'>
+<img src='../prototipo/buscar-por-imoveis.png'>
 
 ### Lista de imóveis buscados
-<img src='./prototipo/lista-de-imoveis.png'>
+<img src='../prototipo/lista-de-imoveis.png'>
 
 ### Cadastro de corretor
-<img src='./prototipo/cadastrar-um-corretor.png'>
+<img src='../prototipo/cadastrar-um-corretor.png'>
 
 ### Cadastro de imóvel
-<img src='./prototipo/cadastrar-um-imovel.png'>
+<img src='../prototipo/cadastrar-um-imovel.png'>
 
 ### Visualização de um imóvel selecionado
-<img src='./prototipo/visualizar-um-imovel.png'>
+<img src='../prototipo/visualizar-um-imovel.png'>
 
 ## Versionamento
 

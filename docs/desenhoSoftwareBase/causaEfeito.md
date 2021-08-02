@@ -34,6 +34,7 @@ Tendo então a problematização das categorias utilizados das possíveis causas
 |Data | Versão | Descrição | Autor(es)|
 | :--: | :--: | -- | :--: |
 | 02/08/2021 | 1.0 | Criação do diagrama | [Bruno Nunes](https://github.com/brunocmo) |
+| 02/08/2021 | 1.1 | Correção dos erros de gramática | [Bruno Nunes](https://github.com/brunocmo) |
 
 ## 5. Referências 
 
