@@ -1,11 +1,11 @@
 ## Storyboard
 
-O storyboard é uma técnica de sequência de desenhos ou ilustrações que podem ser utilizadas para contar uma história. É um roteiro desenhado parecido com uma história em quadrinhos. Na engenharia de software pode ser utilizada como apoio para melhorar a documentação do problema, dos requisitos no processo de desenvolivmento, representar o caminho das interações dos usuários com o sistema.</p>
-Entre os benfícios podemos destacar que ele apoia o planejamento para a realização do projeto, mostra visualmente as etapas.
+O storyboard é uma técnica de sequência de desenhos ou ilustrações que podem ser utilizadas para contar uma história. É um roteiro desenhado parecido com uma história em quadrinhos. Na engenharia de software pode ser utilizada como apoio para melhorar a documentação do problema, dos requisitos no processo de desenvolvimento, representar o caminho das interações dos usuários com o sistema.</p>
+Entre os benefícios podemos destacar que ele apoia o planejamento para a realização do projeto, mostra visualmente as etapas.
 
 ### Metodologia
 
-Na realização do Desing Sprint foi essa técnica foi utilizada para apoiar a elicitaçã de requisitos criando um Storyboard na visão dos funcionários da imobiliária.
+Na realização do Design Sprint durante a dinâmica, essa técnica foi utilizada para apoiar a elicitação de requisitos criando um Storyboard na visão dos funcionários da imobiliária.
 
 ## Storyboard Imobiliária
 
