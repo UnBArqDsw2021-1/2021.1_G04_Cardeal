@@ -2,11 +2,11 @@
 
 ### 1. Objetivo 
 
-<p align = "justify"> Para a realização do documento de estimativas, certas etapas foram cumpridas, para melhor levantamento de todos os detalhes necessários para estimar o projeto. Com o entendimento da prosta inicial e detalhamento do projeto, é realizado a estimativa do tamanho do projeto, estima os esforços, o conhecimento necessário, os recursos e a estimativa de custos. </p> 
+<p align = "justify"> Para a realização do documento de estimativas, certas etapas foram cumpridas, para melhor levantamento de todos os detalhes necessários para estimar o projeto. Com o entendimento da proposta inicial e detalhamento do projeto, é realizado a estimativa do tamanho do projeto, estima os esforços, o conhecimento necessário, os recursos e a estimativa de custos. </p> 
 
 ### 2. Estimativas 
 
-<p align = "justify"> Como todos os membros da equipe irá participar de todo o projeto pelo tempo estimado de 4 meses, com a limitação de ser um trabalho remoto, existe a necessidade de os membros possuírem equipamentos adequado e acesso à internet, o custo pessoal de desenvolvimento e custo de treinamento. </p> 
+<p align = "justify"> Como todos os membros da equipe irão participar de todo o projeto pelo tempo estimado de 4 meses, com a limitação de ser um trabalho remoto, existe a necessidade de os membros possuírem equipamentos adequado e acesso à internet, o custo pessoal de desenvolvimento e custo de treinamento. </p> 
  
 #### 2.1. Custo Pessoal 
 
