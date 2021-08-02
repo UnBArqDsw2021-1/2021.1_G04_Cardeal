@@ -16,9 +16,8 @@ nav:
     - Módulo Processos/Metodologias/Abordagens:
       - Metodologia: desenhoSoftwareBase/metodologia.md
       - Modelagem BPMN: desenhoSoftwareBase/modelagemBpmn.md
-  - Planejamento:
-    - Horários disponiveis: horarioGrupo/horarioGrupo.md
   - Extras:
+    - Horários disponiveis: horarioGrupo/horarioGrupo.md
     - Atas:
       - 27/07/2021: Atas/27-07-2021.md
       - 30/07/2021: Atas/30-07-2021.md
