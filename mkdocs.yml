@@ -13,8 +13,12 @@ nav:
       - Léxico: desenhoSoftwareBase/lexico.md
       - Causa e efeito: desenhoSoftwareBase/causaEfeito.md
       - Estimativas: desenhoSoftwareBase/estimativas.md
-  - Time:
+  - Planejamento:
     - Horários disponiveis: horarioGrupo/horarioGrupo.md
+  - Extras:
+    - Atas:
+      - 27/07/2021: Atas/27-07-2021.md
+      - 30/07/2021: Atas/30-07-2021.md
       
 theme:
   name: gitbook

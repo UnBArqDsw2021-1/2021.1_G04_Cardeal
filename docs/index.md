@@ -1,15 +1,12 @@
-#Cardeal
-
+<h1 id="cardeal">Cardeal</h1>
 <p align="center">
   <img src="https://st2.depositphotos.com/4918199/8662/v/600/depositphotos_86629902-stock-illustration-bird-cardinal-red-heads-painted.jpg" alt="logo" width="300" />
 </p>
 
-### Sobre o projeto
-
+<h3 id="sobre-o-projeto">Sobre o projeto</h3>
 <p align="justify">O projeto é uma aplicação web de uma imobiliária que tem como seu principal objetivo apresentar aos seus clientes os imóveis disponíveis.</p>
 
-### Equipe
-
+<h3 id="equipe">Equipe</h3>
 <table>
     <tr>
         <td align="center"><a href="https://github.com/brunocmo"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/43324383?v=4" width="100px;" alt=""/><br /><sub><b>Bruno Nunes</b></sub></a><br /><a href="https://github.com/brunocmo"></a></td>
@@ -24,3 +21,18 @@
         <td align="center"><a href="https://github.com/tomasvelos0"><img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/48571671?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Tomás Veloso</b></sub></a><br /><a href="https://github.com/tomasvelos0"></a></td> 
     </tr>
 </table>
+
+
+</section>
+
+</div> <!-- end of page-inner -->
+</div> <!-- end of page-wrapper -->
+
+</div> <!-- end of body-inner -->
+
+</div> <!-- end of book-body -->
+<script src="./js/main.js"></script>
+<script src="./js/gitbook.min.js"></script>
+<script src="./js/theme.min.js"></script>
+</body>
+</html>
