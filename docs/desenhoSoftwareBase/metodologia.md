@@ -1,8 +1,8 @@
 # Metodologia
 ## Introdução
-O documento de metodologia procura expor as metodologias e abordagens utilizadas empregadas durante o processo de desenvolvimento desse projeto. Nele será descrito quais metodologias e métodos foram utilizadas para guiar o desenvolvimento do projeto.
+Este documento procura expor as metodologias e abordagens utilizadas empregadas durante o processo de desenvolvimento desse projeto. Nele será descrito quais metodologias e métodos foram utilizadas para guiar o desenvolvimento do projeto.
 
-Diversos processos, metodologias e práticas foram apresentadas na disciplina de Arquitetura e Desenho de Software. O grupo Cardeal decidiu utilizar uma metodologia híbrida própria, buscando utilizar aspectos dessas metodologias para adaptá-las no contexto do projeto e das necessidades da equipe. Além disso, o grupo não definiu papéis específicos para cada integrante da equipe. Ao invés disso, haverá uma rotatividade de papéis entre os membros da equipe para que todos possam passar por esses papéis, fazendo com que todos aprendam sobre todos eles. Por conta da pandemia, todas as práticas que geralmente são feitas presencialmente, serão feitas de forma remota, utilizando a ferramenta de comunicação Microsoft Teams.
+Diversos processos, metodologias e práticas foram apresentadas na disciplina de Arquitetura e Desenho de Software. O grupo Cardeal decidiu utilizar uma metodologia híbrida própria. Seram utilizados aspectos de algumas metodologias, que serão adaptados ao contexto do projeto e das necessidades da equipe. Além disso, o grupo não definiu papéis específicos para cada integrante da equipe. Ao invés disso, haverá uma rotatividade de papéis entre os membros da equipe para que todos possam passar pelo menos uma vez por cada papel, isso permitirá que todos aprendam sobre aspectos desses papéis. Todas as práticas, que geralmente são presenciais, serão feitas de forma remota por conta da pandemia e será utilizado a ferramenta de comunicação Microsoft Teams.
 
 ## Metodologias Ágeis
 Todas as metodologias utilizadas durante esse projeto são provenientes dos princípios de desenvolvimento ágil de software.
@@ -43,21 +43,21 @@ Sprint Review será utilizada para fazer uma retrospectiva de tudo que foi feito
 #### User Stories
 User Stories é uma especificação de uma ou mais sentenças na linguagem de negócio ou cotidiana do usuário final ou usuário do sistema que captura o que um usuário faz ou necessita fazer como parte de sua função de trabalho.
 
-User Stories será utilizado para fragmentar os requisitos e conseguir transformá-los em features a serem desenvolvidas
+User Stories serão utilizados para fragmentar os requisitos e conseguir agrupá-los em features que serão desenvolvidas.
 
 ### KANBAN
 O funcionamento do kanban no desenvolvimento de aplicações está centrado no quadro kanban, permitindo uma visualização de todo o ciclo de trabalho. Um quadro típico do kanban aplicado ao gerenciamento de projetos contém: objetivos, listas de pendências, etapa de desenvolvimento, testes, urgência e concluídos. Por ser uma metodologia flexível, cada departamento pode adaptar os quadros às suas necessidades, criando colunas para alocar cada uma das tarefas do projeto, assim como serão atribuídas aos membros da equipe. 
 
 #### To do
-É a coluna onde estarão sendo colocadas as tarefas que devem ser feitas
+É a coluna onde serão colocadas as tarefas que devem ser feitas.
 #### Doing
-É a coluna onde estarão sendo colocadas as tarefas que estão sendo feitas no momento presente.
+É a coluna onde serão colocadas as tarefas que estão em desenvolvimento.
 #### Done
-É a coluna onde estarão sendo colocadas as tarefas que foram concluídas
-Isso pode ser modificado conforme a necessidade da equipe
+É a coluna onde serão colocadas as tarefas que foram concluídas.
+
 
 ### XP
-Criado em 1996, possui como princípios básicos: trabalho de qualidade, mudanças incrementais, feedback rápido e abraçar mudanças. A metodologia possui algumas práticas como Jogos de planejamento Propriedade coletiva, Teste de usuário, Ritmo sustentável, Equipe inteira, Programação em par,Padronizações de código
+Criado em 1996, possui como princípios básicos: trabalho de qualidade, mudanças incrementais, feedback rápido e abraçar mudanças. A metodologia possui algumas práticas como Jogos de planejamento, Propriedade coletiva, Teste de usuário, Ritmo sustentável, Equipe inteira, Programação em pares e Padronizações de código.
 
 #### Programação em pares
 A programação em pares acontece da seguinte forma: Um desenvolvedor mais experiente fica com um novato, o novato codifica e o mais experiente programa. O benefício deste método é que ele é revisado por duas pessoas.
