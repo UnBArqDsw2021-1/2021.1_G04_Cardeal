@@ -122,3 +122,8 @@ SILVA, L. F.. Uma Estratégia Orientada a Aspectos para Modelagem de Requisitos.
 SANTANDER, V. F. A.. Integrando Modelagem Organizacional com Modelagem Funcional. Tese de Doutorado – UFPE. Recife. 2002.  
 
 Leite, Julio Cesar Sampaio do Prado. Livro Vivo- Engenharia de Requisitos, Parte IV. Disponível em:  [http://livrodeengenhariaderequisitos.blogspot.com/](http://livrodeengenhariaderequisitos.blogspot.com/).  
+
+## Versionamento
+| Data       | Versão | Descrição                                | Autor             |
+| --------- | ----- | --------------------------------------- | ---------------- |
+| 03/08/2021 | 1.0    | Criação do Documento          | Giovana Dionisio |
