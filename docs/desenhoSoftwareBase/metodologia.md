@@ -61,7 +61,9 @@ Vamos usar para minimizar a curva de aprendizado entre os integrantes do time fa
 
 ### Politica do gitflow
 
-### 3. Ferramentas
+3. Ferramentas
+Essas será as ferramentas utilizadas no desenvolvimento esse projeto:
+![GitHub]()
 
  - GitHub
  - Telegram
