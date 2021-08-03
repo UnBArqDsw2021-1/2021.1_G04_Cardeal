@@ -10,17 +10,12 @@
 
 ## 3 Resultados 
 
-* ### Construção do Backlog do Produto 
-
-* ### Construção do Backlog da Sprint
-
-* ### Sprint
-
-* ### Reunião Diárias
-
-* ### Reunião de Planejamento da Sprint
-
-* ### Reunião de Revisão da Sprint
+* ### Design Sprint & Ciclo de Vida
+  ![Design Sprint & Ciclo de Vida](./BPMN/BPMN%20-%201.svg)
+* ### Elaboração do Backlog do Produto 
+ ![Design Sprint & Ciclo de Vida](./BPMN/BPMN%20-%203.svg)
+* ### Planejamento da Sprint
+  ![Design Sprint & Ciclo de Vida](./BPMN/BPMN%20-%202.svg)
 
 ## 4 Referências
 
@@ -32,8 +27,11 @@
 
 ## 5 Versionamento
 
-| Versão | Data | Descrição | Autor(es) |
+| Versão | Data | Descrição | Autor |
 | :--: | :--: | -- | :--: |
 | 1.0 | 02/08/2021 | Criação do documento | Douglas Castro |
 | 1.1 | 02/08/2021 | Adição da Introdução | Douglas Castro |
 | 1.2 | 02/08/2021 | Adição da Metodologia | Douglas Castro |
+| 1.3 | 03/08/2021 | Adição da modelagem da Design Sprint e do Ciclo de Vida | Douglas Castro |
+| 1.4 | 03/08/2021 | Adição da modelagem da Elaboração do Backlog do Produto | Douglas Castro |
+| 1.5 | 03/08/2021 | Adição da modelagem do Planejamento da Sprint  | Douglas Castro |
