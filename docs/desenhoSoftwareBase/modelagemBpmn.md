@@ -35,4 +35,5 @@
 | Versão | Data | Descrição | Autor(es) |
 | :--: | :--: | -- | :--: |
 | 1.0 | 02/08/2021 | Criação do documento | Douglas Castro |
-| 1.1 | 02/08/2021 | Introdução adicionada | Douglas Castro |
+| 1.1 | 02/08/2021 | Adição da Introdução | Douglas Castro |
+| 1.2 | 02/08/2021 | Adição da Metodologia | Douglas Castro |
