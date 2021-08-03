@@ -59,27 +59,17 @@ A programação em pares acontece da seguinte forma: Um desenvolvedor mais exper
 
 Vamos usar para minimizar a curva de aprendizado entre os integrantes do time fazendo com que a troca de experiência seja homogênia.
 
-### Politica do gitflow
-
-3. Ferramentas
+### Ferramentas
 Essas será as ferramentas utilizadas no desenvolvimento esse projeto:
-![GitHub]()
 
- - GitHub
- - Telegram
- - Zenhub
- - GoogleDrive
- - Teams
- - Figma
-
- - PLitica de branch 
- - Commit
- - Issue
- - PR
-
- ## Papeis
- papeis rotativos a cada sprint
- Scrum Master revisar os prs
+|Ferramenta|Nome|Utilização|
+|----------|-----|---------|
+|![GitHub](./tecnologias/github.png)|GitHub| Será Utilizado para fazer a hospedagem do código-fonte e o versionamento do projeto| 
+|![Telegram](./tecnologias/telegram.png)|Telegram|Será utilizado para a comunicação entre a equipe e realização da weekly meeting|
+|![Zenhub](./tecnologias/zenhub.png) |Zenhub|Será utilizado para aplicar método Kanban no projeto|
+|![GoogleDrive](./tecnologias/drive.png)|GoogleDrive|Será utilizado para armazenar alguns documentos pertinentes ao projeto, criados pelos integrantes da equipe|
+|![Teams](./tecnologias/teams.png)|Teams | Será utilizado para fazer reuniões de com os integrantes da equipe.
+|![Figma](./tecnologias/figma.png)| Figma | Será utilizado para a criação dos protótipos de baixa fidelidade e alta fidelidade|
 
  ## Referências Bibliográficas
  > Desenvolvimento ágil de software. https://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software. Acessado em 03/08/2021
