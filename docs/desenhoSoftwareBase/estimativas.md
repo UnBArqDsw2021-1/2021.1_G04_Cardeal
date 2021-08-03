@@ -2,23 +2,23 @@
 
 ### 1. Objetivo 
 
-<p align = "justify"> Para a realização do documento de estimativas, certas etapas foram cumpridas, para melhor levantamento de todos os detalhes necessários para estimar o projeto. Com o entendimento da prosta inicial e detalhamento do projeto, é realizado a estimativa do tamanho do projeto, estima os esforços, o conhecimento necessário, os recursos e a estimativa de custos. </p> 
+<p align = "justify"> Para a realização do documento de estimativas, certas etapas foram cumpridas, para melhor levantamento de todos os detalhes necessários para estimar o projeto. Com o entendimento da proposta inicial e detalhamento do projeto, é realizado a estimativa do tamanho do projeto, estima os esforços, o conhecimento necessário, os recursos e a estimativa de custos. </p> 
 
 ### 2. Estimativas 
 
-<p align = "justify"> Como todos os membros da equipe irá participar de todo o projeto pelo tempo estimado de 4 meses, com a limitação de ser um trabalho remoto, existe a necessidade de os membros possuírem equipamentos adequado e acesso à internet, o custo pessoal de desenvolvimento e custo de treinamento. </p> 
+<p align = "justify"> Como todos os membros da equipe irão participar de todo o projeto pelo tempo estimado de 4 meses, com a limitação de ser um trabalho remoto, existe a necessidade de os membros possuírem equipamentos adequados e acesso à internet, o custo pessoal de desenvolvimento e custo de treinamento. </p> 
  
 #### 2.1. Custo Pessoal 
 
 | **Função** | **Quantidade** | **Salário mensal** | **Tempo de execução** | **Valor Total** | 
 | :--- | :---: | :--- | :---: | ---: | 
-| Desenvolvedor Full Stack| 10 | R$3060,00 | 4 meses | R$122.400,00 | 
+| [Desenvolvedor Full Stack](#referencias) | 10 | R$3060,00 | 4 meses | R$122.400,00 | 
  
 #### 2.2. Custo de Ferramentas 
  
 | **Ferramenta** | **Finalidade** | **Quantidade** | **Valor unitário** |**Valor** | 
 | :--- | :---: | :---: | :---: | ---: | 
-| Notebook | Planejamento e Desenvolvimento | 10 | R$3.799,00 | R$37.990,00 | 
+| [Notebook](#referencias) | Planejamento e Desenvolvimento | 10 | R$3.799,00 | R$37.990,00 | 
 | Internet | Conta da Internet | 10 | R$100,07 | R$1.000,70 | 
 | Google Drive |Compartilhamento e edição de arquivos | 10 | 0 | R$0,00 | 
 | Editor de texto | Hospedagem e versionamento do Projeto | 10 | 0 | R$0,00 | 
@@ -31,7 +31,7 @@
 
 | **Capacitação** | **Finalidade** | **Quantidade** | **Valor unitário** |**Valor Total** | 
 | :--- | :---: | :---: | :---: | ---: | 
-| Javascript, TypeScript e Banco de Dados | Capacitar a equipe com a tecnologias de desenvolvimento | 10 | R$34,00 | R$349,00 | 
+| [Javascript, TypeScript e Banco de Dados](#referencias) | Capacitar a equipe com a tecnologias de desenvolvimento | 10 | R$34,00 | R$349,00 | 
  
 ### 2.4. Custo Total 
 
@@ -42,11 +42,10 @@
 | Custo de Capacitação | R$349,00 | 
 | Valor Total | R$161.739,7 | 
 
-## Bibliografia 
+## Referências
 
 >MENDES DA SILVA FILHO, Antonio. **Estimativa de custo de software: roteiro e dicas para estimativas de projeto**. Revista Espaço Acadêmico nº156, maio de 2014. 
 
-## Referências 
 
 * [Vagas: Desenvolvedor Full Stack](https://www.vagas.com.br/cargo/desenvolvedor-full-stack), acessado dia 01 de agosto de 2021. 
 
@@ -54,7 +53,7 @@
 
 * [Udemy: Curso de Javascript e Typescript](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/), acessado dia 01 de agosto de 2021. 
 
-## Histórico de Revisões 
+## Versionamento 
 
 | Data | Versão | Descrição | Autor(es) | 
 | :----: | :----: | :----: | :----: | 
