@@ -93,7 +93,7 @@ Para a apresentação dos símbolos, listados em ordem alfabética, foi utilizad
 ### L15 - Negócio
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Firmamento de contrato entre um proprietário de imóvel e um cliente, podendo ser de alguel ou venda | Um negócio é fechado por meio da imobiliária |  |
+| Objeto | Firmamento de contrato entre um proprietário de imóvel e um cliente, podendo ser de aluguel ou venda | Um negócio é fechado por meio da imobiliária |  |
 
 ### L16 - Preço
 | Classificação | Noção | Impacto | Sinônimos |
