@@ -18,107 +18,102 @@ Para a apresentação dos símbolos, listados em ordem alfabética, foi utilizad
 ### L1 - Aluguel
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Negócio em que o proprietário do imóvel cede o uso deste para um locador mediante pagamento mensal | A imobiliária intermedia o aluguel entre locatário e locador | Locação |
+| Objeto | [Negócio](#l15-negocio) em que o proprietário do [imóvel](#l10-imovel) cede o uso deste para um locador mediante pagamento mensal | A [imobiliária](#l9-imobiliaria) intermedia o aluguel entre [locatário](#l13-locatario) e [locador](#l11-locador) | Locação |
 
 ### L2 - Anunciar
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Verbo | Disponibilizar um imóvel para negócio | A imobiliária anuncia imóveis | Publicar |
+| Verbo | Disponibilizar um [imóvel](#l10-imovel) para [negócio](#l15-negocio) | A [imobiliária](#l9-imobiliaria) anuncia [imóveis](#l10-imovel) | Publicar |
 
 ### L3 - Apartamento
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Imóvel residêncial localizado em um prédio | Um imóvel pode ser classificado como um apartamento |  |
+| Objeto | [Imóvel](#l10-imovel) residêncial localizado em um prédio | Um [imóvel](#l10-imovel) pode ser classificado como um apartamento |  |
 
 ### L4 - Área
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Tamanho, geralmente em m², do imóvel | Área é uma das características de um imóvel | Metragem |
+| Objeto | Tamanho, geralmente em m², do [imóvel](#l10-imovel) | Área é uma das características de um [imóvel](#l10-imovel) | Metragem |
 
 ### L5 - Casa 
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Imóvel residencial localizado em um terreno | Um imóvel pode ser classificado como uma casa | Sobrado |
+| Objeto | [Imóvel](#l10-imovel) residencial localizado em um terreno | Um [imóvel](#l10-imovel) pode ser classificado como uma casa | Sobrado |
 
 ### L6 - Comprador
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Sujeito | Cliente que realiza negócio de compra | Um comprador compra um imóvel |  |
+| Sujeito | Cliente que realiza [negócio](#l15-negocio) de compra | Um comprador compra um [imóvel](#l10-imovel) |  |
 
-### L6 - Corretor
+### L7 - Corretor
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Sujeito | Funcionário da imobiliária responsável em realizar o negócio entre clientes e proprietários de imóveis | Um anúncio é realizado por um corretor; Um negócio é intermediado por um corretor |  |
-
-### L7 - Comprador
-| Classificação | Noção | Impacto | Sinônimos |
-| ------------- | ----- | ------- | --------- |
-| Sujeito | Cliente que realiza negócio de compra | Um comprador compra um imóvel |  |
+| Sujeito | Funcionário da [imobiliária](#l9-imobiliaria) responsável em realizar o [negócio](#l15-negocio) entre clientes e proprietários de [imóveis](#l10-imovel) | Um anúncio é realizado por um corretor; Um [negócio](#l15-negocio) é intermediado por um corretor |  |
 
 ### L8 - Entrar em contato
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Verbo | Ação do cliente em se comunicar com um funcionário da imobiliária | Ao entrar em contato com um corretor, o cliente se comunica por mensagem, ligação ou email, solicitando alguma informação | Contatar |
+| Verbo | Ação do cliente em se comunicar com um funcionário da [imobiliária](#l9-imobiliaria) | Ao entrar em contato com um [corretor](#l7-corretor), o cliente se comunica por mensagem, ligação ou email, solicitando alguma informação | Contatar |
 
 ### L9 - Imobiliária
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Empresa responsável pela venda ou aluguel de imóveis | Os corretores trabalham para a imobiliária |  |
+| Objeto | Empresa responsável pela [venda](#l19-venda) ou [aluguel](#l1-aluguel) de [imóveis](#l10-imovel) | Os [corretores](#l7-corretor) trabalham para a imobiliária |  |
 
 ### L10 - Imóvel
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Propriedade física, edificação pertencente a um proprietário | Imóveis são negociados através das imobiliárias |  |
+| Objeto | Propriedade física, edificação pertencente a um proprietário | Imóveis são [negociados](#l15-negocio) através das [imobiliárias](#l9-imobiliaria) |  |
 
-### L11- Locador
+### L11 - Locador
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Sujeito | Cliente que realiza negócio de aluguel | Um locador aluga um imóvel |  |
+| Sujeito | Cliente que realiza [negócio](#l15-negocio) de [aluguel](#l1-aluguel) | Um locador aluga um [imóvel](#l10-imovel) |  |
 
 ### L12 - Localização
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Lugar em que um imóvel se encontra | Localização é uma das características de um imóvel | Endereço |
+| Objeto | Lugar em que um [imóvel](#l10-imovel) se encontra | Localização é uma das características de um [imóvel](#l10-imovel) | Endereço |
 
 ### L13 - Locatário
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Sujeito | Proprietário que realiza negócio de aluguel | Um locatário aluga seu imóvel para um locador |  |
+| Sujeito | Proprietário que realiza [negócio](#l15-negocio) de [aluguel](#l1-aluguel) | Um locatário aluga seu [imóvel](#l10-imovel) para um [locador](#l11-locador) |  |
 
 ### L14 - Loja
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Imóvel destinado para fins comerciais | Um imóvel pode ser classificado como uma loja |  |
+| Objeto | [Imóvel](#l10-imovel) destinado para fins comerciais | Um [imóvel](#l10-imovel) pode ser classificado como uma loja |  |
 
 ### L15 - Negócio
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Firmamento de contrato entre um proprietário de imóvel e um cliente, podendo ser de aluguel ou venda | Um negócio é fechado por meio da imobiliária |  |
+| Objeto | Firmamento de contrato entre um proprietário de [imóvel](#l10-imovel) e um cliente, podendo ser de [aluguel]((#l1-aluguel)) ou [venda](#l19-venda) | Um negócio é fechado por meio da [imobiliária](#l9-imobiliaria) |  |
 
 ### L16 - Preço
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Valor total (para venda) ou mensal (para aluguel) de um imóvel | Preço é uma das características de um imóvel |  |
+| Objeto | Valor total (para [venda](#l19-venda)) ou mensal (para [aluguel](#l1-aluguel)) de um [imóvel](#l10-imovel) | Preço é uma das características de um [imóvel](#l10-imovel) |  |
 
 ### L17 - Terreno
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Imóvel que não possui nenhuma edificação construída | Um imóvel pode ser classificado como um terreno | Lote |
+| Objeto | [Imóvel](#l10-imovel) que não possui nenhuma edificação construída | Um [imóvel](#l10-imovel) pode ser classificado como um terreno | Lote |
 
 ### L18 - Vendedor
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Sujeito | Proprietário que realiza negócio de venda | Um imóvel é vendido por um vendedor |  |
+| Sujeito | Proprietário que realiza [negócio](#l15-negocio) de [venda](#l19-venda) | Um [imóvel](#l10-imovel) é vendido por um vendedor |  |
 
 ### L19 - Venda
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Negócio em que um proprietário cede o imóvel para um cliente mediante pagamento | A imobiliária intermedia a venda entre vendedor e comprador |  |
+| Objeto | [Negócio](#l15-negocio) em que um proprietário cede o [imóvel](#l10-imovel) para um cliente mediante pagamento | A [imobiliária](#l9-imobiliaria) intermedia a venda entre [vendedor](#l18-vendedor) e [comprador](#l6-comprador) |  |
 
 ### L20 - Visita
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
-| Objeto | Ida de um cliente, acompanhado de um corretor, a um imóvel ao qual ele tenha interesse | As visitas são gerenciadas pela imobiliária |  |
+| Objeto | Ida de um cliente, acompanhado de um [corretor](#l7-corretor), a um [imóvel](#l10-imovel) ao qual ele tenha interesse | As visitas são gerenciadas pela [imobiliária](#l9-imobiliaria) |  |
 
 
 ## Referências Bibliográficas
