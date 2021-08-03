@@ -39,11 +39,11 @@ A design sprint é um processo de 5 dias com o objetivo de responder perguntas e
 
 | Dia | Artefatos | Motivação para uso |
 | --- | --------- | ------------------ |
-| 1 | Diagrama de causa e efeito <br> Léxico  | A partir dos artefatos utilizados, é possível ter noção do domínio que envolve o problema, e assim modelá-lo. |
-| 2 | Brainstorm <br> Rich Picture <br> Storyboard | Com os 3 artefatos, a equipe pensou em ideias que solucionassem o problema. |
-| 3 | 5W2H  | Após decidirmos qual rich picture seguiriamos, foi essencial organizar um plano de ação para o desenvolvimento |
-| 4 | Protótipo de Baixa Fidelidade  | O protótipo de baixa fidelidade se fez necessário para analisar a usabilidade e alinhar a interface com a visão de projeto da equipe. |
-| 5 | Estimativas  | Por fim, após analisar o protótipo, a equipe fez um levantamento de forma a estimar os recursos que seriam necessários caso uma organização precisasse executar um plano de ação desse porte. |
+| 1 | <a href='/desenhoSoftwareBase/causaEfeito'>Diagrama de causa e efeito</a> <br> <a href='/desenhoSoftwareBase/lexico'>Léxico</a>  | A partir dos artefatos utilizados, é possível ter noção do domínio que envolve o problema, e assim modelá-lo. |
+| 2 | <a href='/desenhoSoftwareBase/brainstorm'>Brainstorm</a> <br> <a href='/desenhoSoftwareBase/richPicture'>Rich Picture</a> <br> <a href='/desenhoSoftwareBase/storyboard'>Storyboard</a> | Com os 3 artefatos, a equipe pensou em ideias que solucionassem o problema. |
+| 3 | <a href='/desenhoSoftwareBase/5W2H'>5W2H</a>  | Após decidirmos qual rich picture seguiriamos, foi essencial organizar um plano de ação para o desenvolvimento |
+| 4 | <a href='/desenhoSoftwareBase/prototipo'>Protótipo de Baixa Fidelidade</a>  | O protótipo de baixa fidelidade se fez necessário para analisar a usabilidade e alinhar a interface com a visão de projeto da equipe. |
+| 5 | <a href='/desenhoSoftwareBase/estimativas'>Estimativas</a>  | Por fim, após analisar o protótipo, a equipe fez um levantamento de forma a estimar os recursos que seriam necessários caso uma organização precisasse executar um plano de ação desse porte. |
 
 ## Versionamento
 
