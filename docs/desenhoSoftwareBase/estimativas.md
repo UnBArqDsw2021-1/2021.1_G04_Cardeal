@@ -6,7 +6,7 @@
 
 ### 2. Estimativas 
 
-<p align = "justify"> Como todos os membros da equipe irão participar de todo o projeto pelo tempo estimado de 4 meses, com a limitação de ser um trabalho remoto, existe a necessidade de os membros possuírem equipamentos adequado e acesso à internet, o custo pessoal de desenvolvimento e custo de treinamento. </p> 
+<p align = "justify"> Como todos os membros da equipe irão participar de todo o projeto pelo tempo estimado de 4 meses, com a limitação de ser um trabalho remoto, existe a necessidade de os membros possuírem equipamentos adequados e acesso à internet, o custo pessoal de desenvolvimento e custo de treinamento. </p> 
  
 #### 2.1. Custo Pessoal 
 
@@ -42,11 +42,10 @@
 | Custo de Capacitação | R$349,00 | 
 | Valor Total | R$161.739,7 | 
 
-## Bibliografia 
+## Referências
 
 >MENDES DA SILVA FILHO, Antonio. **Estimativa de custo de software: roteiro e dicas para estimativas de projeto**. Revista Espaço Acadêmico nº156, maio de 2014. 
 
-## Referências 
 
 * [Vagas: Desenvolvedor Full Stack](https://www.vagas.com.br/cargo/desenvolvedor-full-stack), acessado dia 01 de agosto de 2021. 
 
@@ -54,7 +53,7 @@
 
 * [Udemy: Curso de Javascript e Typescript](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/), acessado dia 01 de agosto de 2021. 
 
-## Histórico de Revisões 
+## Versionamento 
 
 | Data | Versão | Descrição | Autor(es) | 
 | :----: | :----: | :----: | :----: | 
