@@ -2,7 +2,9 @@
 
 |Data | Versão | Descrição | Autor(es)|
 | :--: | :--: | -- | :--: |
-| 0/08/2021 | 1.0 | Criação da primeira versão do Brainstorm | [Igor Araújo de Sousa](https://github.com/zero101010) |
+| 04/08/2021 | 1.0 | Criação da primeira versão do Brainstorm | [Igor Araújo de Sousa](https://github.com/zero101010) |
+
+
 ### 1.Objetivo
 - Utilizamos o brainstorm como uma das etapas do design sprint para que entendessemos o que cada um imaginava da aplicação e para alinharmos as espectativas sobre o que a aplicação deverá fazer para resolver nosso problema atual que é facilitar a busca e a compra d eimóveis de uma determinada corretora a partir de uma aplicação web.
 
