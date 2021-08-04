@@ -1,10 +1,9 @@
-## Projeto Cardeal 
+# Projeto Cardeal 
 
-**Documento de Visão**
+## Documento de Visão
 
 
 **Versão 1.0**
-\*
 
 
 **Histórico da Revisão**
@@ -12,10 +11,6 @@
 |**Data**|**Versão**|**Descrição**|**Autor**|
 | :-: | :-: | :-: | :-: |
 |04/08/2021|1.0|Criação de todos os  principais tópicos iniciais do documento|Luiz Gustavo Dias Paes Pinheiro|
-| | | | |
-| | | | |
-| | | | |
-
 
 **Índice Analítico**
 
@@ -79,7 +74,7 @@
 # **1.**                  **Introdução**
 *Neste documento serão definidas as necessidades,razões e motivações que compõem o escopo do projeto, bem como os propósitos para realização do mesmo.O objetivo deste documento de visão é reduzir riscos que circundam a criação do produto de modo a estabelecer expectativas e proteger as partes envolvidas no desenvolvimento do projeto.*
 ## **1.1**               **Finalidade**
-*Este documento tem, por finalidade, estabelecer de modo amplo uma visão geral  a respeito da criação de uma nova imobiliária, a cardeal, definindo aqui as características e utilidades de cada funcionalidade e também o propósito e contexto nas quais se inserem,deixando claro assim sua proposta e peculiaridades.*
+*Este documento tem, por finalidade, estabelecer de modo amplo uma visão geral  a respeito da criação de uma página web para a imobiliária, cardeal, definindo aqui as características e utilidades de cada funcionalidade e também o propósito e contexto nas quais se inserem,deixando claro assim sua proposta e peculiaridades.*
 ## **1.2**               **Escopo**
 *O objetivo deste projeto é desenvolver uma página web que tem como principal objetivo apresentar os imóveis disponíveis para seus clientes.*
 
@@ -117,7 +112,7 @@
 ## **2.3**               **Sentença de Posição do Produto**
 
 
-|Para|` `*Qualquer usuário que tenha interesse em comprar ou alugar imóveis*|
+|Para|*Qualquer usuário que tenha interesse em comprar ou alugar imóveis*|
 | :- | :- |
 |Que|*Queira uma forma simples de comprar ou alugar imóveis*|
 |O (nome do produto)|*Cardeal*|
@@ -217,9 +212,7 @@ O público-alvo do Cardeal são pessoas que desejem comprar e alugar um imóvel,
 `             `*-Visualizar contato de corretores* 
 
 `             `*-Agendar visita com um corretor* 
-\*
 
-\*
 
 # **6.**                  **Restrições**
 Listagem de restrições externas e outras dependências:
