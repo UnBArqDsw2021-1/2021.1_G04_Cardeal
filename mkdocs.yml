@@ -17,6 +17,7 @@ nav:
       - Metodologia: desenhoSoftwareBase/metodologia.md
       - Modelagem BPMN: desenhoSoftwareBase/modelagemBpmn.md
     - Extras:
+      - Documento de Visão: desenhoSoftwareBase/documento-de-visao.md
       - Horários disponiveis: horarioGrupo/horarioGrupo.md
       - Política do Repositório:
         - Políticas de Branch: desenhoSoftwareBase/politicas/politicasBranch.md
