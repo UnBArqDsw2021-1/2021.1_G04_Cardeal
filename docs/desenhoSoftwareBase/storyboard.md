@@ -13,6 +13,11 @@ Na realização do Design Sprint durante a dinâmica, essa técnica foi utilizad
   <img src="../img/storyboard_imobiliaria_Cardeal.png" />
 </p>
 
+## Storyboard Visão Corretor
+<p align="center">
+  <img src="../img/storyboard_visao_corretor.png" />
+</p>
+
 ## Referência Bibliográficas
  - STORYBOARD. In: WIKIPÉDIA: a enciclopédia livre. Wikipedia, 2021. Disponível em: https://pt.wikipedia.org/wiki/Storyboard. Acessado em: 01/08/2021.
 
