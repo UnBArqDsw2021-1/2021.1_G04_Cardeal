@@ -1,5 +1,6 @@
 # Política de Criação de Branch
- - O repositório do projeto terá uma branch principal e estável, a main. Ela será proveniente de uma outra, a devel.
+ - O repositório do projeto terá uma branch principal e estável, a main.
+ - A partir da main será criada outra branch, a devel.
  - Nenhum integrante da equipe é autorizado a fazer commits diretamente na main.
  - Nenhum integrante da equipe é autorizado a fazer commits diretamente na devel.
  - Deve-se ser criada uma nova branch para cada nova feature, correção ou falha a partir da branch devel.
@@ -9,13 +10,13 @@
   - *feature* - define que a branch criada é para o desenvolvimento de uma nova funcionalidade.
   - *bugfix* - define que será feito a correção ou manutenção em uma funcionalidade ou configuração referente ao projeto.
 
- Após essa especificação, deverá ser inserido, um traço para fazer a separação e logo em seguida, o nome da branch, que deverá ser uma abstração do nome da história de usuário ou correção (HF) a qual se refere. 
+ Após essa especificação, deverá ser inserido uma barra para fazer a separação e logo em seguida, o nome da branch, que deverá ser uma abstração do nome da história de usuário ou correção (HF) a qual se refere. 
 
  - O nome da branch deverá ser escrito seguindo o padrão Snake Case
 
 ### Exemplos práticos
-    feature-dashboard_imoveis
-    bugfix-dashboard_imoveis
+    feature/dashboard_imoveis
+    bugfix/dashboard_imoveis
 
 
 ## Referências
