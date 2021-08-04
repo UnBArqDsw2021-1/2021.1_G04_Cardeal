@@ -218,3 +218,9 @@ Listagem de restrições externas e outras dependências:
 
 - Uso da internet
 - Uso de navegador web
+
+# **7.**  Versionamento
+
+| Data       | Versão | Descrição                         | Autores     |
+| ---------- | ------ | --------------------------------- | ----------- |
+| 04/08/2021 | 1.0 | Criação e elaboração do documento | Luiz Gustavo |

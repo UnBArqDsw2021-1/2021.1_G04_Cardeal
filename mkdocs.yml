@@ -18,6 +18,7 @@ nav:
       - Modelagem BPMN: desenhoSoftwareBase/modelagemBpmn.md
     - Extras:
       - Horários disponiveis: horarioGrupo/horarioGrupo.md
+      - Documento de Visão: desenhoSoftwareBase/documento-de-visao.md
       - Atas:
         - 27/07/2021: Atas/27-07-2021.md
         - 30/07/2021: Atas/30-07-2021.md
