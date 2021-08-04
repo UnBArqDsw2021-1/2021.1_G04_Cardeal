@@ -17,8 +17,13 @@ nav:
       - Metodologia: desenhoSoftwareBase/metodologia.md
       - Modelagem BPMN: desenhoSoftwareBase/modelagemBpmn.md
     - Extras:
-      - Horários disponiveis: horarioGrupo/horarioGrupo.md
       - Documento de Visão: desenhoSoftwareBase/documento-de-visao.md
+      - Horários disponiveis: horarioGrupo/horarioGrupo.md
+      - Política do Repositório:
+        - Políticas de Branch: desenhoSoftwareBase/politicas/politicasBranch.md
+        - Políticas de Issue: desenhoSoftwareBase/politicas/politicasIssue.md
+        - Políticas de Pull Request: desenhoSoftwareBase/politicas/politicasPR.md
+        - Políticas de Commit: desenhoSoftwareBase/politicas/politicasCommits.md
       - Atas:
         - 27/07/2021: Atas/27-07-2021.md
         - 30/07/2021: Atas/30-07-2021.md
