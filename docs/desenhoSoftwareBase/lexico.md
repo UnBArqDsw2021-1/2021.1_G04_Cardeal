@@ -1,10 +1,10 @@
 # Léxico
 
-## Introdução
+## 1. Introdução
 Léxico consiste em uma técnica de descrição de símbolos de uma linguagem através da notação LAL (Léxico Ampliado da Linguagem). O objetivo do seu uso é a expressão do vocabulário do universo cognitivo de um problema sem que o problema seja levado em conta, mas sim o seu contexto. Desta forma, é possível a identificação de palavras, frases e termos que sejam peculiares ao domínio de uma aplicação.  
 No Léxico Ampliado da Linguagem, cada expressão é descrita em **noção** e **impacto**. A noção está ligada ao significado do termo, enquanto o impacto se refere ao efeito que este termo causa dentro do contexto da aplicação. Além disso, são apresentados (quando existentes) os sinônimos para o léxico e a sua classificação em Objeto, Verbo, Sujeito ou Estado.
 
-## Metodologia
+## 2. Metodologia
 Para a construção do artefato de léxicos do projeto Cardeal, seguiram-se duas etapas para a coleta de dados: a identificação de símbolos da linguagem, onde foram levantadas frases e termos significantes dentro do contexto de uma imobiliária, e a identificação da semântica, onde os termos levantados foram analisados e descritos.   
 Para a apresentação dos símbolos, listados em ordem alfabética, foi utilizado o seguinte modelo: 
 
@@ -14,7 +14,7 @@ Para a apresentação dos símbolos, listados em ordem alfabética, foi utilizad
 | ------------- | ----- | ------- | --------- |
 | Objeto / Verbo / Sujeito / Estado | Denotação | Conotação | (Opcional) |
 
-## Léxicos
+## 3. Léxicos
 ### L1 - Aluguel
 | Classificação | Noção | Impacto | Sinônimos |
 | ------------- | ----- | ------- | --------- |
@@ -116,14 +116,15 @@ Para a apresentação dos símbolos, listados em ordem alfabética, foi utilizad
 | Objeto | Ida de um cliente, acompanhado de um [corretor](#l7-corretor), a um [imóvel](#l10-imovel) ao qual ele tenha interesse | As visitas são gerenciadas pela [imobiliária](#l9-imobiliaria) |  |
 
 
-## Referências Bibliográficas
+## 4. Referências
 SILVA, L. F.. Uma Estratégia Orientada a Aspectos para Modelagem de Requisitos. Tese de Doutorado – PUC-Rio. Rio de Janeiro. 2006.  
 
 SANTANDER, V. F. A.. Integrando Modelagem Organizacional com Modelagem Funcional. Tese de Doutorado – UFPE. Recife. 2002.  
 
 Leite, Julio Cesar Sampaio do Prado. Livro Vivo- Engenharia de Requisitos, Parte IV. Disponível em:  [http://livrodeengenhariaderequisitos.blogspot.com/](http://livrodeengenhariaderequisitos.blogspot.com/).  
 
-## Versionamento
+## 5. Versionamento
 | Data       | Versão | Descrição                                | Autor             |
 | --------- | ----- | --------------------------------------- | ---------------- |
 | 03/08/2021 | 1.0    | Criação do Documento          | Giovana Dionisio |
+| 04/08/2021 | 1.1    | Padronização do documento       | Bruno Nunes e Marcos Rodrigues    |
