@@ -3,7 +3,6 @@
 ## Documento de Visão
 
 
-**Versão 1.0**
 
 
 **Histórico da Revisão**
@@ -14,7 +13,7 @@
 
 **Índice Analítico**
 
-\1.  Introdução          
+1.  Introdução          
 
 1.1  Finalidade      
 
@@ -26,7 +25,7 @@
 
 1.5  Visão Geral      
 
-\2.  Posicionamento          
+2.  Posicionamento          
 
 2.1  Oportunidade de Negócios      
 
@@ -34,7 +33,7 @@
 
 2.3  Sentença de Posição do Produto     
 
-\3.  Descrições dos Envolvidos e dos Usuários  
+3.  Descrições dos Envolvidos e dos Usuários  
 
 3.1  Demografia dos Mercados     
 
@@ -52,7 +51,7 @@
 
 3.8  Alternativas e Concorrência     
 
-\4.  Visão Geral do Produto      
+4.  Visão Geral do Produto      
 
 4.1  Perspectiva do Produto     
 
@@ -64,9 +63,9 @@
 
 4.5  Licenciamento e Instalação     
 
-\5.  Recursos do Produto         
+5.  Recursos do Produto         
 
-\6.  Restrições         
+6.  Restrições         
 
 
 
