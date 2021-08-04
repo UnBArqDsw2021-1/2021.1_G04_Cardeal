@@ -2,20 +2,20 @@
 
 ## 1 Introdução
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;O <i>Business Process Model and Notation</i> (BPMN) é uma linguagem de modelagem que possui uma numerosa quantidade de símbolos, que podem ser usados para mapear todos os processos envolvidos em um projeto. O seu principal objetivo é fornecer uma representação que seja facilmente compreensível por todos os envolvidos em um projeto, como descreve a <i>Standards Development Organization</i>. Ou seja, sua intenção é padronizar um modelo diante de outras notações e pontos de vista diferentes. Com essa padronização, o BPMN fornecerá, não só uma modelagem simples que comunicará essas informações dos processos, como também poderá fornecer uma modelagem complexa e bem detalhada conforme as necessidades da equipe.</p>
+<p>O <i>Business Process Model and Notation</i> (BPMN) é uma linguagem de modelagem que possui uma numerosa quantidade de símbolos, que podem ser usados para mapear todos os processos envolvidos em um projeto. O seu principal objetivo é fornecer uma representação que seja facilmente compreensível por todos os envolvidos em um projeto, como descreve a <i>Standards Development Organization</i>. Ou seja, sua intenção é padronizar um modelo diante de outras notações e pontos de vista diferentes. Com essa padronização, o BPMN fornecerá, não só uma modelagem simples que comunicará essas informações dos processos, como também poderá fornecer uma modelagem complexa e bem detalhada conforme as necessidades da equipe.</p>
 
 # 2 Metodologia
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Nesse artefato buscamos representar os processos que fazem parte do desenvolvimento e gerenciamento do projeto. Sendo assim, decidimos representar os fluxos das sprints, da elaboração do backlog do produto e o backlog da sprint, bem como os fluxos que envolvem as reuniões de planejamento, as reuniões diárias e as de revisão.</p>
+<p>Nesse artefato buscamos representar os processos que fazem parte do desenvolvimento e do gerenciamento do projeto. Sendo assim, decidimos representar o fluxo da Desing Sprint, que foi usada para levantamentos dos requisitos, o fluxo do ciclo de vida que usaremos, do processo da  Elaboração do Backlog do Produto e do Planejamento da Sprint. Algumas tarefas e subprocessos, como o Planejamento e Revisão da Sprint e as Reuniões Semanais, foram desacoplados do subprocesso Sprint para se adequar a abordagem ágil que adotamos, então optamos por não representá-lo nessa modelagem, visto que ele conterá apenas a fase de implementação.</p>
 
 ## 3 Resultados 
 
 * ### Design Sprint & Ciclo de Vida
   ![Design Sprint & Ciclo de Vida](./BPMN/BPMN%20-%201.svg)
 * ### Elaboração do Backlog do Produto 
- ![Design Sprint & Ciclo de Vida](./BPMN/BPMN%20-%203.svg)
+ ![Elaboração do Backlog do Produto](./BPMN/BPMN%20-%203.svg)
 * ### Planejamento da Sprint
-  ![Design Sprint & Ciclo de Vida](./BPMN/BPMN%20-%202.svg)
+  ![Planejamento da Sprint](./BPMN/BPMN%20-%202.svg)
 
 ## 4 Referências
 
@@ -35,3 +35,4 @@
 | 1.3 | 03/08/2021 | Adição da modelagem da Design Sprint e do Ciclo de Vida | Douglas Castro |
 | 1.4 | 03/08/2021 | Adição da modelagem da Elaboração do Backlog do Produto | Douglas Castro |
 | 1.5 | 03/08/2021 | Adição da modelagem do Planejamento da Sprint  | Douglas Castro |
+| 1.6 | 04/08/2021 | Atualização da Metodologia e correção nas imagens das modelagens | Douglas Castro |
