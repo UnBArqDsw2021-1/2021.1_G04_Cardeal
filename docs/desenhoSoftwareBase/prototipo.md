@@ -5,34 +5,46 @@ O objetivo de um protótipo é analisar e testar uma solução de design para um
 
 ## 2. Protótipo de baixa fidelidade
 Foi feito um protótipo de baixa fidelidade para representar a interface do projeto. As seguintes telas foram contempladas: 
-* Busca por imóveis
-* Lista de imóveis buscados
-* Cadastro de corretor
-* Cadastro de imóvel
-* Visualização de um imóvel selecionado
+
+- Busca por imóveis
+
+- Lista de imóveis buscados
+
+- Cadastro de corretor
+
+- Cadastro de imóvel
+
+- Visualização de um imóvel selecionado
+
 
 Essas telas possibilitam a execução das seguintes ações:
-* Procurar imóveis
-* Cadastrar imóveis
-* Agendar visita com corretor
-* Cadastrar-se como corretor
-* Remover imóvel (caso seja um corretor)
-* Atualizar imóvel (caso seja um corretor)
 
+- Procurar imóveis
+
+- Cadastrar imóveis
+
+- Agendar visita com corretor
+
+- Cadastrar-se como corretor
+
+- Remover imóvel (caso seja um corretor)
+
+- Atualizar imóvel (caso seja um corretor)
+ 
 ### Busca por imóveis
-<img src='./prototipo/buscar-por-imoveis.png'>
+<img src='../prototipo/buscar-por-imoveis.png'>
 
 ### Lista de imóveis buscados
-<img src='./prototipo/lista-de-imoveis.png'>
+<img src='../prototipo/lista-de-imoveis.png'>
 
 ### Cadastro de corretor
-<img src='./prototipo/cadastrar-um-corretor.png'>
+<img src='../prototipo/cadastrar-um-corretor.png'>
 
 ### Cadastro de imóvel
-<img src='./prototipo/cadastrar-um-imovel.png'>
+<img src='../prototipo/cadastrar-um-imovel.png'>
 
 ### Visualização de um imóvel selecionado
-<img src='./prototipo/visualizar-um-imovel.png'>
+<img src='../prototipo/visualizar-um-imovel.png'>
 
 ## Versionamento
 
