@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Políticas de Branch - Cardeal</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="generator" content="mkdocs-1.0.4, mkdocs-gitbook-1.0.7">
+
+<link rel="shortcut icon" href="../../../images/favicon.ico" type="image/x-icon">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta rel="next" href="" />
+<link href="../../../css/style.min.css" rel="stylesheet"> 
+</head>
+
+<body>
+<div class="book">
+<div class="book-summary">
+
+<nav role="navigation">
+<ul class="summary">
+<li>
+<a href="../../.." target="_blank" class="custom-link">Cardeal</a>
+</li>
+<li class="divider"></li>
+<li class="chapter" data-path="">
+<a href="../../..">Home</a>
+<li class="header">1 Desenho de Sofware(Base)</li>
+
+<li>
+<a href="#">1.1 Módulo Projeto Não Orientado a Abordagem Específicas</a>
+<ul>
+
+<li>
+<a href="../../designSprint/" class="">Design Sprint</a>
+</li>
+
+<li>
+<a href="../../brainstorm/" class="">Brainstorm</a>
+</li>
+
+<li>
+<a href="../../richPicture/" class="">Rich Picture</a>
+</li>
+
+<li>
+<a href="../../storyboard/" class="">Storyboard</a>
+</li>
+
+<li>
+<a href="../../prototipo/" class="">Protótipo</a>
+</li>
+
+<li>
+<a href="../../5W2H/" class="">5W2H</a>
+</li>
+
+<li>
+<a href="../../lexico/" class="">Léxico</a>
+</li>
+
+<li>
+<a href="../../causaEfeito/" class="">Causa e efeito</a>
+</li>
+
+<li>
+<a href="../../estimativas/" class="">Estimativas</a>
+</li>
+</ul>
+</li>
+
+<li>
+<a href="#">1.2 Módulo Processos/Metodologias/Abordagens</a>
+<ul>
+
+<li>
+<a href="../../metodologia/" class="">Metodologia</a>
+</li>
+
+<li>
+<a href="../../modelagemBpmn/" class="">Modelagem BPMN</a>
+</li>
+</ul>
+</li>
+
+<li>
+<a href="#">Extras</a>
+<ul>
+
+<li>
+<a href="../../documento-de-visao/" class="">Documento de Visão</a>
+</li>
+
+<li>
+<a href="../../../horarioGrupo/horarioGrupo/" class="">Horários disponiveis</a>
+</li>
+
+<li>
+<a href="#">Política do Repositório</a>
+<ul>
+
+<li>
+<a href="./" class="active">Políticas de Branch</a>
+</li>
+
+<li>
+<a href="../politicasIssue/" class="">Políticas de Issue</a>
+</li>
+
+<li>
+<a href="../politicasPR/" class="">Políticas de Pull Request</a>
+</li>
+
+<li>
+<a href="../politicasCommits/" class="">Políticas de Commit</a>
+</li>
+</ul>
+</li>
+
+<li>
+<a href="#">Atas</a>
+<ul>
+
+<li>
+<a href="../../../Atas/27-07-2021/" class="">27/07/2021</a>
+</li>
+
+<li>
+<a href="../../../Atas/30-07-2021/" class="">30/07/2021</a>
+</li>
+
+<li>
+<a href="../../../Atas/02-08-2021/" class="">02/08/2021</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="divider"></li>
+
+
+
+<li><a href="http://www.mkdocs.org">
+Published with MkDocs
+</a></li>
+
+<li><a href="https://github.com/GitbookIO/theme-default">
+Theme by GitBook
+</a></li>
+</ul>
+
+</nav>
+
+</div> <!-- end of book-summary -->
+
+<div class="book-body">
+<div class="body-inner">
+<div class="book-header" role="navigation">
+
+<!-- Title -->
+<h1>
+<i class="fa fa-circle-o-notch fa-spin"></i>
+<a href="." ></a>
+</h1>
+
+</div> <!-- end of book-header -->
+
+<div class="page-wrapper" tabindex="-1" role="main">
+<div class="page-inner">
+
+<section class="normal markdown-section">
+
+
+
+<h1 id="politica-de-criacao-de-branch">Política de Criação de Branch</h1>
+<ul>
+<li>O repositório do projeto terá uma branch principal e estável, a main.</li>
+<li>A partir da main será criada outra branch, a devel.</li>
+<li>Nenhum integrante da equipe é autorizado a fazer commits diretamente na main.</li>
+<li>Nenhum integrante da equipe é autorizado a fazer commits diretamente na devel.</li>
+<li>Deve-se ser criada uma nova branch para cada nova feature, correção ou falha a partir da branch devel.</li>
+</ul>
+<h2 id="nomeacao-da-branch">Nomeação da branch</h2>
+<p>Para dar um nome para sua branch, deve ser especificado o propósito da branch, nomeando com uma das seguintes opções:
+  - <em>feature</em> - define que a branch criada é para o desenvolvimento de uma nova funcionalidade.
+  - <em>bugfix</em> - define que será feito a correção ou manutenção em uma funcionalidade ou configuração referente ao projeto.</p>
+<p>Após essa especificação, deverá ser inserido uma barra para fazer a separação e logo em seguida, o nome da branch, que deverá ser uma abstração do nome da história de usuário ou correção (HF) a qual se refere. </p>
+<ul>
+<li>O nome da branch deverá ser escrito seguindo o padrão Snake Case</li>
+</ul>
+<h3 id="exemplos-praticos">Exemplos práticos</h3>
+<pre><code>feature/dashboard_imoveis
+bugfix/dashboard_imoveis
+</code></pre>
+<h2 id="referencias">Referências</h2>
+<blockquote>
+<p>Vamos Cuidar - Gestão.https://fga-eps-mds.github.io/2020.1-Grupo6/policies/branches/. Acessado em 04/08/2021
+Case Styles: Camel, Pascal, Snake, and Kebab Case. https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841. Acessado em 04/08/2021
+Git Workflow: o que é e principais tipos. https://www.zup.com.br/blog/git-workflow. Acessado em 04/08/2021
+Fluxo de desenvolvimento com GitFlow. https://imasters.com.br/agile/fluxo-de-desenvolvimento-com-gitflow. Acessado em 04/08/2021</p>
+</blockquote>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th>Descrição</th>
+<th align="center">Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">04/08/2021</td>
+<td align="center">1.0</td>
+<td>Criação do documento</td>
+<td align="center">Estevao Reis</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+
+</div> <!-- end of page-inner -->
+</div> <!-- end of page-wrapper -->
+
+</div> <!-- end of body-inner -->
+
+</div> <!-- end of book-body -->
+<script src="../../../js/main.js"></script>
+<script src="../../../js/gitbook.min.js"></script>
+<script src="../../../js/theme.min.js"></script>
+</body>
+</html>
