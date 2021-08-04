@@ -10,11 +10,11 @@ Os commits devem seguir o seguinte padrão:
 
  - Caso as alterações do commit tenham sido realizadas por mais de um integrante, o criador do commit deve referenciar adequadamente os demais integrantes da equipe responsável. Modelo para referenciar os integrantes:
  
-       Co-authored-by: name <name@example.com>
-       Co-authored-by: another-name <another-name@example.com>"
+        Co-authored-by: name <name@example.com>
+        Co-authored-by: another-name <another-name@example.com>"
 
  
-## Exemplos prático
+## Exemplos práticos
 
     Database Modeling
     1- Creation of the client entity

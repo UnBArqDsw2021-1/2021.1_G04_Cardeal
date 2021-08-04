@@ -4,7 +4,7 @@
  - Nenhum integrante da equipe é autorizado a fazer commits diretamente na devel.
  - Deve-se ser criada uma nova branch para cada nova feature, correção ou falha a partir da branch devel.
 
-## Nomeação da *branches* 
+## Nomeação da branch 
  Para dar um nome para sua branch, deve ser especificado o propósito da branch, nomeando com uma das seguintes opções:
   - *feature* - define que a branch criada é para o desenvolvimento de uma nova funcionalidade.
   - *bugfix* - define que será feito a correção ou manutenção em uma funcionalidade ou configuração referente ao projeto.
@@ -13,7 +13,7 @@
 
  - O nome da branch deverá ser escrito seguindo o padrão Snake Case
 
-### Exemplos prático
+### Exemplos práticos
     feature-dashboard_imoveis
     bugfix-dashboard_imoveis
 
