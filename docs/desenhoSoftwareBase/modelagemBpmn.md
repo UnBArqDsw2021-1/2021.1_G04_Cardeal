@@ -30,9 +30,5 @@
 | Versão | Data | Descrição | Autor |
 | :--: | :--: | -- | :--: |
 | 1.0 | 02/08/2021 | Criação do documento | Douglas Castro |
-| 1.1 | 02/08/2021 | Adição da Introdução | Douglas Castro |
-| 1.2 | 02/08/2021 | Adição da Metodologia | Douglas Castro |
-| 1.3 | 03/08/2021 | Adição da modelagem da Design Sprint e do Ciclo de Vida | Douglas Castro |
-| 1.4 | 03/08/2021 | Adição da modelagem da Elaboração do Backlog do Produto | Douglas Castro |
-| 1.5 | 03/08/2021 | Adição da modelagem do Planejamento da Sprint  | Douglas Castro |
-| 1.6 | 04/08/2021 | Atualização da Metodologia e correção nas imagens das modelagens | Douglas Castro |
+| 1.1 | 03/08/2021 | Adição dos Resultados  | Douglas Castro |
+| 1.2 | 04/08/2021 | Atualização da Metodologia e correção nas imagens das modelagens | Douglas Castro |
