@@ -1,20 +1,20 @@
 # Estimativas
 
-### 1. Objetivo 
+## 1. Introdução 
 
 <p align = "justify"> Para a realização do documento de estimativas, certas etapas foram cumpridas, para melhor levantamento de todos os detalhes necessários para estimar o projeto. Com o entendimento da proposta inicial e detalhamento do projeto, é realizado a estimativa do tamanho do projeto, estima os esforços, o conhecimento necessário, os recursos e a estimativa de custos. </p> 
 
-### 2. Estimativas 
+## 2. Estimativas 
 
 <p align = "justify"> Como todos os membros da equipe irão participar de todo o projeto pelo tempo estimado de 4 meses, com a limitação de ser um trabalho remoto, existe a necessidade de os membros possuírem equipamentos adequados e acesso à internet, o custo pessoal de desenvolvimento e custo de treinamento. </p> 
  
-#### 2.1. Custo Pessoal 
+### 2.1. Custo Pessoal 
 
 | **Função** | **Quantidade** | **Salário mensal** | **Tempo de execução** | **Valor Total** | 
 | :--- | :---: | :--- | :---: | ---: | 
 | [Desenvolvedor Full Stack](#referencias) | 10 | R$3060,00 | 4 meses | R$122.400,00 | 
  
-#### 2.2. Custo de Ferramentas 
+### 2.2. Custo de Ferramentas 
  
 | **Ferramenta** | **Finalidade** | **Quantidade** | **Valor unitário** |**Valor** | 
 | :--- | :---: | :---: | :---: | ---: | 
@@ -42,7 +42,7 @@
 | Custo de Capacitação | R$349,00 | 
 | Valor Total | R$161.739,7 | 
 
-## Referências
+## 3. Referências
 
 >MENDES DA SILVA FILHO, Antonio. **Estimativa de custo de software: roteiro e dicas para estimativas de projeto**. Revista Espaço Acadêmico nº156, maio de 2014. 
 
@@ -53,8 +53,9 @@
 
 * [Udemy: Curso de Javascript e Typescript](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/), acessado dia 01 de agosto de 2021. 
 
-## Versionamento 
+## 4. Versionamento 
 
 | Data | Versão | Descrição | Autor(es) | 
 | :----: | :----: | :----: | :----: | 
 | 01/08/2021 | 1.0 | Criação do documento | [Tomás Veloso](https://github.com/tomasvelos0) | 
+| 04/08/2021 | 1.1    | Padronização do documento       | Bruno Nunes e Marcos Rodrigues    |

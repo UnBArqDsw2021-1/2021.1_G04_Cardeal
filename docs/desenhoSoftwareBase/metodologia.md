@@ -1,12 +1,12 @@
 # Metodologia
-## Introdução
+## 1. Introdução
 Este documento procura expor as metodologias e abordagens utilizadas empregadas durante o processo de desenvolvimento desse projeto. Nele será descrito quais metodologias e métodos foram utilizadas para guiar o desenvolvimento do projeto.
 
 Diversos processos, metodologias e práticas foram apresentadas na disciplina de Arquitetura e Desenho de Software. O grupo Cardeal decidiu utilizar uma metodologia híbrida própria. Seram utilizados aspectos de algumas metodologias, que serão adaptados ao contexto do projeto e das necessidades da equipe. Além disso, o grupo não definiu papéis específicos para cada integrante da equipe. Ao invés disso, haverá uma rotatividade de papéis entre os membros da equipe para que todos possam passar pelo menos uma vez por cada papel, isso permitirá que todos aprendam sobre aspectos desses papéis. Todas as práticas, que geralmente são presenciais, serão feitas de forma remota por conta da pandemia e será utilizado a ferramenta de comunicação Microsoft Teams.
 
-## Metodologias Ágeis
+## 2. Metodologias Ágeis
 Todas as metodologias utilizadas durante esse projeto são provenientes dos princípios de desenvolvimento ágil de software.
-### Scrum
+### 2.1 Scrum
 Scrum é um método para organização de equipes criado por Schwaber e Sutherland (2017), no qual um grupo de pessoas se organiza para desenvolver soluções para problemas complexos e adaptativos gerando produtos com alto valor para as organizações. O Scrum vem sendo adotado amplamente por equipes de desenvolvimento de software ao redor do mundo, pois sua utilização tem trazido resultados expressivos.
 
 Ela especifica diversas tarefas que devem acontecer durante o processo de desenvolvimento. No contexto do projeto foram adotadas as seguintes atividades: Sprints, Burndown, Sprint Planning, Planning Poker, Sprint Review, Daily Meeting, Weekly Meeting e User Stories.
@@ -45,7 +45,7 @@ User Stories é uma especificação de uma ou mais sentenças na linguagem de ne
 
 User Stories serão utilizados para fragmentar os requisitos e conseguir agrupá-los em features que serão desenvolvidas.
 
-### KANBAN
+### 2.2 KANBAN
 O funcionamento do kanban no desenvolvimento de aplicações está centrado no quadro kanban, permitindo uma visualização de todo o ciclo de trabalho. Um quadro típico do kanban aplicado ao gerenciamento de projetos contém: objetivos, listas de pendências, etapa de desenvolvimento, testes, urgência e concluídos. Por ser uma metodologia flexível, cada departamento pode adaptar os quadros às suas necessidades, criando colunas para alocar cada uma das tarefas do projeto, assim como serão atribuídas aos membros da equipe. 
 
 #### To do
@@ -56,7 +56,7 @@ O funcionamento do kanban no desenvolvimento de aplicações está centrado no q
 É a coluna onde serão colocadas as tarefas que foram concluídas.
 
 
-### XP
+### 2.3 XP
 Criado em 1996, possui como princípios básicos: trabalho de qualidade, mudanças incrementais, feedback rápido e abraçar mudanças. A metodologia possui algumas práticas como Jogos de planejamento, Propriedade coletiva, Teste de usuário, Ritmo sustentável, Equipe inteira, Programação em pares e Padronizações de código.
 
 #### Programação em pares
@@ -64,7 +64,7 @@ A programação em pares acontece da seguinte forma: Um desenvolvedor mais exper
 
 Vamos usar para minimizar a curva de aprendizado entre os integrantes do time fazendo com que a troca de experiência seja homogênea.
 
-### Ferramentas
+### 2.4 Ferramentas
 Essas será as ferramentas utilizadas no desenvolvimento esse projeto:
 
 |Ferramenta|Nome|Utilização|
@@ -78,7 +78,7 @@ Essas será as ferramentas utilizadas no desenvolvimento esse projeto:
 
  
 
-## Referências Bibliográficas
+## 3. Referências Bibliográficas
 
  > Desenvolvimento ágil de software. https://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software. Acessado em 03/08/2021
 
@@ -88,8 +88,9 @@ Essas será as ferramentas utilizadas no desenvolvimento esse projeto:
 
 > História de usuário. https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_usu%C3%A1rio. Acessado em 03/04/2021.
 
-## Versionamento
+## 4. Versionamento
 
 | Data       | Versão | Descrição                                | Autor             |
 | :--------- | :----- | :--------------------------------------- | :---------------- |
 | 03/08/2021 | 1.0    | Criação do Documento          | Estevao Reis   Igor Araujo|
+| 04/08/2021 | 1.1    | Padronização do documento       | Bruno Nunes e Marcos Rodrigues    |

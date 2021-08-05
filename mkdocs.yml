@@ -1,19 +1,21 @@
 site_name: Cardeal
 
-nav:  
+nav:
   - Home: index.md
-  - 1 Desenho de Sofware(Base):
+  - 1. Desenho de Sofware(Base):
     - 1.1 Módulo Projeto Não Orientado a Abordagem Específicas:
       - Design Sprint: desenhoSoftwareBase/designSprint.md
-      - Brainstorm: desenhoSoftwareBase/brainstorm.md
-      - Rich Picture: desenhoSoftwareBase/richPicture.md
-      - Storyboard: desenhoSoftwareBase/storyboard.md
       - Protótipo: desenhoSoftwareBase/prototipo.md
-      - 5W2H: desenhoSoftwareBase/5W2H.md
-      - Léxico: desenhoSoftwareBase/lexico.md
-      - Causa e efeito: desenhoSoftwareBase/causaEfeito.md
-      - Estimativas: desenhoSoftwareBase/estimativas.md
-    - 1.2 Módulo Processos/Metodologias/Abordagens:
+      - Pŕe-rastreabilidade:
+        - 5W2H: desenhoSoftwareBase/5W2H.md
+        - Causa e efeito: desenhoSoftwareBase/causaEfeito.md
+        - Rich Picture: desenhoSoftwareBase/richPicture.md
+      - Elicitação de requisitos:
+        - Storyboard: desenhoSoftwareBase/storyboard.md
+        - Brainstorm: desenhoSoftwareBase/brainstorm.md
+        - Léxico: desenhoSoftwareBase/lexico.md
+        - Estimativas: desenhoSoftwareBase/estimativas.md
+    - 1.2 Módulo Processos/Metodologias /Abordagens:
       - Metodologia: desenhoSoftwareBase/metodologia.md
       - Modelagem BPMN: desenhoSoftwareBase/modelagemBpmn.md
     - Extras:
@@ -28,13 +30,21 @@ nav:
         - 27/07/2021: Atas/27-07-2021.md
         - 30/07/2021: Atas/30-07-2021.md
         - 02/08/2021: Atas/02-08-2021.md
-      
+
+# theme:
+#   pallete:
+#     accent: red
+#   name: material
+#   font:
+#     text: Roboto
+#   features:
+#     - navigation.instant
+#     - navigation.top
+# plugins:
+#   - search
+
 theme:
   name: gitbook
   font:
     text: Roboto
-  features:
-    - navigation.instant
-    - navigation.expand
-    - navigation.top
 plugins: []
