@@ -15,7 +15,7 @@
 | 17/0150747  |  Marcos Vinícius Rodrigues da Conceição | [@marcos-mv](https://github.com/marcos-mv) |
 | 18/0129147  |  Pedro de Miranda Haick | [@peHaick](https://github.com/peHaick) |
 | 18/0138596  |  Luiz Gustavo Dias Paes Pinheiro | [@PinheiroLG](https://github.com/PinheiroLG) |
-| 14/0169784  |  Tomás Veloso Peixoto Matutino | [@tomasvelos0](https://github.com/tomasvelos0) |
+| 18/0138596  |  Tomás Veloso Peixoto Matutino | [@tomasvelos0](https://github.com/tomasvelos0) |
 
 ## Sobre 
 
