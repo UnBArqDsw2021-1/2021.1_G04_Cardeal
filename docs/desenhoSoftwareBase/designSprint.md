@@ -31,7 +31,7 @@ A design sprint é um processo de 5 dias com o objetivo de responder perguntas e
 ## 3. Resultados
 ### 3.1 Artefatos da Design Sprint
 
-| Dia | Artefatos | Motivação para uso |
+| Dia | Artefatos | Descrição |
 | --- | --------- | ------------------ |
 | 1 | <a href='/desenhoSoftwareBase/brainstorm'>Brainstorm</a> <br>  <a href='/desenhoSoftwareBase/lexico'>Léxico</a>  | A partir dos artefatos utilizados, é possível ter noção do domínio que envolve o problema, e assim modelá-lo. |
 | 2 | <a href='/desenhoSoftwareBase/richPicture'>Rich Picture</a> <br>  | Com os 3 artefatos, a equipe pensou em ideias que solucionassem o problema. |
