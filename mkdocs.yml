@@ -2,6 +2,7 @@ site_name: Cardeal
 
 nav:
   - Home: index.md
+  - Apresentações: apresentacoes.md
   - 1. Desenho de Sofware(Base):
     - 1.1 Módulo Projeto Não Orientado a Abordagem Específicas:
       - Design Sprint: desenhoSoftwareBase/designSprint.md
