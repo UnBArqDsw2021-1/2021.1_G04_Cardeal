@@ -22,10 +22,18 @@
 O projeto é uma aplicação web de uma imobiliária que tem como seu principal objetivo apresentar aos seus clientes os imóveis disponíveis.
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
+### Causa e Efeito
+![Causa e Efeito](./docs/screenshots/causa-efeito.png)
+![Rich Picture](./docs/screenshots/rich-picture.png)
+![Storyboard](./docs/screenshots/storyboard.png)
+![Prototipo](./docs/screenshots/prototipo.png)
 
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione o(s)s vídeo(s) da Primeira Entrega.
+### 1.1 Apresentação 1
+https://drive.google.com/file/d/1UDwwgw3X94OJ59j6FCQYXQfpk-eBe73a/preview
+
+### 1.2 Apresentação 2
+https://drive.google.com/file/d/1amyyFE3ptUVjyf4e1vfkac_KyzSmKR6N/preview 
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
