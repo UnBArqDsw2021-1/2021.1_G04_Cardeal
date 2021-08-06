@@ -11,11 +11,11 @@
 ## 3. Resultados 
 
 * ### Design Sprint & Ciclo de Vida
-  ![Design Sprint & Ciclo de Vida](./BPMN/BPMN%20-%201.svg)
+  ![Design Sprint & Ciclo de Vida](./BPMN/BPMN-1.svg)
 * ### Elaboração do Backlog do Produto 
- ![Elaboração do Backlog do Produto](./BPMN/BPMN%20-%203.svg)
+ ![Elaboração do Backlog do Produto](./BPMN/BPMN-3.svg)
 * ### Planejamento da Sprint
-  ![Planejamento da Sprint](./BPMN/BPMN%20-%202.svg)
+  ![Planejamento da Sprint](./BPMN/BPMN-2.svg)
 
 ## 4. Referências
 
