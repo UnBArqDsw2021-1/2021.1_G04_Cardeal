@@ -17,7 +17,7 @@
 
 ![Logo](../desenhoSoftwareBase/img/IdentidadeVisual/logo.png)
 
-<h6 align = "center">Fonte: Site Figma</h6>
+<h6 align = "center">Fonte: Site Figma</h6><br/>
  
 ### 4. Tipografia
 
@@ -29,36 +29,50 @@
 
 ![Sora](../desenhoSoftwareBase/img/IdentidadeVisual/sora.png)
 
-<h6 align = "center">Fonte: Site <a href="https://www.figma.com/" target="_blank">Figma</a></h6>
+<h6 align = "center">Fonte: Site <a href="https://www.figma.com/" target="_blank">Figma</a></h6><br/>
 
 ### 4.1. Fonte - Lora
 
 
 <h6 align = "center">Figura 3 - Representação da fonte Lora, versão 1.0.</h6>
 
-![Sora](../desenhoSoftwareBase/img/IdentidadeVisual/lora.png)
+![Lora](../desenhoSoftwareBase/img/IdentidadeVisual/lora.png)
 
-<h6 align = "center">Fonte: Site <a href="https://www.figma.com/" target="_blank">Figma</a></h6>
+<h6 align = "center">Fonte: Site <a href="https://www.figma.com/" target="_blank">Figma</a></h6><br/>
 
 ### 5. Cores
 
-<p align = "justify"> A cor possui sua influência na psicologia humana, e as escolhas das core representam o tipo de mensagem que deseja transmitir. A escolha das cores foi realizada nas cores que compõe o símbolo do projeto e buscando cores análogas ao resultado para possuir maior váriações de cores, para essa consulta foi realizada por meio do site <a href="https://coolors.co/" target="_blank">Coolors</a>. Escolhidos apenas 4 cores para compor o projeto, para possuir um visual mais limpo.</p>
+<p align = "justify"> A cor possui sua influência na psicologia humana, e as escolhas das core representam o tipo de mensagem que deseja transmitir. A escolha das cores foi realizada nas cores que compõe o símbolo do projeto e buscando cores análogas ao resultado para possuir maior váriações de cores, para essa consulta foi realizada por meio do site <a href="https://coolors.co/" target="_blank">Coolors</a>. Escolhidos apenas 4 cores para compor o projeto, para possuir um visual mais limpo.</p><br/>
 
 ### 5.1. Cores Principais
 
+<p align = "justify"> As cores principais representam as cores que serão usadas no desenvolvimento da proposta de software.</p>
+
 <h6 align = "center">Figura 4 - Cores principais, versão 1.0.</h6>
 
-![Sora](../desenhoSoftwareBase/img/IdentidadeVisual/corPrincipal.png)
+![Cor-Principal](../desenhoSoftwareBase/img/IdentidadeVisual/corPrincipal.png)
 
-<h6 align = "center">Fonte: Site <a href="https://coolors.co/" target="_blank">Coolors</a></h6>
+<h6 align = "center">Fonte: Site <a href="https://coolors.co/" target="_blank">Coolors</a></h6><br/>
+
+| **Cor** | **Nome** | **RGB** | **CMYK** | **WEB** | 
+| :---: | :---: | :---: | :---: | :---: | 
+| ![Cor-Tart-Orange](../desenhoSoftwareBase/img/IdentidadeVisual/red.png) | Tart Orange | 241, 72, 67 | 0, 70, 72, 5 | #F14843 |
+| ![Cor-Sonic-Silver](../desenhoSoftwareBase/img/IdentidadeVisual/grey.png) | Sonic Silver | 121, 121, 123 | 2, 2, 0, 52 | #79797B |
+| ![Cor-Principal](../desenhoSoftwareBase/img/IdentidadeVisual/white.png) | White | 255, 255, 255 | 0, 0, 0, 0  | #FFFFFF |
+| ![Cor-Principal](../desenhoSoftwareBase/img/IdentidadeVisual/black.png) | Black | 2, 1, 6 | 67, 83, 0, 98 | #020106 |
+
+
+
 
 ### 5.2. Cores Secundárias
+
+<p align = "justify"> As cores secundárias representam as tonalidades diferentes das cores principais, para usar tons diferentes no projeto.</p>
 
 <h6 align = "center">Figura 5 - Cores secundárias, versão 1.0.</h6>
 
 [![Identidade_Visual](../desenhoSoftwareBase/img/IdentidadeVisual/corSecundaria.png)](../desenhoSoftwareBase/img/IdentidadeVisual/corSecundaria.png)
 
-<h6 align = "center">Fonte: Site <a href="https://coolors.co/" target="_blank">Coolors</a></h6>
+<h6 align = "center">Fonte: Site <a href="https://coolors.co/" target="_blank">Coolors</a></h6><br/>
 
 ### 6. Identidade Visual
 
@@ -66,9 +80,7 @@
 
 [![Identidade_Visual](../desenhoSoftwareBase/img/IdentidadeVisual/idVisual.png)](../desenhoSoftwareBase/img/IdentidadeVisual/idVisual.png)
 
-<h6 align = "center">Fonte: Site <a href="https://www.figma.com/" target="_blank">Figma</a></h6>
-
-
+<h6 align = "center">Fonte: Site <a href="https://www.figma.com/" target="_blank">Figma</a></h6><br/>
 
 ## 7. Referências
 
@@ -91,5 +103,5 @@
 
 | Data | Versão | Descrição | Autor(es) | 
 | :----: | :----: | :----: | :----: | 
-| /08/2021 | 1.0 | Criação do documento | [Tomás Veloso](https://github.com/tomasvelos0) | 
-| 0/08/2021 | 1.1    | Debate e escolha da identidade visual       | Todos os membros |
+| 18/08/2021 | 1.0 | Criação do documento | [Tomás Veloso](https://github.com/tomasvelos0) | 
+| 18/08/2021 | 1.1    | Debate e escolha da identidade visual       | [Todos os membros](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/)  |
