@@ -6,7 +6,7 @@
 
 ## 2. Metodologia 
 
-<p align = "justify"> Para a montagem da identidade visual, primeiro foi escolhido o nome e o símbolo do projeto, escolhido pelos membros na Design Sprint, por possuírem características comuns com o projeto da equipe. A escolha das cores foi realizada em cima das cores que compõe o símbolo escolhido, o pássaro cardeal, e depois utilizando a ferramenta de palheta de cores para buscar cores similares, a ferramenta <a href="https://coolors.co/" target="_blank">Coolors</a> foi usada para buscar cores análogas e o resultado dessa consulta foi debatido pelos membros para escolher as cores em definitivo. A metodologia usada para definir a tipografia, foi realizada uma votação pelos membros entre as melhores fontes abertas disponibilizados por uma <a href="https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html" target="_blank">matéria</a> do site <a href="https://www.awwwards.com/" target="_blank">awwwards</a>, site reponsável por divulgação de projetos de web design profissional.</p> 
+<p align = "justify"> Para a montagem da identidade visual, primeiro foi escolhido o nome e o símbolo do projeto, escolhido pelos membros na <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/designSprint/">Design Sprint</a>, por possuírem características comuns com o projeto da equipe. A escolha das cores foi realizada em cima das cores que compõe o símbolo escolhido, o pássaro cardeal, e depois utilizando a ferramenta de palheta de cores para buscar cores similares, a ferramenta <a href="https://coolors.co/" target="_blank">Coolors</a> foi usada para buscar cores análogas e o resultado dessa consulta foi debatido pelos membros para escolher as cores em definitivo. A metodologia usada para definir a tipografia, foi realizada uma votação pelos membros entre as melhores fontes abertas disponibilizados por uma <a href="https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html" target="_blank">matéria</a> do site <a href="https://www.awwwards.com/" target="_blank">awwwards</a>, site reponsável por divulgação de projetos de web design profissional.</p> 
  
 ### 3. Logo
 
@@ -25,6 +25,10 @@
 
 ### 4.1. Fonte - Sora
 
+<p align = "justify">A fonte <a href="https://fonts.google.com/specimen/Sora?query=sora" target="_blank">Sora</a> foi escolhida para a Logo e para o uso no website.
+
+Mais informações sobre a fonte e licença de uso dinponibilizados pelo site <a href="https://fonts.google.com/specimen/Sora?query=Jonathan+Barnbrook" target="_blank">fonts.google</a></p>
+
 <h6 align = "center">Figura 2 - Representação da fonte Sora, versão 1.0.</h6>
 
 ![Sora](../desenhoSoftwareBase/img/IdentidadeVisual/sora.png)
@@ -32,6 +36,10 @@
 <h6 align = "center">Fonte: Site <a href="https://www.figma.com/" target="_blank">Figma</a></h6><br/>
 
 ### 4.1. Fonte - Lora
+
+<p align = "justify">A fonte <a href="https://fonts.google.com/specimen/Lora?query=Cyreal" target="_blank">Lora</a> foi escolhida para o uso no website.
+
+Mais informações sobre a fonte e licença de uso dinponibilizados pelo site <a href="https://fonts.google.com/specimen/Sora?query=Jonathan+Barnbrook" target="_blank">fonts.google</a></p>
 
 
 <h6 align = "center">Figura 3 - Representação da fonte Lora, versão 1.0.</h6>
@@ -50,19 +58,17 @@
 
 <h6 align = "center">Figura 4 - Cores principais, versão 1.0.</h6>
 
-![Cor-Principal](../desenhoSoftwareBase/img/IdentidadeVisual/corPrincipal.png)
+[![Cor-Principal](../desenhoSoftwareBase/img/IdentidadeVisual/corPrincipal.png)](../desenhoSoftwareBase/img/IdentidadeVisual/corPrincipal.png)
 
-<h6 align = "center">Fonte: Site <a href="https://coolors.co/" target="_blank">Coolors</a></h6><br/>
+<h6 align = "center">Fonte: Site <a href="https://coolors.co/f14843-79797b-ffffff-020106-3f3d56" target="_blank">Coolors</a></h6><br/>
 
 | **Cor** | **Nome** | **RGB** | **CMYK** | **WEB** | 
 | :---: | :---: | :---: | :---: | :---: | 
 | ![Cor-Tart-Orange](../desenhoSoftwareBase/img/IdentidadeVisual/red.png) | Tart Orange | 241, 72, 67 | 0, 70, 72, 5 | #F14843 |
 | ![Cor-Sonic-Silver](../desenhoSoftwareBase/img/IdentidadeVisual/grey.png) | Sonic Silver | 121, 121, 123 | 2, 2, 0, 52 | #79797B |
-| ![Cor-Principal](../desenhoSoftwareBase/img/IdentidadeVisual/white.png) | White | 255, 255, 255 | 0, 0, 0, 0  | #FFFFFF |
-| ![Cor-Principal](../desenhoSoftwareBase/img/IdentidadeVisual/black.png) | Black | 2, 1, 6 | 67, 83, 0, 98 | #020106 |
-
-
-
+| ![Cor-White](../desenhoSoftwareBase/img/IdentidadeVisual/white.png) | White | 255, 255, 255 | 0, 0, 0, 0  | #FFFFFF |
+| ![Cor-Black](../desenhoSoftwareBase/img/IdentidadeVisual/black.png) | Black | 2, 1, 6 | 67, 83, 0, 98 | #020106 |
+| ![Cor-Black](../desenhoSoftwareBase/img/IdentidadeVisual/purple.png)  | Independence | 63, 61, 86 | 27, 29, 0, 66 | #3f3d56 |
 
 ### 5.2. Cores Secundárias
 
