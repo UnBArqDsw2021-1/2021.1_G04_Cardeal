@@ -9,6 +9,7 @@ Para desenvolver o diagrama de Classes  foi realizada uma reunião entre os inte
 Foi utilizado a plataforma [Draw.io](https://drive.google.com/file/d/1dt8ggdwC1ahrc1oggNsJoguB2Yem8C3P/view?usp=sharing) para desenvolver o diagrama.
 
 ## 3.Diagrama
+![diagrama](https://i.imgur.com/UZZb9P0.png)
 
 ## 4.Referência
 > UML Class and Object Diagrams Overview. https://www.uml-diagrams.org/class-diagrams-overview.html. Acessado em 17/08/2021
