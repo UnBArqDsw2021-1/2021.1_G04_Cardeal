@@ -5,7 +5,7 @@
 comportamentos dos objetos.
 
 ## 2.Metodologia
-Para desenvolver o diagrama de Classes  foi realizada uma reunião entre os integrantes do grupo responsáveis por fazer a modelagem, Estevao Reis e Igor Araujo, para tomarem as decisões concernentes ao diagrama. Foi utilizado como base os requisitos funcionais elicitados no [Brainstorm](../desenhoSoftwareBase/brainstrom.md) e o [Rich Picture](../desenhoSoftwareBase/richPicture.md). Após a modelagem inicial foi exposto o diagrama para o resto dos integrantes da equipe para validar o diagrama criado, e fazer as modificações necessárias.
+Para desenvolver o diagrama de Classes  foi realizada uma reunião entre os integrantes do grupo responsáveis por fazer a modelagem, Estevao Reis e Igor Araujo, para tomarem as decisões concernentes ao diagrama. Foi utilizado como base os requisitos funcionais elicitados no [Brainstorm](../desenhoSoftwareBase/brainstorm.md) e o [Rich Picture](../desenhoSoftwareBase/richPicture.md). Após a modelagem inicial foi exposto o diagrama para o resto dos integrantes da equipe para validar o diagrama criado, e fazer as modificações necessárias.
 Foi utilizado a plataforma [Draw.io](https://drive.google.com/file/d/1dt8ggdwC1ahrc1oggNsJoguB2Yem8C3P/view?usp=sharing) para desenvolver o diagrama.
 
 ## 3.Diagrama
