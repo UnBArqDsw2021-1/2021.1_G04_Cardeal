@@ -12,29 +12,29 @@ Os diagramas foram elaborados através da ferramenta [draw.io](https://app.diagr
 
 ## 4. Diagramas
 ### 4.1 Interação do Usuário
-[![img](https://i.ibb.co/kH60MJc/Diagramas-de-Sequ-ncia-Page-2.png)](https://i.ibb.co/kH60MJc/Diagramas-de-Sequ-ncia-Page-2.png)
+[![img](https://i.ibb.co/SwTWjzx/Diagramas-de-Sequ-ncia-Page-2.png)](https://i.ibb.co/SwTWjzx/Diagramas-de-Sequ-ncia-Page-2.png)  
 _Autor: Giovana Dionisio_
 
 ### 4.2 Operações com Anúncios
-[![img](https://i.ibb.co/vxynVLY/Diagramas-de-Sequ-ncia-Page-1.png)](https://i.ibb.co/vxynVLY/Diagramas-de-Sequ-ncia-Page-1.png)
+[![img](https://i.ibb.co/sC7Y39J/Diagramas-de-Sequ-ncia-Page-1.png)](https://i.ibb.co/sC7Y39J/Diagramas-de-Sequ-ncia-Page-1.png)  
 _Autor: Giovana Dionisio_
 
 ## 4. Bibliografia
+DE OLIVEIRA, Lucas Vieira. UML – Diagramas de Sequência. The Club. Disponível em: <http://www.theclub.com.br/restrito/revistas/201308/umld1308.aspx>
+
+DOS REIS, Fábio. Bóson Treinamentos. Youtube, 2019. Disponível em: <https://www.youtube.com/watch?v=UVkj3ed0ZuM>
+
 E PÁDUA, Clarindo Isaías Pereira da Silva. UML: Modelagem Dinâmica. 50 slides. Disponível em: <https://homepages.dcc.ufmg.br/~clarindo/arquivos/disciplinas/uml-mpn/material/transparencias/5-uml-modelagem%20dinamica.pdf>
+
+FAKHROUTDINOV, Kirill. UML Sequence Diagrams. Disponível em: <https://www.uml-diagrams.org/sequence-diagrams.html>
 
 LUCIDCHART. O que é um diagrama de sequência UML?. Disponível em: <https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml>
 
 VENTURA, Plínio. Entendendo o Diagrama de Sequência da UML. Até o Momento, 2018. Disponível em: <https://www.ateomomento.com.br/diagrama-de-sequencia-uml/>
-
-DOS REIS, Fábio. Bóson Treinamentos. Youtube, 2019. Disponível em: <https://www.youtube.com/watch?v=UVkj3ed0ZuM>
-
-DE OLIVEIRA, Lucas Vieira. UML – Diagramas de Sequência. The Club. Disponível em: <http://www.theclub.com.br/restrito/revistas/201308/umld1308.aspx>
-
-FAKHROUTDINOV, Kirill. UML Sequence Diagrams. Disponível em: <https://www.uml-diagrams.org/sequence-diagrams.html>
-
 
 ## 5. Versionamento
 | Data       | Versão | Descrição                                | Autor             |
 | ---------- | ------ | ---------------------------------------- | ----------------- |
 | 17/08/2021 | 1.0    | Estrutura e adição dos diagramas         | Giovana Dionisio  |
 | 18/08/2021 | 2.0    | Adição de conteúdo                       | Giovana Dionisio  |
+| 19/08/2021 | 3.0    | Correção na formatação                   | Giovana Dionisio  |
