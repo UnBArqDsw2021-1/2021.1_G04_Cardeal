@@ -107,3 +107,14 @@ Criação de uma imobiliária digital que possibilite a compra e aluguel de imó
 |US25|EP5|F11|Eu como usuário cliente, gostaria de ver uma lista de nome de todos os corretores |
 |US26|EP5|F11|Eu como usuário cliente, gostaria de filtrar os corretores por nome |
 |US27|EP5|F11|Eu como usuário cliente, gostaria de filtrar os corretores por localização |
+
+
+## 3. Referências Bibliográficas
+
+ > Leasson 1: Create the product backlog. https://www.ibm.com/docs/en/elm/7.0.2?topic=project-lesson-1-create-product-backlog. Acessado em 19/08/2021
+ > whats is a Product Backlog ?. https://www.scrum.org/resources/what-is-a-product-backlog. Acessado em 20/08/2021
+## 4. Versionamento
+
+| Data       | Versão | Descrição                                | Autor             |
+| :--------- | :----- | :--------------------------------------- | :---------------- |
+| 21/08/2021 | 1.0    | Criação do Documento          | Luiz Gustavo Dias Paes Pinheiro|
