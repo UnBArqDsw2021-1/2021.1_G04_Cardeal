@@ -72,7 +72,7 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 
 ### 5.2. Cores Secundárias
 
-<p align = "justify"> As cores secundárias representam as tonalidades diferentes das cores principais, para usar tons diferentes no projeto.</p>
+<p align = "justify"> As cores secundárias representam as diferentes tonalidades das cores principais, incluindo assim diferentes tons ao projeto.</p>
 
 <h6 align = "center">Figura 5 - Cores secundárias, versão 1.0.</h6>
 
