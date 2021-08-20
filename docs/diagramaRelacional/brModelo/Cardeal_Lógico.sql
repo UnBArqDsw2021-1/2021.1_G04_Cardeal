@@ -14,7 +14,11 @@ CREATE TABLE PROPERTY (
     numberPark BIGINT(3),
     idProperty BIGINT(5) PRIMARY KEY,
     idOwner BIGINT(5),
-    idRealtor BIGINT(5)
+    idRealtor BIGINT(5),
+    viewed BIGINT(10),
+    value BIGINT(10),
+    createdAt DATETIME,
+    updatedAt datetime
 );
 
 CREATE TABLE SCHEDULE (
@@ -55,8 +59,7 @@ CREATE TABLE OWNER (
     idOwner BIGINT(5) PRIMARY KEY,
     createdAt DATETIME,
     updatedAt DATETIME,
-    idPerson BIGINT(5),
-    idProperty BIGINT(5)
+    idPerson BIGINT(5)
 );
 
 CREATE TABLE TENANT (
