@@ -38,6 +38,7 @@ nav:
          - 2.1.1 Notação UML – Diagramas Estáticos:
            - Diagrama de Classes: modelagem/diagrama_classes.md
          - 2.1.2 Notação UML – Diagramas Dinâmicos:
+           - Diagrama de Casos de Uso: modelagem/diagrama_casos_de_uso.md
            - Apagar: modelagem/diagrama_classes.md
          - 2.1.3 Modelagem Ágil:
            - Apagar: modelagem/diagrama_classes.md
