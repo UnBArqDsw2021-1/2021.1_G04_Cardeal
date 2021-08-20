@@ -13,9 +13,9 @@ A partir do diagrama criado, é possível ver os estados das seguintes entidades
 
  - Corretor: cadastrado.
 
- - Imóvel: cadastrado, aceito, negado, visualizado, editado, deletado.
+ - Imóvel: cadastrado, visualizado, editado, deletado.
 
-![Diagrama de Estados](https://i.imgur.com/MfmITFb.png)
+![Diagrama de Estados](https://i.imgur.com/pgdlU0e.png)
 
 ## 4. Versionamento
 | Data       | Versão | Descrição                       | Autor       |
