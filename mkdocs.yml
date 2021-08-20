@@ -43,6 +43,7 @@ nav:
            - Apagar: modelagem/diagrama_classes.md
          - Extras:
            - Identidade visual: modelagem/identidadeVisual.md
+           - Debate - Identidade visual: modelagem/debateIdentidadeVisual.md
            - Correções: modelagem/correcoes_E1.md
          - Atas:
            - 13/08/2021: Atas/13-08-2021.md
