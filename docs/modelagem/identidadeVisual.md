@@ -112,3 +112,4 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 | :----: | :----: | :----: | :----: | 
 | 18/08/2021 | 1.0 | Criação do documento | [Tomás Veloso](https://github.com/tomasvelos0) | 
 | 18/08/2021 | 1.1    | Debate e escolha da identidade visual       | [Todos os membros](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/)  |
+| 20/08/2021 | 1.2    | Revisão do documento | Douglas Castro e Gustavo Duarte |
