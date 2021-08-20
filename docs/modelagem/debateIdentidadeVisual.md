@@ -49,7 +49,7 @@
 
 #### 4.3. Cores
 
-<p align = "justify"> Foram escolhidos 5 cores para fazerem parte da identidade visual.</p>
+<p align = "justify"> Foram escolhidos 5 cores para fazerem parte da identidade visual. Uma cor com mais votação foi trocada por outra por questões de estética visual, assim a cor "Dark Liver" foi trocada por "Independence".</p>
 
 <h6 align = "center">Figura 3 - Resultado sobre as fontes para o site, versão 1.0.</h6>
 
@@ -75,7 +75,7 @@
 
 ![Sora](../desenhoSoftwareBase/img/IdentidadeVisual/resultadoCor.png)
 
-<h6 align = "center">Fonte: Site <a href="https://www.google.com/intl/pt-BR/forms/about/" target="_blank">Google Forms</a></h6><br/>
+<h6 align = "center">Fonte: Site <a href="https://www.google.com/intl/pt-BR/forms/about/" target="_blank">Google Forms</a></h6></br>
 
 ## 5. Referências
 
@@ -92,6 +92,8 @@
 
 
 * [Google Forms: Crie lindos formulários](https://fonts.google.com/specimen/Sora?query=sora), acessado dia 18 de agosto de 2021.
+
+* [Figma: the collaborative interface design tool.](https://www.figma.com), acessado dia 18 de agosto de 2021.
 
 ## 6. Versionamento 
 

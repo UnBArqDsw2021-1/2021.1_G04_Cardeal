@@ -6,7 +6,7 @@
 
 ## 2. Metodologia 
 
-<p align = "justify"> Para a montagem da identidade visual, primeiro foi escolhido o nome e o símbolo do projeto, escolhido pelos membros na <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/designSprint/">Design Sprint</a>, por possuírem características comuns com o projeto da equipe. A escolha das cores foi realizada em cima das cores que compõe o símbolo escolhido, o pássaro cardeal, e depois utilizando a ferramenta de palheta de cores para buscar cores similares, a ferramenta <a href="https://coolors.co/" target="_blank">Coolors</a> foi usada para buscar cores análogas e o resultado dessa consulta foi debatido pelos membros para escolher as cores em definitivo. A metodologia usada para definir a tipografia, foi realizada uma votação pelos membros entre as melhores fontes abertas disponibilizados por uma <a href="https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html" target="_blank">matéria</a> do site <a href="https://www.awwwards.com/" target="_blank">awwwards</a>, site reponsável por divulgação de projetos de web design profissional.</p> 
+<p align = "justify" markdown="1"> Para a montagem da identidade visual, primeiro foi escolhido o nome e o símbolo do projeto, escolhido pelos membros na <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/designSprint/">Design Sprint</a>, por possuírem características comuns com o projeto da equipe. A escolha das cores foi realizada em cima das <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=11%3A23" target="_blank">cores que compõem o símbolo</a> escolhido, o pássaro cardeal, e depois utilizando a ferramenta de palheta de cores para buscar cores similares, a ferramenta <a href="https://coolors.co/" target="_blank">Coolors</a> foi usada para buscar cores análogas e o resultado dessa consulta foi debatido pelos membros para escolher as cores em definitivo. A metodologia usada para definir a tipografia, foi realizada uma votação pelos membros entre as melhores fontes abertas disponibilizados por uma <a href="https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html" target="_blank">matéria</a> do site <a href="https://www.awwwards.com/" target="_blank">awwwards</a>, site reponsável por divulgação de projetos de web design profissional.</p> 
  
 ### 3. Logo
 
@@ -17,7 +17,7 @@
 
 ![Logo](../desenhoSoftwareBase/img/IdentidadeVisual/logo.png)
 
-<h6 align = "center">Fonte: Site Figma</h6><br/>
+<h6 align = "center">Fonte: Site <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=6%3A6" target="_blank">Figma</a></h6></br>
  
 ### 4. Tipografia
 
@@ -33,7 +33,7 @@ Mais informações sobre a fonte e licença de uso dinponibilizados pelo site <a
 
 ![Sora](../desenhoSoftwareBase/img/IdentidadeVisual/sora.png)
 
-<h6 align = "center">Fonte: Site <a href="https://www.figma.com/" target="_blank">Figma</a></h6><br/>
+<h6 align = "center">Fonte: Site <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=50%3A5" target="_blank">Figma</a></h6></br>
 
 ### 4.1. Fonte - Lora
 
@@ -46,7 +46,7 @@ Mais informações sobre a fonte e licença de uso dinponibilizados pelo site <a
 
 ![Lora](../desenhoSoftwareBase/img/IdentidadeVisual/lora.png)
 
-<h6 align = "center">Fonte: Site <a href="https://www.figma.com/" target="_blank">Figma</a></h6><br/>
+<h6 align = "center">Fonte: Site <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=50%3A86" target="_blank">Figma</a></h6></br>
 
 ### 5. Cores
 
@@ -60,7 +60,7 @@ Mais informações sobre a fonte e licença de uso dinponibilizados pelo site <a
 
 [![Cor-Principal](../desenhoSoftwareBase/img/IdentidadeVisual/corPrincipal.png)](../desenhoSoftwareBase/img/IdentidadeVisual/corPrincipal.png)
 
-<h6 align = "center">Fonte: Site <a href="https://coolors.co/f14843-79797b-ffffff-020106-3f3d56" target="_blank">Coolors</a></h6><br/>
+<h6 align = "center">Fonte: Site <a href="https://coolors.co/f14843-79797b-ffffff-020106-3f3d56" target="_blank">Coolors</a></h6></br>
 
 | **Cor** | **Nome** | **RGB** | **CMYK** | **WEB** | 
 | :---: | :---: | :---: | :---: | :---: | 
@@ -78,7 +78,7 @@ Mais informações sobre a fonte e licença de uso dinponibilizados pelo site <a
 
 [![Identidade_Visual](../desenhoSoftwareBase/img/IdentidadeVisual/corSecundaria.png)](../desenhoSoftwareBase/img/IdentidadeVisual/corSecundaria.png)
 
-<h6 align = "center">Fonte: Site <a href="https://coolors.co/" target="_blank">Coolors</a></h6><br/>
+<h6 align = "center">Fonte: Site <a href="https://coolors.co/" target="_blank">Coolors</a></h6></br>
 
 ### 6. Identidade Visual
 
@@ -86,7 +86,7 @@ Mais informações sobre a fonte e licença de uso dinponibilizados pelo site <a
 
 [![Identidade_Visual](../desenhoSoftwareBase/img/IdentidadeVisual/idVisual.png)](../desenhoSoftwareBase/img/IdentidadeVisual/idVisual.png)
 
-<h6 align = "center">Fonte: Site <a href="https://www.figma.com/" target="_blank">Figma</a></h6><br/>
+<h6 align = "center">Fonte: Site <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=63%3A2" target="_blank">Figma</a></h6></br>
 
 ## 7. Referências
 
@@ -104,6 +104,7 @@ Mais informações sobre a fonte e licença de uso dinponibilizados pelo site <a
 
 * [github: Arquitetura-desenho - A monitoria](https://2019-2-arquitetura-desenho.github.io/wiki/dinamica_seminario_II/identidade_visual/), acessado dia 18 de agosto de 2021.
 
+* [Figma: the collaborative interface design tool.](https://www.figma.com), acessado dia 18 de agosto de 2021.
 
 ## 8. Versionamento 
 
