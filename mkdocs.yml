@@ -43,6 +43,7 @@ nav:
            - Apagar: modelagem/diagrama_classes.md
          - Extras:
            - Correções: modelagem/correcoes_E1.md
+           - Diagrama Relacional: diagramaRelacional/diagrama_relacional.md
          - Atas:
            - 13/08/2021: Atas/13-08-2021.md
 
