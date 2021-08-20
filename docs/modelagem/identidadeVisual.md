@@ -50,7 +50,7 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 
 ### 5. Cores
 
-<p align = "justify"> A cor possui sua influência na psicologia humana, e as escolhas das core representam o tipo de mensagem que deseja transmitir. A escolha das cores foi realizada nas cores que compõe o símbolo do projeto e buscando cores análogas ao resultado para possuir maior váriações de cores, para essa consulta foi realizada por meio do site <a href="https://coolors.co/" target="_blank">Coolors</a>. Escolhidos apenas 4 cores para compor o projeto, para possuir um visual mais limpo.</p><br/>
+<p align = "justify"> A cor possui sua influência na psicologia humana, e as escolhas das cores representam o tipo de mensagem que deseja transmitir. A escolha foi realizada baseando-se nas cores que compõe o símbolo do projeto e buscando cores análogas ao resultado para possuir maiores váriações de cores. Essa consulta foi realizada por meio do site <a href="https://coolors.co/" target="_blank">Coolors</a>. Foram escolhidas apenas 4 cores para compor o projeto, para possuir um visual mais limpo.</p><br/>
 
 ### 5.1. Cores Principais
 
