@@ -1,20 +1,20 @@
 ﻿### **Backlog do produto**
 
 
-### **Introdução**
+### **1.Introdução**
 O Product Backlog, ou Backlog do Produto, é uma lista de funcionalidades desejadas de um produto, lista essa que o Product Owner é o responsável por criar a mesma, os requisitos contidos nessa lista, são os que um cliente espera receber ao final do projeto, organizados por ordem de prioridade e descritos com sua própria linguagem. O ponto central do desenvolvimento Scrum é a criação do Product Backlog, a partir dele o projeto tem o seu real começo. 
 
 Diferente do modelo tradicional de gestão de projetos, onde precisamos fechar o escopo para poder começar a executar, no Scrum acredita-se que o início do projeto não é o melhor momento para isso. Afinal, nesse ponto ainda não conhecemos suficientemente o projeto e precisamos avançar um pouco mais em algumas hipóteses antes de ter tanta “certeza”.
 
 O Backlog do Produto se mostra como uma parte essencial para especificação e clareamento dos requisitos já licitados. É bastante importante por trazer uma visão mais transparente do software assim como de suas funcionalidades. Ele é facilmente entendido pelos stakeholders e é principalmente usado juntamente com metodologias ágeis.
 
-### **Objetivo**
+### **2.Objetivo**
 Por meio da estruturação dos requisitos e separação dos requisitos de acordo com temas, possibilitamos uma facilitação da visualização das funcionalidades da aplicação para o cliente e os desenvolvedores envolvidos. Além de ir um pouco mais além por meio da criação de histórias de usuário e atribuição de pontos a estas, criando assim uma lista de prioridades para o desenvolvimento.
 
-## **1.Tema estratégico**
+### **3.Tema estratégico**
 Criação de uma imobiliária digital que possibilite a compra e aluguel de imóveis.
 
-## **2.Épico**
+### **4.Épico**
 
 
 |**ID**|**Descrição**|
@@ -28,7 +28,7 @@ Criação de uma imobiliária digital que possibilite a compra e aluguel de imó
 
 
 
-## **3.Features**
+### **5.Features**
 ### **Épico 01 - Sistema de usuários**
 
 
@@ -74,7 +74,7 @@ Criação de uma imobiliária digital que possibilite a compra e aluguel de imó
 
 
 
-**4. História de usuário**
+### **6.História de usuário**
 
 
 
@@ -109,11 +109,12 @@ Criação de uma imobiliária digital que possibilite a compra e aluguel de imó
 |US27|EP5|F11|Eu como usuário cliente, gostaria de filtrar os corretores por localização |
 
 
-## 3. Referências Bibliográficas
+### 7.Referências Bibliográficas
 
  > Leasson 1: Create the product backlog. https://www.ibm.com/docs/en/elm/7.0.2?topic=project-lesson-1-create-product-backlog. Acessado em 19/08/2021
+ 
  > whats is a Product Backlog ?. https://www.scrum.org/resources/what-is-a-product-backlog. Acessado em 20/08/2021
-## 4. Versionamento
+### 8.Versionamento
 
 | Data       | Versão | Descrição                                | Autor             |
 | :--------- | :----- | :--------------------------------------- | :---------------- |
