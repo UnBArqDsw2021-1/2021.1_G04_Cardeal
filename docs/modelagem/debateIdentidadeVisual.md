@@ -48,7 +48,7 @@
 
 #### 4.3. Cores
 
-<p align = "justify"> Foram escolhidos 5 cores para fazerem parte da identidade visual. Uma cor com mais votação foi trocada por outra por questões de estética visual, assim a cor "Dark Liver" foi trocada por "Independence".</p>
+<p align = "justify"> Foram escolhidas 5 cores para fazerem parte da identidade visual. A cor que recebeu a maior votação foi trocada por outra para atender questões de estética visual, assim a cor "Dark Liver" foi trocada por "Independence".</p>
 
 <h6 align = "center">Figura 3 - Resultado sobre as fontes para o site, versão 1.0.</h6>
 
