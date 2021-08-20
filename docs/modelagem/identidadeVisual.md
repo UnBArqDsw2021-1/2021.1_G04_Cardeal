@@ -27,7 +27,7 @@
 
 <p align = "justify">A fonte <a href="https://fonts.google.com/specimen/Sora?query=sora" target="_blank">Sora</a> foi escolhida para a Logo e para o uso no website.
 
-Mais informações sobre a fonte e licença de uso dinponibilizados pelo site <a href="https://fonts.google.com/specimen/Sora?query=Jonathan+Barnbrook" target="_blank">fonts.google</a></p>
+Mais informações sobre a fonte e licença de uso são disponibilizadas pelo site <a href="https://fonts.google.com/specimen/Sora?query=Jonathan+Barnbrook" target="_blank">fonts.google</a>.</p>
 
 <h6 align = "center">Figura 2 - Representação da fonte Sora, versão 1.0.</h6>
 
