@@ -6,7 +6,7 @@
 
 ## 2. Metodologia 
 
-<p align = "justify"> Para as definições sobre a identidade visual, foi desenvolvido alguns protótipos com o uso da ferramenta <a href="https://www.figma.com/" target="_blank">Figma</a>. Nesse protótipo, estava incluso fontes disponibilizados por uma <a href="https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html" target="_blank">matéria</a> do site <a href="https://www.awwwards.com/" target="_blank">awwwards</a>. Cores que compõe o símbolo escolhido para o projeto, e cores similares para ter mais opções para a definição. Após feito o protótipo, o grupo realizou uma votação para definição da identidade visual através do <a href="https://www.google.com/intl/pt-BR/forms/about/" target="_blank">do google forms</a>.</p> 
+<p align = "justify"> Para as definições sobre a identidade visual, foram desenvolvidos alguns protótipos utilizando a ferramenta <a href="https://www.figma.com/" target="_blank">Figma</a>. Nesse protótipo, foram incluidas fontes disponibilizados por uma <a href="https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html" target="_blank">matéria</a> do site <a href="https://www.awwwards.com/" target="_blank">awwwards</a>. As Cores que compõe o símbolo escolhido para o projeto, e cores similares para ter mais opções para a definição. Após a confecção do protótipo, o grupo realizou uma votação para definição da identidade visual através do <a href="https://www.google.com/intl/pt-BR/forms/about/" target="_blank">do google forms</a>.</p> 
  
 ### 3. Protótipo
 
