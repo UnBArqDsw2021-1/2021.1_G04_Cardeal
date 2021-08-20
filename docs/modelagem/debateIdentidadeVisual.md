@@ -24,7 +24,6 @@
 
 <iframe width="100%" height= "480px" src= "https://docs.google.com/forms/d/e/1FAIpQLSeHq0jPEeEwh4WcMH-Q0Wf7S2QTpO4WtxsHS_WPj0_hh6DWWw/viewform" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe></br>
 
-### 4.1. Resultados
 
 #### 4.2. Fonte da Logo
 
