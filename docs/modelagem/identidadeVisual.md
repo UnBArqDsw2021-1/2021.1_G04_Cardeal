@@ -6,8 +6,9 @@
 
 ## 2. Metodologia 
 
-<p align = "justify" markdown="1"> Para a montagem da identidade visual, primeiro foi escolhido o nome e o símbolo do projeto, escolhido pelos membros na <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/designSprint/">Design Sprint</a>, por possuírem características comuns com o projeto da equipe. A escolha das cores foi realizada em cima das <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=11%3A23" target="_blank">cores que compõem o símbolo</a> escolhido, o pássaro cardeal, e depois utilizando a ferramenta de palheta de cores para buscar cores similares, a ferramenta <a href="https://coolors.co/" target="_blank">Coolors</a> foi usada para buscar cores análogas e o resultado dessa consulta foi debatido pelos membros para escolher as cores em definitivo. A metodologia usada para definir a tipografia, foi realizada uma votação pelos membros entre as <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=3%3A4">melhores fontes abertas</a> disponibilizados por uma <a href="https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html" target="_blank">matéria</a> do site <a href="https://www.awwwards.com/" target="_blank">awwwards</a>, site reponsável por divulgação de projetos de web design profissional.</p> 
+<p align = "justify" markdown="1"> Para a montagem da identidade visual, primeiro foi escolhido o nome e o símbolo do projeto, escolhido pelos membros na <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/designSprint/">Design Sprint</a>, por possuírem características comuns com o projeto da equipe. A escolha das cores foi realizada em cima das <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=11%3A23" target="_blank">cores que compõem o símbolo</a> escolhido, o pássaro cardeal, e depois utilizando a ferramenta de palheta de cores para buscar cores similares, a ferramenta <a href="https://coolors.co/" target="_blank">Coolors</a> foi usada para buscar cores análogas e o resultado dessa consulta foi <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/debateIdentidadeVisual/">debatido pelos membros</a> para escolher as cores em definitivo. A metodologia usada para definir a tipografia, foi realizada uma votação pelos membros entre as <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=3%3A4">melhores fontes abertas</a> disponibilizados por uma <a href="https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html" target="_blank">matéria</a> do site <a href="https://www.awwwards.com/" target="_blank">awwwards</a>, site reponsável por divulgação de projetos de web design profissional.</p> 
  
+
 ### 3. Logo
 
 
@@ -111,5 +112,5 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 | Data | Versão | Descrição | Autor(es) | 
 | :----: | :----: | :----: | :----: | 
 | 18/08/2021 | 1.0 | Criação do documento | [Tomás Veloso](https://github.com/tomasvelos0) | 
-| 18/08/2021 | 1.1    | Debate e escolha da identidade visual       | [Todos os membros](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/)  |
+| 18/08/2021 | 1.1    | Debate e escolha da identidade visual       | [Todos os membros]( https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/debateIdentidadeVisual/)  |
 | 20/08/2021 | 1.2    | Revisão do documento | Douglas Castro e Gustavo Duarte |
