@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="../2021.1_G04_Cardeal/assets/logoIndex.png"/>
+  <img src="https://raw.githubusercontent.com/UnBArqDsw2021-1/2021.1_G04_Cardeal/main/docs/assets/logoIndex.png"/>
 </p>
 
 <h3 id="sobre-o-projeto">Sobre o projeto</h3>
