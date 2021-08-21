@@ -40,7 +40,7 @@ nav:
         - Notação UML – Diagramas Estáticos:
           - Diagrama de Classes: modelagem/diagrama_classes.md
         - Notação UML – Diagramas Dinâmicos:
-          - Apagar: modelagem/diagrama_classes.md
+          - Diagrama de Atividades: modelagem/diagrama_atividades.md
         - Modelagem Ágil:
           - Backlog do Produto: modelagem/backlog_do_produto.md
         - Extras:
