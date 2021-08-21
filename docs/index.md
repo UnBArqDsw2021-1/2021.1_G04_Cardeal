@@ -1,10 +1,10 @@
-<h1 id="cardeal">Cardeal</h1>
+
 <p align="center">
-  <img src="https://st2.depositphotos.com/4918199/8662/v/600/depositphotos_86629902-stock-illustration-bird-cardinal-red-heads-painted.jpg" alt="logo" width="300" />
+  <img src="../2021.1_G04_Cardeal/assets/logoIndex.png"/>
 </p>
 
 <h3 id="sobre-o-projeto">Sobre o projeto</h3>
-<p align="justify">O projeto é uma aplicação web de uma imobiliária que tem como seu principal objetivo apresentar aos seus clientes os imóveis disponíveis.</p>
+<p align="justify">O projeto é uma aplicação web de uma imobiliária que tem como seu principal objetivo auxiliar os clientes a encontrar seus futuros e possíveis imóveis, que gostariam de comprar ou alugar. </p>
 
 <h3 id="equipe">Equipe</h3>
 <table>
@@ -22,17 +22,3 @@
     </tr>
 </table>
 
-
-</section>
-
-</div> <!-- end of page-inner -->
-</div> <!-- end of page-wrapper -->
-
-</div> <!-- end of body-inner -->
-
-</div> <!-- end of book-body -->
-<script src="./js/main.js"></script>
-<script src="./js/gitbook.min.js"></script>
-<script src="./js/theme.min.js"></script>
-</body>
-</html>
