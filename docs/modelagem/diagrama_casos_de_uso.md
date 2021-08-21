@@ -250,4 +250,5 @@ VIEIRA, Rodrigo. UML — Diagrama de Casos de Uso. Medium, 2015. Disponível em:
 | 0.5 | 19/08/2021 | Adição da especificação do UC Editar Imóvel | Douglas Castro e Giovana Dionísio |
 | 0.6 | 19/08/2021 | Adição da especificação do UC Deletar Imóvel | Douglas Castro e Giovana Dionísio |
 | 0.7 | 19/08/2021 | Adição da especificação do UC Visualizar Imóveis | Douglas Castro e Giovana Dionísio |
-| 1.0 | 19/08/2021 | Adição dos diagramas | Douglas Castro e Giovana Dionísio |
+| 0.8 | 19/08/2021 | Adição dos diagramas | Douglas Castro e Giovana Dionísio |
+| 1.0 | 20/08/2021 | Revisão do documento | Bruno Nunes |
