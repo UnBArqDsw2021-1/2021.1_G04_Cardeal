@@ -17,7 +17,7 @@ Os diagramas fornecidos pela UML podem ser divididos em dois conjuntos: o conjun
 
 
 <p align="justify">
-O Diagrama de Atividade, foco dessa documentação, é aquele que vai fornecer uma visualização do comportamento de um sistema, descrevendo a sequência de ações dentro de um processo. Eles são semelhantes aos fluxogramas e mostram os fluxos de atividade de um projeto. São usados não apenas nas fases iniciais descrevendo os trabalhos mais importantes, como também pode ser usado para descrever os fluxos de eventos de um caso de uso na fase requisitos e/ou modelando comportamentos das operações nas fases de análise e design(IBM).
+O Diagrama de Atividade, foco dessa documentação, é aquele que vai fornecer uma visualização do comportamento de um sistema, descrevendo a sequência de ações dentro de um processo. Eles são semelhantes aos fluxogramas e mostram os fluxos de atividade de um projeto. São usados não apenas nas fases iniciais descrevendo os trabalhos mais importantes, como também pode ser usado para descrever os fluxos de eventos de um caso de uso na fase requisitos e/ou modelando comportamentos das operações nas fases de análise e design (IBM).
 </p>
 
 ## 2. Metodologia
@@ -44,7 +44,7 @@ Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
 
 ### 3.2. Visualizar Imóvel
 <p align="justify">
-  Nesse diagrama podemos visualizar o comportamento das partes da aplicação quando o usuário faz buscas para visualizar um determinado imóvel. Se a aplicação não encontrar imóveis que estejam de acordo com os filtros escolhidos pelo cliente, espera-se que seja exibido para o usuário uma mensagem dizendo que "Não foi encontrado imóveis".
+  Nesse diagrama podemos visualizar o comportamento das partes da aplicação quando o usuário faz buscas para visualizar um determinado imóvel. Se a aplicação não encontrar imóveis que estejam de acordo com os filtros escolhidos pelo cliente, espera-se que seja exibido para o usuário uma mensagem dizendo que "Não foram encontrado imóveis".
 </p>
 
 ![Buscar Imóvel](./diagramas_de_atividade/buscar_imóvel.svg)
@@ -77,7 +77,21 @@ Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
 ![Agendar Visita](./diagramas_de_atividade/agendar_visitar.svg)
 <p align = "center"><i>Autor: Douglas Castro</i></p>
 
-## 4. Referências
+## 4. Versionamento
+
+| Data | Versão | Descrição | Autor |
+| :--: | :--: | -- | :--: |
+| 18/08/2021 | 1.0 | Criação do documento | Douglas Castro |
+| 19/08/2021 | 1.1 | Adição do diagrama Cadastrar Corretor | Douglas Castro |
+| 19/08/2021 | 1.2 | Adição do diagrama Criar Imóvel | Douglas Castro |
+| 19/08/2021 | 1.3 | Adição do diagrama Visualizar Imóvel | Douglas Castro |
+| 20/08/2021 | 1.4 | Adição do diagrama Editar Imóvel | Douglas Castro |
+| 20/08/2021 | 1.5 | Adição do diagrama Deletar Imóvel | Douglas Castro |
+| 20/08/2021 | 1.6 | Adição do diagrama Agendar Visita | Douglas Castro |
+| 20/08/2021 | 1.7 | Adição da Introdução, Metodologia, Resultados e Referências | Douglas Castro |
+| 21/08/2021 | 1.8 | Revisão e Padronização do Documento | Pedro Haick |
+
+## 5. Referências
 
 * BELL, Donald. An introduction to the Unified Modeling Language. Disponível em: <a target="_blank" href="https://developer.ibm.com/articles/an-introduction-to-uml/">https://developer.ibm.com/articles/an-introduction-to-uml/</a>. Acesso em: 18 de Agosto de 2021.
 
@@ -90,16 +104,3 @@ Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
 * Canal no youtube: Udacity. Activity Diagram. Disponível em: <a target="_blank" href="https://www.youtube.com/watch?v=vSjG-B8Ili8">https://www.youtube.com/watch?v=vSjG-B8Ili8</a>. Acesso em: 20 de Agosto de 2021.
   
 * Canal no youtube: Udacity. Example Activity Diagram. Disponível em: <a target="_blank" href="https://www.youtube.com/watch?v=qeWrvNFX-cY">https://www.youtube.com/watch?v=qeWrvNFX-cY</a>. Acesso em: 20 de Agosto de 2021.
-
-## 5. Versionamento
-
-| Versão | Data | Descrição | Autor |
-| :--: | :--: | -- | :--: |
-| 0.1 | 18/08/2021 | Criação do documento | Douglas Castro |
-| 0.2 | 19/08/2021 | Adição do diagrama Cadastrar Corretor | Douglas Castro |
-| 0.3 | 19/08/2021 | Adição do diagrama Criar Imóvel | Douglas Castro |
-| 0.4 | 19/08/2021 | Adição do diagrama Visualizar Imóvel | Douglas Castro |
-| 0.5 | 20/08/2021 | Adição do diagrama Editar Imóvel | Douglas Castro |
-| 0.6 | 20/08/2021 | Adição do diagrama Deletar Imóvel | Douglas Castro |
-| 0.7 | 20/08/2021 | Adição do diagrama Agendar Visita | Douglas Castro |
-| 1.0 | 20/08/2021 | Adição da Introdução, Metodologia, Resultados e Referências | Douglas Castro |
