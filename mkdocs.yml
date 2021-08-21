@@ -42,7 +42,7 @@ nav:
         - Notação UML – Diagramas Dinâmicos:
           - Apagar: modelagem/diagrama_classes.md
         - Modelagem Ágil:
-          - Apagar: modelagem/diagrama_classes.md
+          - Backlog do Produto: modelagem/backlog_do_produto.md
         - Extras:
           - Diagrama de Casos de Uso: modelagem/diagrama_casos_de_uso.md
           - Identidade visual: modelagem/identidadeVisual.md
