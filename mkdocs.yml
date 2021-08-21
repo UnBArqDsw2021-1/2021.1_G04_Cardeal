@@ -92,8 +92,4 @@ extra:
 
 plugins:
   - search
-<<<<<<< HEAD
   - awesome-pages
-=======
-  - awesome-pages
->>>>>>> 132185d (Mkdocs: fixing YAML file)
