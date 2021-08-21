@@ -33,3 +33,4 @@ Com a criação dessa classe abstrata **Pessoa** para especializar as classes **
 | :--: | :--: | -- | :--: |
 | 20/08/2021 | 1.0 | Criação do documento | [Bruno Nunes](https://github.com/brunocmo) |
 | 21/08/2021 | 1.0 | Adição da imagem do diagrama | [Bruno Nunes](https://github.com/brunocmo) |
+
