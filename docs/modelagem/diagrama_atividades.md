@@ -23,11 +23,11 @@ O Diagrama de Atividade, foco dessa documentação, é aquele que vai fornecer u
 ## 2. Metodologia
 
 <p align="justify">
-  Para a modelagem dos diagramas de atividade, foram usado os casos de uso Editar Imóvel, Deletar Imóvel e Visualizar Imóvel, descritos na documentação de <a>Diagramas de Casos de Uso</a>. 
+  Para a modelagem dos diagramas de atividade, foram usado os casos de uso Editar Imóvel, Deletar Imóvel e Visualizar Imóvel, descritos na documentação de <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_casos_de_uso/">Diagramas de Casos de Uso</a>. 
 </p>
 
 <p align="justify">
-  Também foi usado como insumo para essa modelagem os requisitos Cadastrar Corretor e Agendar Visita. Estes podem ser visualizados no <a>Backlog do Produto</a>.
+  Também foi usado como insumo para essa modelagem os requisitos Cadastrar Corretor e Agendar Visita. Estes podem ser visualizados no <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/backlog-do-produto/">Backlog do Produto</a>.
 </p>
 
 Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
