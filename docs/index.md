@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="../assets/logoIndex.png"/>
+  <img src="../2021.1_G04_Cardeal/assets/logoIndex.png"/>
 </p>
 
 <h3 id="sobre-o-projeto">Sobre o projeto</h3>
