@@ -241,3 +241,4 @@ Com esses diagramas, temos então uma ideia geral de como serão guardado os dad
 | 19/08/2021 |  0.1   | Criação e elaboração do documento | Bruno Nunes e Marcos Vinicius |
 | 19/08/2021 |  0.2   | Mudança de atributos das entidades | Igor Araujo |
 | 20/08/2021 |  0.3   | Modificação nos arquivos brModelo, <br> imagens e adição do dicionario de dados | Bruno Nunes e Marcos Vinicius |
+| 21/08/2021 |  0.4   | Revisão do documento | Tomás Veloso |
