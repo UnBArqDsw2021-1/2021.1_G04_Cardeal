@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="../assets/logoIndex.png" alt="logo" width="700" />
+  <img src="../assets/logoIndex.png"/>
 </p>
 
 <h3 id="sobre-o-projeto">Sobre o projeto</h3>
