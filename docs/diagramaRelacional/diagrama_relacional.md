@@ -14,7 +14,7 @@ O modelo relacional é um modelo de dados representativo, adequado a ser o model
 </ol>
 ### 2.2 Modelo Entidade-Relacionamento
 
-#### 2.1.1 Entidades
+#### 2.2.1 Entidades
 <ul>
 
 <li> <strong>PERSON </strong> </li>
@@ -28,7 +28,7 @@ O modelo relacional é um modelo de dados representativo, adequado a ser o model
 
 </ul>
 
-#### 2.1.2 Atributos
+#### 2.2.2 Atributos
 
 <ul>
 
@@ -47,7 +47,7 @@ status ,value, viewed, idOwner, idRealtor, createdAt, updatedAt) </li>
 </ul>
 
 
-#### 2.1.3 Relacionamentos
+#### 2.2.3 Relacionamentos
 
 OWNER **owns** PROPERTY	<br>
 cardinalidade 1:n <br>
@@ -242,3 +242,4 @@ Com esses diagramas, temos então uma ideia geral de como serão guardado os dad
 | 19/08/2021 |  0.2   | Mudança de atributos das entidades | Igor Araujo |
 | 20/08/2021 |  0.3   | Modificação nos arquivos brModelo, <br> imagens e adição do dicionario de dados | Bruno Nunes e Marcos Vinicius |
 | 21/08/2021 |  0.4   | Revisão do documento | Tomás Veloso |
+| 20/08/2021 |  0.5   | Consertar indexação | Bruno Nunes, Marcos Vinicius |
