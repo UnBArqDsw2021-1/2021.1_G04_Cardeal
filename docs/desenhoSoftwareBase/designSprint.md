@@ -33,18 +33,18 @@ A design sprint é um processo de 5 dias com o objetivo de responder perguntas e
 
 | Dia | Artefatos | Descrição |
 | --- | --------- | ------------------ |
-| 1 | [Brainstorm](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/brainstorm) <br>  [Léxico](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/lexico)  | A partir dos artefatos utilizados, é possível ter noção do domínio que envolve o problema, e assim modelá-lo. |
+| 1 | [Léxico](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/lexico)  | A partir dos artefatos utilizados, é possível ter noção do domínio que envolve o problema, e assim modelá-lo. |
 | 2 | [Rich Picture](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/richPicture/) <br>  | Após decidirmos qual rich picture seguiriamos, foi essencial organizar um plano de ação para o desenvolvimento |
 | 3 | [Storyboard](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/storyboard) <br> [5W2H](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/5W2H) <br>  [Estimativas](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/estimativas) | Realizamos um storyboard, complementando com o 5W2H, e foi finalizado com as estimativas do projeto. |
 | 4 | [Protótipo de Baixa Fidelidade](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/prototipo)  | O protótipo de baixa fidelidade se fez necessário para analisar a usabilidade e alinhar a interface com a visão de projeto da equipe. |
 
 ## 4. Versionamento
 
-| Data       | Versão | Descrição                         | Autores     |
-| ---------- | ------ | --------------------------------- | ----------- |
-| 03/08/2021 | 0.1    | Criação e elaboração do documento | Pedro Haick |
-| 04/08/2021 | 1.1    | Padronização do documento       | Bruno Nunes e Marcos Rodrigues    |
-| 20/08/2021 | 2.0 | Correção do Documento Pós-Avaliação | Pedro Haick |
+| Data       | Versão | Descrição                           | Autores                        |
+| ---------- | ------ | ----------------------------------- | ------------------------------ |
+| 03/08/2021 | 0.1    | Criação e elaboração do documento   | Pedro Haick                    |
+| 04/08/2021 | 1.1    | Padronização do documento           | Bruno Nunes e Marcos Rodrigues |
+| 20/08/2021 | 2.0    | Correção do Documento Pós-Avaliação | Pedro Haick                    |
 
 ## 5. Referências
 [The Design Sprint - GV](https://www.gv.com/sprint/)
