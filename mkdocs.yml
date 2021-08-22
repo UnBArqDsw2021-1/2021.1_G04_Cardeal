@@ -42,6 +42,7 @@ nav:
         - Notação UML – Diagramas Dinâmicos:
           - Diagrama de Atividades: modelagem/diagrama_atividades.md
           - Diagrama de Classe Abstrata: modelagem/diagrama_abstrata.md
+          - Diagrama de Comunicação: modelagem/diagrama_comunicacao.md
         - Modelagem Ágil:
           - Backlog do Produto: modelagem/backlog_do_produto.md
         - Extras:
