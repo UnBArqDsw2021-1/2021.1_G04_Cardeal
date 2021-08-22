@@ -52,12 +52,11 @@ Esse foi o gia de estilo criado para nos basearmos no desenvolvimento da interfa
 >"How to not get in trouble when branding your app with red". Disponível em https://uxdesign.cc/branding-your-app-with-red-a7df0b6b0e54. Acessado em 19/08/2021
  
 >"When your brand isn’t broken: elegant error handling for sites with red logos". Disponível em https://medium.com/product-labs/when-your-brand-isn-t-broken-elegant-error-handling-for-apps-with-red-logos-f0d619c14758. Acessado em 19/08/2021
- 
+
 ## 5. Versionamento
 | Data | Versão | Descrição | Autor(es) |
 | :--: | :--: | -- | :--: |
 | 19/08/2021 | 1.0 | Desenvolvimento do protótipo |  Estevao Reis, Pedro Haick e Tomás Veloso |
 | 19/08/2021 | 1.1 | Criação do documento |  Estevao Reis, Pedro Haick e Tomás Veloso |
-| 22/08/2021 | 1.2 | Revisão e Padronização do documento |  Douglas Castro |
- 
+| 22/08/2021 | 1.2 | Revisão e Padronização do documento |  Douglas Castr, Giovana Dionísio|
  
