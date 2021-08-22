@@ -38,3 +38,4 @@ VENTURA, Plínio. Entendendo o Diagrama de Sequência da UML. Até o Momento, 20
 | 17/08/2021 | 1.0    | Estrutura e adição dos diagramas         | Giovana Dionisio  |
 | 18/08/2021 | 2.0    | Adição de conteúdo                       | Giovana Dionisio  |
 | 19/08/2021 | 3.0    | Correção na formatação                   | Giovana Dionisio  |
+| 20/08/2021 |          | Revisado por                                     | Gustavo Moreira  |
