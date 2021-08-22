@@ -1,6 +1,5 @@
 # Correções
 ## 1. Referentes à primeira entrega
-
 ### 1.1. Léxicos
 </p>
   Foram adicionadas referências ao longo do texto introdutório e foram adicionados links às referências bibliográficas que não os continham. Foi inserido à metodologia um parágrafo destinado a discussões e consensos relacionados ao artefato. Por fim, foram adicionados mais impactos aos léxicos já construídos. 
@@ -29,6 +28,8 @@
 - Os nome das atividades e subprocessos foram revistos e trocados por verbos no infinitivo;
 - Foram incluídas as semânticas dos gateways.
 
+### 1.5. Modelagem BPMN
+- Foram feitas correções solitadas pela professora referente ao documento [Rich Picture](../desenhoSoftwareBase/richPicture.md) em relação as referências utilizadas, sitações no texto, melhora no embasamento teórico e adição de elos com outros artefatos 
 ## 2. Versionamento
 | Data       | Versão | Descrição                                             | Autores          |
 | ---------- | ------ | ---------------------------------                     | ---------------- |
@@ -36,4 +37,5 @@
 | 19/08/2021 | 0.2    | Adição das correções do Léxico                        | Giovana Dionisio |
 | 21/08/2021 | 0.3    | Adição das Correções do Protótipo de Baixa Fidelidade | Pedro Haick      |
 | 21/08/2021 | 0.4    | Adição das Correções da Design Sprint                 | Pedro Haick      |
-| 22/08/2021 | 0.5    | Adição das correções no documento de Modelagem BPMN | Douglas Castro |
+| 22/08/2021 | 0.5    | Adição das correções no documento de Modelagem BPMN   | Douglas Castro |
+| 22/08/2021 |  0.6   | Correção do Rich Picture                              | Estevao Reis|
