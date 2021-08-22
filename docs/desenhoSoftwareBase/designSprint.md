@@ -12,7 +12,7 @@
 | 15/0129866  |  Igor Araújo de Sousa | [@zero101010](https://github.com/zero101010) |
 | 17/0150747  |  Marcos Vinícius Rodrigues da Conceição | [@marcos-mv](https://github.com/marcos-mv) |
 | 18/0129147  |  Pedro de Miranda Haick | [@peHaick](https://github.com/peHaick) |
-| 18/0138596  |  Luiz Gustavo Dias Paes Pinheiro | [@PinheiroLG](https://github.com/PinheiroLG) |
+| 14/0169784  |  Luiz Gustavo Dias Paes Pinheiro | [@PinheiroLG](https://github.com/PinheiroLG) |
 | 18/0138596  |  Tomás Veloso Peixoto Matutino | [@tomasvelos0](https://github.com/tomasvelos0) |
 
 ## 2. Introdução
@@ -33,14 +33,20 @@ A design sprint é um processo de 5 dias com o objetivo de responder perguntas e
 
 | Dia | Artefatos | Descrição |
 | --- | --------- | ------------------ |
-| 1 | <a href='/desenhoSoftwareBase/brainstorm'>Brainstorm</a> <br>  <a href='/desenhoSoftwareBase/lexico'>Léxico</a>  | A partir dos artefatos utilizados, é possível ter noção do domínio que envolve o problema, e assim modelá-lo. |
-| 2 | <a href='/desenhoSoftwareBase/richPicture'>Rich Picture</a> <br>  | Após decidirmos qual rich picture seguiriamos, foi essencial organizar um plano de ação para o desenvolvimento |
-| 3 | <a href='/desenhoSoftwareBase/storyboard'>Storyboard</a> <br> <a href='/desenhoSoftwareBase/5W2H'>5W2H</a> <br>  <a href='/desenhoSoftwareBase/estimativas'>Estimativas</a> | Realizamos um storyboard, complementando com o 5W2H, e foi finalizado com as estimativas do projeto. |
-| 4 | <a href='/desenhoSoftwareBase/prototipo'>Protótipo de Baixa Fidelidade</a>  | O protótipo de baixa fidelidade se fez necessário para analisar a usabilidade e alinhar a interface com a visão de projeto da equipe. |
+| 1 | [Léxico](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/lexico)  | A partir dos artefatos utilizados, é possível ter noção do domínio que envolve o problema, e assim modelá-lo. |
+| 2 | [Rich Picture](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/richPicture/) <br>  | Após decidirmos qual rich picture seguiriamos, foi essencial organizar um plano de ação para o desenvolvimento |
+| 3 | [Storyboard](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/storyboard) <br> [5W2H](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/5W2H) <br>  [Estimativas](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/estimativas) | Realizamos um storyboard, complementando com o 5W2H, e foi finalizado com as estimativas do projeto. |
+| 4 | [Protótipo de Baixa Fidelidade](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/prototipo)  | O protótipo de baixa fidelidade se fez necessário para analisar a usabilidade e alinhar a interface com a visão de projeto da equipe. |
 
 ## 4. Versionamento
 
-| Data       | Versão | Descrição                         | Autores     |
-| ---------- | ------ | --------------------------------- | ----------- |
-| 03/08/2021 | 0.1    | Criação e elaboração do documento | Pedro Haick |
-| 04/08/2021 | 1.1    | Padronização do documento       | Bruno Nunes e Marcos Rodrigues    |
+| Data       | Versão | Descrição                           | Autores                        |
+| ---------- | ------ | ----------------------------------- | ------------------------------ |
+| 03/08/2021 | 0.1    | Criação e elaboração do documento   | Pedro Haick                    |
+| 04/08/2021 | 1.1    | Padronização do documento           | Bruno Nunes e Marcos Rodrigues |
+| 20/08/2021 | 2.0    | Correção do Documento Pós-Avaliação | Pedro Haick                    |
+
+## 5. Referências
+[The Design Sprint - GV](https://www.gv.com/sprint/)
+
+[The Sprint Book](https://www.thesprintbook.com/the-design-sprint)
