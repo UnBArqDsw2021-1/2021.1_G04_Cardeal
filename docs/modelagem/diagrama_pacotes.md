@@ -39,3 +39,4 @@
 | Data | Versão | Descrição | Autor(es) | 
 | :----: | :----: | :----: | :----: | 
 | 20/08/2021 | 1.0 | Criação do documento | [Tomás Veloso](https://github.com/tomasvelos0) | 
+| 22/08/2021 | 2.0 | Revisado por | [Gustavo Moreira](https://github.com/gustavoduartemoreira) | 
