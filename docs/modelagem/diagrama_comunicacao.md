@@ -49,4 +49,4 @@ LUCIDCHART. Disponível em: <https://www.lucidchart.com/> Acessado em 19/08/2021
 | 18/08/2021 | 1.0    | Criação do documento                     | Gustavo Moreira   |
 | 19/08/2021 | 2.0    | Adição de conteúdo                       | Gustavo Moreira   |
 | 21/08/2021 | 3.0    | Adição da imagem do diagrama             | Gustavo Moreira   |
-| 21/08/2021 |        | Revisão do documento                     | Giovana Dionisio  |
+| 21/08/2021 |        | Revisão do documento                     | Giovana Dionisio e Douglas Castro  |
