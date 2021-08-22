@@ -79,7 +79,7 @@
 ## 5. Referências
 
 
-* [awwwards: 20 Best Google Web Fonts](hhttps://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html), acessado dia 18 de agosto de 2021. 
+* [awwwards: 20 Best Google Web Fonts](https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html), acessado dia 18 de agosto de 2021. 
 
 * [awwwards: The awards of design, creativity and innovation on the internet](https://www.awwwards.com/), acessado dia 18 de agosto de 2021. 
 

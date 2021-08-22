@@ -39,6 +39,7 @@ nav:
     - 2.1 Módulo Projeto Orientado a Abordagens Tradicionais:
         - Notação UML – Diagramas Estáticos:
           - Diagrama de Classes: modelagem/diagrama_classes.md
+          - Diagrama de Pacotes: modelagem/diagrama_pacotes.md
         - Notação UML – Diagramas Dinâmicos:
           - Diagrama de Sequência: modelagem/diagrama_sequencia.md
           - Diagrama de Atividades: modelagem/diagrama_atividades.md
