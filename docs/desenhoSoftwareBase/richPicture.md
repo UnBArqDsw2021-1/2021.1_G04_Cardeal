@@ -19,10 +19,22 @@ Para que cada um dos integrantes pudesse desenvolver seu próprio Rich Picture, 
 - Marcos C.
 - Pedro Haick
 - Tomás Veloso
+<<<<<<< HEAD
 ## 4. Resultados
 A ideia desse Rich Picture foi buscar representar o sistema e a interação dele com os possíveis usuários, desde clientes que desejam comprar ou alugar uma residência, até os corretores que ficarão responsáveis pelo gerenciamento da plataforma.
  
 ### 4.1 Rich Picture dos integrantes da Equipe
+=======
+
+## 2. Metodologia
+O Rich Picture é uma maneira de modelar ideias, e bastante conveniente para ser aplicada em
+reuniões com clientes ou em equipes de desenvolvimento. Se apoia na atividade de fazer um rascunho de desenhos e usar pequenos textos para evidenciar um momento, um desejo, uma atividade, dentre outras coisas. Os desenhos podem ser feitos à mão ou por um software. Essa técnica é bastante rica poís podemos visualizar mais facilmente os requisitos necessários pra a implementação do software.
+
+## 3. Resultados
+A idéia desse Rich Picture foi buscar representar o sistema e a interação dele com os possíveis usuários, desde clientes que desejam comprar ou alugar uma residência, até os corretores que ficarão responsáveis pelo gerenciamento da plataforma.
+
+### 3.1 Rich Picture dos integrantes da Equipe
+>>>>>>> 8a7fd9aa280c0ec9d18af953a238fc679c1ec560
 #### Bruno Nunes
 ![Bruno Nunes](./RichPicture/rich-picture-bruno.jpeg)
 #### Douglas Farias

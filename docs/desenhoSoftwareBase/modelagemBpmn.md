@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-<p>O <i>Business Process Model and Notation</i> (BPMN) é uma linguagem de modelagem que possui uma numerosa quantidade de símbolos, que podem ser usados para mapear todos os processos envolvidos em um projeto. O seu principal objetivo é fornecer uma representação que seja facilmente compreensível por todos os envolvidos em um projeto, como descreve a <i>Standards Development Organization</i>. Ou seja, sua intenção é padronizar um modelo diante de outras notações e pontos de vista diferentes. Com essa padronização, o BPMN fornecerá, não só uma modelagem simples que comunicará essas informações dos processos, como também poderá fornecer uma modelagem complexa e bem detalhada conforme as necessidades da equipe.</p>
+<p>O <i>Business Process Model and Notation</i> (BPMN) é uma linguagem de modelagem que possui uma numerosa quantidade de símbolos, que podem ser usados para mapear todos os processos envolvidos em um projeto. O seu principal objetivo é fornecer uma representação que seja facilmente compreensível por todos os envolvidos em um projeto, como descreve a <i>Standards Development Organization</i>(OMG). Ou seja, sua intenção é padronizar um modelo diante de outras notações e pontos de vista diferentes. Com essa padronização, o BPMN fornecerá, não só uma modelagem simples que comunicará essas informações dos processos, como também poderá fornecer uma modelagem complexa e bem detalhada conforme as necessidades da equipe (SGANDERLA, Kelly).</p>
 
 # 2. Metodologia
 
@@ -37,3 +37,4 @@
 | 1.5 | 03/08/2021 | Adição da modelagem do Planejamento da Sprint  | Douglas Castro |
 | 1.6 | 04/08/2021 | Atualização da Metodologia e correção nas imagens das modelagens | Douglas Castro |
 | 1.7 | 04/08/2021   | Padronização do documento       | Bruno Nunes e Marcos Rodrigues    |
+| 1.8 | 04/08/2021   | Correções no documento | Douglas Castro |
