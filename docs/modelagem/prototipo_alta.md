@@ -8,11 +8,14 @@ O “high” em alta fidelidade refere-se ao nível de abrangência, que permite
 Os protótipos de alta fidelidade abrangem não apenas a interface da pessoa usuária (UI) do produto em termos visuais e estéticos, mas também os aspectos da experiência do(a) usuário(a) (UX) em termos de interações, fluxo e comportamento.
  
 ## 2. Metodologia
-Para desenvolver o protótipo de alta fidelidade, os integrantes do grupo Estevão Reis, Pedro Haick e Tomás Veloso, se reuniram para definir e desenvolvê-lo. Para desenvolver o protótipo, os integrantes do grupo consultaram os documentos de [Brainstorm](../desenhoSoftwareBase/brainstorm.md), [Rich Picture](../desenhoSoftwareBase/richPicture.md) e [Identidade Visual](./identidadeVisual.md) . Baseado nesses documentos foi desenvolvido no software de prototipação Figma o protótipo de alta fidelidade. Após o desenvolvimento completo de todas as telas, foi enviado a todos os membros da equipe as imagens do protótipo com a finalidade de validar todo o trabalho. Com todos os membros da equipe satisfeitos com o resultado, foi concluída a tarefa de prototipação do site.
+Para desenvolver o protótipo de alta fidelidade, os integrantes do grupo Estevão Reis, Pedro Haick e Tomás Veloso, se reuniram para definir e desenvolvê-lo. Para desenvolver o protótipo, os integrantes do grupo consultaram os documentos de [Brainstorm](../desenhoSoftwareBase/brainstorm.md), [Rich Picture](../desenhoSoftwareBase/richPicture.md) e [Identidade Visual](./identidadeVisual.md). Baseado nesses documentos foi desenvolvido, no software de prototipação <a href="https://www.figma.com/" target="_blank">Figma</a>, o protótipo de alta fidelidade. Após o desenvolvimento completo de todas as telas, foram enviadas a todos os membros da equipe as imagens do protótipo, com a finalidade de validar todo o trabalho. Com todos os membros da equipe satisfeitos com o resultado, foi concluída a tarefa de prototipação do site.
  
 ## 3. Resultados
 ### 3.1. Páginas
 Essas foram as telas desenvolvidas:
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fluoz2nmpRF8p3oR4S1Vq9v%2FCardeal-Prot%C3%B3tipo-de-Alta-Fidelidade%3Fnode-id%3D3%253A2%26scaling%3Dscale-down-width%26page-id%3D0%253A1%26starting-point-node-id%3D3%253A2" allowfullscreen></iframe>
+
 #### 3.1.1. Home
 ![Home](./prototipo_alta/1-home.png)
 #### 3.1.2. Busca de Imóveis
@@ -37,6 +40,7 @@ Esse foi o gia de estilo criado para nos basearmos no desenvolvimento da interfa
  
  
 ## 4. Referências
+
 > "Prototipagem de alta fidelidade: o que é, quando, por que e como usar?". Disponível em: https://medium.com/somos-tera/prototipagem-de-alta-fidelidade-635d745b662b. Acessado em 22/08/2021.
  
 >unDraw. Disponível em https://undraw.co/. Acessado em 19/08/2021
@@ -53,10 +57,13 @@ Esse foi o gia de estilo criado para nos basearmos no desenvolvimento da interfa
  
 >"When your brand isn’t broken: elegant error handling for sites with red logos". Disponível em https://medium.com/product-labs/when-your-brand-isn-t-broken-elegant-error-handling-for-apps-with-red-logos-f0d619c14758. Acessado em 19/08/2021
 
+> Figma. Disponível https://www.figma.com. Acessado dia 19/08/2021
+
 ## 5. Versionamento
 | Data | Versão | Descrição | Autor(es) |
 | :--: | :--: | -- | :--: |
 | 19/08/2021 | 1.0 | Desenvolvimento do protótipo |  Estevao Reis, Pedro Haick e Tomás Veloso |
 | 19/08/2021 | 1.1 | Criação do documento |  Estevao Reis, Pedro Haick e Tomás Veloso |
 | 22/08/2021 | 1.2 | Revisão e Padronização do documento |  Douglas Castr, Giovana Dionísio|
+| 22/08/2021 | 1.3 | Adicionado o protótipo |  Tomás Veloso |
  
