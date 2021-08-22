@@ -27,7 +27,7 @@ O Diagrama de Atividade, foco dessa documentação, é aquele que vai fornecer u
 </p>
 
 <p align="justify">
-  Também foi usado como insumo para essa modelagem os requisitos Cadastrar Corretor e Agendar Visita. Estes podem ser visualizados no <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/backlog-do-produto/">Backlog do Produto</a>.
+  Também foi usado como insumo para essa modelagem os requisitos Cadastrar Corretor e Agendar Visita. Estes podem ser visualizados no <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/backlog_do_produto/">Backlog do Produto</a>.
 </p>
 
 Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
