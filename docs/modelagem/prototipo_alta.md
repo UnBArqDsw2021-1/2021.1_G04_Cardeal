@@ -59,5 +59,5 @@ Esse foi o gia de estilo criado para nos basearmos no desenvolvimento da interfa
 | Data | Versão | Descrição | Autor(es) | Revisor(res)
 | :--: | :--: | -- | :--: | :--: |
 | 19/08/2021 | 0.1 | Desenvolvimento do protótipo |  Estevao Reis, Pedro Haick e Tomás Veloso| |
-| 19/08/2021 | 0.2 | Criação do documento |  Estevao Reis, Pedro Haick e Tomás Veloso| |
+| 19/08/2021 | 0.2 | Criação do documento |  Estevao Reis, Pedro Haick e Tomás Veloso| Giovana Dionisio |
  
