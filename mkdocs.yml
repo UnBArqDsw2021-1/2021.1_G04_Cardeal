@@ -50,6 +50,7 @@ nav:
         - Extras:
           - Diagrama de Casos de Uso: modelagem/diagrama_casos_de_uso.md
           - Identidade visual: modelagem/identidadeVisual.md
+          - Protótipo de Alta Fidelidade: modelagem/prototipo_alta.md
           - Debate - Identidade visual: modelagem/debateIdentidadeVisual.md
           - Diagrama Relacional: diagramaRelacional/diagrama_relacional.md
           - Correções: modelagem/correcoes_E1.md

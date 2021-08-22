@@ -92,7 +92,7 @@
 
 * [Google Forms: Crie lindos formulários](https://fonts.google.com/specimen/Sora?query=sora), acessado dia 18 de agosto de 2021.
 
-* [Figma: the collaborative interface design tool.](https://www.figma.com), acessado dia 18 de agosto de 2021.
+* [Figma: the collaborative interface design tool](https://www.figma.com), acessado dia 18 de agosto de 2021.
 
 ## 6. Versionamento 
 
