@@ -18,7 +18,7 @@ reuniões com clientes ou em equipes de desenvolvimento. Se apoia na atividade d
 ## 3. Resultados
 A idéia desse Rich Picture foi buscar representar o sistema e a interação dele com os possíveis usuários, desde clientes que desejam comprar ou alugar uma residência, até os corretores que ficarão responsáveis pelo gerenciamento da plataforma.
 
-### 3.1 Rich Picture dos entegrantes da Equipe
+### 3.1 Rich Picture dos integrantes da Equipe
 #### Bruno Nunes
 ![Bruno Nunes](./RichPicture/rich-picture-bruno.jpeg)
 #### Douglas Farias

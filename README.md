@@ -14,7 +14,7 @@
 | 15/0129866  |  Igor Araújo de Sousa | [@zero101010](https://github.com/zero101010) |
 | 17/0150747  |  Marcos Vinícius Rodrigues da Conceição | [@marcos-mv](https://github.com/marcos-mv) |
 | 18/0129147  |  Pedro de Miranda Haick | [@peHaick](https://github.com/peHaick) |
-| 18/0138596  |  Luiz Gustavo Dias Paes Pinheiro | [@PinheiroLG](https://github.com/PinheiroLG) |
+| 14/0169784  |  Luiz Gustavo Dias Paes Pinheiro | [@PinheiroLG](https://github.com/PinheiroLG) |
 | 18/0138596  |  Tomás Veloso Peixoto Matutino | [@tomasvelos0](https://github.com/tomasvelos0) |
 
 ## Sobre 
@@ -80,7 +80,11 @@ Deve estar na versão: version 1.2.2
 
 3 - Após a instalação do mkdocs, é preciso instalar o nosso tema, utilizando o comando:
 
-```pip install mkdocs-gitbook```
+```pip install mkdocs-material```
+
+```pip install mkdocs-material-extensions```
+
+```pip install mkdocs-awesome-pages-plugin```
 
 4 - Para iniciar a página de documentação do projeto, entre no local onde a pasta do projeto foi clonada e execute o comando:
 
