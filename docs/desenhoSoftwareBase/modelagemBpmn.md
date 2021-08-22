@@ -37,3 +37,4 @@
 | 1.5 | 03/08/2021 | Adição da modelagem do Planejamento da Sprint  | Douglas Castro |
 | 1.6 | 04/08/2021 | Atualização da Metodologia e correção nas imagens das modelagens | Douglas Castro |
 | 1.7 | 04/08/2021   | Padronização do documento       | Bruno Nunes e Marcos Rodrigues    |
+| 1.8 | 04/08/2021   | Correções no documento | Douglas Castro |
