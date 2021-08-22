@@ -40,6 +40,7 @@ nav:
         - Notação UML – Diagramas Estáticos:
           - Diagrama de Classes: modelagem/diagrama_classes.md
         - Notação UML – Diagramas Dinâmicos:
+          - Diagrama de Sequência: modelagem/diagrama_sequencia.md
           - Diagrama de Atividades: modelagem/diagrama_atividades.md
           - Diagrama de Classe Abstrata: modelagem/diagrama_abstrata.md
         - Modelagem Ágil:
@@ -52,7 +53,6 @@ nav:
           - Correções: modelagem/correcoes_E1.md
         - Atas:
           - 13/08/2021: Atas/13-08-2021.md
-
 extra_css:
   - stylesheets/extra.css
 
