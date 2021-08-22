@@ -28,7 +28,7 @@
 * [UFM: GlossarioUML](https://homepages.dcc.ufmg.br/~amendes/GlossarioUML/glossario/conteudo/pacotes/pacote.htm), acessado dia 20 de agosto de 2021.
 
 
-> VALENTE, Marco. **Engenharia de Software Moderna**. Princípios e práticas para desenvolvimento de software com produtividade. Belo Horizonte, 10 de fevereiro de 2020.
+* VALENTE, Marco. **Engenharia de Software Moderna**. Princípios e práticas para desenvolvimento de software com produtividade. Belo Horizonte, 10 de fevereiro de 2020.
 
 * Rodrigues Barcelar, Ricardo. **Engenharia de Software Moderna**. Modelagem de Sistemas Orientada a Objetos com UML.
 
