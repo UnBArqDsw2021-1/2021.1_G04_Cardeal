@@ -12,11 +12,11 @@ Os diagramas foram elaborados através da ferramenta [draw.io](https://app.diagr
 
 ## 4. Diagramas
 ### 4.1 Interação do Usuário
-[![img](https://i.ibb.co/SwTWjzx/Diagramas-de-Sequ-ncia-Page-2.png)](https://i.ibb.co/SwTWjzx/Diagramas-de-Sequ-ncia-Page-2.png)  
+[![img](https://i.ibb.co/jZfpVgZ/Diagramas-de-Sequ-ncia-Page-2.png)](https://i.ibb.co/jZfpVgZ/Diagramas-de-Sequ-ncia-Page-2.png)  
 _Autor: Giovana Dionisio_
 
 ### 4.2 Operações com Anúncios
-[![img](https://i.ibb.co/sC7Y39J/Diagramas-de-Sequ-ncia-Page-1.png)](https://i.ibb.co/sC7Y39J/Diagramas-de-Sequ-ncia-Page-1.png)  
+[![img](https://i.ibb.co/qspkrB1/Diagramas-de-Sequ-ncia-Page-1.png)](https://i.ibb.co/qspkrB1/Diagramas-de-Sequ-ncia-Page-1.png)  
 _Autor: Giovana Dionisio_
 
 ## 4. Bibliografia
@@ -38,4 +38,5 @@ VENTURA, Plínio. Entendendo o Diagrama de Sequência da UML. Até o Momento, 20
 | 17/08/2021 | 1.0    | Estrutura e adição dos diagramas         | Giovana Dionisio  |
 | 18/08/2021 | 2.0    | Adição de conteúdo                       | Giovana Dionisio  |
 | 19/08/2021 | 3.0    | Correção na formatação                   | Giovana Dionisio  |
-| 20/08/2021 |          | Revisado por                                     | Gustavo Moreira  |
+| 22/08/2021 | 4.0    | Correção em nomenclaturas nos diagramas  | Gustavo Moreira   |
+| 22/08/2021 |        | Revisado por                             | Gustavo Moreira   |
