@@ -32,7 +32,7 @@
 
 * Rodrigues Barcelar, Ricardo. **Engenharia de Software Moderna**. Modelagem de Sistemas Orientada a Objetos com UML.
 
-> **UML - Unified**. Linguagem de Modelagem Unificada em Português.
+* **UML - Unified**. Linguagem de Modelagem Unificada em Português.
 
 ## 5.Versionamento
 
