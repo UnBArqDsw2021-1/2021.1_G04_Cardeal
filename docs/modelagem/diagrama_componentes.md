@@ -14,10 +14,7 @@ Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
 
 ## 3.Diagrama
 
-![Diagrama de Componentes](/modelagem/img/diagramaComponentes.jpeg/)
-
-
-<center>[Diagrama de Componentes 0.1](/modelagem/img/diagramaComponentes.jpeg/)</center>
+[![img](https://i.ibb.co/zZc8K2s/diagrama-Componentes.jpg)](https://i.ibb.co/zZc8K2s/diagrama-Componentes.jpg) 
 
 
 ## 4.Referência
