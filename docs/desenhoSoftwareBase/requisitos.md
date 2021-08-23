@@ -1,6 +1,6 @@
 ## 1. Introdução
 
-<p align="justify"> Este documento tem o objetivo de deixar explicito a dependência entre os requisitos para no contexto do projeto Cardeal. Neste documento será o identificado o problema, relaciona-lo as necessidades e os requisitos
+Este documento tem o objetivo de deixar explicito a dependência entre os requisitos para no contexto do projeto Cardeal. Neste documento será o identificado o problema, relaciona-lo as necessidades e os requisitos
 
 ## 2. Abreviações
 
