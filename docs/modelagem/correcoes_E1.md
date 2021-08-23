@@ -28,8 +28,12 @@
 - Os nome das atividades e subprocessos foram revistos e trocados por verbos no infinitivo;
 - Foram incluídas as semânticas dos gateways.
 
-### 1.5. Modelagem BPMN
-- Foram feitas correções solitadas pela professora referente ao documento [Rich Picture](../desenhoSoftwareBase/richPicture.md) em relação as referências utilizadas, sitações no texto, melhora no embasamento teórico e adição de elos com outros artefatos 
+### 1.5. Rich Picture
+Foram feitas as seguintes correções solitadas pela professora referente ao documento [Rich Picture](../desenhoSoftwareBase/richPicture.md):
+- Referências utilizadas
+- Citações no texto
+- melhora no embasamento teórico -
+- adição de elos e lincagem com outros artefatos 
 ## 2. Versionamento
 | Data       | Versão | Descrição                                             | Autores          |
 | ---------- | ------ | ---------------------------------                     | ---------------- |
@@ -38,4 +42,4 @@
 | 21/08/2021 | 0.3    | Adição das Correções do Protótipo de Baixa Fidelidade | Pedro Haick      |
 | 21/08/2021 | 0.4    | Adição das Correções da Design Sprint                 | Pedro Haick      |
 | 22/08/2021 | 0.5    | Adição das correções no documento de Modelagem BPMN   | Douglas Castro |
-| 22/08/2021 |  0.6   | Correção do Rich Picture                              | Estevao Reis|
+| 22/08/2021 |  1.0  | Correção do Rich Picture                              | Estevao Reis|
