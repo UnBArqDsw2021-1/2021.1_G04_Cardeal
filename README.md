@@ -36,6 +36,15 @@ https://drive.google.com/file/d/1UDwwgw3X94OJ59j6FCQYXQfpk-eBe73a/preview
 https://drive.google.com/file/d/1amyyFE3ptUVjyf4e1vfkac_KyzSmKR6N/preview 
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
+
+### Diagrama de Classes
+![diagrama](https://i.imgur.com/zNwVOKz.png)
+### Diagrama de Componentes
+![Giagrama de Componentes](./docs/modelagem/img/diagramaComponentes.jpeg)
+
+### Diagrama de Pacotes
+![Diagrama-de-Pacotes](./docs/desenhoSoftwareBase/img/diagrama_pacotes.png)
+
 ### Diagrama de atividades
 #### Editar Imóvel
 ![Diagrama de atividades](./docs/modelagem/diagramas_de_atividade/editar_imóvel.svg)
