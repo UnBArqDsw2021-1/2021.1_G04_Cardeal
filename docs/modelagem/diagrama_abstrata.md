@@ -20,16 +20,17 @@ Uma classe e operações abstrata podem ser mostradas seja por uma etiqueta {abs
 
 Com a criação dessa classe abstrata **Pessoa** para especializar as classes **Cliente**, **Corretor** e **Proprietário**, vimos que temos um controle de redundância em relação da criação de atributos e métodos repetidos e também coesão do código [2]. Sendo possível adicionar posteriormente no projeto outras abstrações de classes caso necessário.
 
-## 5. Versionamento
+## 5. Referências 
+
+> [1] LARMAN, Craig. Utilizando UML e padrões : uma introdução à análise e ao projeto orientados a objeto e ao desenvolvimento iterativo. 3.ed. Porto Alegre : Bookman, 2007. 
+
+> [2] SERRANO, Milene: Arquitetura e Desenho de software. AULA - MODELAGEM UML ESTÁTICA. Acessado em 19/08/2021
+
+## 6. Versionamento
 
 |Data | Versão | Descrição | Autor(es)|
 | :--: | :--: | -- | :--: |
 | 20/08/2021 | 1.0 | Criação do documento | [Bruno Nunes](https://github.com/brunocmo) |
 | 21/08/2021 | 1.1 | Adição da imagem do diagrama | [Bruno Nunes](https://github.com/brunocmo) |
 | 21/08/2021 | 1.2 | Revisão e Padronização do Documento | [Pedro Haick](https://github.com/peHaick) | 
-
-## 6. Referências 
-
-> [1] LARMAN, Craig. Utilizando UML e padrões : uma introdução à análise e ao projeto orientados a objeto e ao desenvolvimento iterativo. 3.ed. Porto Alegre : Bookman, 2007. 
-
-> [2] SERRANO, Milene: Arquitetura e Desenho de software. AULA - MODELAGEM UML ESTÁTICA. Acessado em 19/08/2021
+| 23/08/2021 | 1.2 | Mudaça de ordem na indexação | [Bruno Nunes](https://github.com/brunocmo) | 
