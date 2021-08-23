@@ -224,6 +224,10 @@ Uma reunião pode efetuar nenhum ou um só INQUILINO e um INQUILINO só pode ser
 
 <br>
 
+### 2.6 Código SQL
+[Código](../assets/cardeal_logico.sql)
+
+
 ## 3.Conclusão
 
 Com esses diagramas, temos então uma ideia geral de como serão guardado os dados na aplicação. Sendo ela posteriormente modificada gradativamente para atender melhor o Sistema Gerenciador de Banco de Dados que será utilizado na solução computacional do projeto. 
@@ -243,3 +247,4 @@ Com esses diagramas, temos então uma ideia geral de como serão guardado os dad
 | 20/08/2021 |  0.3   | Modificação nos arquivos brModelo, <br> imagens e adição do dicionario de dados | Bruno Nunes e Marcos Vinicius |
 | 21/08/2021 |  0.4   | Revisão do documento | Tomás Veloso |
 | 20/08/2021 |  0.5   | Consertar indexação | Bruno Nunes, Marcos Vinicius |
+| 20/08/2021 |  0.6   | Atualizar código SQL| Igor, Marcos Vinicius |
