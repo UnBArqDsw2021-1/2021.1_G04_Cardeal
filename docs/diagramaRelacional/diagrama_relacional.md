@@ -10,7 +10,8 @@ O modelo relacional é um modelo de dados representativo, adequado a ser o model
 
 <li> Começamos com o modelo entidade-relacionamento (ME-R), que primeiramente é definida por suas entidades, sendo elas um conjunto de objetos que se guardam dados que são importantes para o mundo real. Em seguida definimos os atributos, onde define as características dessas entidades. E finalmente terminamos com o relaciomento que é um conjunto de associações entre as entidades. </li>
 <li> Depois é projetado o diagrama entidade-relaciomento (DE-R), que representa graficamente uma estrutura lógica geral do banco de dados.  </li>
-<li> E por final temos então a geração do diagrama lógico de dados (DLD), que representa graficamente por tabelas e relações com cada uma delas. </li>
+<li> Assim temos então a geração do diagrama lógico de dados (DLD), que representa graficamente por tabelas e relações com cada uma delas. </li>
+<li> E por final temos então o dicionário de dados que ajuda na identificação dos atributos em cada tabela. </li>
 </ol>
 ### 2.2 Modelo Entidade-Relacionamento
 
@@ -246,5 +247,6 @@ Com esses diagramas, temos então uma ideia geral de como serão guardado os dad
 | 19/08/2021 |  0.2   | Mudança de atributos das entidades | Igor Araujo |
 | 20/08/2021 |  0.3   | Modificação nos arquivos brModelo, <br> imagens e adição do dicionario de dados | Bruno Nunes e Marcos Vinicius |
 | 21/08/2021 |  0.4   | Revisão do documento | Tomás Veloso |
-| 20/08/2021 |  0.5   | Consertar indexação | Bruno Nunes, Marcos Vinicius |
-| 20/08/2021 |  0.6   | Atualizar código SQL| Igor, Marcos Vinicius |
+| 21/08/2021 |  0.5   | Consertar indexação | Bruno Nunes, Marcos Vinicius |
+| 22/08/2021 |  0.6   | Atualizar código SQL | Igor, Marcos Vinicius |
+| 22/08/2021 |  0.6   | Correção Metodologia | Bruno Nunes |
