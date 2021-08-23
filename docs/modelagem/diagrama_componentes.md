@@ -18,7 +18,7 @@ Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
 
 
 ## 4.Referência
-> [UML Component Diagrams](https://www.uml-diagrams.org/component-diagrams.html). Acessado em 22/08/2021
+* [UML Component Diagrams](https://www.uml-diagrams.org/component-diagrams.html). Acessado em 22/08/2021
 
 * [What is Component Diagram?](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-component-diagram/). Acessado em 22/08/2021
 
