@@ -55,6 +55,7 @@ nav:
           - Debate - Identidade visual: modelagem/debateIdentidadeVisual.md
           - Diagrama Relacional: diagramaRelacional/diagrama_relacional.md
           - Correções: modelagem/correcoes_E1.md
+          - Requisitos: desenhoSoftwareBase/requisitos.md
         - Atas:
           - 13/08/2021: Atas/13-08-2021.md
 extra_css:
