@@ -36,7 +36,9 @@ https://drive.google.com/file/d/1UDwwgw3X94OJ59j6FCQYXQfpk-eBe73a/preview
 https://drive.google.com/file/d/1amyyFE3ptUVjyf4e1vfkac_KyzSmKR6N/preview 
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
+### Diagrama de atividades
+#### Editar Imóvel
+![Diagrama de atividades](./docs/modelagem/diagramas_de_atividade/editar_imóvel.svg)
 
 ## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
 Adicione o(s)s vídeo(s) da Segunda Entrega.
