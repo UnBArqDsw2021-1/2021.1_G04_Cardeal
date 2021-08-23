@@ -46,6 +46,7 @@ nav:
           - Diagrama de Atividades: modelagem/diagrama_atividades.md
           - Diagrama de Classe Abstrata: modelagem/diagrama_abstrata.md
           - Diagrama de Comunicação: modelagem/diagrama_comunicacao.md
+          - Diagrama de Estados: modelagem/diagrama_estados.md
         - 2.1.3 Modelagem Ágil:
           - Backlog do Produto: modelagem/backlog_do_produto.md
         - Extras:
