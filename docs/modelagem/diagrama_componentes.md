@@ -20,13 +20,13 @@ Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
 ## 4.Referência
 > [UML Component Diagrams](https://www.uml-diagrams.org/component-diagrams.html). Acessado em 22/08/2021
 
-> [What is Component Diagram?](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-component-diagram/). Acessado em 22/08/2021
+* [What is Component Diagram?](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-component-diagram/). Acessado em 22/08/2021
 
-> [UML 2 Tutorial - Component Diagram](https://sparxsystems.com/resources/tutorials/uml2/component-diagram.html) . Acessado em 22/08/2021
+* [UML 2 Tutorial - Component Diagram](https://sparxsystems.com/resources/tutorials/uml2/component-diagram.html) . Acessado em 22/08/2021
 
-> [UML 2 Component Diagramming Guidelines](http://www.agilemodeling.com/style/componentDiagram.htm) . Acessado em 22/08/2021
+* [UML 2 Component Diagramming Guidelines](http://www.agilemodeling.com/style/componentDiagram.htm) . Acessado em 22/08/2021
 
-> Ambler, Scott (2004). [The Object Primer 3rd Edition: Agile Model Driven Development with UML 2. Cambridge University Press](http://www.ambysoft.com/books/theObjectPrimer.html). Acessado em 22/08/2021
+* Ambler, Scott (2004). [The Object Primer 3rd Edition: Agile Model Driven Development with UML 2. Cambridge University Press](http://www.ambysoft.com/books/theObjectPrimer.html). Acessado em 22/08/2021
 
 
 
