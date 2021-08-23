@@ -20,5 +20,5 @@ Foi utilizado a plataforma [Draw.io](https://drive.google.com/file/d/1dt8ggdwC1a
 
 | Data       | Versão | Descrição                         | Autores     |
 | ---------- | ------ | --------------------------------- | ----------- |
-| 17/08/2021 |  0.1   | Criação e elaboração do documento | Estevao Reis|
+| 17/08/2021 |  0.1   | Criação e elaboração do documento | Estevao Reis e Igor |
 | 19/08/2021 |  0.2   | Criação e validação do Diagrama   | Estevao Reis, Igor Araujo, Bruno Nunes, Douglas Farias, Giovana Vitor, Gustavo D.,  Marcos C., Luiz Pinheiro, Tomás Veloso, Pedro Haick|
