@@ -72,7 +72,7 @@
 
 <h6 align = "center">Figura 4 - Participantes da enquete, versão 1.0.</h6>
 
-![Sora](../desenhoSoftwareBase/img/IdentidadeVisual/resultadoCor.png)
+![Sora](../desenhoSoftwareBase/img/IdentidadeVisual/nomes.png)
 
 <h6 align = "center">Fonte: Site <a href="https://www.google.com/intl/pt-BR/forms/about/" target="_blank">Google Forms</a></h6></br>
 
