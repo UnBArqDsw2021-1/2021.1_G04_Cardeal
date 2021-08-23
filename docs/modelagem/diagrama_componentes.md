@@ -34,4 +34,5 @@ Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
 
 | Data       | Versão | Descrição                         | Autores     |
 | ---------- | ------ | --------------------------------- | ----------- |
-| 22/08/2021 |  0.1   | Criação e elaboração do documento | Marcos Vinícius |
+| 22/08/2021 |  1.0   | Criação e elaboração do documento | Marcos Vinícius |
+| 23/08/2021 |  2.0   | Correção do endreço da imagem e revisão | Gustavo Moreira |
