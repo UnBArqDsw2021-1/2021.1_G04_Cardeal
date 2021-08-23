@@ -37,16 +37,16 @@ nav:
         - 05/08/2021: Atas/05-08-2021.md
   - 2. Desenho de Software (Modelagem):
     - 2.1 Módulo Projeto Orientado a Abordagens Tradicionais:
-        - Notação UML – Diagramas Estáticos:
+        - 2.1.1 Notação UML – Diagramas Estáticos:
           - Diagrama de Classes: modelagem/diagrama_classes.md
           - Diagrama de Componentes: modelagem/diagrama_componentes.md
           - Diagrama de Pacotes: modelagem/diagrama_pacotes.md
-        - Notação UML – Diagramas Dinâmicos:
+        - 2.1.2 Notação UML – Diagramas Dinâmicos:
           - Diagrama de Sequência: modelagem/diagrama_sequencia.md
           - Diagrama de Atividades: modelagem/diagrama_atividades.md
           - Diagrama de Classe Abstrata: modelagem/diagrama_abstrata.md
           - Diagrama de Comunicação: modelagem/diagrama_comunicacao.md
-        - Modelagem Ágil:
+        - 2.1.3 Modelagem Ágil:
           - Backlog do Produto: modelagem/backlog_do_produto.md
         - Extras:
           - Diagrama de Casos de Uso: modelagem/diagrama_casos_de_uso.md
