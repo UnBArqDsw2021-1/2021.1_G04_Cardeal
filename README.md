@@ -51,7 +51,9 @@ https://drive.google.com/file/d/1amyyFE3ptUVjyf4e1vfkac_KyzSmKR6N/preview
 
 ## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
 [Notação UML – Diagramas Estáticos](https://youtu.be/2ntMRX4Njvs)
+
 [Notação UML – Diagramas Dinâmicos](https://youtu.be/O4vlXzG3z3M)
+
 [Modelagem Ágil + iniciativas extras](https://youtu.be/7kLH5GGu5mU)
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
