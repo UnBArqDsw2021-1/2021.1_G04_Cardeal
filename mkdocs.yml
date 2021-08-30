@@ -6,7 +6,7 @@ nav:
   - Home: index.md
   - Apresentações: apresentacoes.md
   - 1. Desenho de Sofware(Base):
-    - 1.1 Módulo Projeto Não Orientado a Abordagem Específicas:
+    - 1.1 Projeto Não Orientado a Abordagem Específicas:
       - Design Sprint: desenhoSoftwareBase/designSprint.md
       - Protótipo: desenhoSoftwareBase/prototipo.md
       - Pŕe-rastreabilidade:
@@ -18,7 +18,7 @@ nav:
         - Brainstorm: desenhoSoftwareBase/brainstorm.md
         - Léxico: desenhoSoftwareBase/lexico.md
         - Estimativas: desenhoSoftwareBase/estimativas.md
-    - 1.2 Módulo Processos/Metodologias /Abordagens:
+    - 1.2 Processos/Metodologias /Abordagens:
       - Metodologia: desenhoSoftwareBase/metodologia.md
       - Modelagem BPMN: desenhoSoftwareBase/modelagemBpmn.md
     - Extras:
@@ -36,7 +36,7 @@ nav:
         - 04/08/2021: Atas/04-08-2021.md
         - 05/08/2021: Atas/05-08-2021.md
   - 2. Desenho de Software (Modelagem):
-    - 2.1 Módulo Projeto Orientado a Abordagens Tradicionais:
+    - 2.1 Projeto Orientado a Abordagens Tradicionais:
         - 2.1.1 Notação UML – Diagramas Estáticos:
           - Diagrama de Classes: modelagem/diagrama_classes.md
           - Diagrama de Classe Abstrata: modelagem/diagrama_abstrata.md
@@ -59,6 +59,19 @@ nav:
           - Requisitos: desenhoSoftwareBase/requisitos.md
         - Atas:
           - 13/08/2021: Atas/13-08-2021.md
+  - 3. Desenho de Software (Padrões de Projeto):
+    - 3.1. Padrões de Projeto GRASPs:
+        - GRASPs: padroesDeProjeto/GRASPs.md
+    - 3.2. Padrões de Projeto GoFs:
+        - Gofs: padroesDeProjeto/gofs.md
+        - Gofs Criacionais: padroesDeProjeto/gofs_criacionais.md
+        - Gofs Estruturais: padroesDeProjeto/gofs_estruturais.md
+        - Gofs Comportamentais: padroesDeProjeto/gofs_comportamentais.md
+    - 3.3. Padrões de Projeto Extras:
+        - Padrão Emergente: padroesDeProjeto/padraoEmergente.md
+    - Extras:
+        - Atas:
+          - 30/08/2021: padroesDeProjeto/atas/30-08-21.md
 extra_css:
   - stylesheets/extra.css
 
