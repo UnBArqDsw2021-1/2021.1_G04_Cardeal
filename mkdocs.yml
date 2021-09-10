@@ -70,6 +70,7 @@ nav:
       - 3.3. Padrões de Projeto Extras:
           - Padrão Emergente: padroesDeProjeto/padraoEmergente.md
       - Extras:
+          - Correções: padroesDeProjeto/correcoes_E2.md
           - Atas:
               - 30/08/2021: padroesDeProjeto/atas/30-08-21.md
 extra_css:
@@ -115,3 +116,7 @@ plugins:
 
 markdown_extensions:
   - attr_list
+  - pymdownx.emoji:
+      options:
+        custom_icons:
+          - overrides/.icons
