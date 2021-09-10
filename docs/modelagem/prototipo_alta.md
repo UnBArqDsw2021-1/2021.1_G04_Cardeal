@@ -6,7 +6,7 @@
 
 ## 2. Metodologia
 
-<p align = "justify">Para desenvolver o protótipo de alta fidelidade, os integrantes do grupo Estevão Reis, Pedro Haick e Tomás Veloso, se reuniram para definir e desenvolvê-lo. Para desenvolver o protótipo, os integrantes do grupo consultaram os documentos de [Brainstorm](../desenhoSoftwareBase/brainstorm.md), [Rich Picture](../desenhoSoftwareBase/richPicture.md) e [Identidade Visual](./identidadeVisual.md). Baseado nesses documentos foi desenvolvido, no software de prototipação <a href="https://www.figma.com/" target="_blank">Figma</a>, o protótipo de alta fidelidade. Após o desenvolvimento completo de todas as telas, foram enviadas a todos os membros da equipe as imagens do protótipo, com a finalidade de validar todo o trabalho. Com todos os membros da equipe satisfeitos com o resultado, foi concluída a tarefa de prototipação do site.</p>
+Para desenvolver o protótipo de alta fidelidade, os integrantes do grupo Estevão Reis, Pedro Haick e Tomás Veloso, se reuniram para definir e desenvolvê-lo. Para desenvolver o protótipo, os integrantes do grupo consultaram os documentos de [Brainstorm](../desenhoSoftwareBase/brainstorm.md), [Rich Picture](../desenhoSoftwareBase/richPicture.md) e [Identidade Visual](./identidadeVisual.md). Baseado nesses documentos foi desenvolvido, no software de prototipação <a href="https://www.figma.com/" target="_blank">Figma</a>, o protótipo de alta fidelidade. Após o desenvolvimento completo de todas as telas, foram enviadas a todos os membros da equipe as imagens do protótipo, com a finalidade de validar todo o trabalho. Com todos os membros da equipe satisfeitos com o resultado, foi concluída a tarefa de prototipação do site.
 
 ## 3. Resultados
 
