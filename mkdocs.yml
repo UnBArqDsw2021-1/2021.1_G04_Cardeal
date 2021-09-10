@@ -6,73 +6,74 @@ nav:
   - Home: index.md
   - Apresentações: apresentacoes.md
   - 1. Desenho de Sofware(Base):
-    - 1.1 Projeto Não Orientado a Abordagem Específicas:
-      - Design Sprint: desenhoSoftwareBase/designSprint.md
-      - Protótipo: desenhoSoftwareBase/prototipo.md
-      - Pŕe-rastreabilidade:
-        - 5W2H: desenhoSoftwareBase/5W2H.md
-        - Causa e efeito: desenhoSoftwareBase/causaEfeito.md
-        - Rich Picture: desenhoSoftwareBase/richPicture.md
-      - Elicitação de requisitos:
-        - Storyboard: desenhoSoftwareBase/storyboard.md
-        - Brainstorm: desenhoSoftwareBase/brainstorm.md
-        - Léxico: desenhoSoftwareBase/lexico.md
-        - Estimativas: desenhoSoftwareBase/estimativas.md
-    - 1.2 Processos/Metodologias /Abordagens:
-      - Metodologia: desenhoSoftwareBase/metodologia.md
-      - Modelagem BPMN: desenhoSoftwareBase/modelagemBpmn.md
-    - Extras:
-      - Documento de Visão: desenhoSoftwareBase/documento-de-visao.md
-      - Horários disponiveis: horarioGrupo/horarioGrupo.md
-      - Política do Repositório:
-        - Políticas de Branch: desenhoSoftwareBase/politicas/politicasBranch.md
-        - Políticas de Issue: desenhoSoftwareBase/politicas/politicasIssue.md
-        - Políticas de Pull Request: desenhoSoftwareBase/politicas/politicasPR.md
-        - Políticas de Commit: desenhoSoftwareBase/politicas/politicasCommits.md
-      - Atas:
-        - 27/07/2021: Atas/27-07-2021.md
-        - 30/07/2021: Atas/30-07-2021.md
-        - 02/08/2021: Atas/02-08-2021.md
-        - 04/08/2021: Atas/04-08-2021.md
-        - 05/08/2021: Atas/05-08-2021.md
+      - 1.1 Projeto Não Orientado a Abordagem Específicas:
+          - Design Sprint: desenhoSoftwareBase/designSprint.md
+          - Protótipo: desenhoSoftwareBase/prototipo.md
+          - Pŕe-rastreabilidade:
+              - 5W2H: desenhoSoftwareBase/5W2H.md
+              - Causa e efeito: desenhoSoftwareBase/causaEfeito.md
+              - Rich Picture: desenhoSoftwareBase/richPicture.md
+          - Elicitação de requisitos:
+              - Storyboard: desenhoSoftwareBase/storyboard.md
+              - Brainstorm: desenhoSoftwareBase/brainstorm.md
+              - Léxico: desenhoSoftwareBase/lexico.md
+              - Estimativas: desenhoSoftwareBase/estimativas.md
+      - 1.2 Processos/Metodologias /Abordagens:
+          - Metodologia: desenhoSoftwareBase/metodologia.md
+          - Modelagem BPMN: desenhoSoftwareBase/modelagemBpmn.md
+      - Extras:
+          - Documento de Visão: desenhoSoftwareBase/documento-de-visao.md
+          - Horários disponiveis: horarioGrupo/horarioGrupo.md
+          - Política do Repositório:
+              - Políticas de Branch: desenhoSoftwareBase/politicas/politicasBranch.md
+              - Políticas de Issue: desenhoSoftwareBase/politicas/politicasIssue.md
+              - Políticas de Pull Request: desenhoSoftwareBase/politicas/politicasPR.md
+              - Políticas de Commit: desenhoSoftwareBase/politicas/politicasCommits.md
+          - Atas:
+              - 27/07/2021: Atas/27-07-2021.md
+              - 30/07/2021: Atas/30-07-2021.md
+              - 02/08/2021: Atas/02-08-2021.md
+              - 04/08/2021: Atas/04-08-2021.md
+              - 05/08/2021: Atas/05-08-2021.md
   - 2. Desenho de Software (Modelagem):
-    - 2.1 Projeto Orientado a Abordagens Tradicionais:
-        - 2.1.1 Notação UML – Diagramas Estáticos:
-          - Diagrama de Classes: modelagem/diagrama_classes.md
-          - Diagrama de Classe Abstrata: modelagem/diagrama_abstrata.md
-          - Diagrama de Pacotes: modelagem/diagrama_pacotes.md
-          - Diagrama de Componentes: modelagem/diagrama_componentes.md
-        - 2.1.2 Notação UML – Diagramas Dinâmicos:
-          - Diagrama de Sequência: modelagem/diagrama_sequencia.md
-          - Diagrama de Comunicação: modelagem/diagrama_comunicacao.md
-          - Diagrama de Atividades: modelagem/diagrama_atividades.md
-          - Diagrama de Estados: modelagem/diagrama_estados.md
-        - 2.1.3 Modelagem Ágil:
-          - Backlog do Produto: modelagem/backlog_do_produto.md
-        - Extras:
-          - Diagrama de Casos de Uso: modelagem/diagrama_casos_de_uso.md
-          - Identidade visual: modelagem/identidadeVisual.md
-          - Protótipo de Alta Fidelidade: modelagem/prototipo_alta.md
-          - Debate - Identidade visual: modelagem/debateIdentidadeVisual.md
-          - Diagrama Relacional: diagramaRelacional/diagrama_relacional.md
-          - Correções: modelagem/correcoes_E1.md
-          - Requisitos: desenhoSoftwareBase/requisitos.md
-        - Atas:
-          - 13/08/2021: Atas/13-08-2021.md
+      - 2.1 Projeto Orientado a Abordagens Tradicionais:
+          - 2.1.1 Notação UML – Diagramas Estáticos:
+              - Diagrama de Classes: modelagem/diagrama_classes.md
+              - Diagrama de Classe Abstrata: modelagem/diagrama_abstrata.md
+              - Diagrama de Pacotes: modelagem/diagrama_pacotes.md
+              - Diagrama de Componentes: modelagem/diagrama_componentes.md
+          - 2.1.2 Notação UML – Diagramas Dinâmicos:
+              - Diagrama de Sequência: modelagem/diagrama_sequencia.md
+              - Diagrama de Comunicação: modelagem/diagrama_comunicacao.md
+              - Diagrama de Atividades: modelagem/diagrama_atividades.md
+              - Diagrama de Estados: modelagem/diagrama_estados.md
+          - 2.1.3 Modelagem Ágil:
+              - Backlog do Produto: modelagem/backlog_do_produto.md
+          - Extras:
+              - Diagrama de Casos de Uso: modelagem/diagrama_casos_de_uso.md
+              - Identidade visual: modelagem/identidadeVisual.md
+              - Protótipo de Alta Fidelidade: modelagem/prototipo_alta.md
+              - Debate - Identidade visual: modelagem/debateIdentidadeVisual.md
+              - Diagrama Relacional: diagramaRelacional/diagrama_relacional.md
+              - Correções: modelagem/correcoes_E1.md
+              - Requisitos: desenhoSoftwareBase/requisitos.md
+          - Atas:
+              - 13/08/2021: Atas/13-08-2021.md
   - 3. Desenho de Software (Padrões de Projeto):
-    - 3.1. Padrões de Projeto GRASPs:
-        - GRASPs: padroesDeProjeto/GRASPs.md
-    - 3.2. Padrões de Projeto GoFs:
-        - Gofs: padroesDeProjeto/gofs.md
-        - Gofs Criacionais: padroesDeProjeto/gofs_criacionais.md
-        - Gofs Estruturais: padroesDeProjeto/gofs_estruturais.md
-        - Gofs Comportamentais: padroesDeProjeto/gofs_comportamentais.md
-    - 3.3. Padrões de Projeto Extras:
-        - Padrão Emergente: padroesDeProjeto/padraoEmergente.md
-    - Extras:
-        - Atas:
-          - 30/08/2021: padroesDeProjeto/atas/30-08-21.md
-          - 06/09/2021: padroesDeProjeto/atas/06-09-21.md
+      - 3.1. Padrões de Projeto GRASPs:
+          - GRASPs: padroesDeProjeto/GRASPs.md
+      - 3.2. Padrões de Projeto GoFs:
+          - Gofs: padroesDeProjeto/gofs.md
+          - Gofs Criacionais: padroesDeProjeto/gofs_criacionais.md
+          - Gofs Estruturais: padroesDeProjeto/gofs_estruturais.md
+          - Gofs Comportamentais: padroesDeProjeto/gofs_comportamentais.md
+      - 3.3. Padrões de Projeto Extras:
+          - Padrão Emergente: padroesDeProjeto/padraoEmergente.md
+      - Extras:
+          - Correções: padroesDeProjeto/correcoes_E2.md
+          - Atas:
+              - 30/08/2021: padroesDeProjeto/atas/30-08-21.md
+              - 06/09/2021: padroesDeProjeto/atas/06-09-21.md
 extra_css:
   - stylesheets/extra.css
 
@@ -81,12 +82,12 @@ theme:
   font:
     text: Sora
   palette:
-      scheme: cardeal
-      accent: red
+    scheme: cardeal
+    accent: red
   language: pt
   logo: assets/Icon.png
   favicon: assets/Icon.png
-  icon: 
+  icon:
     repo: fontawesome/brands/github
 
   features:
@@ -105,7 +106,6 @@ theme:
     - search.suggest
     # - toc.integrate
 
-
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -114,3 +114,10 @@ extra:
 plugins:
   - search
   - awesome-pages
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      options:
+        custom_icons:
+          - overrides/.icons
