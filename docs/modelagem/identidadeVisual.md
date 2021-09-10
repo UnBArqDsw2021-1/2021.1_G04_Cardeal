@@ -14,7 +14,9 @@
 
 <h6 align = "center">Figura 1 - Logo, versão 1.0.</h6>
 
-![Logo](../desenhoSoftwareBase/img/IdentidadeVisual/logo.png)
+<!-- ![Logo](../desenhoSoftwareBase/img/IdentidadeVisual/logo.png) -->
+
+[![Logo](../desenhoSoftwareBase/img/IdentidadeVisual/logo.png)](../desenhoSoftwareBase/img/IdentidadeVisual/logo.png){target=\_blank}
 
 <h6 align = "center">Fonte: Site <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=6%3A6" target="_blank">Figma</a></h6></br>
  
@@ -30,7 +32,7 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 
 <h6 align = "center">Figura 2 - Representação da fonte Sora, versão 1.0.</h6>
 
-![Sora](../desenhoSoftwareBase/img/IdentidadeVisual/sora.png)
+[![Sora](../desenhoSoftwareBase/img/IdentidadeVisual/sora.png)](../desenhoSoftwareBase/img/IdentidadeVisual/sora.png){target=\_blank}
 
 <h6 align = "center">Fonte: Site <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=50%3A5" target="_blank">Figma</a></h6></br>
 
@@ -42,7 +44,9 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 
 <h6 align = "center">Figura 3 - Representação da fonte Lora, versão 1.0.</h6>
 
-![Lora](../desenhoSoftwareBase/img/IdentidadeVisual/lora.png)
+<!-- ![Lora](../desenhoSoftwareBase/img/IdentidadeVisual/lora.png) -->
+
+[![Lora](../desenhoSoftwareBase/img/IdentidadeVisual/lora.png)](../desenhoSoftwareBase/img/IdentidadeVisual/lora.png){target=\_blank}
 
 <h6 align = "center">Fonte: Site <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=50%3A86" target="_blank">Figma</a></h6></br>
 
@@ -109,3 +113,4 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 | 18/08/2021 |  1.0   |         Criação do documento          |                               [Tomás Veloso](https://github.com/tomasvelos0)                               |
 | 18/08/2021 |  1.1   | Debate e escolha da identidade visual | [Todos os membros](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/debateIdentidadeVisual/) |
 | 20/08/2021 |  1.2   |         Revisão do documento          |                                      Douglas Castro e Gustavo Duarte                                       |
+| 10/09/2021 |  1.5   |           Imagens clicáveis           |                               [Tomás Veloso](https://github.com/tomasvelos0)                               |
