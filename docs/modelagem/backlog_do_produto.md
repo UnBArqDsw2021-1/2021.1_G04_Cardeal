@@ -31,6 +31,7 @@ Criação de uma imobiliária digital que possibilite a compra e aluguel de imó
 | :- | :- |
 | F01 | Sistema de CRUD Corretor |
 | F02 | Sistema de CRUD Cliente |
+| F03 | Sistema de CRUD Proprietário |
 
 
 
@@ -39,17 +40,16 @@ Criação de uma imobiliária digital que possibilite a compra e aluguel de imó
 
 |**ID**|**Descrição**|
 | :- | :- |
-| F03 | Sistema de CRUD Imóvel |
-| F04 | Sistema de CRUD Anúncio |
+| F04 | Sistema de CRUD Imóvel |
+| F05 | Mídias do imóvel |
 
 ### **Épico 03 - Sistema de Busca de Imóveis**
 
 
 |**ID**|**Descrição**|
 | :- | :- |
-| F05 | Filtragem de Imóveis |
-| F06 | Listagem de Imóveis|
-| F07 | Listagem dos Imóveis em Destaque |
+| F06 | Filtragem de Imóveis |
+| F07 | Listagem dos imóveis em destaque|
 
 ### **Épico 04 - Comunicação com Corretores**
 
@@ -70,27 +70,29 @@ Criação de uma imobiliária digital que possibilite a compra e aluguel de imó
 | US04 | EP1 | F02 | Eu, como corretor, gostaria de cadastrar um cliente. |
 | US05 | EP1 | F02 | Eu, como corretor, gostaria de atualizar o cadastro do cliente. |
 | US06 | EP1 | F02 | Eu, como corretor, gostaria de deletar um cliente. |
-| US07 | EP2 | F03 | Eu, como corretor, gostaria de cadastrar um imóvel. |
-| US08 | EP2 | F03 | Eu, como corretor, gostaria de atualizar as informações de um imóvel. |
-| US09 | EP2 | F03 | Eu, como corretor, gostaria de deletar um imóvel. |
-| US10 | EP2 | F04 |  Eu, como corretor, gostaria de cadastrar o anúncio de um imóvel na plataforma. |
-| US11 | EP2 | F04 | Eu, como corretor, gostaria de atualizar o anúncio de um imóvel na plataforma. |
-| US12 | EP2 | F04 | Eu, como corretor, gostaria de apagar o anúncio de um imóvel na plataforma. |
-| US13 | EP2 | F04 |  Eu, como usuário(cliente e/ou corretor), gostaria de compartilhar o anúncio de um imóvel para alguma rede social. |
-| US14 | EP3 | F05 | Eu, como usuário(corretor e/ou cliente), gostaria de filtrar imóveis por categorias. |
-| US15 | EP3 | F05 | Eu, como usuário(corretor e/ou cliente), gostaria de filtrar imóveis por localidade. |
-| US16 | EP3 | F06 | Eu , como usuário(corretor e/ou cliente), gostaria de reorganizar a lista de imóveis pelo preço do imóvel. |
-| US17 | EP3 | F06 | Eu, como usuário(corretor e/ou cliente), gostaria de reorganizar a lista de imóveis pelo tamanho do imóvel. |
-| US18 | EP3 | F07 | Eu, como usuário(corretor e/ou cliente), gostaria de visualizar lista de imóveis em destaque por preço do imóvel. |
-| US19 | EP3 | F07 | Eu, como usuário(corretor e/ou cliente), gostaria de visualizar lista de imóveis em destaque pelo tamanho do imóvel. |
-| US20 | EP4 | F08 | Eu, como cliente, gostaria de ver uma lista com todos os corretores. |
-| US21 | EP4 | F08 | Eu, como cliente, gostaria de filtrar os corretores por nome. |
-| US22 | EP4 | F08 | Eu, como cliente, gostaria de filtrar os corretores por localização. |
-| US23 | EP4 | F09 | Eu, como cliente, gostaria de mandar um e-mail para o corretor dentro da plataforma. |
-| US24 | EP4 | F09 | Eu, como cliente, gostaria de visualizar os contatos do corretor. |
-| US25 | EP4 | F10 | Eu, como corretor, gostaria de agendar uma visita para o cliente. |
-| US26 | EP4 | F10 | Eu, como corretor, gostaria de agendar uma reunião para o cliente. |
-| US27 | EP4 | F10 | Eu, como corretor, gostaria de visualizar os agendamentos cadastrados. |
+| US07 | EP1 | F03 | Eu, como corretor, gostaria de cadastrar um proprietário. |
+| US08 | EP1 | F03 | Eu, como corretor, gostaria de atualizar o cadastro do proprietário. |
+| US09 | EP1 | F03 | Eu, como corretor, gostaria de apagar um proprietário. |
+| US10 | EP2 | F04 | Eu, como corretor, gostaria de cadastrar um imóvel. |
+| US11 | EP2 | F04 | Eu, como corretor, gostaria de atualizar as informações de um imóvel. |
+| US12 | EP2 | F04 | Eu, como corretor, gostaria de apagar um imóvel. |
+| US13 | EP2 | F04 | Eu, como usuário(cliente e/ou corretor), gostaria de compartilhar o imóvel de um imóvel para alguma rede social. |
+| US14 | EP2 | F05 | Eu, como corretor, gostaria de adicionar as mídia(foto ou vídeo) do imóvel. |
+| US15 | EP2 | F05 | Eu, como corretor, gostaria de atualizar as mídia(foto ou vídeo) do imóvel. |
+| US16 | EP2 | F05 | Eu, como corretor, gostaria de apagar as mídia(foto ou vídeo) do imóvel. |
+| US17 | EP3 | F06 | Eu, como usuário(corretor e/ou cliente), gostaria de filtrar imóveis por categorias. |
+| US18 | EP3 | F06 | Eu, como usuário(corretor e/ou cliente), gostaria de filtrar imóveis por localidade. |
+| US19 | EP3 | F06 | Eu, como usuário(corretor e/ou cliente), gostaria de filtrar imóveis por caracteristicas do imóvel (quantidade de quartos, banheiros, garagem, etc). |
+| US20 | EP3 | F06 | Eu , como usuário(corretor e/ou cliente), gostaria de filtrar os imóveis pelo preço. |
+| US21 | EP3 | F07 | Eu, como usuário(corretor e/ou cliente), gostaria de visualizar lista de imóveis em destaque por preço do imóvel. |
+| US22 | EP3 | F07 | Eu, como usuário(corretor e/ou cliente), gostaria de visualizar lista de imóveis em destaque pelo tamanho do imóvel. |
+| US23 | EP4 | F08 | Eu, como cliente, gostaria de ver uma lista de nome de todos os corretores. |
+| US24 | EP4 | F08 | Eu, como cliente, gostaria de filtrar os corretores por nome. |
+| US25 | EP4 | F08 | Eu, como cliente, gostaria de filtrar os corretores por localização. |
+| US26 | EP4 | F09 | Eu, como cliente, gostaria de mandar um e-mail para o corretor dentro da plataforma. |
+| US27 | EP4 | F09 | Eu, como cliente, gostaria de visualizar os contatos do corretor. |
+| US28 | EP4 | F10 | Eu, como corretor, gostaria de agendar uma reunião para o cliente. |
+| US29 | EP4 | F10 | Eu, como corretor, gostaria de visualizar os agendamentos cadastrados. |
 
 ### 7. Versionamento
 
@@ -99,6 +101,7 @@ Criação de uma imobiliária digital que possibilite a compra e aluguel de imó
 | 21/08/2021 | 1.0    | Criação do Documento          | Luiz Gustavo Dias Paes Pinheiro|
 | 21/08/2021 | 1.1    | Revisão do Documento          | Pedro Haick |
 | 08/09/2021 | 1.2    | Atualização do Backlog do Produto          | Douglas Castro |
+| 12/09/2021 | 1.3    | Adicão de histórias e reestruturação          | Douglas Castro |
 
 ### 8. Referências Bibliográficas
 
