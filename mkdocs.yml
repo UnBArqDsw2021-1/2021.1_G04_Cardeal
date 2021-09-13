@@ -66,7 +66,8 @@ nav:
           - Gofs: padroesDeProjeto/gofs.md
           - Gofs Criacionais: padroesDeProjeto/gofs_criacionais.md
           - Gofs Estruturais: padroesDeProjeto/gofs_estruturais.md
-          - Gofs Comportamentais: padroesDeProjeto/gofs_comportamentais.md
+          - Gofs Comportamentais:
+              - Template Method: padroesDeProjeto/gofs_comportamentais_template.md
       - 3.3. Padrões de Projeto Extras:
           - Padrão Emergente: padroesDeProjeto/padraoEmergente.md
       - Extras:

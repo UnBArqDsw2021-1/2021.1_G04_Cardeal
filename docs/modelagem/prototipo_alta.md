@@ -24,8 +24,6 @@ Essas foram as telas desenvolvidas:
 
 [![Busca_de_Imoveis](./prototipo_alta/2-busca-imoveis.png)](./prototipo_alta/2-busca-imoveis.png){target=\_blank}
 
-[![]()](){target=\_blank}
-
 #### 3.1.3. Lista de Imóveis
 
 <!-- ![Home](./prototipo_alta/3-lista-imoveis.png) -->
