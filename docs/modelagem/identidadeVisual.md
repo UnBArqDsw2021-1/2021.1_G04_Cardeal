@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-<p align = "justify">A identidade visual é importante para definir parâmetros visuais do projeto em desenvolvimento. Assim, o conjunto de elementos que compõe a identidade visual, são as cores, tipografia, logo e símbolo.</p>
+<p align = "justify">A identidade visual é importante para definir parâmetros visuais do projeto em desenvolvimento. Assim, o conjunto de elementos de design que compõe a identidade visual, são as cores, tipografia, logo e símbolo. É um área de extrema importância porque afeta quem usa da aplicação, portanto, é relevante entender tanto os vários itens de design que compõe a identidade visual, e como a mensagem que cada item irá transmitir para o usuário, como também, compreender como o usuário irá reagir com esses elementos.</p>
 
 ## 2. Metodologia
 
@@ -113,4 +113,5 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 | 18/08/2021 |  1.0   |         Criação do documento          |                               [Tomás Veloso](https://github.com/tomasvelos0)                               |
 | 18/08/2021 |  1.1   | Debate e escolha da identidade visual | [Todos os membros](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/debateIdentidadeVisual/) |
 | 20/08/2021 |  1.2   |         Revisão do documento          |                                      Douglas Castro e Gustavo Duarte                                       |
-| 10/09/2021 |  1.5   |           Imagens clicáveis           |                               [Tomás Veloso](https://github.com/tomasvelos0)                               |
+| 10/09/2021 |  1.3   |           Imagens clicáveis           |                               [Tomás Veloso](https://github.com/tomasvelos0)                               |
+| 10/09/2021 |  1.4   |        Refatorado a Introdução        |                               [Tomás Veloso](https://github.com/tomasvelos0)                               |
