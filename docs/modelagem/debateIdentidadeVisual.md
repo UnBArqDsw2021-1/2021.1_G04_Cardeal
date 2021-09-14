@@ -2,18 +2,19 @@
 
 ## 1. Introdução
 
-<p align = "justify">Esse documento detalha as discussões e os resultados para a decisão sobre a <a href="../identidadeVisual/" target="_blank"><b>Identidade Visual</b></a> do projeto.</p>
+<p align = "justify">Esse documento detalha as discussões e os resultados para a decisão sobre a <a href="../identidadeVisual/" target="_blank"><b>Identidade Visual</b></a> do projeto. Detalhando como foi a escolha de cada elemento de design que compõe a identidade visual, portanto, são demonstrados os passos e os debates pelos membros para a escolha da cor, tipografia e logo. O resultado final de cada elemento pode ser visualizado no documento sobre a <a href="../identidadeVisual/" target="_blank"><b>Identidade Visual</b></a></p>
 
 ## 2. Metodologia
 
-<p align = "justify"> Para as definições sobre a identidade visual, foram desenvolvidos alguns protótipos utilizando a ferramenta <a href="https://www.figma.com/" target="_blank">Figma</a>. Nesse protótipo, foram incluidas fontes disponibilizados por uma <a href="https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html" target="_blank">matéria</a> do site <a href="https://www.awwwards.com/" target="_blank">awwwards</a>. As Cores que compõe o símbolo escolhido para o projeto, e cores similares para ter mais opções para a definição. Após a confecção do protótipo, o grupo realizou uma votação para definição da identidade visual através do <a href="https://www.google.com/intl/pt-BR/forms/about/" target="_blank">do google forms</a>.</p> 
+<p align = "justify"> Para as definições sobre a identidade visual, foram desenvolvidos alguns <a href="#3-prototipo"><b>protótipos</b></a> utilizando a ferramenta <a href="https://www.figma.com/" target="_blank"><b>Figma</b></a>. Nesse protótipo, foram incluidas fontes disponibilizados por uma <a href="https://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html" target="_blank"><b>matéria</b></a> do site <a href="https://www.awwwards.com/" target="_blank"><b>awwwards</b></a>. As Cores que compõe o símbolo escolhido para o projeto, e cores similares para ter mais opções para a definição. Após a confecção do protótipo, o grupo realizou uma votação, em um <a href="#4-resultados
+"><b>questionário</b></a>, para definição da identidade visual através do <a href="https://www.google.com/intl/pt-BR/forms/about/" target="_blank"><b>do google forms</b></a>.</p> 
  
 ### 3. Protótipo
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDKWzd4WjiCNoDUUINY1U4v%2FUntitled%3Fnode-id%3D6%253A6%26scaling%3Dscale-down-width%26page-id%3D0%253A1" allowfullscreen></iframe>
 
-<p align = "justify"> <a href="https://www.figma.com/file/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=0%3A1" target="_blank">Link do protótipo</a>, realizado na ferramenta <a href="https://www.figma.com/" target="_blank">Figma</a>.</p>
-<p align = "justify"> <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=6%3A6&scaling=min-zoom&page-id=0%3A1" target="_blank">Link de visualização do protótipo</a>.</p>
+<p align = "justify"> <a href="https://www.figma.com/file/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=0%3A1" target="_blank"><b>Link do protótipo</b></a>, realizado na ferramenta <a href="https://www.figma.com/" target="_blank"><b>Figma</b></a>.</p>
+<p align = "justify"> <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=6%3A6&scaling=min-zoom&page-id=0%3A1" target="_blank"><b>Link de visualização do protótipo</b></a>.</p>
 
 ### 4. Resultados
 
@@ -53,6 +54,8 @@
 
 <h6 align = "center">Fonte: Site <a href="https://www.google.com/intl/pt-BR/forms/about/" target="_blank">Google Forms</a></h6></br></br>
 
+<center>
+
 |                                  **Cor**                                  |   **Nome**   |    **RGB**    |   **CMYK**    | **WEB** |
 | :-----------------------------------------------------------------------: | :----------: | :-----------: | :-----------: | :-----: |
 |  ![Cor-Tart-Orange](../desenhoSoftwareBase/img/IdentidadeVisual/red.png)  | Tart Orange  |  241, 72, 67  | 0, 70, 72, 5  | #F14843 |
@@ -60,6 +63,8 @@
 |    ![Cor-White](../desenhoSoftwareBase/img/IdentidadeVisual/white.png)    |    White     | 255, 255, 255 |  0, 0, 0, 0   | #FFFFFF |
 |    ![Cor-Black](../desenhoSoftwareBase/img/IdentidadeVisual/black.png)    |    Black     |    2, 1, 6    | 67, 83, 0, 98 | #020106 |
 |   ![Cor-Black](../desenhoSoftwareBase/img/IdentidadeVisual/purple.png)    | Independence |  63, 61, 86   | 27, 29, 0, 66 | #3f3d56 |
+
+</center>
 
 ### 4.4. Participantes
 
@@ -89,7 +94,8 @@
 
 ## 6. Versionamento
 
-|    Data    | Versão |               Descrição               |                                 Autor(es)                                 |
-| :--------: | :----: | :-----------------------------------: | :-----------------------------------------------------------------------: |
-| 18/08/2021 |  1.0   |         Criação do documento          |              [Tomás Veloso](https://github.com/tomasvelos0)               |
-| 18/08/2021 |  1.1   | Debate e escolha da identidade visual | [Todos os membros](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/) |
+|    Data    | Versão |                             Descrição                              |                                 Autor(es)                                 |
+| :--------: | :----: | :----------------------------------------------------------------: | :-----------------------------------------------------------------------: |
+| 18/08/2021 |  1.0   |                        Criação do documento                        |              [Tomás Veloso](https://github.com/tomasvelos0)               |
+| 18/08/2021 |  1.1   |               Debate e escolha da identidade visual                | [Todos os membros](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/) |
+| 18/08/2021 |  1.2   | **[Refatorado a Introdução](../padroesDeProjeto/correcoes_E2.md)** |              [Tomás Veloso](https://github.com/tomasvelos0)               |

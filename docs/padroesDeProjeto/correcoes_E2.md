@@ -8,7 +8,6 @@
 
 <center>
 
-
 | **Critério adicionado** |                                                  **Tópico alterado**                                                   | **Descrição**                              |
 | :---------------------: | :--------------------------------------------------------------------------------------------------------------------: | :----------------------------------------- |
 |   :heavy_check_mark:    |        **[Identidade Visual](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/prototipo_alta/)**         | Parágrafos justificados                    |
@@ -18,7 +17,7 @@
 
 </center>
 
-### 1.2. Prótotipo de Alta fidelidade
+### 1.2. Identidade Visual
 
 <p align = "justify">No documento sobre <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/identidadeVisual/"><b>Identidade visual</b></a>, foram adicionadas correções requeridas no feedback referente à segunda entrega, como:</p>
 
@@ -27,6 +26,19 @@
 | **Critério adicionado** |                                                **Tópico alterado**                                                 | **Descrição**                          |
 | :---------------------: | :----------------------------------------------------------------------------------------------------------------: | :------------------------------------- |
 |   :heavy_check_mark:    | **[1. Introdução](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/identidadeVisual/#1-introducao)** | Adicionado mais conteúdo na Introdução |
+
+</center>
+
+### 1.3. Debate - Identidade Visual
+
+<p align = "justify">No documento sobre <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/debateIdentidadeVisual/"><b>Debate sobre a Identidade visual</b></a>, foram adicionadas correções requeridas no feedback referente à segunda entrega, como:</p>
+
+<center>
+
+| **Critério adicionado** |                                                **Tópico alterado**                                                 | **Descrição**                              |
+| :---------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------- |
+|   :heavy_check_mark:    | **[1. Introdução](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/identidadeVisual/#1-introducao)** | Adicionado mais conteúdo na Introdução     |
+|   :heavy_check_mark:    | **[1. Introdução](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/identidadeVisual/#1-introducao)** | Elo com artefato sobre a Identidade Visual |
 
 </center>
 
@@ -39,5 +51,6 @@
 | 10/09/2021 |  1.0   | Criação do documento  | [Tomás Veloso](https://github.com/tomasvelos0) |
 | 10/09/2021 |  1.1   | Criação do Tópico 1.1 | [Tomás Veloso](https://github.com/tomasvelos0) |
 | 10/09/2021 |  1.2   | Criação do Tópico 1.2 | [Tomás Veloso](https://github.com/tomasvelos0) |
+| 10/09/2021 |  1.3   | Criação do Tópico 1.3 | [Tomás Veloso](https://github.com/tomasvelos0) |
 
 </center>
