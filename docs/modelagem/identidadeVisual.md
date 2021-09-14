@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-<p align = "justify">A identidade visual é importante para definir parâmetros visuais do projeto em desenvolvimento. Assim, o conjunto de elementos de design que compõe a identidade visual, são as cores, tipografia, logo e símbolo. É um área de extrema importância porque afeta quem usa da aplicação, portanto, é relevante entender tanto os vários itens de design que compõe a identidade visual, e como a mensagem que cada item irá transmitir para o usuário, como também, compreender como o usuário irá reagir com esses elementos.</p>
+<p align = "justify">A identidade visual é importante para definir parâmetros visuais do projeto em desenvolvimento. Assim, o conjunto de elementos de design que compõe a identidade visual, são as <a href="#5-cores"><b>cores</b></a>, <a href="#4-tipografia"><b>tipografia</b></a>, <a href="#3-logo"><b>logo</b></a> e  <a href="#3-logo"><b>símbolo</b></a>. É um área de extrema importância porque afeta quem usa da aplicação, portanto, é relevante entender tanto os vários itens de design que compõe a identidade visual, e como a mensagem que cada item irá transmitir para o usuário, como também, compreender como o usuário irá reagir com esses elementos.</p>
 
 ## 2. Metodologia
 
@@ -14,11 +14,19 @@
 
 <h6 align = "center">Figura 1 - Logo, versão 1.0.</h6>
 
-<!-- ![Logo](../desenhoSoftwareBase/img/IdentidadeVisual/logo.png) -->
-
 [![Logo](../desenhoSoftwareBase/img/IdentidadeVisual/logo.png)](../desenhoSoftwareBase/img/IdentidadeVisual/logo.png){target=\_blank}
 
 <h6 align = "center">Fonte: Site <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=6%3A6" target="_blank">Figma</a></h6></br>
+
+<h6 align = "center">Figura 2 - Símbolo, versão 1.0.</h6>
+
+<center>
+
+[![Logo](../desenhoSoftwareBase/img/IdentidadeVisual/symbol.png)](../desenhoSoftwareBase/img/IdentidadeVisual/symbol.png){target=\_blank}
+
+</center>
+
+<h6 align = "center">Fonte: Site <a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=556%3A3&scaling=min-zoom&page-id=0%3A1" target="_blank">Figma</a></h6></br>
  
 ### 4. Tipografia
 
@@ -30,7 +38,7 @@
 
 Mais informações sobre a fonte e licença de uso são disponibilizadas pelo site <a href="https://fonts.google.com/specimen/Sora?query=Jonathan+Barnbrook" target="_blank">fonts.google</a>.</p>
 
-<h6 align = "center">Figura 2 - Representação da fonte Sora, versão 1.0.</h6>
+<h6 align = "center">Figura 3 - Representação da fonte Sora, versão 1.0.</h6>
 
 [![Sora](../desenhoSoftwareBase/img/IdentidadeVisual/sora.png)](../desenhoSoftwareBase/img/IdentidadeVisual/sora.png){target=\_blank}
 
@@ -42,7 +50,7 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 
 Mais informações sobre a fonte e licença de uso são disponibilizadas pelo site <a href="https://fonts.google.com/specimen/Sora?query=Jonathan+Barnbrook" target="_blank">fonts.google</a>.</p>
 
-<h6 align = "center">Figura 3 - Representação da fonte Lora, versão 1.0.</h6>
+<h6 align = "center">Figura 4 - Representação da fonte Lora, versão 1.0.</h6>
 
 <!-- ![Lora](../desenhoSoftwareBase/img/IdentidadeVisual/lora.png) -->
 
@@ -58,7 +66,7 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 
 <p align = "justify"> As cores principais representam as cores que serão usadas no desenvolvimento da proposta de software.</p>
 
-<h6 align = "center">Figura 4 - Cores principais, versão 1.0.</h6>
+<h6 align = "center">Figura 5 - Cores principais, versão 1.0.</h6>
 
 [![Cor-Principal](../desenhoSoftwareBase/img/IdentidadeVisual/corPrincipal.png)](../desenhoSoftwareBase/img/IdentidadeVisual/corPrincipal.png){target=\_blank}
 
@@ -80,7 +88,7 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 
 <p align = "justify"> As cores secundárias representam as diferentes tonalidades das cores principais, incluindo assim diferentes tons ao projeto.</p>
 
-<h6 align = "center">Figura 5 - Cores secundárias, versão 1.0.</h6>
+<h6 align = "center">Figura 6 - Cores secundárias, versão 1.0.</h6>
 
 [![Identidade_Visual](../desenhoSoftwareBase/img/IdentidadeVisual/corSecundaria.png)](../desenhoSoftwareBase/img/IdentidadeVisual/corSecundaria.png){target=\_blank}
 
@@ -88,7 +96,7 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 
 ### 6. Identidade Visual
 
-<h6 align = "center">Figura 6 - Cardeal Identidade Visual, versão 1.0.</h6>
+<h6 align = "center">Figura 7 - Cardeal Identidade Visual, versão 1.0.</h6>
 
 [![Identidade_Visual](../desenhoSoftwareBase/img/IdentidadeVisual/idVisual.png)](../desenhoSoftwareBase/img/IdentidadeVisual/idVisual.png){target=\_blank}
 
@@ -121,5 +129,6 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 | 20/08/2021 |  1.2   |                        Revisão do documento                        |                                      Douglas Castro e Gustavo Duarte                                       |
 | 10/09/2021 |  1.3   |                         Imagens clicáveis                          |                               [Tomás Veloso](https://github.com/tomasvelos0)                               |
 | 10/09/2021 |  1.4   | **[Refatorado a Introdução](../padroesDeProjeto/correcoes_E2.md)** |                               [Tomás Veloso](https://github.com/tomasvelos0)                               |
+| 10/09/2021 |  1.4   |               **[Adicionado o símbolo](./#3-logo)**                |                               [Tomás Veloso](https://github.com/tomasvelos0)                               |
 
 </center>
