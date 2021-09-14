@@ -39,11 +39,11 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 
 ---
 
-> SERRANO, Milene. **Arquitetura e Desenho de Software:** Aula GoFs Estruturais. Material apresentado para a disciplina de Arquitetura e Desenho de Software no curso de Engenharia de Software da UnB, FGA.
+> SERRANO, Milene. **Arquitetura e Desenho de Software:** Aula GoFs Estruturais, disponível em: [aprender3.unb](https://aprender3.unb.br/pluginfile.php/897143/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GoFs%20Estruturais%20-%20Profa.%20Milene.pdf){target=\_blank} (último acesso: dia 13 de setembro de 2021).
 
 ---
 
-> [Draw.io: The easiest way for Confluence teams to collaborate using diagrams](https://drawio-app.com/), acessado dia 11 de setembro de 2021.
+> [Draw.io: The easiest way for Confluence teams to collaborate using diagrams](https://drawio-app.com/){target=\_blank}, acessado dia 11 de setembro de 2021.
 
 ---
 
@@ -53,7 +53,11 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 
 ## 5. Versionamento
 
+<center>
+
 |    Data    | Versão |     Descrição      |                   Autor(es)                    |
 | :--------: | :----: | :----------------: | :--------------------------------------------: |
 | 30/08/2021 |  0.1   | Criação do arquivo |                  Estevao Reis                  |
 | 13/09/2021 |  1.0   | Adição do conteúdo | [Tomás Veloso](https://github.com/tomasvelos0) |
+
+</center>
