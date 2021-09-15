@@ -98,11 +98,12 @@ Esse foi o gia de estilo criado para nos basearmos no desenvolvimento da interfa
 
 ## 5. Versionamento
 
-|    Data    | Versão | Descrição                                     |                   Autor(es)                    |
-| :--------: | :----: | --------------------------------------------- | :--------------------------------------------: |
-| 19/08/2021 |  1.0   | Desenvolvimento do protótipo                  |    Estevao Reis, Pedro Haick e Tomás Veloso    |
-| 19/08/2021 |  1.1   | Criação do documento                          |    Estevao Reis, Pedro Haick e Tomás Veloso    |
-| 22/08/2021 |  1.2   | Revisão e Padronização do documento           |        Douglas Castr, Giovana Dionísio         |
-| 22/08/2021 |  1.3   | Adicionado o protótipo                        | [Tomás Veloso](https://github.com/tomasvelos0) |
-| 10/09/2021 |  1.4   | Correção nos links                            | [Tomás Veloso](https://github.com/tomasvelos0) |
-| 10/09/2021 |  1.5   | Imagens clicáveis e Justificado os parágrafos | [Tomás Veloso](https://github.com/tomasvelos0) |
+|    Data    | Versão | Descrição                                                                                |                   Autor(es)                    |
+| :--------: | :----: | ---------------------------------------------------------------------------------------- | :--------------------------------------------: |
+| 19/08/2021 |  1.0   | Desenvolvimento do protótipo                                                             |    Estevao Reis, Pedro Haick e Tomás Veloso    |
+| 19/08/2021 |  1.1   | Criação do documento                                                                     |    Estevao Reis, Pedro Haick e Tomás Veloso    |
+| 22/08/2021 |  1.2   | Revisão e Padronização do documento                                                      |        Douglas Castr, Giovana Dionísio         |
+| 22/08/2021 |  1.3   | **[Adicionado o protótipo](#3-resultados)**                                              | [Tomás Veloso](https://github.com/tomasvelos0) |
+| 10/09/2021 |  1.4   | **[Correção nos links](../padroesDeProjeto/correcoes_E2.md)**                            | [Tomás Veloso](https://github.com/tomasvelos0) |
+| 10/09/2021 |  1.5   | **[Imagens clicáveis e Justificado os parágrafos](../padroesDeProjeto/correcoes_E2.md)** | [Tomás Veloso](https://github.com/tomasvelos0) |
+
