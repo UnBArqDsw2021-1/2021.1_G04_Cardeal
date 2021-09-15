@@ -23,7 +23,7 @@ O Criador propõe atribui à classe B a responsabilidade de criar uma instânc
 B é um criador de objetos de A. Se mais de uma opção se aplicar, prefira uma classe B que agregue ou contenha a
 classe A.
 
-#### 2.2. Aplicação no Projeto
+#### 2.1.1 Aplicação no Projeto
 Em nosso projeto esse GRASP é aplicavel, a medida que o corretor será o unico usuário da nossa plataforma de imobiliária, conforme é verificado em nosso [Backlog](../modelagem/backlog_do_produto.md) portanto será responsavel registrar tanto o dono do imóvel quanto o próprio imóvel, se tornando responsável por instanciar as [classes](../modelagem/diagrama_classes.md) de imóvel e do dono do imóvel
 
 
