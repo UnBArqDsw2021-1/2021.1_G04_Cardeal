@@ -120,6 +120,7 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 
 ## 8. Versionamento
 
+<<<<<<< HEAD
 <center>
 
 |    Data    | Versão |                             Descrição                              |                                                 Autor(es)                                                  |
@@ -132,3 +133,11 @@ Mais informações sobre a fonte e licença de uso são disponibilizadas pelo si
 | 10/09/2021 |  1.5   |               **[Adicionado o símbolo](./#3-logo)**                |                               [Tomás Veloso](https://github.com/tomasvelos0)                               |
 
 </center>
+=======
+|    Data    | Versão |               Descrição               |                                                 Autor(es)                                                  |
+| :--------: | :----: | :-----------------------------------: | :--------------------------------------------------------------------------------------------------------: |
+| 18/08/2021 |  1.0   |         Criação do documento          |                               [Tomás Veloso](https://github.com/tomasvelos0)                               |
+| 18/08/2021 |  1.1   | Debate e escolha da identidade visual | [Todos os membros](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/debateIdentidadeVisual/) |
+| 20/08/2021 |  1.2   |         Revisão do documento          |                                      Douglas Castro e Gustavo Duarte                                       |
+| 10/09/2021 |  1.3   |           Imagens clicáveis           |                               [Tomás Veloso](https://github.com/tomasvelos0)                               |
+>>>>>>> feature/gof_template_method
