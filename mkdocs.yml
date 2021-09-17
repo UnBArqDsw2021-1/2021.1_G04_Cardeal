@@ -66,15 +66,17 @@ nav:
           - Gofs: padroesDeProjeto/gofs.md
           - Gofs Criacionais: padroesDeProjeto/gofs_criacionais.md
           - Gofs Estruturais: padroesDeProjeto/gofs_estruturais.md
-          - Gofs Comportamentais:
-              - Template Method: padroesDeProjeto/gofs_comportamentais_template.md
+          - Gofs Comportamentais: padroesDeProjeto/gofs_comportamentais.md
       - 3.3. Padrões de Projeto Extras:
           - Padrão Emergente: padroesDeProjeto/padraoEmergente.md
       - Extras:
           - Correções: padroesDeProjeto/correcoes_E2.md
+          - Plannig Poker: padroesDeProjeto/planning_poker.md
+          - Kambam: padroesDeProjeto/kambam.md
           - Atas:
               - 30/08/2021: padroesDeProjeto/atas/30-08-21.md
               - 06/09/2021: padroesDeProjeto/atas/06-09-21.md
+              - 10/09/2021: padroesDeProjeto/atas/10-09-21.md
 extra_css:
   - stylesheets/extra.css
 
