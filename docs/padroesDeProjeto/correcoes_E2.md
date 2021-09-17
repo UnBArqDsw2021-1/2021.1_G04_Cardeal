@@ -66,5 +66,6 @@
 | 10/09/2021 |  1.1   | Criação do Tópico 1.1 | [Tomás Veloso](https://github.com/tomasvelos0) |
 | 10/09/2021 |  1.2   | Criação do Tópico 1.2 | [Tomás Veloso](https://github.com/tomasvelos0) |
 | 10/09/2021 |  1.3   | Criação do Tópico 1.3 | [Tomás Veloso](https://github.com/tomasvelos0) |
+| 10/09/2021 |  1.3   | Criação do Tópico 1.4 | [Giovana Dionisio](https://github.com/giovanadionisio) |
 
 </center>
