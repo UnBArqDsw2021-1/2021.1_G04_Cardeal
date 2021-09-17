@@ -3,6 +3,7 @@
 ## 1. Introdução
 
 O Observer é um padrão de projeto que permite que os objetos ineteressados sejam avisados de mudaça de estado ou outros eventos que ocorram em um outro objeto. Ele também pode ser chamado de _Publiser-Subscriber_. GAMMA define o Observer da seguinte maneira:
+
 <cite>"Definir uma dependência um-para-muitos entre objetos, de maneira que quando um objeto muda de estado todos os seus dependentes são notificados e atualizados automaticamente."</cite> (GAMMA et al., 2000, p.274).
 
 ## 2. Metodologia
