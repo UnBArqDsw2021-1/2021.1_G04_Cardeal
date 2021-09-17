@@ -1,2 +1,4 @@
 echo "site/" >> .gitignore
 site/
+.vscode/
+.github/
