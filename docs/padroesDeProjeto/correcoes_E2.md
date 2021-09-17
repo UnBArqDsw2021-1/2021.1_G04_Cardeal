@@ -42,6 +42,20 @@
 
 </center>
 
+### 1.4. Diagrama de Sequência
+
+<p align = "justify">No documento dos <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_sequencia/"><b>Diagramas de Sequência</b></a>, foram adicionadas correções requeridas no feedback referente à segunda entrega, como:</p>
+
+<center>
+
+| **Critério adicionado** |                                                **Tópico alterado**                                                 | **Descrição**                              |
+| :---------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------- |
+|   :heavy_check_mark:    | **[1. Introdução](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_sequencia/#1-introducao)** | Correção das citações     |
+|   :heavy_check_mark:    | **[1. Introdução](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_sequencia/#1-introducao)** | Correção da data de reunião |
+|   :heavy_check_mark:    | **[4. Referência](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_sequencia/#4-referencia)** | Padronização do tópico |
+
+</center>
+
 ## 2. Versionamento
 
 <center>
