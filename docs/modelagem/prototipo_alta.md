@@ -2,11 +2,11 @@
 
 ## 1. Introdução
 
-<p align = "justify"> Segundo o artigo <cite><a href="https://medium.com/somos-tera/prototipagem-de-alta-fidelidade-635d745b662b" target="_blank">"Prototipagem de alta fidelidade: o que é, quando, por que e como usar?"</a></cite>, escrito pelo instituto de educação Tera, <cite>"um protótipo de alta fidelidade (às vezes chamado de high-fi ou hi-fi) é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidade. O “high” em alta fidelidade refere-se ao nível de abrangência, que permite examinar questões de usabilidade em detalhes e tirar conclusões sobre o comportamento da pessoa usuária que testa o protótipo. Os protótipos de alta fidelidade abrangem não apenas a interface da pessoa usuária (UI) do produto em termos visuais e estéticos, mas também os aspectos da experiência do(a) usuário(a) (UX) em termos de interações, fluxo e comportamento."</cite></p>
+<p align = "justify"> Segundo o artigo <cite><a href="https://medium.com/somos-tera/prototipagem-de-alta-fidelidade-635d745b662b" target="_blank"><b>"Prototipagem de alta fidelidade: o que é, quando, por que e como usar?"</b></a></cite>, escrito pelo instituto de educação Tera, <cite>"um protótipo de alta fidelidade (às vezes chamado de high-fi ou hi-fi) é uma representação interativa do produto, baseada no computador ou em dispositivos móveis. Esse protótipo já apresenta maior semelhança com o design final em termos de detalhes e funcionalidade. O “high” em alta fidelidade refere-se ao nível de abrangência, que permite examinar questões de usabilidade em detalhes e tirar conclusões sobre o comportamento da pessoa usuária que testa o protótipo. Os protótipos de alta fidelidade abrangem não apenas a interface da pessoa usuária (UI) do produto em termos visuais e estéticos, mas também os aspectos da experiência do(a) usuário(a) (UX) em termos de interações, fluxo e comportamento."</cite></p>
 
 ## 2. Metodologia
 
-<p align = "justify">Para desenvolver o protótipo de alta fidelidade, os integrantes do grupo Estevão Reis, Pedro Haick e Tomás Veloso, se reuniram para definir e desenvolvê-lo. Para desenvolver o protótipo, os integrantes do grupo consultaram os documentos de <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/brainstorm/">Brainstorm</a>, <a href=" https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/richPicture/">Rich Picture</a> e <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/identidadeVisual/">Identidade Visual</a>. Baseado nesses documentos foi desenvolvido, no software de prototipação <a href="https://www.figma.com/" target="_blank">Figma</a>, o protótipo de alta fidelidade. Após o desenvolvimento completo de todas as telas, foram enviadas a todos os membros da equipe as imagens do protótipo, com a finalidade de validar todo o trabalho. Com todos os membros da equipe satisfeitos com o resultado, foi concluída a tarefa de prototipação do site.</p>
+<p align = "justify">Para desenvolver o protótipo de alta fidelidade, os integrantes do grupo Estevão Reis, Pedro Haick e Tomás Veloso, se reuniram para definir e desenvolvê-lo. Para desenvolver o protótipo, os integrantes do grupo consultaram os documentos de <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/brainstorm/"><b>Brainstorm</b></a>, <a href=" https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/richPicture/"><b>Rich Picture</b></a> e <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/identidadeVisual/"><b>Identidade Visual</b></a>. Baseado nesses documentos foi desenvolvido, no software de prototipação <a href="https://www.figma.com/" target="_blank"><b>Figma</b></a>, o protótipo de alta fidelidade. Após o desenvolvimento completo de todas as telas, foram enviadas a todos os membros da equipe as imagens do protótipo, com a finalidade de validar todo o trabalho. Com todos os membros da equipe satisfeitos com o resultado, foi concluída a tarefa de prototipação do site.</p>
 
 ## 3. Resultados
 
@@ -78,15 +78,15 @@ Esse foi o gia de estilo criado para nos basearmos no desenvolvimento da interfa
 
 > ["Prototipagem de alta fidelidade: o que é, quando, por que e como usar?"](https://medium.com/somos-tera/prototipagem-de-alta-fidelidade-635d745b662b){target=\_blank}. Acessado em 22/08/2021.
 
-> [unDraw](https://undraw.co/){target=\_blank}. Disponível em [https://undraw.co/](https://undraw.co/){target=\_blank}. Acessado em 19/08/2021
+> [unDraw](https://undraw.co/){target=\_blank}. Disponível em [https://undraw.co/](https://undraw.co/){target=\_blank}. Acessado em 19/08/2021.
 
-> [dribbble](https://dribbble.com/){target=\_blank}. Disponível em [https://dribbble.com/](https://dribbble.com/){target=\_blank}. Acessado em 19/08/2021
+> [dribbble](https://dribbble.com/){target=\_blank}. Disponível em [https://dribbble.com/](https://dribbble.com/){target=\_blank}. Acessado em 19/08/2021.
 
-> [ICONS8](https://icons8.com.br/){target=\_blank}. Disponível em [https://icons8.com.br/](https://icons8.com.br/){target=\_blank}. Acessado em 19/08/2021
+> [ICONS8](https://icons8.com.br/){target=\_blank}. Disponível em [https://icons8.com.br/](https://icons8.com.br/){target=\_blank}. Acessado em 19/08/2021.
 
-> [freeicons.io](https://freeicons.io/){target=\_blank}. Disponível em [https://freeicons.io/](https://freeicons.io/){target=\_blank}. Acessado em 19/08/2021
+> [freeicons.io](https://freeicons.io/){target=\_blank}. Disponível em [https://freeicons.io/](https://freeicons.io/){target=\_blank}. Acessado em 19/08/2021.
 
-> [QUINTOANDAR](https://www.quintoandar.com.br){target=\_blank}. Disponível em [https://www.quintoandar.com.br](https://www.quintoandar.com.br){target=\_blank}. Acessado em 19/08/2021
+> [QUINTOANDAR](https://www.quintoandar.com.br){target=\_blank}. Disponível em [https://www.quintoandar.com.br](https://www.quintoandar.com.br){target=\_blank}. Acessado em 19/08/2021.
 
 > ["How to not get in trouble when branding your app with red"](https://uxdesign.cc/branding-your-app-with-red-a7df0b6b0e54){target=\_blank}. Acessado em 19/08/2021.
 
@@ -104,4 +104,3 @@ Esse foi o gia de estilo criado para nos basearmos no desenvolvimento da interfa
 | 22/08/2021 |  1.3   | **[Adicionado o protótipo](#3-resultados)**                                              | [Tomás Veloso](https://github.com/tomasvelos0) |
 | 10/09/2021 |  1.4   | **[Correção nos links](../padroesDeProjeto/correcoes_E2.md)**                            | [Tomás Veloso](https://github.com/tomasvelos0) |
 | 10/09/2021 |  1.5   | **[Imagens clicáveis e Justificado os parágrafos](../padroesDeProjeto/correcoes_E2.md)** | [Tomás Veloso](https://github.com/tomasvelos0) |
-
