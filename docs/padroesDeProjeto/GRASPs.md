@@ -75,5 +75,5 @@ O código acima pode ser visto com mais detalhes [aqui](https://github.com/UnBAr
 | 16/09/2021 | 0.3 | Adição da introdução | Douglas Castro |
 | 16/09/2021 | 0.4 | Adição da metodologia usada para o controlador | Douglas Castro |
 | 17/09/2021 | 0.5 | Adição da controladores | Douglas Castro, Bruno Nunes, Pedro Haick e Gustavo Duarte |
-| 17/09/2021 | 0.2    | Estruturação do Arquivo| Estevao Reis |
-| 17/09/2021 | 0.6 | Revisão do Controlador | Giovana Dionisio |
+| 17/09/2021 | 0.6 | Estruturação do Arquivo| Estevao Reis |
+| 17/09/2021 | 0.7 | Revisão do Controlador | Giovana Dionisio |
