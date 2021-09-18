@@ -71,6 +71,14 @@ O código acima pode ser visto com mais detalhes [aqui](https://github.com/UnBAr
 
 ## 10. Variações Protegidas
 
+<p align = "justify">&emsp;&emsp;O padrão Variações Protegidas protege os elementos das variações em outros elementos (objetos, sistemas, subsistemas) com foco na instabilidade com uma interface e usando polimorfismo para criar várias implementações desta interface. Seu principal objetivo é proteger o sistema ou uma classe de variações previstas ou que tenham grandes possibilidades de ocorrer (BASSETTO, 2011).</p>
+
+<p align = "justify">&emsp;&emsp;Podemos observar esse padrão quando precisamos integrar um sistema com API de pacotes de aplicações, por exemplo. Nessa situação a ideia é proteger o sistema ou uma determinada classe da possibilidade de alterações na interface do componente, do serviço ou da API (BASSETTO, 2011).</p>
+
+### 10.1. Aplicação no Projeto
+
+<p align = "justify">&emsp;&emsp;Não identificamos esse padrão no projeto.</p>
+
 ## 11. Referências
 
 - Larman, Craig. Utilizando UML e padrões. Bookman Editora, 2000.
@@ -88,3 +96,4 @@ O código acima pode ser visto com mais detalhes [aqui](https://github.com/UnBAr
 | 17/09/2021 | 0.6 | Estruturação do Arquivo| Estevao Reis |
 | 17/09/2021 | 0.7 | Revisão do Controlador | Giovana Dionisio |
 | 17/09/2021 | 0.8 | Adição do padrão Invenção Pura | Douglas Castro |
+| 17/09/2021 | 0.9 | Adição do padrão Variações Protegidas | Douglas Castro |
