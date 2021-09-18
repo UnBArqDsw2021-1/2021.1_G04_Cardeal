@@ -110,9 +110,38 @@ O GRASP Especialista na Informação vem para resolver o seguinte problema;
 &emsp;&emsp;Para a construção dos diagramas foi usado a ferramenta [Draw.io](https://draw.io).
 
 ### 5.2. Aplicação no projeto
-&emsp;&emsp; Até o momento não foi identificado na aplicação a utilização deste GRASP
+&emsp;&emsp; Até o momento não foi identificado na aplicação a utilização deste GRASP, porém caso seja identificado a necessidade de ser utilizado, será documentada nesta parte do documento
 
 ## 6. Alta Coesão
+&emsp;&emsp;Segundo Larman em seu livro "Utilizando UML e Padrões" 
+O GRASP Alta Coesão vem para resolver o seguinte problema;
+
+&emsp;&emsp;*Como manter os objetos bem focados, inteligíveis e gerenciavéis e como efeito colateral apoiar Acoplamento Baixo?*
+
+&emsp;&emsp;Segundo Larman, se tratrando de termos de projeto de objetos, a coesão é uma forma de medir o quanto as responsabilidades de um componente estão fortemente relacionadas e focalizadas. Um componente com responsabilidades altamente relacionadas e que não consegue realizar uma grande quantidade de tarefas tem coesão alta. Esses elementos incluem classes, subsistemas entre outros.
+
+&emsp;&emsp;Portanto, este padrão soluciona o problema da seguinte forma:
+
+&emsp;&emsp;*Atribuir uma responsabilidade de forma que a coesão permaneça alta.*
+
+&emsp;&emsp;Uma classe com baixa coesão faz muitas coisas não associadas a ela e trabalha de forma desnecessária e indevida. Tais classes são inconvenientes pois enfrentam os seguintes problemas:
+
+- são difíceis de compreender
+
+- são difíceis de reutilizar
+
+- são difíceis de manter
+
+- são delicadas; constantemente afetadas por modificações
+
+&emsp;&emsp;As classes com coesão baixa geralmente representam um grau de abstração muito al- to e de “grande granularidade”, ou então assumiram responsabilidades que deve- riam ter sido delegadas a outros objetos.
+
+### 5.1.Metodologia
+&emsp;&emsp;Inicialmente a equipe não havia optado pela aplicação desse padrão em nosso projeto. Entretanto, na reunião ocorrida em [17/09/2021](./atas/17-09-21.md), a equipe decidiu descrever sobre todos os padrẽs GRASPS, mesmo não sendo aplicados no projeto, para fiz didáticos, enriquecendo mais ainda a documentação.
+
+### 6.2. Aplicação no projeto
+&emsp;&emsp; Até o momento não foi identificado na aplicação a utilização deste GRASP, porém caso seja identificado a necessidade de ser utilizado, será documentada nesta parte do documento
+
 
 ## 7. Baixo Acoplamento
 <p align="justify">&emsp;&emsp;O termo "acoplamento" se refere ao nível de conexão (ou dependência) de um elemento a outros (DE LIMA, 2015). Logo, quanto maior o acoplamento entre classes de um projeto, mais difícil se torna a realização de mudanças, pois essas causam grande impacto, e a reutilização de código. Para a resolução deste problema, aplica-se o padrão de projeto de Baixo Acoplamento.</p>
