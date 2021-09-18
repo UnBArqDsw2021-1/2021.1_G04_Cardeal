@@ -58,6 +58,15 @@ O código acima pode ser visto com mais detalhes [aqui](https://github.com/UnBAr
 ## 7. Baixo Acoplamento
 
 ## 8. Indireção
+<p align="justify">&emsp;&emsp;A Indireção é um dos padrões que contribui para o <i><a href = "#7-baixo-acoplamento">Baixo Acoplamento</a></i> de um projeto. Ele consiste na criação de uma classe mediadora que irá ser delegada de responsabilidades (BOAS, 2019). Dessa forma, é possível evitar o acoplamento direto entre duas classes, aumentando a possibilidade de reuso do código (DE LIMA, 2015).</p>
+<p align="justify">&emsp;&emsp; Esse padrão pode ser aplicado de diversas formas, inclusive com a aplicação de outros padrões de projeto, como o Controlador ou a Injeção de Dependência. Além disso, diversos outros Design Patterns, não só GRASPs, se beneficiam da aplicação deste conceito (BASSETTO, 2011).</p>
+
+### 8.1. Metodologia
+<p align="justify">&emsp;&emsp;A equipe decidiu pela elaboração deste tópico neste documento na <i><a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/padroesDeProjeto/atas/17-09-21/" target="_blank"> reunião do dia 17/09/2021</a></i>. Logo após, durante as pesquisas para sua construção, notou-se que a equipe já havia implementado este padrão no projeto.</p>
+
+#### 8.1.1 Aplicação no Projeto
+<p align="justify">&emsp;&emsp;Como citado anteriormente, a utilização do padrão <i><a href = "#3-controlador">Controlador</a></i> é uma das maneiras de aplicação do padrão de Indireção. Portanto, aplicamos este projeto ao implemetarmos as Controllers no nosso back-end.</p>
+
 
 ## 9. Fabricação ou Invenção Pura
 
