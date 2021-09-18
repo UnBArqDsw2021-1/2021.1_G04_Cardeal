@@ -5,32 +5,32 @@
 <p align="justify">&emsp;&emsp;Para Larman, os padrões GRASP <i>"nomeiam e descrevem princípios fundamentais de atribuição de responsabilidade a objetos"</i> (LARMAN, 2000). Criador, especialista, controlador, invenção pura, indireção, alta coesão, baixo aclopamento, polimorfismo e variações protegidas são alguns desses padrões e princípios descritos utilizados no GRASP.</p> 
 
 ## 2. Criador 
-Segundo Larman em seu livro "Utilizando UML e Padrões" 
+&emsp;&emsp;Segundo Larman em seu livro "Utilizando UML e Padrões" 
 O GRASP Criador vem para resolver o seguinte problema;
 
-*Quem deve ser responsável pela criação de uma nova instância de uma classe?*
+&emsp;&emsp;*Quem deve ser responsável pela criação de uma nova instância de uma classe?*
 
-Em seu livro ele diz que a criação de objetos é uma das atividades mais comuns em um sistema orientado a objetos. Conseqüentemente, é útil ter um princípio geral para a atribuição de responsabilidades de criação. Sendo essas responsabilidades bem atribuídas, o projeto apresentará acoplamento baixo, mais clareza, encapsulamento e reutilização.
+&emsp;&emsp;Em seu livro ele diz que a criação de objetos é uma das atividades mais comuns em um sistema orientado a objetos. Conseqüentemente, é útil ter um princípio geral para a atribuição de responsabilidades de criação. Sendo essas responsabilidades bem atribuídas, o projeto apresentará acoplamento baixo, mais clareza, encapsulamento e reutilização.
 
-O Criador propõe atribui à classe B a responsabilidade de criar uma instância da classe A se uma das seguintes condições for verdadeira:
+&emsp;&emsp;O Criador propõe atribui à classe B a responsabilidade de criar uma instância da classe A se uma das seguintes condições for verdadeira:
 
 - B “contém” A ou agrega A de modo composto.
 - B registra A.
 - B usa A de maneira muito próxima.
 - B tem os dados iniciais de A, que serão passados para A quando ele for criado. Assim, B é um Especialista em relação à criação de A.
 
-B é um criador de objetos de A. Se mais de uma opção se aplicar, prefira uma classe B que agregue ou contenha a
+&emsp;&emsp;B é um criador de objetos de A. Se mais de uma opção se aplicar, prefira uma classe B que agregue ou contenha a
 classe A.
 
 ### 2.1. Metodologia
-<p align = "justify">&emsp;&emsp;A partir das <i><a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/padroesDeProjeto/atas/30-08-21/" target="_blank">discussões</a></i> em equipe ocorrida no dia 30/08/2021, foi definido três padrões GRASP que seriam coerentes de se aplicar no nosso projeto. São eles: Criador, Controlador e Polimorfismo. Foi usado como insumo para os diagramas e implementações desses padrões o <i><a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_classes/" target="_blank">Diagrama de Classes</a></i>.</p> 
+&emsp;&emsp;A partir das discussões em equipe ocorrida no dia [30/08/2021](./atas/30-08-21.md), foi definido três padrões GRASP que seriam coerentes de se aplicar no nosso projeto. São eles: Criador, Controlador e Polimorfismo. Foi usado como insumo para os diagramas e implementações desses padrões o [Diagrama de classes](../modelagem/diagrama_classes.md).
 
-#### 2.1.1 Aplicação no Projeto
-Em nosso projeto esse GRASP é aplicavel, a medida que a aplicação fará uso de agendamentos de visita ao imóvel, como pode ser conferido em nosso [Backlog](../modelagem/backlog_do_produto.md). A classe responsável pelo agendamento, como é visto no [Diagrama de classes](../modelagem/diagrama_classes.md),  precisa obter informações do imóvel, proprietário, corretor e cliente para registrar o agendamento adequadamente. Portanto a classe Schedule, será responsavel por instanciar as classes Client, Owner, Realtor, Property, havendo uma relação de agregação entre o Schedule e os outros, como é visto na imagem a seguir:
+#### 2.1. Aplicação no Projeto
+&emsp;&emsp;Em nosso projeto esse GRASP é aplicavel, a medida que a aplicação fará uso de agendamentos de visita ao imóvel, como pode ser conferido em nosso [Backlog](../modelagem/backlog_do_produto.md). A classe responsável pelo agendamento, como é visto no [Diagrama de classes](../modelagem/diagrama_classes.md),  precisa obter informações do imóvel, proprietário, corretor e cliente para registrar o agendamento adequadamente. Portanto a classe Schedule, será responsavel por instanciar as classes Client, Owner, Realtor, Property, havendo uma relação de agregação entre o Schedule e os outros, como é visto na imagem a seguir:
 
 ![Criador Schedule](./img/grasp-criador.svg)
 
-Além disso, consultando o [Diagrama de classes](../modelagem/diagrama_classes.md), é visto que a classe Property utiliza a classe Media, que é responsável por instancias as referencias de quais quer mídias envolvidas à propriedade. Portando é responsabilidade da classe Property instanciar a classe Media, havendo uma relação de uma associação entre elas como é visto na imagem a seguir:
+&emsp;&emsp;Além disso, consultando o [Diagrama de classes](../modelagem/diagrama_classes.md), é visto que a classe Property utiliza a classe Media, que é responsável por instancias as referencias de quais quer mídias envolvidas à propriedade. Portando é responsabilidade da classe Property instanciar a classe Media, havendo uma relação de uma associação entre elas como é visto na imagem a seguir:
 
 ![Criador Schedule](./img/grasp-criador-property.svg)
 
@@ -93,6 +93,24 @@ O código acima pode ser visto com mais detalhes [aqui](https://github.com/UnBAr
 <p align = "center">Autores: Estevão Reis e Igor Araujo</p>
 
 ## 5. Especialista na Informação
+&emsp;&emsp;Segundo Larman em seu livro "Utilizando UML e Padrões" 
+O GRASP Especialista na Informação vem para resolver o seguinte problema;
+
+&emsp;&emsp;*Qual é um princípio geral de atribuição de responsabilidades a objetos?*
+
+&emsp;&emsp;Em seu livro, ele diz que um modelo de projeto pode criar diversas classes de software, e, por sua vez, uma aplicação pode demandar a satisfação de milhares de responsabilidades a serem executadas. Durante o momento de planejamento e desenho dos objetos, quando o relacionamento entre objetos são definidas, deve-se fazer escolhas sobre atribuição de responsabilidades a classes de software. Fazendo isso de forma adequada, os sistemas tendem a ser mais fáceis de entender, de manter e de estender, permitindo mais oportunidades de reúso de componentes em futuras aplicações.
+
+&emsp;&emsp;Portanto, o GRAPS Especialista vem trazendo essa solução em sua implementação:
+
+&emsp;&emsp;*Atribua responsabilidade ao especialista na informação – a classe que tem a informação necessária para satisfazer a responsabilidade.*
+
+### 5.1.Metodologia
+&emsp;&emsp;Inicialmente a equipe não havia optado pela aplicação desse padrão em nosso projeto. Entretanto, na reunião ocorrida em [17/09/2021](./atas/17-09-21.md), a equipe decidiu descrever sobre todos os padrẽs GRASPS, mesmo não sendo aplicados no projeto, para fiz didáticos, enriquecendo mais ainda a documentação.
+
+&emsp;&emsp;Para a construção dos diagramas foi usado a ferramenta [Draw.io](https://draw.io).
+
+### 5.2. Aplicação no projeto
+&emsp;&emsp; Até o momento não foi identificado na aplicação a utilização deste GRASP
 
 ## 6. Alta Coesão
 
