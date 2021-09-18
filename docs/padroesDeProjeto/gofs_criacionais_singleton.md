@@ -1,33 +1,33 @@
-# Identidade Visual
+## 4. Introdução
 
-## 1. Introdução
+O padrão de projeto criacional singleton, trata-se de um padrão de projeto no qual se garante a existência apenas de uma instância de uma classe, enquanto este promove um ponto de acesso global a essa instância.
+Com o singleton se faz necessário somente uma instância da classe, o que vai garantir uma única chamada, havendo assim uma melhora significativa no desempenho. Sendo assim, usando o padrão singleton, é garantido dentro do projeto que a instância única irá ocorrer.
 
+## 4.1. Metodologia
 
+ O padrão singleton foi estudo e implementando de maneira direta no projeto. Estando evidente no desenvolvimento da aplicação na parte referente ao frontend do projeto. A sua implementação seguiu o seu padrão característico descrito na introdução de modo a preservar e ser possível indentífica-lo de maneira cara no projeto.
 
-## 2. Metodologia
+## 4.2. Estrutura
 
+A abordagem do singleton é feita do seguinte modo e seguindo os seguintes parametros, deixando o construtor como privado, para que assim apenas o singleton possa instânciar a classe, criando um atributo privado que seja do mesmo tipo da classe ( instance ), implementando o método getInstance, de modo que este irá verificar se a instance já foi iniciada e se ainda não estiver iniciada irá fazer a sua inicialização de maneira única. Sendo assim, o singleton foi aplicado de maneira direta no front-end do projeto.
 
+![structure-pt-br](https://user-images.githubusercontent.com/82710878/133836489-c90b5d3c-63e5-467a-af72-5d48570440ed.png)
 
-## 3. Singleton
+Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
 
-
-
-
-
-### 3.1. Singleton Estrutura 
-
-
-
-### 3.2 Observer aplicado no Projeto
+### 4.3. Singleton aplicado no Projeto
 
 
 
-## 4. Referências
+## 9. Referências
+
+> Padrões de Projeto Observer. Disponível em: https://refactoring.guru/pt-br/design-patterns/singleton Acessado em: 18/09/2021
+> Padrões de Projeto Observer. Disponível em: https://pt.wikipedia.org/wiki/Singleton#Em_Typescript Acessado em: 18/09/2021
 
 
-
-## 5. Versionamento
-
-| Data       | Versão | Descrição         | Autores       | Revisores    |
-| ---------- | ------ | ----------------- | ------------- | -----------  |
-| 17/09/2021 | 0.1    | Criação do arquivo| Luiz Gustavo  |              |
+## 10. Versionamento
+| Data       | Versão | Descrição         | Autores       | 
+| ---------- | ------ | ----------------- | ------------- | 
+| 30/08/2021 | 0.1    | Criação do arquivo| Estevao Reis  |
+| 17/09/2021 | 0.2    | Estruturação do Arquivo| Estevao Reis |
+| 18/09/2021 | 1.0    | Adição do Padrão Singleton| Luiz Gustavo  |              |
