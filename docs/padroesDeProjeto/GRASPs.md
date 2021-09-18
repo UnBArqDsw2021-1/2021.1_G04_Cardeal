@@ -79,10 +79,10 @@ O código acima pode ser visto com mais detalhes [aqui](https://github.com/UnBAr
 ## 11. Referências
 
 - Larman, Craig. Utilizando UML e padrões. Bookman Editora, 2000.
-- MEDEIROS, Higor. Uso de Polimorfismo em Java. DevMedia, 2012. Disponível em: [https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140]
-- BOAS, Leandro. Padrões GRASP — Padrões de Atribuir Responsabilidades. Medium, 2019. Disponível em: [https://medium.com/@leandrovboas/padr%C3%B5es-grasp-padr%C3%B5es-de-atribuir-responsabilidades-1ae4351eb204]
-- BASSETTO, Nelson. RDD – Responsibility Driven Design e GRASP – General Responsibility Assignment Software Principles (2 de 2). 2011. Disponível em: [http://nelsonbassetto.com/blog/tags/grasp/]
-- MEDEIROS, Higor. Padrões GRASP: Polimorfismo, Fabricação Pura, Indirecção, Variações Protegidas. Medium, 2019. Disponível em: [https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140]
+- MEDEIROS, Higor. Uso de Polimorfismo em Java. DevMedia, 2012. Disponível em: <https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140>
+- BOAS, Leandro. Padrões GRASP — Padrões de Atribuir Responsabilidades. Medium, 2019. Disponível em: <https://medium.com/@leandrovboas/padr%C3%B5es-grasp-padr%C3%B5es-de-atribuir-responsabilidades-1ae4351eb204>
+- BASSETTO, Nelson. RDD – Responsibility Driven Design e GRASP – General Responsibility Assignment Software Principles (2 de 2). 2011. Disponível em: <http://nelsonbassetto.com/blog/tags/grasp/>
+- MEDEIROS, Higor. Padrões GRASP: Polimorfismo, Fabricação Pura, Indirecção, Variações Protegidas. Medium, 2019. Disponível em: <https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140>
 
 ## 12. Versionamento
 | Data       | Versão | Descrição         | Autores       |
