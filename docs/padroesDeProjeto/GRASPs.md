@@ -146,3 +146,4 @@ O código acima pode ser visto com mais detalhes [aqui](https://github.com/UnBAr
 | 17/09/2021 | 0.9 | Adição do padrão Variações Protegidas | Douglas Castro |
 | 17/09/2021 | 1.0 | Adição do polimorfismo | Giovana Dionisio |
 | 17/09/2021 | 1.1 | Adição do tópico de Baixo Acoplamento | Giovana Dionisio |
+| 18/09/2021 | 1.2 | Revisão do documento | Giovana Dionisio, Douglas Castro |
