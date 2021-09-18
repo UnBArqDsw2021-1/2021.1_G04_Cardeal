@@ -232,4 +232,4 @@ O código acima pode ser visto com mais detalhes [aqui](https://github.com/UnBAr
 | 18/09/2021 | 1.3 | Adição do GRASP Criador | Estevao Reis  |
 | 18/09/2021 | 1.4 | Adição do GRASP Especialista | Estevao Reis  |
 | 18/09/2021 | 1.5 | Adição do GRASP Alta Coesão | Estevao Reis  |
-| 19/09/2021 | 1.6 | Revisão | Bruno, Marcos e Luiz  |
+| 19/09/2021 | 1.6 | Revisão | Bruno, Marcos, Luiz, Tomás, Gustavo, Igor |
