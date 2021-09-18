@@ -135,7 +135,7 @@ O GRASP Alta Coesão vem para resolver o seguinte problema;
  
 &emsp;&emsp;As classes com coesão baixa geralmente representam um grau de abstração muito alto e de “grande granularidade”, ou então assumiram responsabilidades que deveriam ter sido delegadas a outros objetos.
  
-### 5.1.Metodologia
+### 6.1.Metodologia
 &emsp;&emsp;Inicialmente a equipe não havia optado pela aplicação desse padrão em nosso projeto. Entretanto, na reunião ocorrida em [17/09/2021](./atas/17-09-21.md), a equipe decidiu descrever sobre todos os padrẽs GRASPS, mesmo não sendo aplicados no projeto, para fins didáticos, enriquecendo mais ainda a documentação.
  
 ### 6.2. Aplicação no projeto
