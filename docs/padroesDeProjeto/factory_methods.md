@@ -31,7 +31,55 @@ bootstrap();
 Também é possível utilizar esse padrão na instanciação de pessoas, que podem ser clientes, proprietários ou corretores, como mostra o snippet abaixo.
 
 ```
-SNIPPET PENDENTE
+interface Person {
+    method(): string;
+}
+
+class Realtor implements Person {
+    method(): string {
+        return 'This is a realtor';
+    }
+}
+
+class Client implements Person {
+    method(): string {
+        return 'This is a client';
+    }
+}
+
+class Landlord implements Person {
+    method(): string {
+        return 'This is a landlord';
+    }
+}
+
+abstract class PersonCreator {
+    abstract createPerson(): Person;
+}
+
+class RealtorCreator extends PersonCreator {
+    createPerson(): Person {
+        const realtor: Person = new Realtor();
+        console.log(realtor.method());
+        return realtor;
+    }
+}
+
+class ClientCreator extends PersonCreator {
+    createPerson(): Person {
+        const client: Person = new Client();
+        console.log(client.method());
+        return client;
+    }
+}
+
+class LandlordCreator extends PersonCreator {
+    createPerson(): Person {
+        const landlord: Person = new Landlord();
+        console.log(landlord.method());
+        return landlord;
+    }
+}
 ```
 
 ## Referências
@@ -40,9 +88,10 @@ SNIPPET PENDENTE
 
 ## Versionamento
 
-| Data       | Versão | Descrição                | Autores       | Revisores    |
-| ---------- | ------ | ------------------------ | ------------- | -----------  |
-| 15/09/2021 | 0.1    | Criação do documento     | Pedro Haick   |              |
-| 15/09/2021 | 0.2    | Adição da introdução     | Pedro Haick   |              |
-| 15/09/2021 | 0.3    | Adição da estrutura      | Pedro Haick   |              |
-| 15/09/2021 | 0.4    | Adição do uso em código  | Pedro Haick   |              |
+| Data       | Versão | Descrição                    | Autores       | Revisores    |
+| ---------- | ------ | ---------------------------- | ------------- | -----------  |
+| 15/09/2021 | 0.1    | Criação do documento         | Pedro Haick   |              |
+| 15/09/2021 | 0.2    | Adição da introdução         | Pedro Haick   |              |
+| 15/09/2021 | 0.3    | Adição da estrutura          | Pedro Haick   |              |
+| 15/09/2021 | 0.4    | Adição do uso em código      | Pedro Haick   |              |
+| 17/09/2021 | 0.5    | Adição do snippet de código  | Pedro Haick   |              |
