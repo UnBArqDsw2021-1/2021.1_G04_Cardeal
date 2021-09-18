@@ -17,7 +17,7 @@
   
 &emsp;&emsp;Para a construção dos diagramas foi usado a ferramenta [Draw.io](https://draw.io).
 
-### 3.2. Aplicação no Projetos
+### 3.2. Aplicação no Projeto
 
 <p align="justify">&emsp;&emsp;Os controladores implementados na nossa aplicação são os responsáveis por receber as requisições do browser. Por ter muitas atividades na aplicação e para evitar o "inchaço" de um controlador de fachada, optamos por implementar um controlador para cada classe concreta, onde esses ficaram responsáveis por coordenar as requisições recebidas por cada classe.</p>
 
@@ -74,14 +74,31 @@ O código acima pode ser visto com mais detalhes [aqui](https://github.com/UnBAr
 
 ## 9. Fabricação ou Invenção Pura
 
+<p align = "justify">&emsp;&emsp;São classes criadas da imaginação, que suporta uma alta coesão, um baixo aclopamento e reutilizações de maneira que o projeto desta invenção seja muito "<i>limpo</i>" e "<i>puro</i>", por isso elas são nomeadas como invenção pura. Essas classes podem ser entedidas como prestadoras de serviço e devem ter responsabilidades pequenas e coesas (LARMAN, 2000).</p>
+
+<p align = "justify">&emsp;&emsp;Alguns benefícios que esse padrão traz é a alta coesão e o baixo aclopamento, já que está focado em um conjunto muito específico de serviço, e o potencial de reutilização que pode ser aumentado, visto que as responsabilidades a elas atribuídas podem ser reutilizadas em outras aplicações (JHA, 2016).</p>
+
+### 9.1. Aplicação no Projeto
+
+<p align = "justify">&emsp;&emsp;Não foi identificado esse padrão no projeto.</p>
+
 ## 10. Variações Protegidas
+
+<p align = "justify">&emsp;&emsp;O padrão Variações Protegidas protege os elementos das variações em outros elementos (objetos, sistemas, subsistemas) com foco na instabilidade com uma interface e usando polimorfismo para criar várias implementações desta interface. Seu principal objetivo é proteger o sistema ou uma classe de variações previstas ou que tenham grandes possibilidades de ocorrer (BASSETTO, 2011).</p>
+
+<p align = "justify">&emsp;&emsp;Podemos observar esse padrão quando precisamos integrar um sistema com API de pacotes de aplicações, por exemplo. Nessa situação a ideia é proteger o sistema ou uma determinada classe da possibilidade de alterações na interface do componente, do serviço ou da API (BASSETTO, 2011).</p>
+
+### 10.1. Aplicação no Projeto
+
+<p align = "justify">&emsp;&emsp;Não identificamos esse padrão no projeto.</p>
 
 ## 11. Referências
 
 - Larman, Craig. Utilizando UML e padrões. Bookman Editora, 2000.
-- MEDEIROS, Higor. Uso de Polimorfismo em Java. DevMedia, 2012. Disponível em: <https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140>
-- BOAS, Leandro. Padrões GRASP — Padrões de Atribuir Responsabilidades. Medium, 2019. Disponível em: <https://medium.com/@leandrovboas/padr%C3%B5es-grasp-padr%C3%B5es-de-atribuir-responsabilidades-1ae4351eb204>
-- BASSETTO, Nelson. RDD – Responsibility Driven Design e GRASP – General Responsibility Assignment Software Principles (2 de 2). 2011. Disponível em: <http://nelsonbassetto.com/blog/tags/grasp/>
+- MEDEIROS, Higor. Uso de Polimorfismo em Java. DevMedia, 2012. Disponível em: <https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140>. Acesso em: 17 de Agosto de 2021.
+- JHA, Ranjeet. GRASP Design Principles. mySoftKey, 2016. Disponível em: <https://www.mysoftkey.com/architecture/grasp-design-principles/>. Acesso em: 17 de Agosto de 2021.
+- BOAS, Leandro. Padrões GRASP — Padrões de Atribuir Responsabilidades. Medium, 2019. Disponível em: <https://medium.com/@leandrovboas/padr%C3%B5es-grasp-padr%C3%B5es-de-atribuir-responsabilidades-1ae4351eb204>. Acesso em: 17 de Agosto de 2021.
+- BASSETTO, Nelson. RDD – Responsibility Driven Design e GRASP – General Responsibility Assignment Software Principles (2 de 2). 2011. Disponível em: <http://nelsonbassetto.com/blog/tags/grasp/>. Acesso em: 17 de Agosto de 2021.
 
 
 ## 12. Versionamento
@@ -91,7 +108,9 @@ O código acima pode ser visto com mais detalhes [aqui](https://github.com/UnBAr
 | 15/09/2021 | 0.2 | Adição da estrutura do documento| Douglas Castro |
 | 16/09/2021 | 0.3 | Adição da introdução | Douglas Castro |
 | 16/09/2021 | 0.4 | Adição da metodologia usada para o controlador | Douglas Castro |
-| 17/09/2021 | 0.5 | Adição da controladores | Douglas Castro, Bruno Nunes, Pedro Haick e Gustavo Duarte |
+| 17/09/2021 | 0.5 | Adição dos controladores | Douglas Castro, Bruno Nunes, Pedro Haick e Gustavo Duarte |
 | 17/09/2021 | 0.6 | Estruturação do Arquivo| Estevao Reis |
 | 17/09/2021 | 0.7 | Revisão do Controlador | Giovana Dionisio |
-| 17/09/2021 | 0.8 | Adição do polimorfismo | Giovana Dionisio |
+| 17/09/2021 | 0.8 | Adição do padrão Invenção Pura | Douglas Castro |
+| 17/09/2021 | 0.9 | Adição do padrão Variações Protegidas | Douglas Castro |
+| 17/09/2021 | 1.0 | Adição do polimorfismo | Giovana Dionisio |
