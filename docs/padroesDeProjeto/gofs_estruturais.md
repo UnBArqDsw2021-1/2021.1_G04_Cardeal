@@ -1,5 +1,5 @@
 # GoFs Estruturais
-## 1. Introduçã
+## 1. Introdução
 ## 2. Adapter 
 ## 3. Composite 
 ## 4. Bridge 
