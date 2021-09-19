@@ -2,7 +2,7 @@
 ## 1. Introdução
 
 
-Os padrões de projeto criacionais fornecem diferentes mecanismos para a criação de objetos, mecanismos esses que possibilitam o aumento da reutilização do código e o aumento da flexibilidade desse mesmo código. Possilitando assim que o sistema se torne um sistema bem mais estruturado e independente de como os seus objetos são criados, compostos e representandos dentro do código. Dentro os padrões criacionais observados, alguns exemplos podem ser citados, são eles: abstract factory, singleton, builder, prototype.
+Os padrões de projeto criacionais fornecem diferentes mecanismos para a criação de objetos, mecanismos esses que possibilitam o aumento da reutilização do código e o aumento da flexibilidade desse mesmo código. Possibilitando assim que o sistema se torne um sistema bem mais estruturado e independente de como os seus objetos são criados, compostos e representados dentro do código. Dentro os padrões criacionais observados, alguns exemplos podem ser citados, são eles: abstract factory, singleton, builder, prototype.
 
 ## 2. Factory Method 
 ## 3. Abstract Factory 
@@ -15,11 +15,11 @@ Com o singleton se faz necessário somente uma instância da classe, o que vai g
 
 ## 4.2. Metodologia
 
- O padrão singleton foi estudadi e implementando de maneira direta no projeto. Estando evidente no desenvolvimento da aplicação na parte referente ao frontend do projeto. A sua implementação seguiu o seu padrão característico descrito na introdução de modo a preservar e ser possível indentífica-lo de maneira clara no projeto.
+ O padrão singleton foi estudado e implementado de maneira direta no projeto. Estando evidente no desenvolvimento da aplicação na parte referente ao frontend do projeto. A sua implementação seguiu o seu padrão característico descrito na introdução de modo a preservar e ser possível identificá-lo de maneira clara no projeto.
 
 ## 4.3. Estrutura
 
-A abordagem do singleton é feita do seguinte modo e seguindo os seguintes parametros, deixando o construtor como privado, para que assim apenas o singleton possa instânciar a classe, criando um atributo privado que seja do mesmo tipo da classe ( instance ), implementando o método getInstance, de modo que este irá verificar se a instance já foi iniciada e se ainda não estiver iniciada irá fazer a sua inicialização de maneira única. Sendo assim, o singleton foi aplicado de maneira direta no front-end do projeto.
+A abordagem do singleton é feita do seguinte modo e seguindo os seguintes parâmetros, deixando o construtor como privado, para que assim apenas o singleton possa instanciar a classe, criando um atributo privado que seja do mesmo tipo da classe ( instance ), implementando o método getInstance, de modo que este irá verificar se a instance já foi iniciada e se ainda não estiver iniciada irá fazer a sua inicialização de maneira única. Sendo assim, o singleton foi aplicado de maneira direta no front-end do projeto.
 
 ![structure-pt-br](https://user-images.githubusercontent.com/82710878/133836489-c90b5d3c-63e5-467a-af72-5d48570440ed.png)
 
@@ -36,11 +36,11 @@ Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
 
 ## 8.1. Introdução
 
-O padrão de projeto criacional Prototype, trata-se de um padrão de projeto no qual um novo objeto é criado a partir de uma objeto original ou protótipo clonado deste objeto. O padrão Prototype é aplicado quando se existe a necessidade de clonar um objeto. Logo, funciona quando a aplicação necessecita de cópias exatas daquele objeto, em tempo de execução, sendo este o padrão altamente recomendado para realizar esta atividade, tarefa.
+O padrão de projeto criacional Prototype, trata-se de um padrão de projeto no qual um novo objeto é criado a partir de uma objeto original ou protótipo clonado deste objeto. O padrão Prototype é aplicado quando existe a necessidade de clonar um objeto. Logo, funciona quando a aplicação necessita de cópias exatas daquele objeto, em tempo de execução, sendo este o padrão altamente recomendado para realizar esta atividade, tarefa.
 
 ## 8.2. Metodologia
 
- O padrão prototype foi estudado, porém não está implementado de maneira direta no projeto. Mas se sim, a sua implementação seguiria o seu padrão característico descrito na introdução de modo a preservar e ser possível indentífica-lo de maneira clara no projeto.
+ O padrão prototype foi estudado, porém não está implementado de maneira direta no projeto. Mas se sim, a sua implementação seguiria o seu padrão característico descrito na introdução de modo a preservar e ser possível identificá-lo de maneira clara no projeto.
 
 ## 8.3. Estrutura
 
@@ -68,6 +68,10 @@ O padrão prototype não foi aplicado ao projeto.
 | ---------- | ------ | ----------------- | ------------- | 
 | 30/08/2021 | 0.1    | Criação do arquivo| Estevao Reis  |
 | 17/09/2021 | 0.2    | Estruturação do Arquivo| Estevao Reis |
-| 18/09/2021 | 1.0    | Adição do Padrão Singleton| Luiz Gustavo  |              |
-| 18/09/2021 | 1.1    | Adição do Padrão Prototype| Luiz Gustavo  |              |
-| 19/09/2021 | 2.0    | Adição da Introdução dos Padrões Criacionais| Luiz Gustavo  |              |
+| 18/09/2021 | 0.3    | Adição do Padrão Singleton| Luiz Gustavo  |              |
+| 18/09/2021 | 0.4    | Adição do Padrão Prototype| Luiz Gustavo  |              |
+| 19/09/2021 | 0.5    | Adição da Introdução dos Padrões Criacionais| Luiz Gustavo  |
+| 19/09/2021 | 0.6    | Revisão e Correção ortográfica do arquivo| Marcos Vinícius |                |
+
+
+
