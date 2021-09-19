@@ -24,6 +24,10 @@ A abordagem do prototype é feita do seguinte modo e seguindo os seguintes param
 
 Fonte: https://pt.wikipedia.org/wiki/Prototype#Estrutura
 
+## 8.4. Prototype aplicado ao projeto
+
+O padrão prototype não foi aplicado ao projeto.
+
 ## 9. Referências
 
 > Padrões de Projeto Singleton. Disponível em: https://refactoring.guru/pt-br/design-patterns/singleton Acessado em: 18/09/2021
