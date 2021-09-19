@@ -11,7 +11,7 @@ Com o singleton se faz necessário somente uma instância da classe, o que vai g
 
 ## 4.2. Metodologia
 
- O padrão singleton foi estudadi e implementando de maneira direta no projeto. Estando evidente no desenvolvimento da aplicação na parte referente ao frontend do projeto. A sua implementação seguiu o seu padrão característico descrito na introdução de modo a preservar e ser possível indentífica-lo de maneira clara no projeto.
+ O padrão singleton foi estudado e implementando de maneira direta no projeto. Estando evidente no desenvolvimento da aplicação na parte referente ao frontend do projeto. A sua implementação seguiu o seu padrão característico descrito na introdução de modo a preservar e ser possível indentífica-lo de maneira clara no projeto.
 
 ## 4.3. Estrutura
 
