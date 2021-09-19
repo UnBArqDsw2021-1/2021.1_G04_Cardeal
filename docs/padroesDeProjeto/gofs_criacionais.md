@@ -86,19 +86,26 @@ class LandlordCreator extends PersonCreator {
 ## 4. Singleton  
 ## 5. Builder 
 ## 6. Multiton 
+### Introdução
+O padrão Multiton é uma extensão do padrão Singleton que permite instanciar um número limitado de objetos de uma classe a partir da especificação de uma chave para cada instância a ser criada. ([Blackwasp](http://www.blackwasp.co.uk/multiton.aspx))
+
+### Uso em Código
+O padrão Multiton não é encontrado no código do projeto Cardeal.
 ## 7. Object poll 
 ## 8. Prototype 
 ## 9. Referências
 1. [Refactoring Guru - Factory Method](https://refactoring.guru/design-patterns/factory-method)
 2. [NestJS Documentation](https://docs.nestjs.com/)
+3. [Blackwasp - Multiton](http://www.blackwasp.co.uk/multiton.aspx)
 
 ## 10. Versionamento 
 
-| Data       | Versão | Descrição                   | Autores       | Revisores    |
-| ---------- | ------ | --------------------------- | ------------- | ------------ |
-| 30/08/2021 | 0.1    | Criação do documento        | Estevao Reis  |              |
-| 15/09/2021 | 0.2    | Adição da introdução        | Pedro Haick   |              |
-| 15/09/2021 | 0.3    | Adição da estrutura         | Pedro Haick   |              |
-| 15/09/2021 | 0.4    | Adição do uso em código     | Pedro Haick   |              |
-| 17/09/2021 | 0.5    | Adição do snippet de código | Pedro Haick   |              |
-| 17/09/2021 | 0.6    | Estruturação do Arquivo     | Estevao Reis  |              |
+| Data       | Versão | Descrição                                   | Autores      |
+| ---------- | ------ | ------------------------------------------- | ------------ |
+| 30/08/2021 | 0.1    | Criação do documento                        | Estevao Reis |
+| 15/09/2021 | 0.2    | Factory Method: adição da introdução        | Pedro Haick  |
+| 15/09/2021 | 0.3    | Factory Method: adição da estrutura         | Pedro Haick  |
+| 15/09/2021 | 0.4    | Factory Method: adição do uso em código     | Pedro Haick  |
+| 17/09/2021 | 0.5    | Factory Method: adição do snippet de código | Pedro Haick  |
+| 17/09/2021 | 0.6    | Estruturação do documento                   | Estevao Reis |
+| 19/09/2021 | 0.7    | Multiton: adição da introdução              | Pedro Haick  |
