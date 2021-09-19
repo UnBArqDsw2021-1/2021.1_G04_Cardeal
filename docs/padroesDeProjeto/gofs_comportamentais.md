@@ -1,6 +1,9 @@
 # GoFs Comportamentais
 
 ## 1. Introdução
+
+O GoF comportamental está preocupado com o algoritmo e a atribuição de responsabilidades entre objetos. Na área comportamental ele é descrito não somente como padrões de objetos ou classes, mas também como os padrões de comunicação entre eles. Esses padrões caracterizam um controle de fluxo complexo que é díficil de seguir no tempo de execução. Eles tiram de foco o controle de fluxo e lhe permite concentrar somente no caminho que os objetos estão interconectados.
+
 ## 2. Strategy
 ## 3. State 
 ## 4. Command 
