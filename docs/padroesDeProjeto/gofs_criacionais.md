@@ -25,13 +25,19 @@ A abordagem do singleton é feita do seguinte modo e seguindo os seguintes param
 
 Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
 
+
 ### 4.4 Singleton aplicado ao Projeto
 
 ![structure-pt-br](https://user-images.githubusercontent.com/82710878/133937083-9b869dd0-9676-4293-8352-70f960c68c17.png)
 
+=======
+
+## 5. Builder 
+## 6. Multiton 
 ## 7. Object poll 
 ## 8. Prototype 
 ## 9. Referências
+
 
 > Padrões de Projeto Singleton. Disponível em: https://refactoring.guru/pt-br/design-patterns/singleton Acessado em: 18/09/2021
 > Padrões de Projeto Singleton. Disponível em: https://pt.wikipedia.org/wiki/Singleton#Em_Typescript Acessado em: 18/09/2021
@@ -45,3 +51,4 @@ Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
 | 19/09/2021 | 1.0    | Adição do Padrão Singleton| Luiz Gustavo  |              |
 | 19/09/2021 | 2.0    | Adição da Introdução dos Padrões Criacionais| Luiz Gustavo  |              |
 | 19/09/2021 | 2.1  | Adição da Introdução do Tópico 4.4 ( Singleton aplicado ao Projeto )| Luiz Gustavo  |              |
+
