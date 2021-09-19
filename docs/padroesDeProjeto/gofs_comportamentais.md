@@ -36,7 +36,7 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 
 ### 12.2. Metodologia
 
-<p align = "justify"> Para a criação do template methodo, foi estudado uma forma de implementar o padrão no projeto. Criado assim uma estrutura no <a href="https://app.diagrams.net/" target="_blank">Draw.io</a> e no momento de desenvolvimento do front-end verificar se essa estrutura pode ser implementada ou não neste momento. Assim, esse modelo poderá ser atualizado ao longo do tempo para melhor adaptar-se ao projeto.</p>
+<p align = "justify"> Para a criação do template method, foi estudado uma forma de implementar o padrão no projeto. Foi criado assim uma estrutura no <a href="https://app.diagrams.net/" target="_blank">Draw.io</a> e no momento de desenvolvimento do front-end verificar se essa estrutura pode ser implementada ou não neste momento. Assim, esse modelo poderá ser atualizado ao longo do tempo para melhor adaptar-se ao projeto.</p>
 
 ### 12.3. Template Method
 
@@ -98,7 +98,9 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 
 | Data       | Versão | Descrição         | Autores       | 
 | ---------- | ------ | ----------------- | ------------- | 
-| 30/08/2021 | 0.1    | Criação do arquivo| Estevao Reis  |
-| 13/09/2021 | 0.2   | Adição do conteúdo | [Tomás Veloso](https://github.com/tomasvelos0) |
-| 17/09/2021 | 0.3   | Estruturação do Arquivo| Estevao Reis|
-| 19/09/2021 | 0.4   | Introdução do Observer| Gustavo Duarte Moreira|
+| 30/08/2021 | 0.1    | Criação do arquivo| [Estevao Reis](https://github.com/estevaoreis25)  |
+| 13/09/2021 |  0.2   | Adição do conteúdo | [Tomás Veloso](https://github.com/tomasvelos0) |
+| 17/09/2021 | 0.3   | Estruturação do Arquivo| [Estevao Reis](https://github.com/estevaoreis25) |
+| 19/09/2021 | 0.5   | Introdução do Observer| Gustavo Duarte Moreira|
+| 19/09/2021 | 0.6   | Revisão e Correção Ortográfica do Arquivo| [Marcos Vinícius](https://github.com/marcos-mv)|
+
