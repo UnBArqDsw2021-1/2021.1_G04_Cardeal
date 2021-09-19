@@ -53,7 +53,12 @@ No figura anterior é mostrado a utilização de um adaptador XML -> JSON, para 
 
 ## 2.4. Adapter aplicado ao projeto
 
-O Padrão Adapter ainda não foi aplicado ao projeto.
+O Padrão Adapter ainda não foi aplicado ao projeto. Mas logo abaixo um exemplo da utilização de um adapter implementado em python.
+
+[Código](../assets/adapter.py)
+
+![saída-adapter.py](./img/adapter-code.png)
+
 
 ## 3. Composite 
 ## 4. Bridge 
