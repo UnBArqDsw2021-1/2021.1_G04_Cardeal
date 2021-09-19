@@ -45,3 +45,4 @@ Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
 | 30/08/2021 | 0.1    | Criação do arquivo| Estevao Reis  |
 | 17/09/2021 | 0.2    | Estruturação do Arquivo| Estevao Reis |
 | 19/09/2021 | 1.0    | Adição do Padrão Singleton| Luiz Gustavo  |              |
+| 19/09/2021 | 2.0    | Adição da Introdução dos Padrões Criacionais| Luiz Gustavo  |              |
