@@ -1,4 +1,5 @@
 # GoFs Estruturais
+
 ## 1. Introdução
 ## 2. Adapter 
 ## 3. Composite 
@@ -34,7 +35,6 @@ O padrão proxy não foi aplicado ao projeto.
 > Padrões de Projeto Proxy. Disponível em: https://refactoring.guru/pt-br/design-patterns/proxy/java/example.  Acessado em: 18/09/2021
 
 ## 10. Versionamento 
-
 
 | Data       | Versão | Descrição         | Autores       | 
 | ---------- | ------ | ----------------- | ------------- | 
