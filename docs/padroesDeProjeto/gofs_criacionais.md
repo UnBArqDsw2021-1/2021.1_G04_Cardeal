@@ -88,7 +88,8 @@ class LandlordCreator extends PersonCreator {
 ## 6. Multiton 
 ### Introdução
 O padrão Multiton é uma extensão do padrão Singleton que permite instanciar um número limitado de objetos de uma classe a partir da especificação de uma chave para cada instância a ser criada. ([Blackwasp](http://www.blackwasp.co.uk/multiton.aspx))
-
+### Estrutura
+O padrão Multiton é bem similar ao Singelton. Quando é feita uma requisição por um objeto, é passada uma chave que criará um objeto ou retornará um já existente. Em essência, o Multiton faz o papel de um grupo de Singletons. ([Blackwasp](http://www.blackwasp.co.uk/multiton.aspx))
 ### Uso em Código
 O padrão Multiton não é encontrado no código do projeto Cardeal.
 ## 7. Object poll 
@@ -108,4 +109,4 @@ O padrão Multiton não é encontrado no código do projeto Cardeal.
 | 15/09/2021 | 0.4    | Factory Method: adição do uso em código     | Pedro Haick  |
 | 17/09/2021 | 0.5    | Factory Method: adição do snippet de código | Pedro Haick  |
 | 17/09/2021 | 0.6    | Estruturação do documento                   | Estevao Reis |
-| 19/09/2021 | 0.7    | Multiton: adição da introdução              | Pedro Haick  |
+| 19/09/2021 | 0.7    | Multiton: adição da introdução e estrutura  | Pedro Haick  |
