@@ -25,9 +25,12 @@ A abordagem do singleton é feita do seguinte modo e seguindo os seguintes parâ
 
 Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
 
-### 4.4 Singleton aplicado no Projeto
 
+### 4.4 Singleton aplicado ao Projeto
 
+![structure-pt-br](https://user-images.githubusercontent.com/82710878/133937083-9b869dd0-9676-4293-8352-70f960c68c17.png)
+
+=======
 
 ## 5. Builder 
 ## 6. Multiton 
@@ -56,11 +59,14 @@ O padrão prototype não foi aplicado ao projeto.
 
 ## 9. Referências
 
+
+
 > Padrões de Projeto Singleton. Disponível em: https://refactoring.guru/pt-br/design-patterns/singleton Acessado em: 18/09/2021
 > Padrões de Projeto Singleton. Disponível em: https://pt.wikipedia.org/wiki/Singleton#Em_Typescript Acessado em: 18/09/2021
 > Padrões de Projeto Prototype. Disponível em: https://refactoring.guru/pt-br/design-patterns/prototype Acessado em: 18/09/2021
 > Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#:~:text=Prototype%2C%20na%20ci%C3%AAncia%20da%20computa%C3%A7%C3%A3o,ou%20prot%C3%B3tipo%20que%20%C3%A9%20clonado.&text=Evitar%20criar%20um%20novo%20objeto,diminui%20o%20custo%20de%20mem%C3%B3ria Acessado em: 18/09/2021
 >  Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#Estrutura  Acessado em: 18/09/2021
+
 
 ## 10. Versionamento 
 
@@ -70,8 +76,9 @@ O padrão prototype não foi aplicado ao projeto.
 | 17/09/2021 | 0.2    | Estruturação do Arquivo| Estevao Reis |
 | 18/09/2021 | 0.3    | Adição do Padrão Singleton| Luiz Gustavo  |              |
 | 18/09/2021 | 0.4    | Adição do Padrão Prototype| Luiz Gustavo  |              |
-| 19/09/2021 | 0.5    | Adição da Introdução dos Padrões Criacionais| Luiz Gustavo  |
-| 19/09/2021 | 0.6    | Revisão e Correção ortográfica do arquivo| Marcos Vinícius |                |
-
+| 19/09/2021 | 0.5    | Adição do Padrão Singleton| Luiz Gustavo  |              |
+| 19/09/2021 | 0.6    | Adição da Introdução dos Padrões Criacionais| Luiz Gustavo  |              |
+| 19/09/2021 | 0.7  | Adição da Introdução do Tópico 4.4 ( Singleton aplicado ao Projeto )| Luiz Gustavo  |              
+| 19/09/2021 | 0.8    | Revisão e Correção ortográfica do arquivo| Marcos Vinícius |                |
 
 
