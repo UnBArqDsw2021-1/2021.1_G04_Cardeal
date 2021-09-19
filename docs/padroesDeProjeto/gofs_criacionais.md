@@ -99,6 +99,22 @@ O padrão Multiton não é encontrado no código do projeto Cardeal.
 ## 7. Object Pool
 ### Introdução
 Object Pool é um padrão de design criacional utilizado quando o custo de inicialização de uma classe é muito alto. uma Object Pool é um container que contém objetos. Quando um objeto é retirado da pool, só se torna disponivel após se devolvido. ([Geeks for Geeks](https://www.geeksforgeeks.org/object-pool-design-pattern/))
+### Estrutura
+Os objetos em uma Object Pool possuem o seguinte ciclo de vida:
+ - Criação
+ - Validação
+ - Destruição
+
+<center><img src="https://media.geeksforgeeks.org/wp-content/uploads/uml-pool-design.jpg" alt="Object Pool - Estrutura"></img>
+
+<a text-align="center" href="https://www.geeksforgeeks.org/object-pool-design-pattern/">Geeks for Geeks - Object Pool</a></center>
+1. Client: classe do código cliente que utiliza um objeto da Object Pool.
+2. ReusablePool: classe cuja instanciação é custosa, logo é armazenada na Object Pool.
+3. ObjectPool: classe que implementa a Object Pool. Mantém uma lista de objetos disponíveis e de objetos já requisitados.
+
+([Geeks for Geeks](https://www.geeksforgeeks.org/object-pool-design-pattern/))
+### Uso em Código
+O padrão Object Pool não é encontrado no código do projeto Cardeal.
 
 ## 8. Prototype 
 ## 9. Referências
