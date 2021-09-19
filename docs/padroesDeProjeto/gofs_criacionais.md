@@ -97,6 +97,9 @@ O padrão Multiton é bem similar ao Singelton. Quando é feita uma requisição
 O padrão Multiton não é encontrado no código do projeto Cardeal.
 
 ## 7. Object Pool
+### Introdução
+Object Pool é um padrão de design criacional utilizado quando o custo de inicialização de uma classe é muito alto. uma Object Pool é um container que contém objetos. Quando um objeto é retirado da pool, só se torna disponivel após se devolvido. ([Geeks for Geeks](https://www.geeksforgeeks.org/object-pool-design-pattern/))
+
 ## 8. Prototype 
 ## 9. Referências
 1. [Refactoring Guru - Factory Method](https://refactoring.guru/design-patterns/factory-method)
