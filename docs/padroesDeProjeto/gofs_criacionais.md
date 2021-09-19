@@ -15,6 +15,75 @@ O padrão é estruturado da seguinte forma:
 
 <a text-align="center" href="https://refactoring.guru/design-patterns/factory-method">Refactoring Guru - Factory Method</a></center>
 
+### Uso em Código
+O padrão de Factory Method pode ser utilizado em conjunto com os padrões Singleton e Injeção de Dependência para instanciar apenas um objeto responsável pela criação de objetos atráves do código.
+
+O framework NestJS, utilizada no back-end da aplicação, utiliza um método construtor para instanciar o objeto da aplicação, como é possível ver no snippet abaixo, disponível na [documentação do framework](https://docs.nestjs.com/).
+
+```
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module';
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule);
+  await app.listen(3000);
+}
+bootstrap();
+```
+Também é possível utilizar esse padrão na instanciação de pessoas, que podem ser clientes, proprietários ou corretores, como mostra o snippet abaixo.
+
+```
+interface Person {
+    method(): string;
+}
+
+class Realtor implements Person {
+    method(): string {
+        return 'This is a realtor';
+    }
+}
+
+class Client implements Person {
+    method(): string {
+        return 'This is a client';
+    }
+}
+
+class Landlord implements Person {
+    method(): string {
+        return 'This is a landlord';
+    }
+}
+
+abstract class PersonCreator {
+    abstract createPerson(): Person;
+}
+
+class RealtorCreator extends PersonCreator {
+    createPerson(): Person {
+        const realtor: Person = new Realtor();
+        console.log(realtor.method());
+        return realtor;
+    }
+}
+
+class ClientCreator extends PersonCreator {
+    createPerson(): Person {
+        const client: Person = new Client();
+        console.log(client.method());
+        return client;
+    }
+}
+
+class LandlordCreator extends PersonCreator {
+    createPerson(): Person {
+        const landlord: Person = new Landlord();
+        console.log(landlord.method());
+        return landlord;
+    }
+}
+```
+
 ## 3. Abstract Factory 
 ## 4. Singleton  
 ## 5. Builder 
@@ -31,3 +100,4 @@ O padrão é estruturado da seguinte forma:
 | ---------- | ------ | ------------------------------------ | ------------ |
 | 30/08/2021 | 0.1    | Criação do documento                 | Estevao Reis |
 | 15/09/2021 | 0.2    | Factory Method: adição da introdução | Pedro Haick  |
+| 15/09/2021 | 0.2    | Factory Method: adição da estrutura  | Pedro Haick  |
