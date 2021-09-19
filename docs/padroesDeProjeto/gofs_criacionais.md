@@ -88,6 +88,8 @@ class LandlordCreator extends PersonCreator {
 ## 4. Singleton  
 ## 5. Builder 
 ## 6. Multiton 
+### Introdução
+O padrão Multiton é uma extensão do padrão Singleton que permite instanciar um número limitado de objetos de uma classe a partir da especificação de uma chave para cada instância a ser criada. ([Blackwasp](http://www.blackwasp.co.uk/multiton.aspx))
 ## 7. Object Pool
 ## 8. Prototype 
 ## 9. Referências
@@ -96,8 +98,11 @@ class LandlordCreator extends PersonCreator {
 
 ## 10. Versionamento 
 
-| Data       | Versão | Descrição                            | Autores      |
-| ---------- | ------ | ------------------------------------ | ------------ |
-| 30/08/2021 | 0.1    | Criação do documento                 | Estevao Reis |
-| 15/09/2021 | 0.2    | Factory Method: adição da introdução | Pedro Haick  |
-| 15/09/2021 | 0.2    | Factory Method: adição da estrutura  | Pedro Haick  |
+| Data       | Versão | Descrição                                  | Autores      |
+| ---------- | ------ | ------------------------------------------ | ------------ |
+| 30/08/2021 | 0.1    | Criação do documento                       | Estevao Reis |
+| 15/09/2021 | 0.2    | Factory Method: adição da introdução       | Pedro Haick  |
+| 15/09/2021 | 0.3    | Factory Method: adição da estrutura        | Pedro Haick  |
+| 15/09/2021 | 0.4    | Factory Method: adição do uso em código    | Pedro Haick  |
+| 17/09/2021 | 0.6    | Estruturação do documento                  | Estevao Reis |
+| 19/09/2021 | 0.7    | Multiton: adição da introdução e estrutura | Pedro Haick  |
