@@ -1,4 +1,4 @@
-## GoFs Criacionais
+# GoFs Criacionais
 ## 1. Introdução
 
 ## 2. Factory Method 
@@ -15,7 +15,7 @@ O padrão é estruturado da seguinte forma:
 
 <a text-align="center" href="https://refactoring.guru/design-patterns/factory-method">Refactoring Guru - Factory Method</a></center>
 
-### Uso em Código
+### Utilização em Código
 O padrão de Factory Method pode ser utilizado em conjunto com os padrões Singleton e Injeção de Dependência para instanciar apenas um objeto responsável pela criação de objetos atráves do código.
 
 O framework NestJS, utilizada no back-end da aplicação, utiliza um método construtor para instanciar o objeto da aplicação, como é possível ver no snippet abaixo, disponível na [documentação do framework](https://docs.nestjs.com/).
@@ -120,14 +120,18 @@ O padrão Object Pool não é encontrado no código do projeto Cardeal.
 ## 9. Referências
 1. [Refactoring Guru - Factory Method](https://refactoring.guru/design-patterns/factory-method)
 2. [NestJS Documentation](https://docs.nestjs.com/)
+3. [Blackwasp - Multiton](http://www.blackwasp.co.uk/multiton.aspx)
+4. [Geeks for Geeks - Object Pool](https://www.geeksforgeeks.org/object-pool-design-pattern/)
 
 ## 10. Versionamento 
 
-| Data       | Versão | Descrição                                  | Autores      |
-| ---------- | ------ | ------------------------------------------ | ------------ |
-| 30/08/2021 | 0.1    | Criação do documento                       | Estevao Reis |
-| 15/09/2021 | 0.2    | Factory Method: adição da introdução       | Pedro Haick  |
-| 15/09/2021 | 0.3    | Factory Method: adição da estrutura        | Pedro Haick  |
-| 15/09/2021 | 0.4    | Factory Method: adição do uso em código    | Pedro Haick  |
-| 17/09/2021 | 0.6    | Estruturação do documento                  | Estevao Reis |
-| 19/09/2021 | 0.7    | Multiton: adição da introdução e estrutura | Pedro Haick  |
+| Data       | Versão | Descrição                                     | Autores      |
+| ---------- | ------ | --------------------------------------------- | ------------ |
+| 30/08/2021 | 0.1    | Criação do documento                          | Estevao Reis |
+| 15/09/2021 | 0.2    | Factory Method: adição da introdução          | Pedro Haick  |
+| 15/09/2021 | 0.3    | Factory Method: adição da estrutura           | Pedro Haick  |
+| 15/09/2021 | 0.4    | Factory Method: adição do uso em código       | Pedro Haick  |
+| 17/09/2021 | 0.5    | Factory Method: adição do snippet de código   | Pedro Haick  |
+| 17/09/2021 | 0.6    | Estruturação do documento                     | Estevao Reis |
+| 19/09/2021 | 0.7    | Multiton: adição da introdução e estrutura    | Pedro Haick  |
+| 19/09/2021 | 0.8    | Object Pool: adição da introdução e estrutura | Pedro Haick  |
