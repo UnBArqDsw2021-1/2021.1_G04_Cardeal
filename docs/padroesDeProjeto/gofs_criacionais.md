@@ -1,5 +1,9 @@
 ## GoFs Criacionais
 ## 1. Introdução
+
+
+Os padrões de projeto criacionais fornecem diferentes mecanismos para a criação de objetos, mecanismos esses que possibilitam o aumento da reutilização do código e o aumento da flexibilidade desse mesmo código. Possilitando assim que o sistema se torne um sistema bem mais estruturado e independente de como os seus objetos são criados, compostos e representandos dentro do código. Dentro os padrões criacionais observados, alguns exemplos podem ser citados, são eles: abstract factory, singleton, builder, prototype.
+
 ## 2. Factory Method 
 ## 3. Abstract Factory 
 ## 4. Singleton  
@@ -11,7 +15,7 @@ Com o singleton se faz necessário somente uma instância da classe, o que vai g
 
 ## 4.2. Metodologia
 
- O padrão singleton foi estudado e implementando de maneira direta no projeto. Estando evidente no desenvolvimento da aplicação na parte referente ao frontend do projeto. A sua implementação seguiu o seu padrão característico descrito na introdução de modo a preservar e ser possível indentífica-lo de maneira clara no projeto.
+ O padrão singleton foi estudadi e implementando de maneira direta no projeto. Estando evidente no desenvolvimento da aplicação na parte referente ao frontend do projeto. A sua implementação seguiu o seu padrão característico descrito na introdução de modo a preservar e ser possível indentífica-lo de maneira clara no projeto.
 
 ## 4.3. Estrutura
 
@@ -21,18 +25,16 @@ A abordagem do singleton é feita do seguinte modo e seguindo os seguintes param
 
 Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
 
-### 4.4 Singleton aplicado no Projeto
+### 4.4 Singleton aplicado ao Projeto
 
+![structure-pt-br](https://user-images.githubusercontent.com/82710878/133937083-9b869dd0-9676-4293-8352-70f960c68c17.png)
 
-
-## 5. Builder 
-## 6. Multiton 
 ## 7. Object poll 
 ## 8. Prototype 
 ## 9. Referências
 
-> Padrões de Projeto Observer. Disponível em: https://refactoring.guru/pt-br/design-patterns/singleton Acessado em: 18/09/2021
-> Padrões de Projeto Observer. Disponível em: https://pt.wikipedia.org/wiki/Singleton#Em_Typescript Acessado em: 18/09/2021
+> Padrões de Projeto Singleton. Disponível em: https://refactoring.guru/pt-br/design-patterns/singleton Acessado em: 18/09/2021
+> Padrões de Projeto Singleton. Disponível em: https://pt.wikipedia.org/wiki/Singleton#Em_Typescript Acessado em: 18/09/2021
 
 ## 10. Versionamento 
 
@@ -41,3 +43,5 @@ Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
 | 30/08/2021 | 0.1    | Criação do arquivo| Estevao Reis  |
 | 17/09/2021 | 0.2    | Estruturação do Arquivo| Estevao Reis |
 | 19/09/2021 | 1.0    | Adição do Padrão Singleton| Luiz Gustavo  |              |
+| 19/09/2021 | 2.0    | Adição da Introdução dos Padrões Criacionais| Luiz Gustavo  |              |
+| 19/09/2021 | 2.1  | Adição da Introdução do Tópico 4.4 ( Singleton aplicado ao Projeto )| Luiz Gustavo  |              |
