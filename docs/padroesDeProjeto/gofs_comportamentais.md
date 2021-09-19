@@ -8,6 +8,19 @@
 ## 6. Mediator
 ## 7. Chain of Responsability 
 ## 8. Observer 
+
+O Observer é um padrão de projeto que permite que os objetos ineteressados sejam avisados de mudaça de estado ou outros eventos que ocorram em um outro objeto. Ele também pode ser chamado de Publiser-Subscriber. GAMMA define o Observer da seguinte maneira:
+
+"Definir uma dependência um-para-muitos entre objetos, de maneira que quando um objeto muda de estado todos os seus dependentes são notificados e atualizados automaticamente." (GAMMA et al., 2000, p.274).
+
+### 8.1 Metodologia
+
+A partir da reunião realizada no dia [17/09/2021](./atas/17-09-21.md) ficou decido entre os membros do grupo que os padrões de projeto seriam explicados para fins didáticos para enriquecer a documentação e aumentar a compreenção do conteúdo nos participantes do trabalho.
+
+### 8.2 Aplicação no projeto
+
+O padão Observer foi identificado e aplicado no front-end do projeto.
+
 ## 9. Visitor 
 ## 10. Memento 
 ## 12. Template Method 
