@@ -92,7 +92,9 @@ O padrão Multiton é uma extensão do padrão Singleton que permite instanciar 
 O padrão Multiton é bem similar ao Singelton. Quando é feita uma requisição por um objeto, é passada uma chave que criará um objeto ou retornará um já existente. Em essência, o Multiton faz o papel de um grupo de Singletons. ([Blackwasp](http://www.blackwasp.co.uk/multiton.aspx))
 ### Uso em Código
 O padrão Multiton não é encontrado no código do projeto Cardeal.
-## 7. Object poll 
+## 7. Object Pool
+### Introdução
+Object Pool é um padrão de design criacional utilizado quando o custo de inicialização de uma classe é muito alto. uma Object Pool é um container que contém objetos. Quando um objeto é retirado da pool, só se torna disponivel após se devolvido.
 ## 8. Prototype 
 ## 9. Referências
 1. [Refactoring Guru - Factory Method](https://refactoring.guru/design-patterns/factory-method)
@@ -101,12 +103,13 @@ O padrão Multiton não é encontrado no código do projeto Cardeal.
 
 ## 10. Versionamento 
 
-| Data       | Versão | Descrição                                   | Autores      |
-| ---------- | ------ | ------------------------------------------- | ------------ |
-| 30/08/2021 | 0.1    | Criação do documento                        | Estevao Reis |
-| 15/09/2021 | 0.2    | Factory Method: adição da introdução        | Pedro Haick  |
-| 15/09/2021 | 0.3    | Factory Method: adição da estrutura         | Pedro Haick  |
-| 15/09/2021 | 0.4    | Factory Method: adição do uso em código     | Pedro Haick  |
-| 17/09/2021 | 0.5    | Factory Method: adição do snippet de código | Pedro Haick  |
-| 17/09/2021 | 0.6    | Estruturação do documento                   | Estevao Reis |
-| 19/09/2021 | 0.7    | Multiton: adição da introdução e estrutura  | Pedro Haick  |
+| Data       | Versão | Descrição                                     | Autores      |
+| ---------- | ------ | --------------------------------------------- | ------------ |
+| 30/08/2021 | 0.1    | Criação do documento                          | Estevao Reis |
+| 15/09/2021 | 0.2    | Factory Method: adição da introdução          | Pedro Haick  |
+| 15/09/2021 | 0.3    | Factory Method: adição da estrutura           | Pedro Haick  |
+| 15/09/2021 | 0.4    | Factory Method: adição do uso em código       | Pedro Haick  |
+| 17/09/2021 | 0.5    | Factory Method: adição do snippet de código   | Pedro Haick  |
+| 17/09/2021 | 0.6    | Estruturação do documento                     | Estevao Reis |
+| 19/09/2021 | 0.7    | Multiton: adição da introdução e estrutura    | Pedro Haick  |
+| 19/09/2021 | 0.8    | Object Pool: adição da introdução             | Pedro Haick  |
