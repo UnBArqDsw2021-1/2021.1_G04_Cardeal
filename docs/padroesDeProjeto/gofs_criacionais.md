@@ -1,5 +1,9 @@
 ## GoFs Criacionais
 ## 1. Introdução
+
+
+Os padrões de projeto criacionais fornecem diferentes mecanismos para a criação de objetos, mecanismos esses que possibilitam o aumento da reutilização do código e o aumento da flexibilidade desse mesmo código. Possilitando assim que o sistema se torne um sistema bem mais estruturado e independente de como os seus objetos são criados, compostos e representandos dentro do código. Dentro os padrões criacionais observados, alguns exemplos podem ser citados, são eles: abstract factory, singleton, builder, prototype.
+
 ## 2. Factory Method 
 ## 3. Abstract Factory 
 ## 4. Singleton  
