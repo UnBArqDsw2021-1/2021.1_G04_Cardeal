@@ -16,6 +16,8 @@ Uma motivação é que muitos algoritmos servem para quebrar um fluxo de texto e
  
 * É difícil adicionar novos algoritmos e modificar os antigos quando o suporte de quebra de cilha é uma parte íntegra do cliente.
  
+[![Exemplo Quebra Linha](./img/quebraLInhaStrategy.png)](./img/quebraLInhaStrategy.png)
+
 Para tentarmos evitar esses tipos de problemas, definimos então classes que encapsulam diferentes algoritmos de quebra de linha. Um algoritmo que é encapsulado dessa forma é chamado de Strategy.
  
 Usamos o padrão Strategy quando
@@ -25,7 +27,7 @@ Usamos o padrão Strategy quando
 * um algoritmo usa a data de um cliente que ele não deve saber sobre. Use o padrão Strategy para evitar expor estrutura de dados complexos ou específicos.
 * uma classe define muitos comportamentos, e eles aparecem como demonstrações condicionais múltiplas como operações.
 
-[![Template Method Estrutura](./img/strategyStructure.png)](./img/strategyStructure.png)
+[![Estrutura Strategy](./img/strategyStructure.png)](./img/strategyStructure.png)
 
 Algo de ficar de olho para o padrão Strategy que tem os seguintes beneficios e desvantagens:
 
@@ -43,6 +45,37 @@ Algo de ficar de olho para o padrão Strategy que tem os seguintes beneficios e 
 
 
 ## 3. State 
+ 
+O State permite que um objeto altere seu comportamento quando o seu estado interno mudo. O objeto vai parecer que mudou sua classe.
+ 
+Como motivação, considere uma classe TPConnection que representa uma conexão de rede. O objeto TCP-Connection pode estar em diferentes estados: Estabelecido, Escutando e Fechado. Quando o objeto TCPConnecttion recebe um pedido de outros objetos, ele responde diferentemente dependendo do seu estado atual. Como exemplo, o efeito de um pedido Aberto, depende de onde a conexão permanece se é num estado Fechado ou Estabelecido. Quando o padrão State descreve como TCPConnection pode exibir diferentes comportamentos em cada estado.
+Sendo assim, o estado da conexão delega todo o comportamento do objeto.
+
+[![TCP Connection Exemplo State](./img/tcpState.png)](./img/tcpState.png)
+
+Sempre que uma conexão muda de estado, o objeto TCPConnection muda o estado do objeto e seus usos. Quando a conexão vai de estabelecida para fechada, por exemplo, o TCPConnection vai trocar a instância TCPEstablished para a instância TCPClosed.
+ 
+O padrão State é utilizado em um dos casos:
+ 
+* O comportamento do objeto depende de seu estado, e tem que mudar seu comportamento no tempo de execução dependendo do seu estado.
+* Operações tem uma grande demonstração condicional de várias partes que depende do estado de um objeto. Esse estado é geralmente representado por um ou mais constantes enumerados. De vez em quando, muitas operações vão conter a mesma estrutura condicional. O padrão State coloca cada caminho das respectivas condições em classes separadas. Isso deixa você tratar o estado de um objeto como um objeto em seu próprio direito de variar independentemente de outros objetos.
+
+
+[![Estrutura State](./img/StateStructure.png)](./img/StateStructure.png)
+
+Esse padrão tem como consequências:
+ 
+* Deixa a transição de estados mais explícitas
+ 
+   Quando um objeto define seu estado atual somente em termos de valores de dados internos, o mesmo estado de transição não tem representações explícitas; eles somente mostram os deveres de algumas variáveis. Introduzindo objetos separados por diferentes estados que fazem a transição mais explícita.
+ 
+* Objetos State podem ser compartilhados
+ 
+   Se o objeto State não tem instâncias de variáveis - isso é, o estado que eles representam está codificado totalmente ao seu tipo - então o contexto pode ser compartilhado a um objeto State.
+
+
+
+
 ## 4. Command 
 ## 5. Iterator
 ## 6. Mediator
