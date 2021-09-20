@@ -6,7 +6,60 @@
 ## 4. Command
 ## 5. Iterator
 ## 6. Mediator
-## 7. Chain of Responsability
+## 7. Chain of Responsibility
+
+### 7.1. Introdução
+
+Esse design pattern também pode ser conhecido como CoR, Corrente de responsabilidade, Corrente de comando, Chain of command.
+
+O Chain of Responsibility é um padrão de projeto comportamental que permite que você passe pedidos por uma corrente de handlers. Ao receber um pedido, cada handler decide se processa o pedido ou o passa adiante para o próximo handler na corrente.
+
+![Adaptador](./img/chain.jpeg)
+<p align = "center">Chain of Responsibility</p>
+
+Fonte: [wiki](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
+### 7.2. Metodologia
+
+ O padrão Chain of Responsibility foi estudado, e será utilizado mais a frente no projeto para lidar com a questão da implementação do login do Corretor na aplicação. A sua implementação seguirá o seu padrão característico, descrito na introdução de modo a preservar e ser possível identificá-lo de maneira clara no projeto.
+
+### 7.3. Estrutura
+
+A redução do acoplamento é obtida dando a mais de um objeto a chance de lidar com a solicitação consequentemente. O item da cadeia recebe a solicitação e, após alguma lógica, passa a solicitação para o próximo handler ao longo da cadeia de handlers.
+
+O primeiro objeto na cadeia recebe a solicitação e a trata ou encaminha para o próximo candidato na cadeia, que faz o mesmo. 
+
+O objeto que fez a solicitação não tem conhecimento explícito de quem irá tratá-la - a solicitação tem um receptor implícito.
+
+Este padrão inclui duas funções principais:
+
+- **Handler** - define uma interface para lidar com solicitações, lida com a própria solicitação e implementa o link sucessor
+- **Cliente** - inicia a solicitação para um objeto Handler na cadeia.
+
+- **Main** -
+componha cadeias apenas uma vez ou componha-as dinamicamente, dependendo da lógica do aplicativo
+- **Concrete Handlers** - 
+contém a lógica real para solicitações de processamento
+ao receber uma solicitação, cada manipulador decide se deve processá-la e passá-la ao longo da cadeia
+geralmente independente e imutável, aceitando todos os dados necessários, apenas um por meio do construtor
+
+![ilustracao-adapter](./img/chain-structure.png)
+<p align = "center">Diagrama UML - Chain of responsibility</p>
+
+Prós  
+
+- Capacidade de controlar a ordem de tratamento da solicitação.
+- Atende **Princípio de Responsabilidade Única** que diz que uma classe deve possuir uma, e apenas uma responsabilidade. Pode-se traduzir isso em “uma classe deve ter apenas um motivo para mudar”.
+- Atende **Princípio Aberto / Fechado**
+que diz que as entidades de software (classes, módulos, funções, etc.) devem estar abertas para extensão, mas fechadas para modificação, ou seja, deve ser possível estender o comportamento de uma classe, mas não a modificar.
+
+Contras
+
+- Algum pedido pode acabar sem tratamento
+
+### 7.4. Chain of Responsability aplicado ao projeto
+
+O Padrão Chain of Responsability ainda não foi aplicado ao projeto. Quando implementado será referenciado neste tópico.
+
 ## 8. Observer
  
 O Observer é um padrão de projeto que permite que os objetos interessados sejam avisados de mudança de estado ou outros eventos que ocorram em um outro objeto. Ele também pode ser chamado de Publiser-Subscriber. GAMMA define o Observer da seguinte maneira:
@@ -17,16 +70,98 @@ O Observer é um padrão de projeto que permite que os objetos interessados seja
 _Fonte: https://pt.wikipedia.org/wiki/Observer_ 
  
 ### 8.1 Metodologia
- 
+
 A partir da reunião realizada no dia [17/09/2021](./atas/17-09-21.md) ficou decidido entre os membros do grupo que os padrões de projeto seriam explicados para fins didáticos para enriquecer a documentação e aumentar a compreensão do conteúdo nos participantes do trabalho.
- 
+
 ### 8.2 Aplicação no projeto
  
 O padrão Observer foi identificado e aplicado no front-end do projeto. O Observable é uma classe que aplica o padrão Observer. É emitida uma notificação para o Observable sempre que ocorre uma mudança em um de seus itens e a partir disto podemos executar uma ação. Em nosso projeto ele foi aplicado para observar a resposta das requisições da API, retornando um objeto assim que a requisição concluir sua tarefa, ou retornando um erro caso não seja possível concluir a requisição.
  
 ![Observer](./img/gof-observe.png)
+
+## 9. Visitor 
+
+### 9.1. Introdução
+
+Imagine que temos um objeto composto que consiste em componentes. A estrutura do objeto é fixa - não podemos alterá-la ou não planejamos adicionar novos tipos de elementos à estrutura.
+
+Agora, como poderíamos adicionar novas funcionalidades ao nosso código sem modificar as classes existentes?
+
+O padrão de design do Visitante pode ser uma resposta. Simplificando, teremos que fazer é adicionar uma função que aceita a classe visitante para cada elemento da estrutura.
+
+Dessa forma, nossos componentes permitirão que a implementação do visitante os “visite” e execute qualquer ação necessária naquele elemento.
+
+Em outras palavras, extraímos o algoritmo que será aplicado à estrutura do objeto das classes.
+
+Consequentemente, fazemos bom uso do princípio Aberto / Fechado, pois não modificamos o código, mas ainda seremos capazes de estender a funcionalidade fornecendo uma nova implementação de Visitante.
+### 9.2. Metodologia
+
+ O padrão Chain of Responsibility foi estudado, e será utilizado mais a frente no projeto para lidar com a questão da implementação do login do Corretor na aplicação. A sua implementação seguirá o seu padrão característico, descrito na introdução de modo a preservar e ser possível identificá-lo de maneira clara no projeto.
+
+### 9.3. Estrutura
+
+![ilustracao-visitor](./img/visitor3.png)
+<p align = "center">Diagrama UML - Visitor</p>
+
+- **Visitor** (NodeVisitor) - declara uma operação Visit para cada classe de ConcreteElement no objeto
+estrutura. O nome da operação e assinatura identifica a classe que envia
+o pedido de visita ao visitante. Isso permite que o visitante determine o concreto
+classe do elemento que está sendo visitado. Em seguida, o visitante pode acessar o elemento
+diretamente por meio de sua interface específica.
+
+- **Concrete Visitor** (TypeCheckingVisitor) - implementa cada operação declarada pelo Visitante. Cada operação implementa um fragmento do algoritmo definido para a classe de objeto correspondente na estrutura. ConcreteVisitor fornece o contexto para o algoritmo
+e armazena seu estado local. Este estado geralmente acumula resultados durante o
+travessia da estrutura.
+
+• **Element** (Nó) - define uma operação Aceitar que leva um visitante como argumento.
+
+- **ConcreteElement** (AssignmentNode, VariableRefNode)
+-implementa uma operação Accept que leva um visitante como argumento.
+
+• **ObjectStructure** (Programa)
+
+- pode enumerar seus elementos.
+- pode fornecer uma interface de alto nível para permitir que o visitante visite seus elementos.
+- pode ser um composto ou uma coleção, como um lista ou um conjunto.
+
+Prós  
+
+- Um objeto visitante pode acumular algumas informações úteis ao trabalhar com vários objetos. Isso pode ser útil quando você deseja percorrer alguma estrutura complexa de objetos, como uma árvore de objetos, e aplicar o visitante a cada objeto dessa estrutura.
+- Atende **Princípio de Responsabilidade Única** que diz que uma classe deve possuir uma, e apenas uma responsabilidade. Pode-se traduzir isso em “uma classe deve ter apenas um motivo para mudar”.
+- Atende **Princípio Aberto / Fechado**
+que diz que as entidades de software (classes, módulos, funções, etc.) devem estar abertas para extensão, mas fechadas para modificação, ou seja, deve ser possível estender o comportamento de uma classe, mas não a modificar.
+
+Contras
+
+- Você precisa atualizar todos os visitantes cada vez que uma classe é adicionada ou removida da hierarquia de elementos.
+- Os visitantes podem não ter acesso necessário aos campos e métodos particulares dos elementos com os quais devem trabalhar.
+
+### 9.4. Visitor aplicado ao projeto
+
+O Padrão Visitor foi aplicado ao projeto. 
+Seguem abaixo um exemplo onde é definido uma classe Imovel.
+
+![ilustracao-adapter](./img/visitor1.png)
+<p align = "center">Exemplo de model Angular12</p>
+
+Foi criado uma camada de modelo usando o sistema de injeção de dependências e retirando a lógica de dentro do componente.
+
+Essa model que é visitada pelos componentes  e serviços que necessitam do uso dessa classe.
+
+![ilustracao-adapter](./img/visitor2.png)
+<p align = "center">Utilização da model Imovel pelo serviço Imovel.</p>
+
+Service é o objeto usado para organizar e/ou compartilhar estados de objetos e as regras de negócio da aplicação. Além de se utilizar do Visitor ele também é singleton, ou seja, há apenas uma instância disponível durante a vida útil da aplicação. Outra característica importante é a inicialização tardia (lazily instantiated), que só é efetuada quando o AngularJS identifica que tem algum componente dependente.
+
+[Código Model](../assets/imovel.model.ts)
+
+[Código Serviço](../assets/imovel.service.ts)
+
+## 10. Memento 
+## 12. Template Method 
  
-## 9. Visitor
+A partir da reunião realizada no dia [17/09/2021](./atas/17-09-21.md) ficou decidido entre os membros do grupo que os padrões de projeto seriam explicados para fins didáticos para enriquecer a documentação e aumentar a compreensão do conteúdo nos participantes do trabalho.
+ 
 ## 10. Memento
 ## 12. Template Method
 ### 12.1 Introdução
@@ -104,3 +239,4 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 | 17/09/2021 | 0.3   | Estruturação do Arquivo| [Estevao Reis](https://github.com/estevaoreis25) |
 | 19/09/2021 | 0.5   | Introdução do Observer| Gustavo Duarte Moreira|
 | 19/09/2021 | 0.6   | Revisão e Correção Ortográfica do Arquivo| [Marcos Vinícius](https://github.com/marcos-mv)|
+| 19/09/2021 | 0.7 | Revisão | Marcos, Bruno, Gustavo, Igor, Estevão, Giovana, Tomás |
