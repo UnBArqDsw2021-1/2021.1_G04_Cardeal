@@ -183,7 +183,7 @@ O padrão prototype não foi aplicado ao projeto.
 O padrão de projeto Abstract Factory é um padrão criacional que tem como principal foco deixar com que o desenvolvedor possa criar famílias de objetos relacionados sem ter que definir a qual classe concreta ela pertence usando somente uma interface.
 
 ## 9.2. Metodologia
-O padrão de projeto Abstract Factory não foi implementado, no entanto caso fossemos implementar teriamos vários tipos de propriedades com características diferentes e implementariamos uma interface dentro para que cada método tivesse uma implementacao diferente, mesmo pertecendo a mesma classe. 
+O padrão de projeto Abstract Factory não foi implementado, no entanto caso fossemos implementar teríamos vários tipos de propriedades com características diferentes e implementarmos uma interface dentro para que cada método tivesse uma implementação diferente, mesmo pertecendo a mesma classe.
 
 ## 9.3. Estrutura
 ![Abstract](https://miro.medium.com/max/1268/0*p3XqL1afoWBhXEVO.jpg)
@@ -240,9 +240,10 @@ O padrão builder é um padrão usado para incapsular a lógica de construção 
 | 19/09/2021 | 1.7    | Object Pool: adição da introdução e estrutura | Pedro Haick     |
 | 18/09/2021 | 1.8    | Adição do Padrão Singleton                    | Luiz Gustavo    |
 | 18/09/2021 | 1.9    | Adição do Padrão Prototype                    | Luiz Gustavo    |
-| 19/09/2021 | 1.10   | Adição do Padrão Singleton                    | Luiz Gustavo    |
-| 19/09/2021 | 1.11   | Adição da Introdução dos Padrões Criacionais  | Luiz Gustavo    |
-| 19/09/2021 | 1.12   | Adição da Introdução do Tópico 4.4            | Luiz Gustavo    |
-| 19/09/2021 | 1.13   | Revisão e Correção ortográfica do arquivo     | Marcos Vinícius |
-| 20/09/2021 | 1.5    | Adicão do Abstract Factory |     Igor Araújo|
-| 20/09/2021 | 1.5    | Adicão do Builder |     Igor Araújo|
+| 19/09/2021 | 2.0   | Adição do Padrão Singleton                    | Luiz Gustavo    |
+| 19/09/2021 | 2.1   | Adição da Introdução dos Padrões Criacionais  | Luiz Gustavo    |
+| 19/09/2021 | 2.2   | Adição da Introdução do Tópico 4.4            | Luiz Gustavo    |
+| 19/09/2021 | 2.3   | Revisão e Correção ortográfica do arquivo     | Marcos Vinícius |
+| 20/09/2021 | 2.4    | Adicão do Abstract Factory |     Igor Araújo|
+| 20/09/2021 | 2.5   | Adicão do Builder |     Igor Araújo|
+| 20/09/2021 | 2.6   | Revisão e Correção ortográfica |     Bruno Nunes |
