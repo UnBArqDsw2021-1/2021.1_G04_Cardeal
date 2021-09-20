@@ -1,7 +1,5 @@
 # GoFs Estruturais
 ## 1. Introdução
-
-Os padrões de projetos estruturais explicam um modo de montar objetos e classes em estruturas flexíveis e eficientes. Permitindo que o projeto se torne mais eficiente. Dentro os padrões estruturais observados, alguns exemplos podem ser citados, são eles: Adapter, Composite, Bride, Decorator, Facade, Flyweight e Proxy.
     
 ## 2. Adapter 
 ## 3. Composite 
