@@ -71,7 +71,7 @@ _Fonte: https://pt.wikipedia.org/wiki/Observer_
  
 ### 8.1 Metodologia
 
-A partir da reunião realizada no dia [17/09/2021](./atas/17-09-21.md) ficou decido entre os membros do grupo que os padrões de projeto seriam explicados para fins didáticos para enriquecer a documentação e aumentar a compreensão do conteúdo nos participantes do trabalho.
+A partir da reunião realizada no dia [17/09/2021](./atas/17-09-21.md) ficou decidido entre os membros do grupo que os padrões de projeto seriam explicados para fins didáticos para enriquecer a documentação e aumentar a compreensão do conteúdo nos participantes do trabalho.
 
 ### 8.2 Aplicação no projeto
  
@@ -239,3 +239,4 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 | 17/09/2021 | 0.3   | Estruturação do Arquivo| [Estevao Reis](https://github.com/estevaoreis25) |
 | 19/09/2021 | 0.5   | Introdução do Observer| Gustavo Duarte Moreira|
 | 19/09/2021 | 0.6   | Revisão e Correção Ortográfica do Arquivo| [Marcos Vinícius](https://github.com/marcos-mv)|
+| 19/09/2021 | 0.7 | Revisão | Marcos, Bruno, Gustavo, Igor, Estevão, Giovana, Tomás |
