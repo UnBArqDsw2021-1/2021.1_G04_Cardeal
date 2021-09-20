@@ -77,6 +77,23 @@ Esse padrão tem como consequências:
 
 
 ## 4. Command 
+
+O Command encapsula a solicitação como um objeto, deste modo permitindo você a parametrizar clientes com diferentes solicitações, filas ou solicitações de relatórios, e o suporte a operações desfeitas.
+
+[![Estrutura Command](./img/CommandStructure.png)](./img/CommandStructure.png)
+
+Utilizar quando:
+
+* Parametrizar objetos por uma ação a ser executada. Você pode expressar tal parametrização numa linguagem procedural através de uma função callback, ou seja, uma função que é registrada em algum lugar para ser chamada em um momento mais adiante. Os Commands são uma substituição orientada a objetos para callbacks;
+* Especificar, enfileirar e executar solicitações em tempos diferentes. Um objeto Command pode ter um tempo de vida independente da solicitação original. Se o receptor de uma solicitação pode ser representado de uma maneira independente do espaço de endereçamento, então você pode transferir um objeto Command para a solicitação para um processo diferente e lá atender a solicitação;
+* Suportar desfazer operações. A operação Execute, de Command, pode armazenar estados para reverter seus efeitos no próprio comando. A interface do Command deve ter acrescentada uma operação Unexecute, que o reverte.efeitos de uma chamada anterior de Execute. Os comandos executados são armazenados em uma lista histórica. O nível ilimitado de desfazer e refazer operações é obtido percorrendo esta lista para trás e para frente, chamando operações Unexecute e Execute, respectivamente.
+
+O padrão Command tem as seguintes consequências: 
+
+* Command desacopla o objeto que invoca a operação daquele que sabe como fazer.
+* Commands são objetos de primeira classe. Eles podem ser manipulados ou estendidos como qualquer outro objeto.
+* É fácil adicionar novos Commands, porque vocÇẽ não tem que mudar classes existentes.
+
 ## 5. Iterator
 ## 6. Mediator
 ## 7. Chain of Responsability 
@@ -166,6 +183,12 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 > Exploring the Observer Design Pattern. Disponível em: <https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ee817669(v=pandp.10)?redirectedfrom=MSDN> Acessado em: 17/09/2021
 
 ---
+
+> Command. Disponível em: <https://pt.wikipedia.org/wiki/Command> Acessado em: 19/09/2021
+
+---
+
+
 
 ## 13. Versionamento 
 
