@@ -42,9 +42,47 @@
 
 </center>
 
-## 2. Versionamento
+### 1.4. Diagrama de Sequência
+
+<p align = "justify">No documento dos <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_sequencia/"><b>Diagramas de Sequência</b></a>, foram adicionadas correções requeridas no feedback referente à segunda entrega, como:</p>
 
 <center>
+
+| **Critério adicionado** |                                                **Tópico alterado**                                                 | **Descrição**                              |
+| :---------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------- |
+|   :heavy_check_mark:    | **[1. Introdução](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_sequencia/#1-introducao)** | Correção das citações     |
+|   :heavy_check_mark:    | **[1. Introdução](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_sequencia/#1-introducao)** | Correção da data de reunião |
+|   :heavy_check_mark:    | **[4. Referência](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_sequencia/#4-referencia)** | Padronização do tópico |
+
+</center>
+
+### 1.5. Diagrama de Estados
+<p align = "justify">No documento dos <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_estados/"><b>Diagramas de Sequência</b></a>, foram adicionadas correções requeridas no feedback referente à segunda entrega:</p>
+
+<center>
+
+| **Critério adicionado** |                                                **Tópico alterado**                                                 | **Descrição**                              |
+| :---------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------- |
+|   :heavy_check_mark:    | **[2. Metodologia](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_sequencia/#2-metodologia)** | Detalhamento maior da metodologia, adicionando links a outros artefatos que foram usados para desenvolver o diagrama de estados, assim como aqueles que o usaram para serem desenvolvidos.     |
+|   :heavy_check_mark:    | **[3. Resultados](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_sequencia/#3-resultados)** | Explicação referente ao debate e aprovação do documento pelos membros do grupo.|
+
+</center>
+
+### 1.6. Diagrama de Atividades
+<p align = "justify">No documento dos <a [href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_estados/](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/)"><b>Diagramas de Atividades</b></a>, foram adicionadas correções requeridas no feedback referente à segunda entrega:</p>
+
+<center>
+
+| **Critério adicionado** |                                                **Tópico alterado**                                                 | **Descrição**                              |
+| :---------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------- |
+|   :heavy_check_mark:    | **[Documento](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/)** | Padronização do documento |
+|   :heavy_check_mark:    | **[Referências](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/)** | Correção nas referências usadas no texto |
+|   :heavy_check_mark:    | **[Revisão do Léxico](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/)** | O léxico usado foi alterado de deletar para apagar imóvel  |
+
+</center>
+
+## 2. Versionamento
+
 
 |    Data    | Versão |       Descrição       |                   Autor(es)                    |
 | :--------: | :----: | :-------------------: | :--------------------------------------------: |
@@ -52,5 +90,7 @@
 | 10/09/2021 |  1.1   | Criação do Tópico 1.1 | [Tomás Veloso](https://github.com/tomasvelos0) |
 | 10/09/2021 |  1.2   | Criação do Tópico 1.2 | [Tomás Veloso](https://github.com/tomasvelos0) |
 | 10/09/2021 |  1.3   | Criação do Tópico 1.3 | [Tomás Veloso](https://github.com/tomasvelos0) |
+| 10/09/2021 |  1.3   | Criação do Tópico 1.4 | [Giovana Dionisio](https://github.com/giovanadionisio) |
+| 19/09/2021 |  1.4   | Criação do Tópico 1.5 | [Pedro Haick](https://github.com/peHaick) |
+| 19/09/2021 |  1.5   | Criação do Tópico 1.6 | [Douglas Castro](https://github.com/douglasffcastro) |
 
-</center>
