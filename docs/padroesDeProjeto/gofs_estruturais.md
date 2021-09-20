@@ -2,6 +2,34 @@
 
 ## 1. Introdução
 
+Os padrões de projeto estrutural estão preocupados em como classes e objetos podem ser compostos, para formar estruturas maiores.
+
+Os padrões de design estrutural simplificam a estrutura, identificando os relacionamentos.
+
+Esses padrões se concentram em como as classes herdam umas das outras e como são compostas de outras classes.
+
+Existem 7 tipos de padrões de projeto estruturais listados a seguir.
+
+- **Padrão Adapter**: 
+Adaptação de uma interface em outra de acordo com a expectativa do cliente.
+
+- **Padrão de Bridge**:
+Separando abstração (interface) da implementação.
+
+- **Padrão Compose**:
+Permite que os clientes operem na hierarquia de objetos.
+
+- **Padrão de Decorator**:
+Adiciona funcionalidade a um objeto dinamicamente.
+
+- **Padrão Facade**:
+Fornece uma interface para um conjunto de interfaces.
+
+- **Padrão Flyweight**:
+Reutiliza um objeto compartilhando-o.
+
+- **Padrão Proxy**: 
+Representa outro objeto.
 
 ## 2. Adapter 
 
