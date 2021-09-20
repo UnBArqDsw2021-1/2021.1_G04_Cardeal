@@ -116,6 +116,48 @@ O padão Observer foi identificado e aplicado no front-end do projeto.
 
 ## 9. Visitor 
 ## 10. Memento 
+
+O Memento tem como intenção, sem que viole a encapsulação, a captura e a externalização dos estados internos de um objeto para que o objeto possa ser restaurado para esse estado posteriormente.
+ 
+Algumas vezes é necessário gravar o estado inicial de um objeto. Sendo assim é necessário implementar checkpoint e desfazer mecanismos que deixem o usuário voltar nas tentativas anteriores de operações ou se recuperar de erros. Você tem que salvar o estado da informação em algum lugar, para que os objetos possam ser restaurados ao os estados anteriores. Mas os objetos normalmente encapsulam algumas ou todas as partes do seu estado, fazendo então inacessível a outros objetos é impossível de salvar externamente. Expondo esse estado pode violar a encapsulação, o que compromete a confiabilidade e extensibilidade da aplicação.
+ 
+Considere um exemplo de um editor gráfico que suporta a conectividade entre objetos. Um usuário pode mover então dois retângulos conectados a uma linha alterando então o formato dos objetos e o alargamento da linha.
+
+
+[![Exemplo 1 Memento](./img/MementoExampleOne.png)](./img/MementoExampleOne.png)
+
+Vemos então que além dos estados serem gravados, são mantidas as posições dos objetos também com as operações onde levam o cálculo do alargamento da linha. Porém neste caso queremos desfazer essa ação voltando para o estado original, mas o suporte para desfazer não é tão fácil quanto parece. Um jeito óbvio de desfazer a operação de movimento seria guardar o valor de origem da distância que foi movida e voltar com essa distância armazenada. Contudo, isso não garante que todos os objetos irão aparecer onde eles estavam antes. Suponhamos que exista uma folga na conexão. Nesse caso, simplesmente mover um retângulo de volta a sua posição original não terá conquistado o efeito desejado.
+
+
+[![Exemplo 2 Memento](./img/MementoExampleTwo.png)](./img/MementoExampleTwo.png)
+
+Para resolvermos esse problema com o padrão Memento, o objeto memento armazena uma "fotografia" do estado atual interno de outro objeto - o originador do memento. O mecanismo de desfazer vai solicitar que um memento de um originador quando for necessário fazer o checkpoint do estado do originador. Quando o originador inicia o memento com a informação que caracteriza o seu estado atual. Somente o originador pode guardar e receber informação de um memento - o memento é "opaco" para outros objetos.
+ 
+Aplicamos o padrão Memento quando
+ 
+* alguma porção de um estado do objeto tem que ser salvado, assim ele pode ser restaurado mais tarde, e
+* uma interface direta para obter o estado pode expor detalhes da implementação e quebrar a encapsulação do objeto.
+
+[![Structure Memento](./img/MementoStructure.png)](./img/MementoStructure.png)
+
+O padrão Memento tem consequências severas:
+ 
+* Ele simplifica o Originator.
+ 
+   Em outro tipo de designs que preservam o encapsulamento, o originator mantém a versão do estado interno que um cliente solicita. Isso inclui todo o armazenamento do gerenciamento do Originator. Tendo clientes que gerenciam o estado onde pedem por uma simplificação do Originator e mantém clientes de terem que notificar um originator quando são completados.
+ 
+* Usar mementos podem ser caros.
+ 
+   Mementos podem incluir sobrecargas consideráveis onde um Originator tem que copiar um grande montante de informação que são armazenadas no memento. A não que a encapsulação e restauração do estado Originator seja barato, o padrão pode não ser apropriado.
+ 
+* Definindo interfaces estreitas e amplas.
+ 
+   Pode ser difícil em algumas linguagem de programação em certificar-se que somente o originator pode acessar o estado do memento.
+ 
+* Custos escondidos em zelar por mementos.
+ 
+   O caretaker é responsável pela deleção de mementos que ele zela. Portanto, o caretaker não tem ideia do quanto de informação está no memento. Sendo assim, um caretaker leve pode inferir num largo custo de armazenamento quando ele guarda os mementos.
+
 ## 12. Template Method 
 ### 12.1 Introdução
 
@@ -199,4 +241,4 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 | 17/09/2021 | 0.3   | Estruturação do Arquivo| [Estevao Reis](https://github.com/estevaoreis25) |
 | 19/09/2021 | 0.5   | Introdução do Observer| Gustavo Duarte Moreira|
 | 19/09/2021 | 0.6   | Revisão e Correção Ortográfica do Arquivo| [Marcos Vinícius](https://github.com/marcos-mv)|
-
+| 19/09/2021 | 0.7   | Adição dos padrões 2, 3, 4, 10 | [Bruno Nunes](https://github.com/brunocmo)|
