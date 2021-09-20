@@ -1,4 +1,4 @@
- # Correções
+# Correções
 
 ## 1. Referentes à segunda entrega
 
@@ -79,7 +79,7 @@
 |   :heavy_check_mark:    | **[Referências](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/)** | Correção nas referências usadas no texto |
 |   :heavy_check_mark:    | **[Revisão do Léxico](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/)** | O léxico usado foi alterado de deletar para apagar imóvel  |
 
-<center>
+</center>
 
 ## 2. Versionamento
 
@@ -94,4 +94,3 @@
 | 19/09/2021 |  1.4   | Criação do Tópico 1.5 | [Pedro Haick](https://github.com/peHaick) |
 | 19/09/2021 |  1.5   | Criação do Tópico 1.6 | [Douglas Castro](https://github.com/douglasffcastro) |
 
-</center>
