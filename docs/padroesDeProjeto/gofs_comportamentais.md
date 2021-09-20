@@ -8,6 +8,22 @@
 ## 6. Mediator
 ## 7. Chain of Responsability 
 ## 8. Observer 
+
+O Observer é um padrão de projeto que permite que os objetos ineteressados sejam avisados de mudaça de estado ou outros eventos que ocorram em um outro objeto. Ele também pode ser chamado de Publiser-Subscriber. GAMMA define o Observer da seguinte maneira:
+
+"Definir uma dependência um-para-muitos entre objetos, de maneira que quando um objeto muda de estado todos os seus dependentes são notificados e atualizados automaticamente." (GAMMA et al., 2000, p.274).
+
+[![img](https://upload.wikimedia.org/wikipedia/commons/8/8d/Observer.svg)](https://upload.wikimedia.org/wikipedia/commons/8/8d/Observer.svg)
+_Fonte: https://pt.wikipedia.org/wiki/Observer_  
+
+### 8.1 Metodologia
+
+A partir da reunião realizada no dia [17/09/2021](./atas/17-09-21.md) ficou decido entre os membros do grupo que os padrões de projeto seriam explicados para fins didáticos para enriquecer a documentação e aumentar a compreenção do conteúdo nos participantes do trabalho.
+
+### 8.2 Aplicação no projeto
+
+O padão Observer foi identificado e aplicado no front-end do projeto.
+
 ## 9. Visitor 
 ## 10. Memento 
 ## 12. Template Method 
@@ -61,6 +77,23 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 > [Refactoring: Template Method](https://www.figma.com){target=\_blank}, acessado dia 11 de agosto de 2021.
 
 ---
+
+> Padrões de Projeto Observer. Disponível em: <https://pt.wikipedia.org/wiki/Observer> Acessado em: 17/09/2021
+
+---
+
+> Padrão de projeto de software. Disponível em: <https://pt.wikipedia.org/wiki/Padr%C3%A3o_de_projeto_de_software#Padr%C3%B5es_GoF_('Gang_of_Four')> Acessado em: 17/09/2021
+
+---
+
+> Design Patterns – Observer. Disponível em: <https://www.devmedia.com.br/design-patterns-observer/16875> Acessado em: 17/09/2021
+
+---
+
+> Exploring the Observer Design Pattern. Disponível em: <https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ee817669(v=pandp.10)?redirectedfrom=MSDN> Acessado em: 17/09/2021
+
+---
+
 ## 13. Versionamento 
 
 | Data       | Versão | Descrição         | Autores       | 
@@ -68,5 +101,6 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 | 30/08/2021 | 0.1    | Criação do arquivo| [Estevao Reis](https://github.com/estevaoreis25)  |
 | 13/09/2021 |  0.2   | Adição do conteúdo | [Tomás Veloso](https://github.com/tomasvelos0) |
 | 17/09/2021 | 0.3   | Estruturação do Arquivo| [Estevao Reis](https://github.com/estevaoreis25) |
-| 19/09/2021 | 0.4   | Revisão e Correção Ortográfica do Arquivo| [Marcos Vinícius](https://github.com/marcos-mv)|
+| 19/09/2021 | 0.5   | Introdução do Observer| Gustavo Duarte Moreira|
+| 19/09/2021 | 0.6   | Revisão e Correção Ortográfica do Arquivo| [Marcos Vinícius](https://github.com/marcos-mv)|
 
