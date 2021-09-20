@@ -4,7 +4,7 @@
 
 Os padrões de projeto criacionais fornecem diferentes mecanismos para a criação de objetos, mecanismos esses que possibilitam o aumento da reutilização do código e o aumento da flexibilidade desse mesmo código. Possibilitando assim que o sistema se torne um sistema bem mais estruturado e independente de como os seus objetos são criados, compostos e representados dentro do código. Dentro os padrões criacionais observados, alguns exemplos podem ser citados, são eles: abstract factory, singleton, builder, prototype.
 
-## 2. Factory Method 
+## 2. Factory Method
 ### Introdução
 O padrão Factory Method é um padrão de design criacional que disponibiliza uma interface para a criação de objetos em uma superclasse, porém permitindo que subclasses alterem o tipo de objeto a ser criado. ([Refactoring Guru - Factory Method](https://refactoring.guru/design-patterns/factory-method))
 
@@ -87,8 +87,19 @@ class LandlordCreator extends PersonCreator {
 }
 ```
 
-## 3. Abstract Factory 
-## 4. Singleton  
+## 3. Abstract Factory
+
+## 3.1. Introdução
+O padrão de projeto Abstract Factory é um padrão criacional que tem como principal foco deixar com que o desenvolvedor possa criar famílias de objetos relacionados sem ter que definir a qual classe concreta ela pertence usando somente uma interface.
+
+## 3.2. Metodologia
+O padrão de projeto Abstract Factory não foi implementado, no entanto caso fossemos implementar teriamos vários tipos de propriedades com características diferentes e implementariamos uma interface dentro para que cada método tivesse uma implementacao diferente, mesmo pertecendo a mesma classe.
+
+## 3.3. Estrutura
+![Abstract](https://miro.medium.com/max/1268/0*p3XqL1afoWBhXEVO.jpg)
+
+
+## 4. Singleton
 
 ## 4.1. Introdução
 
@@ -114,9 +125,9 @@ Fonte: https://refactoring.guru/pt-br/design-patterns/singleton
 
 =======
 
-## 5. Builder 
+## 5. Builder
 
-## 6. Multiton 
+## 6. Multiton
 ### Introdução
 O padrão Multiton é uma extensão do padrão Singleton que permite instanciar um número limitado de objetos de uma classe a partir da especificação de uma chave para cada instância a ser criada. ([Blackwasp](http://www.blackwasp.co.uk/multiton.aspx))
 ### Estrutura
@@ -144,7 +155,7 @@ Os objetos em uma Object Pool possuem o seguinte ciclo de vida:
 ### Uso em Código
 O padrão Object Pool não é encontrado no código do projeto Cardeal.
 
-## 8. Prototype 
+## 8. Prototype
 
 ## 8.1. Introdução
 
@@ -156,7 +167,7 @@ O padrão de projeto criacional Prototype, trata-se de um padrão de projeto no 
 
 ## 8.3. Estrutura
 
-A abordagem do prototype é feita do seguinte modo e seguindo os seguintes parametros, efetivamente possui-se três estruturas, prototype, prototype concreto e o client, sendo assim efetivamente o prototype irá declarar uma interface capaz de clonar a si mesmo, surgindo deste modo um prototype concentro, o client por sua vez cria um novo objeto atráves do prototype que tem a capacidade real de conseguir clonar a si mesmo. 
+A abordagem do prototype é feita do seguinte modo e seguindo os seguintes parametros, efetivamente possui-se três estruturas, prototype, prototype concreto e o client, sendo assim efetivamente o prototype irá declarar uma interface capaz de clonar a si mesmo, surgindo deste modo um prototype concentro, o client por sua vez cria um novo objeto atráves do prototype que tem a capacidade real de conseguir clonar a si mesmo.
 
 ![Prototype_UML_(padrão)](https://user-images.githubusercontent.com/82710878/133909977-3f81dfac-f84c-42c3-8a3d-4aa94ea0a585.png)
 
@@ -178,7 +189,7 @@ O padrão de projeto Abstract Factory não foi implementado, no entanto caso fos
 ![Abstract](https://miro.medium.com/max/1268/0*p3XqL1afoWBhXEVO.jpg)
 
 
-## 10. builder 
+## 10. Builder 
 
 ## 10.1. Introdução
 O padrão builder é muito focado em um processo de criação do objeto tendo várias etapas a serem seguidas, visando facilitar classes e lógicas complexas.
@@ -195,36 +206,43 @@ O padrão builder é um padrão usado para incapsular a lógica de construção 
 ## 11. Referências
 
 > Refactoring Guru - Factory Method. Disponível em: https://refactoring.guru/design-patterns/factory-method Acessado em: 15/09/2021
+
 > NestJS Documentation. Disponível em: https://docs.nestjs.com/ Acessado em: 15/09/2021
-> Blackwasp - Multiton. Disponível em:http://www.blackwasp.co.uk/multiton.aspx Acessado em: 15/09/2021 
+
+> Blackwasp - Multiton. Disponível em:http://www.blackwasp.co.uk/multiton.aspx Acessado em: 15/09/2021
+
 > Geeks for Geeks - Object Pool. Disponível em: https://www.geeksforgeeks.org/object-pool-design-pattern/ Acessado em: 15/09/2021
+
 > Padrões de Projeto Singleton. Disponível em: https://refactoring.guru/pt-br/design-patterns/singleton Acessado em: 18/09/2021
+
 > Padrões de Projeto Singleton. Disponível em: https://pt.wikipedia.org/wiki/Singleton#Em_Typescript Acessado em: 18/09/2021
+
 > Padrões de Projeto Prototype. Disponível em: https://refactoring.guru/pt-br/design-patterns/prototype Acessado em: 18/09/2021
 > Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#:~:text=Prototype%2C%20na%20ci%C3%AAncia%20da%20computa%C3%A7%C3%A3o,ou%20prot%C3%B3tipo%20que%20%C3%A9%20clonado.&text=Evitar%20criar%20um%20novo%20objeto,diminui%20o%20custo%20de%20mem%C3%B3ria Acessado em: 18/09/2021
 >  Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#Estrutura  Acessado em: 18/09/2021
 > Padrões de Projeto Abstract factory: https://medium.com/@gbbigardi/arquitetura-e-desenvolvimento-de-software-parte-2-abstract-factory-f603ccc6a1ea
+> Padrões de Projeto Prototype. Disponível em: https://refactoring.guru/pt-br/design-patterns/prototype Acessado em: 18/09/2021
+> Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#:~:text=Prototype%2C%20na%20ci%C3%AAncia%20da%20computa%C3%A7%C3%A3o,ou%20prot%C3%B3tipo%20que%20%C3%A9%20clonado.&text=Evitar%20criar%20um%20novo%20objeto,diminui%20o%20custo%20de%20mem%C3%B3ria Acessado em: 18/09/2021
+>  Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#Estrutura  Acessado em: 18/09/2021
 
 
-## 10. Versionamento 
+## 10. Versionamento
 
-| Data       | Versão | Descrição         | Autores       | 
-| ---------- | ------ | ----------------- | ------------- | 
-| 30/08/2021 | 0.1    | Criação do arquivo| Estevao Reis  |
-| 15/09/2021 | 0.2    | Factory Method: adição da introdução          | Pedro Haick  |
-| 15/09/2021 | 0.3    | Factory Method: adição da estrutura           | Pedro Haick  |
-| 15/09/2021 | 0.4    | Factory Method: adição do uso em código       | Pedro Haick  |
-| 17/09/2021 | 0.5    | Factory Method: adição do snippet de código   | Pedro Haick  |
-| 17/09/2021 | 0.6    | Estruturação do Arquivo| Estevao Reis |
-| 19/09/2021 | 0.7    | Multiton: adição da introdução e estrutura    | Pedro Haick  |
-| 19/09/2021 | 0.8    | Object Pool: adição da introdução e estrutura | Pedro Haick  |
-| 18/09/2021 | 0.9    | Adição do Padrão Singleton| Luiz Gustavo  |              |
-| 18/09/2021 | 1.0    | Adição do Padrão Prototype| Luiz Gustavo  |              |
-| 19/09/2021 | 1.1    | Adição do Padrão Singleton| Luiz Gustavo  |              |
-| 19/09/2021 | 1.2    | Adição da Introdução dos Padrões Criacionais| Luiz Gustavo  |              |
-| 19/09/2021 | 1.3    | Adição da Introdução do Tópico 4.4 ( Singleton aplicado ao Projeto )| Luiz Gustavo  |              
-| 19/09/2021 | 1.4    | Revisão e Correção ortográfica do arquivo| Marcos Vinícius |                |
+| Data       | Versão | Descrição                                     | Autores         |
+| ---------- | ------ | --------------------------------------------- | --------------- |
+| 30/08/2021 | 1.0    | Criação do arquivo                            | Estevao Reis    |
+| 15/09/2021 | 1.1    | Factory Method: adição da introdução          | Pedro Haick     |
+| 15/09/2021 | 1.2    | Factory Method: adição da estrutura           | Pedro Haick     |
+| 15/09/2021 | 1.3    | Factory Method: adição do uso em código       | Pedro Haick     |
+| 17/09/2021 | 1.4    | Factory Method: adição do snippet de código   | Pedro Haick     |
+| 17/09/2021 | 1.5    | Estruturação do Arquivo                       | Estevao Reis    |
+| 19/09/2021 | 1.6    | Multiton: adição da introdução e estrutura    | Pedro Haick     |
+| 19/09/2021 | 1.7    | Object Pool: adição da introdução e estrutura | Pedro Haick     |
+| 18/09/2021 | 1.8    | Adição do Padrão Singleton                    | Luiz Gustavo    |
+| 18/09/2021 | 1.9    | Adição do Padrão Prototype                    | Luiz Gustavo    |
+| 19/09/2021 | 1.10   | Adição do Padrão Singleton                    | Luiz Gustavo    |
+| 19/09/2021 | 1.11   | Adição da Introdução dos Padrões Criacionais  | Luiz Gustavo    |
+| 19/09/2021 | 1.12   | Adição da Introdução do Tópico 4.4            | Luiz Gustavo    |
+| 19/09/2021 | 1.13   | Revisão e Correção ortográfica do arquivo     | Marcos Vinícius |
 | 20/09/2021 | 1.5    | Adicão do Abstract Factory |     Igor Araújo|
 | 20/09/2021 | 1.5    | Adicão do Builder |     Igor Araújo|
-
-
