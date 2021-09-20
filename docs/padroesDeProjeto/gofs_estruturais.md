@@ -269,6 +269,8 @@ O padrão proxy não foi aplicado ao projeto.
 > Gamma, Erich; Richard Helm, Ralph Johnson, John M.
 Vlissides . Design patterns: elements of reusable objectoriented software. Reading: Addison-Wesley, c1995. 395 p.
 
+> SERRANO, Milene. **Arquitetura e Desenho de Software:** Aula GoFs Estruturais, disponível em: [aprender3.unb](https://aprender3.unb.br/pluginfile.php/897143/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20GoFs%20Estruturais%20-%20Profa.%20Milene.pdf){target=\_blank} (último acesso: dia 19 de setembro de 2021).
+
 >Design Patterns: The Bridge Pattern. Disponível em: <https://www.informit.com/articles/article.aspx?p=30297>. Acessado em: 19/09/2021
 
 > Design Patterns - Bridge Pattern. Disponível em: <https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm>. Acessado em 19/09/2021.
@@ -286,5 +288,6 @@ Vlissides . Design patterns: elements of reusable objectoriented software. Readi
 | 19/09/2021 | 0.4    | Adição da Introdução | Gustavo Moreira  | 
 | 19/09/2021 | 0.5    | Adição dos padrões Composite, Decorator e Flyweight | Gustavo Moreira |
 | 19/09/2021 | 0.6    | Adição Introdução, Adapter e Bridge Pattern | Marcos Vinícius |
+| 19/09/2021 | 0.7 | Revisão | Bruno, Marcos, Luiz, Tomás, Gustavo, Igor, Estevão, Giovana |
 
 
