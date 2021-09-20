@@ -41,7 +41,11 @@
 &emsp;&emsp;Juntamente com toda a equipe, na reunião realizada no dia [17/09/2021](./atas/17-09-21.md), foi decidido que utilizaríamos o padrão de projeto Middleware na aplicação do Cardeal, pois uma das tecnologias que decidimos utilizar em nosso projeto, o Node.js, faz bastante uso desse padrão e possui ele internamente implementado.
  
 ## 3. Aplicação no Projeto
- 
+Dentro do nosso projeto usaremos middlewares para validação de dados que serão enviados para os endponits validando e retornando erros padrãoes usando validators. Outra forma de utilização dos middlewares para verificar se o usuário tem acesso aquela determinada página.
+Para exemplificar a utilização criamos um middleware simples onde a chamada de um endpoint passa pelo middleware e depois para a controller como mostra os prints abaixo mostrando como funciona o comportamento do middleware.
+![Middleware code](https://i.imgur.com/BnqrC9c.png)
+
+![Middleware log](https://i.imgur.com/ZbxUTG6.png)
  
 ## Referências
 > Fundamental Node.js Design Patterns. Disponível em <https://blog.risingstack.com/fundamental-node-js-design-patterns/>. Acessado em 19/09/2021.
@@ -58,4 +62,5 @@
 | ---------- | ------ | ----------------- | ------------- |
 | 30/08/2021 | 0.1    | Criação do arquivo| Estevao Reis  |
 | 19/09/2021 | 0.2    | Descrição do padrão| Estevao Reis  |
+| 20/09/2021 | 0.3    | Adicionando middleware| Igor Araújo  |
  
