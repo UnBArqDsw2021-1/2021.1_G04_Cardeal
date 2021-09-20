@@ -166,7 +166,19 @@ Fonte: https://pt.wikipedia.org/wiki/Prototype#Estrutura
 
 O padrão prototype não foi aplicado ao projeto.
 
+## 9. Abstract Factory 
+
+## 9.1. Introdução
+O padrão de projeto Abstract Factory é um padrão criacional que tem como principal foco deixar com que o desenvolvedor possa criar famílias de objetos relacionados sem ter que definir a qual classe concreta ela pertence usando somente uma interface.
+
+## 9.2. Metodologia
+O padrão de projeto Abstract Factory não foi implementado, no entanto caso fossemos implementar teriamos vários tipos de propriedades com características diferentes e implementariamos uma interface dentro para que cada método tivesse uma implementacao diferente, mesmo pertecendo a mesma classe. 
+
+## 9.3. Estrutura
+![Abstract](https://miro.medium.com/max/1268/0*p3XqL1afoWBhXEVO.jpg)
+
 ## 9. Referências
+
 
 
 > Refactoring Guru - Factory Method. Disponível em: https://refactoring.guru/design-patterns/factory-method Acessado em: 15/09/2021
