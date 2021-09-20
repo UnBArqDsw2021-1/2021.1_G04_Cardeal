@@ -177,9 +177,22 @@ O padrão de projeto Abstract Factory não foi implementado, no entanto caso fos
 ## 9.3. Estrutura
 ![Abstract](https://miro.medium.com/max/1268/0*p3XqL1afoWBhXEVO.jpg)
 
-## 9. Referências
 
+## 10. builder 
 
+## 10.1. Introdução
+O padrão builder é muito focado em um processo de criação do objeto tendo várias etapas a serem seguidas, visando facilitar classes e lógicas complexas.
+## 10.2. Metodologia
+O padrão builder é um padrão usado para incapsular a lógica de construção do objeto. Ele como principal objetivo diminuir a complexidade da classe que normalmente tem uma lógica mais extensa. Ele normalmente é dividido em alguns pedaços como:
+- Classe builder: Classe que especifica uma interface ou uma classe abstrata
+- Concrete builder: Classe responsável pla montagem das partes por meio da classe builder
+- Director: Diretor é responsável por chamar os métodos criados na classe builder
+- Product: Define  o processo pela qual a classe será montada
+
+## 10.3. Estrutura
+![Abstract](https://refactoring.guru/images/patterns/diagrams/builder/structure.png?id=fe9e23559923ea0657aa)
+
+## 11. Referências
 
 > Refactoring Guru - Factory Method. Disponível em: https://refactoring.guru/design-patterns/factory-method Acessado em: 15/09/2021
 > NestJS Documentation. Disponível em: https://docs.nestjs.com/ Acessado em: 15/09/2021
@@ -190,6 +203,7 @@ O padrão de projeto Abstract Factory não foi implementado, no entanto caso fos
 > Padrões de Projeto Prototype. Disponível em: https://refactoring.guru/pt-br/design-patterns/prototype Acessado em: 18/09/2021
 > Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#:~:text=Prototype%2C%20na%20ci%C3%AAncia%20da%20computa%C3%A7%C3%A3o,ou%20prot%C3%B3tipo%20que%20%C3%A9%20clonado.&text=Evitar%20criar%20um%20novo%20objeto,diminui%20o%20custo%20de%20mem%C3%B3ria Acessado em: 18/09/2021
 >  Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#Estrutura  Acessado em: 18/09/2021
+> Padrões de Projeto Abstract factory: https://medium.com/@gbbigardi/arquitetura-e-desenvolvimento-de-software-parte-2-abstract-factory-f603ccc6a1ea
 
 
 ## 10. Versionamento 
@@ -210,5 +224,7 @@ O padrão de projeto Abstract Factory não foi implementado, no entanto caso fos
 | 19/09/2021 | 1.2    | Adição da Introdução dos Padrões Criacionais| Luiz Gustavo  |              |
 | 19/09/2021 | 1.3    | Adição da Introdução do Tópico 4.4 ( Singleton aplicado ao Projeto )| Luiz Gustavo  |              
 | 19/09/2021 | 1.4    | Revisão e Correção ortográfica do arquivo| Marcos Vinícius |                |
+| 20/09/2021 | 1.5    | Adicão do Abstract Factory |     Igor Araújo|
+| 20/09/2021 | 1.5    | Adicão do Builder |     Igor Araújo|
 
 
