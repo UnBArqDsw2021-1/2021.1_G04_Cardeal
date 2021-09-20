@@ -45,7 +45,7 @@ Este padrão envolve uma única classe que é responsável por unir funcionalida
 Fonte: https://refactoring.guru/pt-br/design-patterns/adapter
 ## 2.2. Metodologia
 
- O padrão Adapter foi estudado, porém ainda não encontramos necessidade de implementado de maneira direta no projeto. Mas caso seja necessário , a sua implementação seguirá o seu padrão característico, descrito na introdução de modo a preservar e ser possível indentificá-lo de maneira clara no projeto.
+ O padrão Adapter foi estudado, porém ainda não encontramos necessidade de implementado de maneira direta no projeto. Mas caso seja necessário , a sua implementação seguirá o seu padrão característico, descrito na introdução de modo a preservar e ser possível identificá-lo de maneira clara no projeto.
 
 ## 2.3. Estrutura
 
@@ -107,6 +107,77 @@ A partir da reunião realizada no dia [17/09/2021](./atas/17-09-21.md) ficou dec
 Utilizando estrutura de árvore que é criada a partir de objetos, que podem conter vários métodos. Sendo visível no projeto ao se efetuar a criação de um objeto novo com mais de um método.
 
 ## 4. Bridge 
+
+## 4.1. Introdução
+
+O padrão de projeto Bridge permite separar a abstração da implementação.
+Existem 2 partes no padrão de design do Bridge:
+
+- **Abstração**
+- **Implementação**
+
+Este é um mecanismo de design que encapsula uma classe de implementação dentro de uma classe de interface. Isto é, desacopla a interface da implementação. Ocultando detalhes dos clientes/aplicações.
+
+O padrão Brige permite que a Abstração e a Implementação sejam desenvolvidas de forma independente e o código do cliente pode acessar apenas a parte da Abstração sem se preocupar com a parte da Implementação.
+
+A abstração é uma interface ou classe abstrata e o implementador também é uma interface ou classe abstrata.
+
+A abstração contém uma referência ao implementador. Filhos da abstração são chamados de abstrações refinadas e filhos do implementador são implementadores concretos. 
+
+Uma vez que podemos alterar a referência ao implementador na abstração, somos capazes de alterar o implementador da abstração em tempo de execução. As alterações no implementador não afetam o código do cliente.
+Ele aumenta o acoplamento fraco entre abstração de classe e sua implementação.
+
+## 4.2. Metodologia
+
+A partir da reunião realizada no dia [17/09/2021](./atas/17-09-21.md) ficou decido entre os membros do grupo que os padrões de projeto seriam explicados para fins didáticos para enriquecer a documentação e aumentar a compreenção do conteúdo nos participantes do trabalho.
+
+O padrão Bridge foi estudado, porém ainda não encontramos necessidade de implementado de maneira direta no projeto. Mas caso seja necessário , a sua implementação seguirá o seu padrão característico, descrito na introdução de modo a preservar e ser possível identificá-lo de maneira clara no projeto.
+
+## 4.3. Estrutura
+
+![ilustracao-adapter](./img/bridge-book.png)
+<p align = "center">Diagrama UML utilização de Bridge </p>
+
+fonte:[wiki](https://en.wikipedia.org/wiki/Bridge_pattern)
+
+- **Abstração** - núcleo do design pattern Bridge e define o ponto crucial. Contém uma referência ao implementador.
+- **Abstração refinada** - estende a abstração, levando os detalhes mais finos um nível abaixo. Oculta os elementos mais sutis dos implementadores.
+- **Implementador** - define a interface para as classes de implementação. Essa interface não precisa corresponder diretamente à interface de abstração e pode ser muito diferente. A abstração imp fornece uma implementação em termos de operações fornecidas pela interface do Implementador.
+- **Implementação concreta** - implementa o implementador acima, fornecendo implementação concreta.
+
+O padrão Bridge deve ser utilizado quando:
+
+Você deseja evitar uma ligação permanente entre uma abstração e sua implementação. Pode ser o caso, por exemplo, quando a implementação
+deve ser selecionado ou alternado em tempo de execução.
+
+• ambas as abstrações e suas implementações devem ser extensíveis por
+subclasses. Neste caso, o padrão Bridge permite combinar os diferentes
+abstrações e implementações e estendê-los de forma independente.
+
+• mudanças na implementação de uma abstração não devem ter impacto sobre
+clientes; ou seja, seu código não deve ter que ser recompilado.
+
+• (C ++) você deseja ocultar a implementação de uma abstração completamente de
+clientes. Em C ++, a representação de uma classe é visível na interface da classe.
+
+• você tem uma proliferação de classes, conforme mostrado anteriormente na primeira Motivação
+diagrama. Essa hierarquia de classes indica a necessidade de dividir um objeto em
+duas partes. Rumbaugh usa o termo "generalizações aninhadas" [RBP + 91] para
+referem-se a tais hierarquias de classes.
+
+• você deseja compartilhar uma implementação entre vários objetos (talvez usando
+contagem de referência), e este fato deve ser escondido do cliente. Um simples
+exemplo é a classe String de Coplien [Cop92], na qual vários objetos podem compartilhar
+a mesma representação de string (StringRep).
+
+## 4.4. Bridge aplicado ao projeto
+
+O Padrão Bridge ainda não foi aplicado ao projeto. Mas logo abaixo um exemplo da utilização de um Bridge implementado em python.
+
+[Código](../assets/bridge.py)
+
+![saída-bridge.py](./img/bridge-console.png)
+
 ## 5. Decorator 
 
 O padrão de projeto estrutural Decorator permite que sejam acoplados comportamentos novos para objetos de maneira dinâmica. Decorators são uma alternativa flexível ao uso de herança estendendo funcionalidades.
@@ -162,7 +233,6 @@ A abordagem do Proxy é feita do seguinte modo e seguindo os seguintes parametro
 
 ![ilustracao-utilizacao-proxy](https://user-images.githubusercontent.com/82710878/133911984-fe0ee114-3a83-4a03-8a7d-28dc27c3ad4c.png)
 
-Fonte: https://pt.wikipedia.org/wiki/Prototype#Estrutura
 
 ## 8.4. Proxy aplicado ao projeto
 
@@ -194,6 +264,17 @@ O padrão proxy não foi aplicado ao projeto.
 
 > Arquitetura e desenvolvimento de software — Parte 8 — Composite. Disponível em: <https://medium.com/@gbbigardi/arquitetura-e-desenvolvimento-de-software-parte-8-composite-9d342d641a4a>. Acessado em: 19/09/2021 
 
+> Arquitetura e desenvolvimento de software — Parte 8 — Composite. Disponível em: <https://medium.com/@gbbigardi/arquitetura-e-desenvolvimento-de-software-parte-8-composite-9d342d641a4a>. Acessado em: 19/09/2021 
+
+> Gamma, Erich; Richard Helm, Ralph Johnson, John M.
+Vlissides . Design patterns: elements of reusable objectoriented software. Reading: Addison-Wesley, c1995. 395 p.
+
+>Design Patterns: The Bridge Pattern. Disponível em: <https://www.informit.com/articles/article.aspx?p=30297>. Acessado em: 19/09/2021
+
+> Design Patterns - Bridge Pattern. Disponível em: <https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm>. Acessado em 19/09/2021.
+
+> Bridge Design Pattern. Disponível em: <https://www.geeksforgeeks.org/bridge-design-pattern/>. Acessado em 19/09/2021.
+
 
 ## 10. Versionamento 
 
@@ -204,5 +285,6 @@ O padrão proxy não foi aplicado ao projeto.
 | 19/09/2021 | 0.3    | Adição do Padrão Proxy| Luiz Gustavo  |
 | 19/09/2021 | 0.4    | Adição da Introdução | Gustavo Moreira  | 
 | 19/09/2021 | 0.5    | Adição dos padrões Composite, Decorator e Flyweight | Gustavo Moreira |
-| 19/09/2021 | 0.6    | Adição Introdução e Adapter Pattern | Marcos Vinícius |
+| 19/09/2021 | 0.6    | Adição Introdução, Adapter e Bridge Pattern | Marcos Vinícius |
+
 
