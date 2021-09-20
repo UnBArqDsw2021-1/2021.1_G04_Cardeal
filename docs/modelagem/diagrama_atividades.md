@@ -77,20 +77,6 @@ Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
 ![Agendar Visita](./diagramas_de_atividade/agendar_visitar.svg)
 <p align = "center"><i>Autor: Douglas Castro</i></p>
 
-## 4. Versionamento
-
-| Data | Versão | Descrição | Autor |
-| :--: | :--: | -- | :--: |
-| 18/08/2021 | 1.0 | Criação do documento | Douglas Castro |
-| 19/08/2021 | 1.1 | Adição do diagrama Cadastrar Corretor | Douglas Castro |
-| 19/08/2021 | 1.2 | Adição do diagrama Criar Imóvel | Douglas Castro |
-| 19/08/2021 | 1.3 | Adição do diagrama Visualizar Imóvel | Douglas Castro |
-| 20/08/2021 | 1.4 | Adição do diagrama Editar Imóvel | Douglas Castro |
-| 20/08/2021 | 1.5 | Adição do diagrama Apagar Imóvel | Douglas Castro |
-| 20/08/2021 | 1.6 | Adição do diagrama Agendar Visita | Douglas Castro |
-| 20/08/2021 | 1.7 | Adição da Introdução, Metodologia, Resultados e Referências | Douglas Castro |
-| 21/08/2021 | 1.8 | Revisão e Padronização do Documento | Pedro Haick |
-
 ## 5. Referências
 
 * BELL, Donald. An introduction to the Unified Modeling Language. Disponível em: <a target="_blank" href="https://developer.ibm.com/articles/an-introduction-to-uml/">https://developer.ibm.com/articles/an-introduction-to-uml/</a>. Acesso em: 18 de Agosto de 2021.
@@ -104,3 +90,18 @@ Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
 * Canal no youtube: Udacity. Activity Diagram. Disponível em: <a target="_blank" href="https://www.youtube.com/watch?v=vSjG-B8Ili8">https://www.youtube.com/watch?v=vSjG-B8Ili8</a>. Acesso em: 20 de Agosto de 2021.
   
 * Canal no youtube: Udacity. Example Activity Diagram. Disponível em: <a target="_blank" href="https://www.youtube.com/watch?v=qeWrvNFX-cY">https://www.youtube.com/watch?v=qeWrvNFX-cY</a>. Acesso em: 20 de Agosto de 2021.
+
+## 4. Versionamento
+
+| Data | Versão | Descrição | Autor |
+| :--: | :--: | -- | :--: |
+| 18/08/2021 | 1.0 | Criação do documento | Douglas Castro |
+| 19/08/2021 | 1.1 | Adição do diagrama Cadastrar Corretor | Douglas Castro |
+| 19/08/2021 | 1.2 | Adição do diagrama Criar Imóvel | Douglas Castro |
+| 19/08/2021 | 1.3 | Adição do diagrama Visualizar Imóvel | Douglas Castro |
+| 20/08/2021 | 1.4 | Adição do diagrama Editar Imóvel | Douglas Castro |
+| 20/08/2021 | 1.5 | Adição do diagrama Apagar Imóvel | Douglas Castro |
+| 20/08/2021 | 1.6 | Adição do diagrama Agendar Visita | Douglas Castro |
+| 20/08/2021 | 1.7 | Adição da Introdução, Metodologia, Resultados e Referências | Douglas Castro |
+| 21/08/2021 | 1.8 | Revisão e Padronização do Documento | Pedro Haick |
+| 19/09/2021 | 1.9 | Correção da documentação | Douglas Castro |
