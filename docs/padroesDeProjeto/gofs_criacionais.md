@@ -177,8 +177,33 @@ Fonte: https://pt.wikipedia.org/wiki/Prototype#Estrutura
 
 O padrão prototype não foi aplicado ao projeto.
 
-## 9. Referências
+## 9. Abstract Factory 
 
+## 9.1. Introdução
+O padrão de projeto Abstract Factory é um padrão criacional que tem como principal foco deixar com que o desenvolvedor possa criar famílias de objetos relacionados sem ter que definir a qual classe concreta ela pertence usando somente uma interface.
+
+## 9.2. Metodologia
+O padrão de projeto Abstract Factory não foi implementado, no entanto caso fossemos implementar teríamos vários tipos de propriedades com características diferentes e implementarmos uma interface dentro para que cada método tivesse uma implementação diferente, mesmo pertecendo a mesma classe.
+
+## 9.3. Estrutura
+![Abstract](https://miro.medium.com/max/1268/0*p3XqL1afoWBhXEVO.jpg)
+
+
+## 10. Builder 
+
+## 10.1. Introdução
+O padrão builder é muito focado em um processo de criação do objeto tendo várias etapas a serem seguidas, visando facilitar classes e lógicas complexas.
+## 10.2. Metodologia
+O padrão builder é um padrão usado para incapsular a lógica de construção do objeto. Ele como principal objetivo diminuir a complexidade da classe que normalmente tem uma lógica mais extensa. Ele normalmente é dividido em alguns pedaços como:
+- Classe builder: Classe que especifica uma interface ou uma classe abstrata
+- Concrete builder: Classe responsável pla montagem das partes por meio da classe builder
+- Director: Diretor é responsável por chamar os métodos criados na classe builder
+- Product: Define  o processo pela qual a classe será montada
+
+## 10.3. Estrutura
+![Abstract](https://refactoring.guru/images/patterns/diagrams/builder/structure.png?id=fe9e23559923ea0657aa)
+
+## 11. Referências
 
 > Refactoring Guru - Factory Method. Disponível em: https://refactoring.guru/design-patterns/factory-method Acessado em: 15/09/2021
 
@@ -193,9 +218,11 @@ O padrão prototype não foi aplicado ao projeto.
 > Padrões de Projeto Singleton. Disponível em: https://pt.wikipedia.org/wiki/Singleton#Em_Typescript Acessado em: 18/09/2021
 
 > Padrões de Projeto Prototype. Disponível em: https://refactoring.guru/pt-br/design-patterns/prototype Acessado em: 18/09/2021
-
 > Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#:~:text=Prototype%2C%20na%20ci%C3%AAncia%20da%20computa%C3%A7%C3%A3o,ou%20prot%C3%B3tipo%20que%20%C3%A9%20clonado.&text=Evitar%20criar%20um%20novo%20objeto,diminui%20o%20custo%20de%20mem%C3%B3ria Acessado em: 18/09/2021
-
+>  Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#Estrutura  Acessado em: 18/09/2021
+> Padrões de Projeto Abstract factory: https://medium.com/@gbbigardi/arquitetura-e-desenvolvimento-de-software-parte-2-abstract-factory-f603ccc6a1ea
+> Padrões de Projeto Prototype. Disponível em: https://refactoring.guru/pt-br/design-patterns/prototype Acessado em: 18/09/2021
+> Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#:~:text=Prototype%2C%20na%20ci%C3%AAncia%20da%20computa%C3%A7%C3%A3o,ou%20prot%C3%B3tipo%20que%20%C3%A9%20clonado.&text=Evitar%20criar%20um%20novo%20objeto,diminui%20o%20custo%20de%20mem%C3%B3ria Acessado em: 18/09/2021
 >  Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#Estrutura  Acessado em: 18/09/2021
 
 
@@ -213,8 +240,10 @@ O padrão prototype não foi aplicado ao projeto.
 | 19/09/2021 | 1.7    | Object Pool: adição da introdução e estrutura | Pedro Haick     |
 | 18/09/2021 | 1.8    | Adição do Padrão Singleton                    | Luiz Gustavo    |
 | 18/09/2021 | 1.9    | Adição do Padrão Prototype                    | Luiz Gustavo    |
-| 19/09/2021 | 1.10   | Adição do Padrão Singleton                    | Luiz Gustavo    |
-| 19/09/2021 | 1.11   | Adição da Introdução dos Padrões Criacionais  | Luiz Gustavo    |
-| 19/09/2021 | 1.12   | Adição da Introdução do Tópico 4.4            | Luiz Gustavo    |
-| 19/09/2021 | 1.13   | Revisão e Correção ortográfica do arquivo     | Marcos Vinícius |
-| 19/09/2021 | 1.14   | Adição do padrão Abstract Factory             | Igor            |
+| 19/09/2021 | 2.0   | Adição do Padrão Singleton                    | Luiz Gustavo    |
+| 19/09/2021 | 2.1   | Adição da Introdução dos Padrões Criacionais  | Luiz Gustavo    |
+| 19/09/2021 | 2.2   | Adição da Introdução do Tópico 4.4            | Luiz Gustavo    |
+| 19/09/2021 | 2.3   | Revisão e Correção ortográfica do arquivo     | Marcos Vinícius |
+| 20/09/2021 | 2.4    | Adicão do Abstract Factory |     Igor Araújo|
+| 20/09/2021 | 2.5   | Adicão do Builder |     Igor Araújo|
+| 20/09/2021 | 2.6   | Revisão e Correção ortográfica |     Bruno Nunes |
