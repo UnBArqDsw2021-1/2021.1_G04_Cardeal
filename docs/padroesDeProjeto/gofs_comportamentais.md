@@ -6,7 +6,59 @@
 ## 4. Command 
 ## 5. Iterator
 ## 6. Mediator
-## 7. Chain of Responsability 
+## 7. Chain of Responsibility
+
+## 7.1. Introdução
+
+Esse design pattern também pode ser conhecido como CoR, Corrente de responsabilidade, Corrente de comando, Chain of command.
+
+O Chain of Responsibility é um padrão de projeto comportamental que permite que você passe pedidos por uma corrente de handlers. Ao receber um pedido, cada handler decide se processa o pedido ou o passa adiante para o próximo handler na corrente.
+
+![Adaptador](./img/chain.jpeg)
+<p align = "center">Chain of Responsibility</p>
+
+Fonte: [wiki](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
+## 7.2. Metodologia
+
+ O padrão Chain of Resposibility foi estudado, e irá ser utilizado mais a frente no projeto para lidar com a questão da implementação do login do Corretor na aplicação. A sua implementação seguirá o seu padrão característico, descrito na introdução de modo a preservar e ser possível identificá-lo de maneira clara no projeto.
+
+## 7.3. Estrutura
+
+A redução do acoplamento é obtida dando a mais de um objeto a chance de lidar com a solicitação conseqüentemente. O item da cadeia que recebe a solicitação e, após alguma lógica, passa a solicitação para o próximo handler ao longo da cadeia de handlers.
+
+O primeiro objeto na cadeia recebe a solicitação e a trata ou encaminha para o próximo candidato na cadeia, que faz o mesmo. 
+
+O objeto que fez a solicitação não tem conhecimento explícito de quem irá tratá-la - a solicitação tem um receptor implícito.
+
+Este padrão inclui duas funções principais:
+
+- **Handler** - define uma interface para lidar com solicitações, lida com a própria solicitação e implementa o link sucessor
+- **Cliente** - inicia a solicitação para um objeto Handler na cadeia.
+
+- **Main** -
+componha cadeias apenas uma vez ou componha-as dinamicamente, dependendo da lógica do aplicativo
+- **Concrete Handlers** - 
+contém a lógica real para solicitações de processamento
+ao receber uma solicitação, cada manipulador decide se deve processá-la e passá-la ao longo da cadeia
+geralmente independente e imutável, aceitando todos os dados necessários, apenas um por meio do construtor
+
+![ilustracao-adapter](./img/chain-structure.png)
+<p align = "center">Diagrama UML - Chain of resposibility</p>
+
+Prós  
+
+- Capacidade de controlar a ordem de tratamento da solicitação.
+- Atende **Princípio de Responsabilidade Única** que diz que uma classe deve possuir uma, e apenas uma, responsabilidade. Pode-se traduzir isso em “uma classe deve ter apenas um motivo para mudar”.
+- Atende **Princípio Aberto / Fechado**
+que diz que as entidades de software (classes, módulos, funções, etc.) devem estar abertas para extensão, mas fechadas para modificação, ou seja, deve ser possível estender o comportamento de uma classe, mas não a modificar.
+
+Contras
+
+- Algum pedido pode acabar sem tratamento
+
+## 7.4. Chain of Responsability aplicado ao projeto
+
+O Padrão Chain of Responsability ainda não foi aplicado ao projeto. Quando implementado será referenciado nesse tópico.
 ## 8. Observer 
 
 O Observer é um padrão de projeto que permite que os objetos ineteressados sejam avisados de mudaça de estado ou outros eventos que ocorram em um outro objeto. Ele também pode ser chamado de Publiser-Subscriber. GAMMA define o Observer da seguinte maneira:
@@ -94,6 +146,14 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 
 ---
 
+> Chain of Responsibility. Disponível em: <https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility>. Acessado em: 17/09/2021
+
+---
+
+> An Easy Guide to Learn Chain of Responsibility in Golang. Disponível em: <https://levelup.gitconnected.com/a-easy-guide-to-learn-chain-of-responsibility-in-golang-979eba3bda44>. Acessado em: 17/09/2021
+---
+>  Chain-of-responsibility pattern. Disponível em: <https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern>. Acessado em: 17/09/2021
+
 ## 13. Versionamento 
 
 | Data       | Versão | Descrição         | Autores       | 
@@ -103,4 +163,5 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 | 17/09/2021 | 0.3   | Estruturação do Arquivo| [Estevao Reis](https://github.com/estevaoreis25) |
 | 19/09/2021 | 0.5   | Introdução do Observer| Gustavo Duarte Moreira|
 | 19/09/2021 | 0.6   | Revisão e Correção Ortográfica do Arquivo| [Marcos Vinícius](https://github.com/marcos-mv)|
+| 19/09/2021 | 0.7   | Chain of Resposibility Pattern| [Marcos Vinícius](https://github.com/marcos-mv)|
 
