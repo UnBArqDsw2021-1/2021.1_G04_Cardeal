@@ -3,11 +3,11 @@
 ## 1. Introdução
 
 <p align="justify">
-Lançado em 1997 pela OMG(Object Management Group), a <i>Unified Modeling Language</i>(UML) padronizou e unificou as notações de modelagem usadas pelos profissionais de tecnologia da informação. A linguagem fornece uma grande quantidade de ferramentas que são usadas para modelar projetos e sistemas (BELL, Donald).
+Lançado em 1997 pela OMG(Object Management Group), a <i>Unified Modeling Language</i>(UML) padronizou e unificou as notações de modelagem usadas pelos profissionais de tecnologia da informação. A linguagem fornece uma grande quantidade de ferramentas que são usadas para modelar projetos e sistemas (BELL, 2003).
 </p> 
 
 <p align="justify">
-Os diagramas fornecidos pela UML podem ser divididos em dois conjuntos: o conjunto dos Diagramas Estáticos ou Estruturais e o conjunto dos Diagramas Dinâmicos ou Comportamentais. Os Diagramas Dinâmicos são aqueles que descrevem os aspectos comportamentais de um sistema, ou seja, eles modelam as partes que sofrem alterações durante a utilização do sistema(SILVA, Flávio). Podemos citar como Diagrama Dinâmicos o:
+Os diagramas fornecidos pela UML podem ser divididos em dois conjuntos: o conjunto dos Diagramas Estáticos ou Estruturais e o conjunto dos Diagramas Dinâmicos ou Comportamentais. Os Diagramas Dinâmicos são aqueles que descrevem os aspectos comportamentais de um sistema, ou seja, eles modelam as partes que sofrem alterações durante a utilização do sistema(SILVA, 2015). Podemos citar como Diagrama Dinâmicos o:
 </p>
 
 * Diagrama de Atividade
@@ -17,13 +17,13 @@ Os diagramas fornecidos pela UML podem ser divididos em dois conjuntos: o conjun
 
 
 <p align="justify">
-O Diagrama de Atividade, foco dessa documentação, é aquele que vai fornecer uma visualização do comportamento de um sistema, descrevendo a sequência de ações dentro de um processo. Eles são semelhantes aos fluxogramas e mostram os fluxos de atividade de um projeto. São usados não apenas nas fases iniciais descrevendo os trabalhos mais importantes, como também pode ser usado para descrever os fluxos de eventos de um caso de uso na fase requisitos e/ou modelando comportamentos das operações nas fases de análise e design (IBM).
+O Diagrama de Atividade, foco dessa documentação, é aquele que vai fornecer uma visualização do comportamento de um sistema, descrevendo a sequência de ações dentro de um processo. Eles são semelhantes aos fluxogramas e mostram os fluxos de atividade de um projeto. São usados não apenas nas fases iniciais descrevendo os trabalhos mais importantes, como também pode ser usado para descrever os fluxos de eventos de um caso de uso na fase requisitos e/ou modelando comportamentos das operações nas fases de análise e design.
 </p>
 
 ## 2. Metodologia
 
 <p align="justify">
-  Para a modelagem dos diagramas de atividade, foram usado os casos de uso Editar Imóvel, Deletar Imóvel e Visualizar Imóvel, descritos na documentação de <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_casos_de_uso/">Diagramas de Casos de Uso</a>. 
+  Para a modelagem dos diagramas de atividade, foram usado os casos de uso Editar Imóvel, Apagar Imóvel e Visualizar Imóvel, descritos na documentação de <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_casos_de_uso/">Diagramas de Casos de Uso</a>. 
 </p>
 
 <p align="justify">
@@ -59,13 +59,13 @@ Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
 ![Editar Imóvel](./diagramas_de_atividade/editar_imóvel.svg)
 <p align = "center"><i>Autor: Douglas Castro</i></p>
 
-### 3.4. Deletar Imóvel
+### 3.4. Apagar Imóvel
 
 <p align="justify">
-  O fluxo de atividade descrito nesse diagrama tem como objetivo deletar um determinado imóvel. Essa também é uma operação que apenas o corretor pode fazer. Ao escolher um determinado imóvel para ser excluido, espera-se que a aplicação confirme com o corretor se ele tem certeza da operação escolhida. Caso desista da operação, o corretor será redirecionado para a página de imóveis cadastrados.
+  O fluxo de atividade descrito nesse diagrama tem como objetivo apagar um determinado imóvel. Essa também é uma operação que apenas o corretor pode fazer. Ao escolher um determinado imóvel para ser excluido, espera-se que a aplicação confirme com o corretor se ele tem certeza da operação escolhida. Caso desista da operação, o corretor será redirecionado para a página de imóveis cadastrados.
 </p>
 
-![Deletar Imóvel](./diagramas_de_atividade/deletar_imóvel.svg)
+![Apagar Imóvel](./diagramas_de_atividade/apagar_imovel.svg)
 <p align = "center"><i>Autor: Douglas Castro</i></p>
 
 ### 3.5. Agendar Visita
@@ -86,7 +86,7 @@ Para a modelagem foi usada a ferramenta [Draw.io](https://draw.io).
 | 19/08/2021 | 1.2 | Adição do diagrama Criar Imóvel | Douglas Castro |
 | 19/08/2021 | 1.3 | Adição do diagrama Visualizar Imóvel | Douglas Castro |
 | 20/08/2021 | 1.4 | Adição do diagrama Editar Imóvel | Douglas Castro |
-| 20/08/2021 | 1.5 | Adição do diagrama Deletar Imóvel | Douglas Castro |
+| 20/08/2021 | 1.5 | Adição do diagrama Apagar Imóvel | Douglas Castro |
 | 20/08/2021 | 1.6 | Adição do diagrama Agendar Visita | Douglas Castro |
 | 20/08/2021 | 1.7 | Adição da Introdução, Metodologia, Resultados e Referências | Douglas Castro |
 | 21/08/2021 | 1.8 | Revisão e Padronização do Documento | Pedro Haick |
