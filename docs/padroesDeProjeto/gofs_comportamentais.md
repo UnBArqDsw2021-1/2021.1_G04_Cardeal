@@ -43,6 +43,19 @@ Algo de ficar de olho para o padrão Strategy que tem os seguintes beneficios e 
  
    Os Strategies aumentam o número de objetos numa aplicação. Às vezes você pode reduzir essa sobrecarga implementando strategies que são objetos sem estado num contexto que pode ser compartilhado. Strategies compartilhadas não deveriam ter um estado de manutenção entre as invocações.
 
+Utilizamos o Strategy como ToyExample para mostrar uma funcionalidade da nossa aplicação em relação a utilização de mídias, como imagens e vídeos onde serão mostrados na publicação de uma propriedade.
+
+[![Toy Example Strategy ](./img/ToyExampleStrategy.png)](./img/ToyExampleStrategy.png)
+
+Sendo assim, a ideia da pequena aplicação em java é justamente listar todas as mídias tanto em imagens como vídeo, o modesto console do java mostra como seria o fornecimento dessas informações.
+
+
+[![Strategy Java Output](./img/ResultadoStrategy.png)](./img/ResultadoStrategy.png)
+
+Fizemos esse exemplo em Java e o código pode ser visto na pasta "ToyExampleStrategy", onde abaixo temos uma parte do código:
+
+[Código Java](../assets/ToyExampleStrategy/Cardeal.java)
+
 
 ## 3. State 
  
@@ -242,3 +255,4 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 | 19/09/2021 | 0.5   | Introdução do Observer| Gustavo Duarte Moreira|
 | 19/09/2021 | 0.6   | Revisão e Correção Ortográfica do Arquivo| [Marcos Vinícius](https://github.com/marcos-mv)|
 | 19/09/2021 | 0.7   | Adição dos padrões 2, 3, 4, 10 | [Bruno Nunes](https://github.com/brunocmo)|
+| 19/09/2021 | 0.8   | Adição ToyExample Strategy | [Bruno Nunes](https://github.com/brunocmo)|
