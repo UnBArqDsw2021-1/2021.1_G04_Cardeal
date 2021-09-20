@@ -22,7 +22,9 @@ A partir da reunião realizada no dia [17/09/2021](./atas/17-09-21.md) ficou dec
 
 ### 8.2 Aplicação no projeto
 
-O padão Observer foi identificado e aplicado no front-end do projeto.
+O padão Observer foi identificado e aplicado no front-end do projeto. O Observable é uma classe que aplica o padrão Observer. É emitida uma notificação para o Observable sempre que ocorre uma mudança em um de seus itens e a partir disto podemos executar uma ação. Em nosso projeto ele foi aplicado para observar a resposta das requisições da API, retornando um objeto assim que a requisição concluir sua tarefa, ou retornando um erro caso nao seja possivel concluir a requisição.
+
+![Observer](./img/gof-observe.png)
 
 ## 9. Visitor 
 ## 10. Memento 
@@ -103,4 +105,4 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 | 17/09/2021 | 0.3   | Estruturação do Arquivo| [Estevao Reis](https://github.com/estevaoreis25) |
 | 19/09/2021 | 0.5   | Introdução do Observer| Gustavo Duarte Moreira|
 | 19/09/2021 | 0.6   | Revisão e Correção Ortográfica do Arquivo| [Marcos Vinícius](https://github.com/marcos-mv)|
-
+| 20/09/2021 | 0.7   | Adição da aplicação do Observer | [Estevao Reis](https://github.com/estevaoreis25)|
