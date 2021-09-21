@@ -57,10 +57,25 @@ https://drive.google.com/file/d/1amyyFE3ptUVjyf4e1vfkac_KyzSmKR6N/preview
 [Modelagem Ágil + iniciativas extras](https://youtu.be/7kLH5GGu5mU)
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
+### GRASPs
+[![img](https://i.ibb.co/tPpTH3W/Captura-de-tela-de-2021-09-20-22-02-39.png)](https://i.ibb.co/tPpTH3W/Captura-de-tela-de-2021-09-20-22-02-39.png)
+
+### GOFs
+#### GOFs Criacionais
+[![img](https://i.ibb.co/jJs21RG/Captura-de-tela-de-2021-09-20-22-04-51.png)](https://i.ibb.co/jJs21RG/Captura-de-tela-de-2021-09-20-22-04-51.png)
+#### GOFs Estruturais
+[![img](https://i.ibb.co/jkTLsBt/Captura-de-tela-de-2021-09-20-22-05-11.png)](https://i.ibb.co/jkTLsBt/Captura-de-tela-de-2021-09-20-22-05-11.png)
+#### GOFs Comportamentais
+[![img](https://i.ibb.co/3rb100y/Captura-de-tela-de-2021-09-20-22-05-30.png)](https://i.ibb.co/3rb100y/Captura-de-tela-de-2021-09-20-22-05-30.pngg)
+### Padrão Emergente
+[![img](https://i.ibb.co/F3Pdd36/Captura-de-tela-de-2021-09-20-22-06-02.png)](https://i.ibb.co/F3Pdd36/Captura-de-tela-de-2021-09-20-22-06-02.png)
+### Extras (Front-End)
+[![img](https://i.ibb.co/jhpmRq3/Captura-de-tela-de-2021-09-20-22-09-24.png)](https://i.ibb.co/jhpmRq3/Captura-de-tela-de-2021-09-20-22-09-24.png)
 
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione o(s)s vídeo(s) da Terceira Entrega.
+[Padrões de Projeto GRASPs](https://drive.google.com/file/d/1GOg5dKzSQBfEAwIViA_y_rfsQ5u51NO5/view?usp=sharing)  
+[Padrões de Projeto GoFs](https://drive.google.com/file/d/1u5Pl3v609kxjh-XnWjBTOlZvUeFEaXHJ/view?usp=sharing)  
+[Padrões de Projeto Emergentes]()
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
