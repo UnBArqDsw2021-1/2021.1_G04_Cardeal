@@ -75,7 +75,7 @@ https://drive.google.com/file/d/1amyyFE3ptUVjyf4e1vfkac_KyzSmKR6N/preview
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 [Padrões de Projeto GRASPs](https://drive.google.com/file/d/1GOg5dKzSQBfEAwIViA_y_rfsQ5u51NO5/view?usp=sharing)  
 [Padrões de Projeto GoFs](https://drive.google.com/file/d/1u5Pl3v609kxjh-XnWjBTOlZvUeFEaXHJ/view?usp=sharing)  
-[Padrões de Projeto Emergentes]()
+[Padrões de Projeto Emergentes](https://drive.google.com/file/d/1aK_dIJugrnfpWBiblseDTMgTwr5qs1qk/view?usp=sharing)
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
