@@ -79,6 +79,15 @@ nav:
               - 10/09/2021: padroesDeProjeto/atas/10-09-21.md
               - 13/09/2021: padroesDeProjeto/atas/13-09-21.md
               - 17/09/2021: padroesDeProjeto/atas/17-09-21.md
+  - 4. Arquitetura de Software e Reutilização:
+      - 4.1. Estilos e Padrões Arquiteturais:
+          - Documento de Arquitetura de Software: arquitetura/das.md
+      - 4.2. Reutilização de Software:
+          - Back-end: arquitetura/back-end.md
+          - Front-end: arquitetura/front-end.md
+      - Extras:
+          - Atas:
+            - 27/09/2021: arquitetura/atas/27-09-21.md
 extra_css:
   - stylesheets/extra.css
 
