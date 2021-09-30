@@ -14,7 +14,7 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 #### Model
 &emsp;&emsp; Essa camada é responsável por gerenciar e controlar a forma como os dados se comportam por meio das funções lógica e regras de negócios estabelecidas. Ele é o detentor dos dados que recebe as informações do Controller, valida se ela está correta ou não e envia a resposta mais adequada. Foi utilizado para compor essa camada o framework [Express](#exp) e o [TypeORM](#orm), fazendo a abstração da camada de modelo e a utilização do banco de dados [MySQL](#my).
  
-&emsp;&emsp; Segue abaixo o diagrama, explicitando a relação entre as camadas e as tecnologias utilizadas em cada uma delas.
+&emsp;&emsp; Segue abaixo o diagrama, desenvolvido no [Canva](https://www.canva.com/), explicitando a relação entre as camadas e as tecnologias utilizadas em cada uma delas.
  
  
 ![Diagrama](./img/arquitetura.png)
@@ -77,12 +77,22 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
  
 ## 12. Referências
 >"O que é padrão MVC? Entenda arquitetura de softwares!". Disponível em <https://www.lewagon.com/pt-BR/blog/o-que-e-padrao-mvc>. Acessado em 30/09/2021
+
 > "O que é Angular?". Disponível em <https://angular.io/guide/what-is-angular>. Acessado em 30/09/2021
+
 > "Node.js – O que é, como funciona e quais as vantagens". Disponível em <https://www.opus-software.com.br/node-js/>. Acessado em 30/09/2021.
+
 > "Express - Framework web rápido, flexível e minimalista para Node.js". Disponível em <https://expressjs.com/pt-br/>. Acessado em 30/09/2021.
+
 > TypeORM. Disponpivel em <https://typeorm.io/#/>. Acessado em 30/09/2021.
-><https://docs.nestjs.com/>. Acessado em 30/09/2021.
->MANZANO, José.Augusto.N. G. MySQL 5.5 Interativo: Guia Essencial de Orientação e Desenvolvimento. Acesso em: 30/09/2021.
+
+>Documentação Nest.js.<https://docs.nestjs.com/>. Acessado em 30/09/2021.
+
+>MANZANO, José.Augusto.N. G. MySQL 5.5 Interativo: Guia Essencial de Orientação e Desenvolvimento. Acessado em 30/09/2021.
+
+>ORM - Object Relational Mapping - Revista Easy .Net Magazine 28. Disponpivel em <https://www.devmedia.com.br/orm-object-relational-mapping-revista-easy-net-magazine-28/27158>. Acessado em 30/09/2021.
+
+>Canva. Disponível em <https://www.canva.com/>. Acessado em 30/09/2021.
  
  
 ## Versionamento
