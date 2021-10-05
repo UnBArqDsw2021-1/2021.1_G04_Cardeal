@@ -90,7 +90,7 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 
 >MANZANO, José.Augusto.N. G. MySQL 5.5 Interativo: Guia Essencial de Orientação e Desenvolvimento. Acessado em 30/09/2021.
 
->ORM - Object Relational Mapping - Revista Easy .Net Magazine 28. Disponpivel em <https://www.devmedia.com.br/orm-object-relational-mapping-revista-easy-net-magazine-28/27158>. Acessado em 30/09/2021.
+>ORM - Object Relational Mapping - Revista Easy .Net Magazine 28. Disponível em <https://www.devmedia.com.br/orm-object-relational-mapping-revista-easy-net-magazine-28/27158>. Acessado em 30/09/2021.
 
 >Canva. Disponível em <https://www.canva.com/>. Acessado em 30/09/2021.
  
