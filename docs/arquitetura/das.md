@@ -37,10 +37,10 @@
 
 ## 10. Tamanho e Desempenho
  
-O tamanho do projeto, foi estimado em xMb. Esse valor foi alcançado e mensurado levando em consideração o Back-end e Front-end do site da corretora Cardeal.
+O tamanho do projeto não pode ser precisamente estimado até a data de escrita desse 06//10/2021, pois o mesmo ainda encontrava-se em fase de desenvolvimento e evolução do projeto, não sendo possui-vel mesurar com precisão o tamanho final. Levando em conta seus repositórios Back-end e Front-end do site da corretora Cardeal, a somatórios dos dois não passará de 1GB, não sendo necessário o download ou instalação de qualquer programa para acesso ao mesmo, tendo em vista de que este se trata de uma aplicação web, tendo seu acesso disponível pelo navegador, assim que o mesmo encontrar-se hospedado em um servidor.
 
 Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e à testes de Stress. Sendo capaz de: 
-- O sistema deve ser capaz de suportar x usuários simultâneos em seu site
+- O sistema deve ser capaz de suportar usuários simultâneos em seu site
 - O sistema deve ser capaz de carregar suas páginas em menos de 10 segundos 
 
 ## 11. Qualidade
