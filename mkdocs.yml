@@ -88,6 +88,8 @@ nav:
       - Extras:
           - Atas:
             - 27/09/2021: arquitetura/atas/27-09-21.md
+            - 01/10/2021: arquitetura/atas/01-10-21.md
+            - 04/10/2021: arquitetura/atas/04-10-21.md
 extra_css:
   - stylesheets/extra.css
 
