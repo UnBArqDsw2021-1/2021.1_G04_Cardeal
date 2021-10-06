@@ -5,10 +5,11 @@
 
 ## 3. Metas Arquiteturais e Restrições
 
-Os objetivos arquiteturais dizem respeito e trabalham em cima das metas mais significativas e das metas que foram impostas para tal projeto sendo assim, basicamente se trata que satisfaz as expectativas, desejos e necessidades dos Stakeholders do projeto. As restrições arquitetônicas de um projeto são definidas como condições que são impostas ao sistema e limitam a execução desse mesmo, tendo estas que serem cumpridas da maneira correta, para que este funcione de acordo com o esperado. 
+               Os objetivos arquiteturais dizem respeito e trabalham em cima das metas mais significativas e das metas que foram impostas para tal projeto sendo assim, basicamente se trata que satisfaz as expectativas, desejos e necessidades dos Stakeholders do projeto. As restrições arquitetônicas de um projeto são definidas como condições que são impostas ao sistema e limitam a execução desse mesmo, tendo estas que serem cumpridas da maneira correta, para que este funcione de acordo com o esperado. 
 
-### 3.1 Objetivos 
-O que é referente às restrições, requisitos e objetivos da arquitetura do site online da corretora Cardeal, serão listados abaixo os pontos de maior importância para o projeto:
+### 3.1 Metas 
+
+                   O que é referente às restrições, requisitos e objetivos da arquitetura do site online da corretora Cardeal, serão listados abaixo os pontos de maior importância para o projeto:
 Segurança: A aplicação deve manter os dados dos usuários em segurança
 Linguagem: A aplicação deve conter uma linguagem acessível e que possa ter um fácil entendimento pelo os usuários
 Portabilidade: A aplicação deve ser funcionar e ser executada com desempenho igual ou próximo nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge
@@ -17,12 +18,12 @@ Escalabilidade: O software deve tornar possível sua evolução e manutenção.
 Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal.
 
 ### 3.2 Restrições
+
 - Tecnologias: O desenvolvimento da plataforma deve seguir o planejamento a as tecnologias definidas pela equipe
 - Conectividade: Conexão com a internet para que o usuário acesse ao site
 - Prazo: A aplicação deverá ser finalizada dentro da data estipulada para entrega final do projeto
 - Idioma: O site deve estar na linguagem Português-Brasil.
 - Público alvo: A aplicação deve atender usuários que desejam os serviços do site da corretora Cardeal.
-
 
 ## 4. Visão de caso de uso
 
@@ -36,14 +37,13 @@ Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneir
 
 ## 9. Visão de Dados
 
-## 10. Tamanho e Desempenho 
-
+## 10. Tamanho e Desempenho
+ 
 O tamanho do projeto, foi estimado em xMb. Esse valor foi alcançado e mensurado levando em consideração o Back-end e Front-end do site da corretora Cardeal.
 
 Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e à testes de Stress. Sendo capaz de: 
 - O sistema deve ser capaz de suportar x usuários simultâneos em seu site
 - O sistema deve ser capaz de carregar suas páginas em menos de 10 segundos 
-
 
 ## 11. Qualidade
 
@@ -52,4 +52,5 @@ Em relação à performance, o sistema foi desenvolvido com foco na otimização
 | ---------- | ------ | ----------------- | ------------- |
 | 24/09/2021 | 0.1 | Criação do arquivo| Estevao Reis  |
 | 27/09/2021 | 0.2 | Estruturação dos tópicos do documento| Estevao Reis |
-| 05/10/2021 | 1.0 | Criação inicial dos tópicos 3 e 10| Luiz Gustavo  |
+| 30/09/2021 | 0.3 | Adição do tópico de Representação Arquitetural| Estevao Reis |
+| 05/10/2021 | 0.4 | Criação inicial dos tópicos 3 e 10| Luiz Gustavo  |
