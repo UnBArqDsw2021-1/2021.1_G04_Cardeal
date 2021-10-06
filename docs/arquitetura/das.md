@@ -4,18 +4,16 @@
 ## 2. Representação Arquitetural
 
 ## 3. Metas Arquiteturais e Restrições
-
-               Os objetivos arquiteturais dizem respeito e trabalham em cima das metas mais significativas e das metas que foram impostas para tal projeto sendo assim, basicamente se trata que satisfaz as expectativas, desejos e necessidades dos Stakeholders do projeto. As restrições arquitetônicas de um projeto são definidas como condições que são impostas ao sistema e limitam a execução desse mesmo, tendo estas que serem cumpridas da maneira correta, para que este funcione de acordo com o esperado. 
+   Os objetivos arquiteturais dizem respeito e trabalham em cima das metas mais significativas e das metas que foram impostas para tal projeto sendo assim, basicamente se trata que satisfaz as expectativas, desejos e necessidades dos Stakeholders do projeto. As restrições arquitetônicas de um projeto são definidas como condições que são impostas ao sistema e limitam a execução desse mesmo, tendo estas que serem cumpridas da maneira correta, para que este funcione de acordo com o esperado. 
 
 ### 3.1 Metas 
-
-                   O que é referente às restrições, requisitos e objetivos da arquitetura do site online da corretora Cardeal, serão listados abaixo os pontos de maior importância para o projeto:
-Segurança: A aplicação deve manter os dados dos usuários em segurança
-Linguagem: A aplicação deve conter uma linguagem acessível e que possa ter um fácil entendimento pelo os usuários
-Portabilidade: A aplicação deve ser funcionar e ser executada com desempenho igual ou próximo nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge
-Usabilidade: é essencial que o sistema possibilite que o usuário a realize ações rapidamente e de maneira intuitiva
-Escalabilidade: O software deve tornar possível sua evolução e manutenção.
-Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal.
+   Dentro do que é referente às restrições, requisitos e objetivos da arquitetura do site online da corretora Cardeal, serão listados abaixo os pontos de maior importância para o projeto:
+- Segurança: A aplicação deve manter os dados dos usuários em segurança
+- Linguagem: A aplicação deve conter uma linguagem acessível e que possa ter um fácil entendimento pelo os usuários
+- Portabilidade: A aplicação deve ser funcionar e ser executada com desempenho igual ou próximo nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge
+- Usabilidade: é essencial que o sistema possibilite que o usuário a realize ações rapidamente e de maneira intuitiva
+- Escalabilidade: O software deve tornar possível sua evolução e manutenção.
+- Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal.
 
 ### 3.2 Restrições
 
@@ -54,3 +52,4 @@ Em relação à performance, o sistema foi desenvolvido com foco na otimização
 | 27/09/2021 | 0.2 | Estruturação dos tópicos do documento| Estevao Reis |
 | 30/09/2021 | 0.3 | Adição do tópico de Representação Arquitetural| Estevao Reis |
 | 05/10/2021 | 0.4 | Criação inicial dos tópicos 3 e 10| Luiz Gustavo  |
+| 06/10/2021 | 0.4.1 | Correções nos tópicos 3 e 10| Luiz Gustavo  |
