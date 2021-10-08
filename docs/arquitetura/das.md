@@ -94,7 +94,7 @@ Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneir
  
 O tamanho do projeto, foi estimado em xMb. Esse valor foi alcançado e mensurado levando em consideração o Back-end e Front-end do site da corretora Cardeal.
 
-Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e à testes de Stress. Sendo capaz de: 
+Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e aos testes de Stress. Sendo capaz de: 
 - O sistema deve ser capaz de suportar x usuários simultâneos em seu site
 - O sistema deve ser capaz de carregar suas páginas em menos de 10 segundos 
 
