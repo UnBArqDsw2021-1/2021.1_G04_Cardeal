@@ -32,6 +32,16 @@ Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneir
 
 ## 7.Visão de Implantação
 
+&emsp;&emsp;Essa visão busca explorar e avaliar as opções arquiterurais de alto nível. Ela irá promover um entendimento da estrutura para os patrocinadores e demais stakeholder. Para isso, precisa levar em consideração o design das redes preexistentes e os bancos de dados preexistentes. A fim de descreve como o sistema é mapeado para o hardware (MONTEIRO, 2010).
+
+&emsp;&emsp; Os dados da aplicação Web ficam armazenados no banco de dados MySQL. As requisições são feitas pelo front-end, implementado com auxilio do Angular, para o back-end, implementado com o NestJS. Este e aquele construídos com a linguagem TypeScript.
+
+&emsp;&emsp; A partir dessas requisições, o back-end realiza os serviços solicitados, fazendo buscas e/ou serviços no banco de dados, e responde ao front-end, que por sua vez apresenta todas as informações necessárias ao usuário. Essa visão pode ser representada utilizando o seguinte diagrama:
+
+![Implantação](./img/implantacao.jpg)
+
+<center>*Autor: Douglas Castro*</center>
+
 ## 8. Visão de Implementação
 
 ## 9. Visão de Dados
@@ -47,9 +57,16 @@ Em relação à performance, o sistema foi desenvolvido com foco na otimização
 
 ## 11. Qualidade
 
+## 12. Referências
+
+- Arquitetura de Software. MONTEIRO, Marcos. Disponível em: https://www.marcosmonteiro.com.br/mm/Cursos/Arquitetura_Software/Arquitetura_de_Software-marcosmonteiro.pdf. Acesso: 30/09/2021
+
+- Como documentar a Arquitetura de Software. Disponível em: http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx. Acesso em: 30/09/2021
+
 ## Versionamento
 | Data       | Versão | Descrição         | Autores       |
 | ---------- | ------ | ----------------- | ------------- |
 | 24/09/2021 | 0.1 | Criação do arquivo| Estevao Reis  |
 | 27/09/2021 | 0.2 | Estruturação dos tópicos do documento| Estevao Reis |
-| 05/10/2021 | 1.0 | Criação inicial dos tópicos 3 e 10| Luiz Gustavo  |
+| 05/10/2021 | 0.3 | Criação inicial dos tópicos 3 e 10| Luiz Gustavo  |
+| 08/10/2021 | 0.4 | Adição da visão de Implantação| Douglas Castro  |
