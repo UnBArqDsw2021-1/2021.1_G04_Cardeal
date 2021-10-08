@@ -58,19 +58,19 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 &emsp;&emsp;Segundo José Algusto em seu livro "MySQL 5.5 Interativo" o programa MySQL é um sistema de gerenciamento de banco de dados relacional que utiliza a linguagem de consulta estruturada SQL como interface de acesso e extração de informações do banco de dados em uso.
  
 ## 3. Metas Arquiteturais e Restrições
+   Os objetivos arquiteturais dizem respeito e trabalham em cima das metas mais significativas e das metas que foram impostas para tal projeto sendo assim, basicamente se trata que satisfaz as expectativas, desejos e necessidades dos Stakeholders do projeto. As restrições arquitetônicas de um projeto são definidas como condições que são impostas ao sistema e limitam a execução desse mesmo, tendo estas que serem cumpridas da maneira correta, para que este funcione de acordo com o esperado. 
 
-Os objetivos arquiteturais dizem respeito e trabalham em cima das metas mais significativas e das metas que foram impostas para tal projeto sendo assim, basicamente se trata que satisfaz as expectativas, desejos e necessidades dos Stakeholders do projeto. As restrições arquitetônicas de um projeto são definidas como condições que são impostas ao sistema e limitam a execução desse mesmo, tendo estas que serem cumpridas da maneira correta, para que este funcione de acordo com o esperado. 
-
-### 3.1 Objetivos 
-O que é referente às restrições, requisitos e objetivos da arquitetura do site online da corretora Cardeal, serão listados abaixo os pontos de maior importância para o projeto:
-Segurança: A aplicação deve manter os dados dos usuários em segurança
-Linguagem: A aplicação deve conter uma linguagem acessível e que possa ter um fácil entendimento pelo os usuários
-Portabilidade: A aplicação deve ser funcionar e ser executada com desempenho igual ou próximo nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge
-Usabilidade: é essencial que o sistema possibilite que o usuário a realize ações rapidamente e de maneira intuitiva
-Escalabilidade: O software deve tornar possível sua evolução e manutenção.
-Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal.
+### 3.1 Metas 
+   Dentro do que é referente às restrições, requisitos e objetivos da arquitetura do site online da corretora Cardeal, serão listados abaixo os pontos de maior importância para o projeto:
+- Segurança: A aplicação deve manter os dados dos usuários em segurança
+- Linguagem: A aplicação deve conter uma linguagem acessível e que possa ter um fácil entendimento pelo os usuários
+- Portabilidade: A aplicação deve ser funcionar e ser executada com desempenho igual ou próximo nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge
+- Usabilidade: é essencial que o sistema possibilite que o usuário a realize ações rapidamente e de maneira intuitiva
+- Escalabilidade: O software deve tornar possível sua evolução e manutenção.
+- Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal.
 
 ### 3.2 Restrições
+
 - Tecnologias: O desenvolvimento da plataforma deve seguir o planejamento a as tecnologias definidas pela equipe
 - Conectividade: Conexão com a internet para que o usuário acesse ao site
 - Prazo: A aplicação deverá ser finalizada dentro da data estipulada para entrega final do projeto
@@ -104,14 +104,14 @@ Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneir
 <center>*Autor: Marcos Vinícius *</center>
 
 ## 9. Visão de Dados
- 
+
 ## 10. Tamanho e Desempenho
+ 
+O tamanho do projeto não pode ser precisamente estimado até a data de escrita desse 06//10/2021, pois o mesmo ainda encontrava-se em fase de desenvolvimento e evolução do projeto, não sendo possui-vel mesurar com precisão o tamanho final. Levando em conta seus repositórios Back-end e Front-end do site da corretora Cardeal, a somatórios dos dois não passará de 1GB, não sendo necessário o download ou instalação de qualquer programa para acesso ao mesmo, tendo em vista de que este se trata de uma aplicação web, tendo seu acesso disponível pelo navegador, assim que o mesmo encontrar-se hospedado em um servidor.
 
-O tamanho do projeto, foi estimado em xMb. Esse valor foi alcançado e mensurado levando em consideração o Back-end e Front-end do site da corretora Cardeal.
-
-Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e aos testes de Stress. Sendo capaz de: 
-- O sistema deve ser capaz de suportar x usuários simultâneos em seu site
-- O sistema deve ser capaz de carregar suas páginas em menos de 10 segundos 
+Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e à testes de Stress. Sendo capaz de: 
+- O sistema deve ser capaz de suportar usuários simultâneos em seu site;
+- O sistema deve ser capaz de carregar suas páginas em menos de 10 segundos.
 
 ## 11. Qualidade
 
@@ -149,5 +149,6 @@ Em relação à performance, o sistema foi desenvolvido com foco na otimização
 | 30/09/2021 | 0.3 | Adição do tópico de Representação Arquitetural| Estevao Reis |
 | 05/10/2021 | 0.4 | Criação inicial dos tópicos 3 e 10| Luiz Gustavo  |
 | 05/10/2021 | 0.5 | Criação inicial dos tópicos 3 e 10| Luiz Gustavo  |
-| 07/10/2021 | 0.6 | Adição da visão de Implantação| Douglas Castro  |
-| 08/10/2021 | 0.7 | Adição da visão da Implementação| Douglas Castro  |
+| 06/10/2021 | 0.6 | Correções nos tópicos 3 e 10| Luiz Gustavo  |
+| 07/10/2021 | 0.7 | Adição da visão de Implantação| Douglas Castro  |
+| 08/10/2021 | 0.8 | Adição da visão da Implementação| Douglas Castro  |
