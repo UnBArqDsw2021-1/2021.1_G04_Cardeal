@@ -84,9 +84,25 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 ## 6. Visão de Processos
  
 ## 7.Visão de Implantação
- 
+
+&emsp;&emsp;Essa visão busca explorar e avaliar as opções arquiteturais de alto nível. Ela irá promover um entendimento da estrutura para os patrocinadores e demais stakeholder. Para isso, é preciso levar em consideração o design das redes preexistentes e os bancos de dados preexistentes. A fim de descrever como o sistema é mapeado para o hardware (MONTEIRO, 2010).
+
+&emsp;&emsp; Os dados da aplicação Web ficam armazenados no banco de dados MySQL. As requisições são feitas pelo front-end, implementado com auxílio do Angular, para o back-end, implementado com o NestJS. Este e aquele construídos com a linguagem TypeScript.
+
+&emsp;&emsp; A partir dessas requisições, o back-end realiza os serviços solicitados, fazendo buscas e/ou serviços no banco de dados, e responde ao front-end, que por sua vez apresenta todas as informações necessárias ao usuário. Essa visão pode ser representada utilizando o seguinte diagrama:
+
+![Implantação](./img/implantacao.jpg)
+
+<center>*Autor: Douglas Castro*</center>
+
 ## 8. Visão de Implementação
- 
+
+&emsp;&emsp; A finalidade da visão de implementação é captar as decisões de arquitetura tomadas para a implementação. Especifica os componentes de código do projeto, como organização dos arquivos, dependências e pacotes em diferentes camadas e subcamadas. Essa visão é representada principalmente pelo diagrama de componentes.
+
+![Diagrama de Componentes](./img/diagrama-Componentes.jpg)
+
+<center>*Autor: Marcos Vinícius *</center>
+
 ## 9. Visão de Dados
 
 ## 10. Tamanho e Desempenho
@@ -99,9 +115,16 @@ Em relação à performance, o sistema foi desenvolvido com foco na otimização
 
 ## 11. Qualidade
 
+## 12. Referências
+
+> Arquitetura de Software. MONTEIRO, Marcos. Disponível em: https://www.marcosmonteiro.com.br/mm/Cursos/Arquitetura_Software/Arquitetura_de_Software-marcosmonteiro.pdf. Acesso: 30/09/2021.
+
+> Como documentar a Arquitetura de Software. Disponível em: http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx. Acesso em: 30/09/2021.
+
+> Conceito: Visão da Implementação. Universidade de Pernambuco. Disponível em: https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/implementation_view_E373E3B6.html. Acesso em: 04/10/2021.
+
 >Canva. Disponível em <https://www.canva.com/>. Acessado em 30/09/2021.
 
-## 12. Referências
 >"O que é padrão MVC? Entenda arquitetura de softwares!". Disponível em <https://www.lewagon.com/pt-BR/blog/o-que-e-padrao-mvc>. Acessado em 30/09/2021
 
 > "O que é Angular?". Disponível em <https://angular.io/guide/what-is-angular>. Acessado em 30/09/2021
@@ -125,4 +148,7 @@ Em relação à performance, o sistema foi desenvolvido com foco na otimização
 | 27/09/2021 | 0.2 | Estruturação dos tópicos do documento| Estevao Reis |
 | 30/09/2021 | 0.3 | Adição do tópico de Representação Arquitetural| Estevao Reis |
 | 05/10/2021 | 0.4 | Criação inicial dos tópicos 3 e 10| Luiz Gustavo  |
-| 06/10/2021 | 0.4.1 | Correções nos tópicos 3 e 10| Luiz Gustavo  |
+| 05/10/2021 | 0.5 | Criação inicial dos tópicos 3 e 10| Luiz Gustavo  |
+| 06/10/2021 | 0.6 | Correções nos tópicos 3 e 10| Luiz Gustavo  |
+| 07/10/2021 | 0.7 | Adição da visão de Implantação| Douglas Castro  |
+| 08/10/2021 | 0.8 | Adição da visão da Implementação| Douglas Castro  |

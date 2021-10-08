@@ -5,7 +5,7 @@ repo_url: https://github.com/UnBArqDsw2021-1/2021.1_G04_Cardeal
 nav:
   - Home: index.md
   - Apresentações: apresentacoes.md
-  - 1. Desenho de Sofware(Base):
+  - 1. Base:
       - 1.1 Projeto Não Orientado a Abordagem Específicas:
           - Design Sprint: desenhoSoftwareBase/designSprint.md
           - Protótipo: desenhoSoftwareBase/prototipo.md
@@ -35,7 +35,7 @@ nav:
               - 02/08/2021: Atas/02-08-2021.md
               - 04/08/2021: Atas/04-08-2021.md
               - 05/08/2021: Atas/05-08-2021.md
-  - 2. Desenho de Software (Modelagem):
+  - 2. Modelagem:
       - 2.1 Projeto Orientado a Abordagens Tradicionais:
           - 2.1.1 Notação UML – Diagramas Estáticos:
               - Diagrama de Classes: modelagem/diagrama_classes.md
@@ -59,7 +59,7 @@ nav:
               - Requisitos: desenhoSoftwareBase/requisitos.md
           - Atas:
               - 13/08/2021: Atas/13-08-2021.md
-  - 3. Desenho de Software (Padrões de Projeto):
+  - 3. Padrões de Projeto:
       - 3.1. Padrões de Projeto GRASPs:
           - GRASPs: padroesDeProjeto/GRASPs.md
       - 3.2. Padrões de Projeto GoFs:
