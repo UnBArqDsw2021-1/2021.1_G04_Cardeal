@@ -87,7 +87,7 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 
 &emsp;&emsp;Essa visão busca explorar e avaliar as opções arquiteturais de alto nível. Ela irá promover um entendimento da estrutura para os patrocinadores e demais stakeholder. Para isso, é preciso levar em consideração o design das redes preexistentes e os bancos de dados preexistentes. A fim de descrever como o sistema é mapeado para o hardware (MONTEIRO, 2010).
 
-&emsp;&emsp; Os dados da aplicação Web ficam armazenados no banco de dados MySQL. As requisições são feitas pelo front-end, implementado com auxilio do Angular, para o back-end, implementado com o NestJS. Este e aquele construídos com a linguagem TypeScript.
+&emsp;&emsp; Os dados da aplicação Web ficam armazenados no banco de dados MySQL. As requisições são feitas pelo front-end, implementado com auxílio do Angular, para o back-end, implementado com o NestJS. Este e aquele construídos com a linguagem TypeScript.
 
 &emsp;&emsp; A partir dessas requisições, o back-end realiza os serviços solicitados, fazendo buscas e/ou serviços no banco de dados, e responde ao front-end, que por sua vez apresenta todas as informações necessárias ao usuário. Essa visão pode ser representada utilizando o seguinte diagrama:
 
