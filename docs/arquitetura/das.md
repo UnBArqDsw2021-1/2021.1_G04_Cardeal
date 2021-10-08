@@ -44,6 +44,13 @@ Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneir
 
 ## 8. Visão de Implementação
 
+&emsp;&emsp; A finalidade da visão de implementação é captar as decisões de arquitetura tomadas para a implementação. Especifica os componentes de código do projeto, como organização dos arquivos, dependências e pacotes em diferentes camadas e subcamadas. Essa visão é representada principalmente pelo diagrama de componentes.
+
+![Diagrama de Componentes](./img/diagrama-Componentes.jpg)
+
+<center>*Autor: Marcos Vinícius *</center>
+
+
 ## 9. Visão de Dados
 
 ## 10. Tamanho e Desempenho 
@@ -59,9 +66,10 @@ Em relação à performance, o sistema foi desenvolvido com foco na otimização
 
 ## 12. Referências
 
-- Arquitetura de Software. MONTEIRO, Marcos. Disponível em: https://www.marcosmonteiro.com.br/mm/Cursos/Arquitetura_Software/Arquitetura_de_Software-marcosmonteiro.pdf. Acesso: 30/09/2021
+- Arquitetura de Software. MONTEIRO, Marcos. Disponível em: https://www.marcosmonteiro.com.br/mm/Cursos/Arquitetura_Software/Arquitetura_de_Software-marcosmonteiro.pdf. Acesso: 30/09/2021.
 
-- Como documentar a Arquitetura de Software. Disponível em: http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx. Acesso em: 30/09/2021
+- Como documentar a Arquitetura de Software. Disponível em: http://www.linhadecodigo.com.br/artigo/3343/como-documentar-a-arquitetura-de-software.aspx. Acesso em: 30/09/2021.
+- Conceito: Visão da Implementação. Universidade de Pernambuco. Disponível em: https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/implementation_view_E373E3B6.html. Acesso em: 04/10/2021.
 
 ## Versionamento
 | Data       | Versão | Descrição         | Autores       |
@@ -69,4 +77,5 @@ Em relação à performance, o sistema foi desenvolvido com foco na otimização
 | 24/09/2021 | 0.1 | Criação do arquivo| Estevao Reis  |
 | 27/09/2021 | 0.2 | Estruturação dos tópicos do documento| Estevao Reis |
 | 05/10/2021 | 0.3 | Criação inicial dos tópicos 3 e 10| Luiz Gustavo  |
-| 08/10/2021 | 0.4 | Adição da visão de Implantação| Douglas Castro  |
+| 07/10/2021 | 0.4 | Adição da visão de Implantação| Douglas Castro  |
+| 08/10/2021 | 0.5 | Adição da visão da Implementação| Douglas Castro  |
