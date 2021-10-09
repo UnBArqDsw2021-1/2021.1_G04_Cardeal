@@ -139,6 +139,29 @@ Em relação à performance, o sistema foi desenvolvido com foco na otimização
 - O sistema deve ser capaz de carregar suas páginas em menos de 10 segundos.
 
 ## 11. Qualidade
+&emsp;&emsp; Quanto à Qualidade, a arquitetura do Projeto Cardeal é orientado pelos atributos FURPS, sigla para _**F**uncionality, **U**sability, **R**eliability, **P**erformance_ e _**S**uportability_. Segundo PRESSMAN e MAXIM (2016), as seguintes definições podem ser aplicadas para esses atributos:  
+
+* Funcionalidade (_funcionality_): se refere ao conjunto de características e capacidades, funções e segurança de um software;  
+* Usabilidade (_usability_): está relacionada a fatores humanos do software, como estética, consistência e documentação;  
+* Confiabilidade (_reliability_): é avaliada através da medição de frequência e severidade das falhas, da precisão dos resultados gerados, do tempo médio entre defeitos, da capacidade do sistema de recuperar-se de uma falha e da previsibilidade do software;  
+* Desempenho (_performance_): considera a velocidade de processamento, tempo de resposta, consumo de recursos e a eficiência do programa;  
+* Facilidade de suporte (_suportability_): engloba a extensibilidade, a adaptabilidade e a reparabilidade, entre outras características que envolvem o suporte de um software.  
+
+No projeto desenvolvido, estes atributos de qualidade podem ser observadas em características como:
+### Funcionalidade
+O produto de software tem sido desenvolvido pela equipe com base nos [requisitos](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/brainstorm/) levantados pela equipe. Tais requisitos, que deram origem ao [backlog do produto](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/backlog_do_produto/), garantem a funcionalidade do projeto.
+
+### Usabilidade
+A interface elaborada para o projeto é minimalista, apresentado padrões de cores e fontes. Além disso, as principais funcionalidades do site são apresentadas na sua home page, o que facilita a navegação do usuário. Também é possível notar que o sistema utiliza linguagem clara e direta, simplificando o entendimento do que está sendo feito e o que se pode fazer.
+
+### Confiabilidade
+O software da imobiliária Cardeal é projetado para estar constantemente disponível, podendo se recuperar de possíveis falhas apresentadas. 
+
+### Desempenho
+Tal característica foi implementada no produto de software seguindo os pontos levantados no tópico anterior ([Tamanho e Desempenho](#10-tamanho-e-desempenho)).
+
+### Facilidade de Suporte
+Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/padroesDeProjeto/GRASPs/), [GOFs](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/padroesDeProjeto/gofs_criacionais/) e [Emergentes](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/padroesDeProjeto/padraoEmergente/), possibilitamos ao software uma maior manutenibilidade, o que facilita seu suporte, comportando possíveis modificações, melhorias e correções com maior segurança e menor risco de falhas, reforçando a sua [confiabilidade](#confiabilidade). 
 
 ## 12. Referências
 
@@ -166,7 +189,10 @@ Em relação à performance, o sistema foi desenvolvido com foco na otimização
 
 >ORM - Object Relational Mapping - Revista Easy .Net Magazine 28. Disponível em <https://www.devmedia.com.br/orm-object-relational-mapping-revista-easy-net-magazine-28/27158>. Acessado em 30/09/2021.
 
+>PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 ed. Porto Alegre: AMGH, 2016. p 210, 211.
+
 > Artefato: Documento de Arquitetura de Software. Rational Unified Process for Value Creation, IBM Corp. 1987, 2006. Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_software_architecture_document_C367485C.html> Acessado em 08/10/2021.
+
 
 ## Versionamento
 | Data       | Versão | Descrição         | Autores       |
@@ -181,3 +207,5 @@ Em relação à performance, o sistema foi desenvolvido com foco na otimização
 | 08/10/2021 | 0.8 | Adição da visão da Implementação| Douglas Castro  |
 | 08/10/2021 | 0.9 | Adição da Introdução | Giovana Dionisio  |
 | 09/10/2021 | 0.9.1 | Revisão da Introdução | Gustavo Moreira  |
+| 08/10/2021 | 1.0 | Adição do tópico qualidade| Giovana Dionisio  |
+
