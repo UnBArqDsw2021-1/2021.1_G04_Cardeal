@@ -180,3 +180,4 @@ Em relação à performance, o sistema foi desenvolvido com foco na otimização
 | 07/10/2021 | 0.7 | Adição da visão de Implantação| Douglas Castro  |
 | 08/10/2021 | 0.8 | Adição da visão da Implementação| Douglas Castro  |
 | 08/10/2021 | 0.9 | Adição da Introdução | Giovana Dionisio  |
+| 09/10/2021 | 0.9.1 | Revisão da Introdução | Gustavo Moreira  |
