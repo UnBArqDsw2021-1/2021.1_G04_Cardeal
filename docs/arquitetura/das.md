@@ -1,6 +1,31 @@
 # DAS - Documento de Arquitetura de Software
 ## 1. Introdução
- 
+&emsp;&emsp; O Documento de Arquitetura de Software (DAS) pode ser descrito como "uma visão arquitetural abrangente do sistema, usando diversas visões de arquitetura para representar diferentes aspectos do sistema" (IBM Corp, 2006). Ele estabelece a comunicação entre o arquiteto de software e os outros profissionais responsáveis pelo projeto, descrevendo possíveis decisões arquiteturais que possuam relevância significativa dentro do contexto do produto em desenvolvimento.  
+
+### 1.1 Propósito 
+&emsp;&emsp; Tendo em vista a definição apresentada para o DAS, este documento tem como finalidade descrever a arquitetura do Projeto Cardeal, que está sendo desenvolvido pela equipe, através da [Visão Lógica](#5-visao-logica), da [Visão de Processos](#6-visao-de-processos), da [Visão de Implantação](#7visao-de-implantacao), da [Visão de Implementação](#8-visao-de-implementacao) e da [Visão de Dados](#9-visao-de-dados), além de trazer outros aspectos relevantes sobre a arquitetura do produto em produção. 
+
+### 1.2 Escopo
+&emsp;&emsp; O Projeto Cardeal consiste em um site para uma imobiliária fictícia, dando suporte a atividades como o cadastro e apresentação de imóveis, cadastro de corretores, entre outros aspectos de interesse da empresa. Essa aplicação visa facilitar o gerenciamento da imobiliária, entregando uma solução de software para a concentração de seus recursos de trabalho (gerentes, clientes, imóveis, proprietários, visitas, etc.).  
+&emsp;&emsp; Neste contexto, este artefato abrange toda a arquitetura do Projeto Cardeal em seus diferentes níveis de desenvolvimento. Desta maneira, neste documento está descrita a estrutura e organização do produto de software, assim como o seu funcionamento, requisitos, restrições, componentes e as tecnologias que foram utilizadas ao longo da sua implementação.
+
+### 1.3 Visão Geral
+&emsp;&emsp; Na [reunião em equipe do dia 27/09/21](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/arquitetura/atas/27-09-21/) foi debatido entre os membros quais tópicos seriam importantes e coerentes ao contexto do nosso projeto. Consultamos projetos elaborados nesta disciplina em outros semestres, além de verificar bibliografias para que soubessemos quais tópicos são obrigatórios ou não neste artefato.  
+&emsp;&emsp; Por fim, o Documento de Arquitetura de Software do Projeto Cardeal está particionado da seguinte forma, onde cada tópico apresenta um aspecto sobre a arquitetura da aplicação:
+
+Número | Tópico | Descrição 
+------: | ------ | ---------
+ 2 | [Representação Arquitetural](#2-representacao-arquitetural) | Descrição da arquitetura e das tecnologias utilizadas no projeto 
+ 3 | [Metas Arquiteturais e Restrições](#3-metas-arquiteturais-e-restricoes) | Descrição dos objetivos e as especificações que a nossa arquitetura visa alcançar e seguir
+ 4 | [Visão de Caso de Uso](#4-visao-de-caso-de-uso) | Descrição das principais funcionalidades, interfaces externas e usuários do sistema
+ 5 | [Visão Lógica](#5-visao-logica) | Descrição da estrutura do sistema no que diz respeito às unidades de implementação
+ 6 | [Visão de Processos](#6-visao-de-processos) | Descrição do sistema em tempo de execução através de interações e comportamento dos elementos
+ 7 | [Visão de Implantação](#7visao-de-implantacao) | Descrição do mapeamento do sistema no hardware
+ 8 | [Visão de Implementação](#8-visao-de-implementacao) | Descrição da organização de arquivos dos artefatos do projeto
+ 9 | [Visão de Dados](#9-visao-de-dados) | Descrição da persistência e modelagem dos dados
+ 10| [Tamanho e Desempenho](#10-tamanho-e-desempenho) | Descrição do tamanho do software e os seus objetivos de performance
+ 11| [Qualidade](#11-qualidade) | Descrição do impacto da arquitetura nos atributos de qualidade do software
+
 ## 2. Representação Arquitetural
 &emsp;&emsp; Para desenvolver o sistema Web do projeto Cardeal, foi decidido que seria utilizado o padrão de projeto arquitetural Model-View-Controller(MVC), visto que é um padrão bastante utilizado no desenvolvimento de sistemas web. Segundo Vitor Zucher o MVC é um padrão de arquitetura de software responsável por contribuir na otimização da velocidade entre as requisições feitas pelo comando dos usuários. Com quase 50 anos de formulação, a arquitetura MVC é dividida em três camadas essenciais: View, Controller e Model.
  
@@ -156,7 +181,7 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 
 > "Express - Framework web rápido, flexível e minimalista para Node.js". Disponível em <https://expressjs.com/pt-br/>. Acessado em 30/09/2021.
 
-> TypeORM. Disponpivel em <https://typeorm.io/#/>. Acessado em 30/09/2021.
+> TypeORM. Disponível em <https://typeorm.io/#/>. Acessado em 30/09/2021.
 
 >Documentação Nest.js.<https://docs.nestjs.com/>. Acessado em 30/09/2021.
 
@@ -165,6 +190,9 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 >ORM - Object Relational Mapping - Revista Easy .Net Magazine 28. Disponível em <https://www.devmedia.com.br/orm-object-relational-mapping-revista-easy-net-magazine-28/27158>. Acessado em 30/09/2021.
 
 >PRESSMAN, Roger S.; MAXIM, Bruce R.. Engenharia de software: uma abordagem profissional. 8 ed. Porto Alegre: AMGH, 2016. p 210, 211.
+
+> Artefato: Documento de Arquitetura de Software. Rational Unified Process for Value Creation, IBM Corp. 1987, 2006. Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_software_architecture_document_C367485C.html> Acessado em 08/10/2021.
+
 
 ## Versionamento
 | Data       | Versão | Descrição         | Autores       |
@@ -177,4 +205,7 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 | 06/10/2021 | 0.6 | Correções nos tópicos 3 e 10| Luiz Gustavo  |
 | 07/10/2021 | 0.7 | Adição da visão de Implantação| Douglas Castro  |
 | 08/10/2021 | 0.8 | Adição da visão da Implementação| Douglas Castro  |
-| 08/10/2021 | 0.9 | Adição do tópico qualidade| Giovana Dionisio  |
+| 08/10/2021 | 0.9 | Adição da Introdução | Giovana Dionisio  |
+| 09/10/2021 | 0.9.1 | Revisão da Introdução | Gustavo Moreira  |
+| 08/10/2021 | 1.0 | Adição do tópico qualidade| Giovana Dionisio  |
+
