@@ -107,7 +107,30 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 ## 5. Visão Lógica
  
 ## 6. Visão de Processos
- 
+
+### 6.1 Visão Geral
+
+&emsp;&emsp;Ela descreve uma visão do modelo de projeto, com visualização de classes e diagramas de interação do sistema. Utilizando a notação de processos ou threads.
+
+### 6.1 Diagrama de Sequência
+
+&emsp;&emsp;Na aplicação o diagrama de sequência foi usado para evidenciar os fluxos de interação do usuário para visualizar o imóvel e do corretor ao cadastrar o anúncio do imóvel.
+
+#### 6.1.1 Interação do Usuário
+
+&emsp;&emsp;No diagrama de interação do usuário o fluxo de pesquisa de imóvel.
+
+[![img](https://i.ibb.co/jZfpVgZ/Diagramas-de-Sequ-ncia-Page-2.png)](https://i.ibb.co/jZfpVgZ/Diagramas-de-Sequ-ncia-Page-2.png)  
+_Autor: Giovana Dionisio_
+
+#### 6.1.2 Operações com Anúncios
+
+&emsp;&emsp;No diagrama de operação de anúncios o usuário corretor interage com a aplicação cadastrando um imóvel.
+
+[![img](https://i.ibb.co/qspkrB1/Diagramas-de-Sequ-ncia-Page-1.png)](https://i.ibb.co/qspkrB1/Diagramas-de-Sequ-ncia-Page-1.png)  
+_Autor: Giovana Dionisio_
+
+
 ## 7.Visão de Implantação
 
 &emsp;&emsp;Essa visão busca explorar e avaliar as opções arquiteturais de alto nível. Ela irá promover um entendimento da estrutura para os patrocinadores e demais stakeholder. Para isso, é preciso levar em consideração o design das redes preexistentes e os bancos de dados preexistentes. A fim de descrever como o sistema é mapeado para o hardware (MONTEIRO, 2010).
