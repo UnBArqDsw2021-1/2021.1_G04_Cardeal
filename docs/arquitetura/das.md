@@ -141,7 +141,7 @@ _Autor: Giovana Dionisio_
 
 ![Implantação](./img/implantacao.jpg)
 
-<center>*Autor: Douglas Castro*</center>
+_Autor: Douglas Castro_
 
 ## 8. Visão de Implementação
 
@@ -149,7 +149,7 @@ _Autor: Giovana Dionisio_
 
 ![Diagrama de Componentes](./img/diagrama-Componentes.jpg)
 
-<center>*Autor: Marcos Vinícius *</center>
+_Autor: Marcos Vinícius_
 
 ## 9. Visão de Dados
 
