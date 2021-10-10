@@ -216,6 +216,9 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 
 > Artefato: Documento de Arquitetura de Software. Rational Unified Process for Value Creation, IBM Corp. 1987, 2006. Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_software_architecture_document_C367485C.html> Acessado em 08/10/2021.
 
+> SERRANO, Milena. Arquitetura e Desenho de Software AULA - ARQUITETURA & DAS – PARTE II. Disponível em: <https://aprender3.unb.br/pluginfile.php/897151/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Arquitetura%20e%20DAS%20-%20Parte%20II%20-%20Profa.%20Milene.pdf> Acessado em 10/10/2021.
+
+
 
 ## Versionamento
 | Data       | Versão | Descrição         | Autores       |
@@ -231,4 +234,5 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 | 08/10/2021 | 0.9 | Adição da Introdução | Giovana Dionisio  |
 | 09/10/2021 | 0.9.1 | Revisão da Introdução | Gustavo Moreira  |
 | 08/10/2021 | 1.0 | Adição do tópico qualidade| Giovana Dionisio  |
+| 10/10/2021 | 1.1 | Adição do tópico visão de processo| Gustavo Moreira  |
 
