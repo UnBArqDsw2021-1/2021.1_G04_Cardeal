@@ -107,7 +107,30 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 ## 5. Visão Lógica
  
 ## 6. Visão de Processos
- 
+
+### 6.1 Visão Geral
+
+&emsp;&emsp;Ela descreve uma visão do modelo de projeto, com visualização de classes e diagramas de interação do sistema. Utilizando a notação de processos ou threads.
+
+### 6.1 Diagrama de Sequência
+
+&emsp;&emsp;Na aplicação o diagrama de sequência foi usado para evidenciar os fluxos de interação do usuário para visualizar o imóvel e do corretor ao cadastrar o anúncio do imóvel.
+
+#### 6.1.1 Interação do Usuário
+
+&emsp;&emsp;No diagrama de interação do usuário o fluxo de pesquisa de imóvel.
+
+[![img](https://i.ibb.co/jZfpVgZ/Diagramas-de-Sequ-ncia-Page-2.png)](https://i.ibb.co/jZfpVgZ/Diagramas-de-Sequ-ncia-Page-2.png)  
+_Autor: Giovana Dionisio_
+
+#### 6.1.2 Operações com Anúncios
+
+&emsp;&emsp;No diagrama de operação de anúncios o usuário corretor interage com a aplicação cadastrando um imóvel.
+
+[![img](https://i.ibb.co/qspkrB1/Diagramas-de-Sequ-ncia-Page-1.png)](https://i.ibb.co/qspkrB1/Diagramas-de-Sequ-ncia-Page-1.png)  
+_Autor: Giovana Dionisio_
+
+
 ## 7.Visão de Implantação
 
 &emsp;&emsp;Essa visão busca explorar e avaliar as opções arquiteturais de alto nível. Ela irá promover um entendimento da estrutura para os patrocinadores e demais stakeholder. Para isso, é preciso levar em consideração o design das redes preexistentes e os bancos de dados preexistentes. A fim de descrever como o sistema é mapeado para o hardware (MONTEIRO, 2010).
@@ -118,7 +141,7 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 
 ![Implantação](./img/implantacao.jpg)
 
-<center>*Autor: Douglas Castro*</center>
+_Autor: Douglas Castro_
 
 ## 8. Visão de Implementação
 
@@ -126,7 +149,7 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 
 ![Diagrama de Componentes](./img/diagrama-Componentes.jpg)
 
-<center>*Autor: Marcos Vinícius *</center>
+_Autor: Marcos Vinícius_
 
 ## 9. Visão de Dados
 
@@ -193,6 +216,9 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 
 > Artefato: Documento de Arquitetura de Software. Rational Unified Process for Value Creation, IBM Corp. 1987, 2006. Disponível em <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_software_architecture_document_C367485C.html> Acessado em 08/10/2021.
 
+> SERRANO, Milena. Arquitetura e Desenho de Software AULA - ARQUITETURA & DAS – PARTE II. Disponível em: <https://aprender3.unb.br/pluginfile.php/897151/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Arquitetura%20e%20DAS%20-%20Parte%20II%20-%20Profa.%20Milene.pdf> Acessado em 10/10/2021.
+
+
 
 ## Versionamento
 | Data       | Versão | Descrição         | Autores       |
@@ -208,4 +234,5 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 | 08/10/2021 | 0.9 | Adição da Introdução | Giovana Dionisio  |
 | 09/10/2021 | 0.9.1 | Revisão da Introdução | Gustavo Moreira  |
 | 08/10/2021 | 1.0 | Adição do tópico qualidade| Giovana Dionisio  |
+| 10/10/2021 | 1.1 | Adição do tópico visão de processo| Gustavo Moreira  |
 
