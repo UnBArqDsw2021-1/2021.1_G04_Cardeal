@@ -129,7 +129,7 @@ Podemos observar a partir do MySQL, onde gerencia os dados, passa as informaçõ
 
 ### 5.3 Diagrama de comunicação
 
-O diagrama de comunicação ilustram as interações entre objetos em forma de grafo ou rede, na qual os objetos podem ser colocados em qulquer lugar no diagrama. Temos então, três diagrama principais da nossa aplicação.
+Os diagramas de comunicação ilustram as interações entre objetos em forma de grafo ou rede, na qual os objetos podem ser colocados em qualquer lugar no diagrama. Temos então, três diagramas principais da nossa aplicação.
 
 #### 5.3.1 Adicionar Imóvel
 
