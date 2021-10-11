@@ -105,7 +105,50 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 ## 4. Visão de caso de uso
  
 ## 5. Visão Lógica
+
+  A visão lógica é a organização conceitual do software em termos das camadas, subsistemas, pacotes, frameworks, classes e interfaces mais importantes. Também resume a funcionalidade dos principais elementos de software. Visualizando com diagramas de classe, pacotes e comunicação da UML.
+
+### 5.1 Diagrama de Classes
+
+   Na UML, uma classe é uma descrição de um conjunto de objetos que compartilham os mesmos atributos, operações, relacionamentos e semântica.
  
+![DiagramaClasse](./img/diagramaClasse.png)
+
+ ### 5.2 Diagrama de Pacotes
+
+Como pode ser observado, o diagrama de pacotes oferece uma visão de mais alto nível do modelo do sistema. Onde nele é separada em 4 partes:
+
+* Visualização web (PC ou Mobile)
+* Frontend(ReactJS)
+* Backend(NestJS)
+* Sistema gerenciamento de banco de dados (MySQL)
+
+![DiagramaPacotes](./img/diagramaPacotes.png)
+
+Podemos observar a partir do MySQL, onde gerencia os dados, passa as informações para o o NestJS que interage os arquivos de cada pasta exibida, assim o controle de acesso, requisição e armazenamento de dados interage com o ReactJS, onde seus componentes então mostram para o usuário final a solução computacional da Imobiliária Cardeal.
+
+### 5.3 Diagrama de comunicação
+
+O diagrama de comunicação ilustram as interações entre objetos em forma de grafo ou rede, na qual os objetos podem ser colocados em qulquer lugar no diagrama. Temos então, três diagrama principais da nossa aplicação.
+
+#### 5.3.1 Adicionar Imóvel
+
+Nesse diagrama, é apresentado então como o corretor adiciona as informações de um proprietário e um imóvel.
+
+![DiagramaCom1](./img/diagramaComunicacao1.png)
+
+#### 5.3.2 Marcar Reunião
+
+Nesse diagrama, é exibido como um corretor marca uma reunião e em seguida aluga um imóvel para o cliente.
+
+![DiagramaCom2](./img/diagramaComunicacao2.png)
+
+#### 5.3.3 Procurar Imóvel
+
+Nesse diagrama, é mostrado como um cliente busca um imóvel que está interessado.
+
+![DiagramaCom3](./img/diagramaComunicacao3.png)
+
 ## 6. Visão de Processos
 
 ### 6.1 Visão Geral
@@ -218,7 +261,9 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 
 > SERRANO, Milena. Arquitetura e Desenho de Software AULA - ARQUITETURA & DAS – PARTE II. Disponível em: <https://aprender3.unb.br/pluginfile.php/897151/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Arquitetura%20e%20DAS%20-%20Parte%20II%20-%20Profa.%20Milene.pdf> Acessado em 10/10/2021.
 
+> LARMAN, Craig. Utilizando UML e padrões : uma introdução à análise e ao projeto orientados a objeto e ao desenvolvimento iterativo. 3.ed. Porto Alegre : Bookman, 2007. 
 
+> BOOCH, Grady. UML: guia do usuário. 7.ed. Rio de Janeiro: Elsevier, 2005.
 
 ## Versionamento
 | Data       | Versão | Descrição         | Autores       |
@@ -235,4 +280,5 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 | 09/10/2021 | 0.9.1 | Revisão da Introdução | Gustavo Moreira  |
 | 08/10/2021 | 1.0 | Adição do tópico qualidade| Giovana Dionisio  |
 | 10/10/2021 | 1.1 | Adição do tópico visão de processo| Gustavo Moreira  |
+| 11/10/2021 | 1.2 | Adição da visão lógica com diagramas | Bruno Nunes  |
 
