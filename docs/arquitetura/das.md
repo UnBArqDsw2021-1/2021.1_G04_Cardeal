@@ -49,8 +49,8 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
  
 <a id="angula"></a>
  
-#### Angula
-&emsp;&emsp; Segundo a documentação oficial do Angula, ele é uma plataforma de desenvolvimento, construída em TypeScript. Como plataforma, o Angular inclui:
+#### Angular
+&emsp;&emsp; Segundo a documentação oficial do Angular, ele é uma plataforma de desenvolvimento, construída em TypeScript. Como plataforma, o Angular inclui:
  
 - Uma estrutura baseada em componentes para a construção de aplicativos da web escaláveis
 - Uma coleção de bibliotecas bem integradas que cobrem uma ampla variedade de recursos, incluindo roteamento, gerenciamento de formulários, comunicação cliente-servidor e muito mais
@@ -103,7 +103,28 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 - Público alvo: A aplicação deve atender usuários que desejam os serviços do site da corretora Cardeal.
 
 ## 4. Visão de caso de uso
- 
+
+Descreve o sistema como um conjunto de
+transações (funcionalidades) do ponto de
+vista dos atores externos (por eles
+desempenhadas) e mapeia o relacionamento das
+demais visões, mostrando como seus
+elementos interagem. 
+
+[Diagramas de casos de uso]((../modelagem/diagrama_casos_de_uso.md)).
+
+Abaixo uma visão geral do Projeto Cardeal com seus atores e com as principais funcionalidades que eles interagem.
+
+![img](img/diagramaCasosUso.jpg)<center> Autor: Marcos Vinícius</center>
+
+Agrupamos várias funcionalidades de acordo com suas características em 4 épicos. Todas essas funcionalidades podem ser encontradas de maneira detalhada no repositório da disciplina através de suas Users Stories.
+
+- [Épico 01](https://github.com/UnBArqDsw2021-1/2021.1_G04_Cardeal/issues?q=label%3A%22%C3%89pico+1%22+is%3Aclosed) - Contém as US relacionadas ao cadastro de clientes, proprietários e corretores.
+- [Épico 02](https://github.com/UnBArqDsw2021-1/2021.1_G04_Cardeal/issues?q=label%3A%22%C3%89pico+2%22+) - Contém as US relacionadas ao cadastro de imóveis e suas mídias.
+- [Épico 03](https://github.com/UnBArqDsw2021-1/2021.1_G04_Cardeal/issues?q=label%3A%22%C3%89pico+3%22+) - Contém as US relacionadas a busca e filtragem de imóveis.
+- [Épico 04](https://github.com/UnBArqDsw2021-1/2021.1_G04_Cardeal/issues?q=label%3A%22%C3%89pico+4%22+) - Contém as US relacionadas ao cadastro de agendamentos e contato com corretor.
+
+
 ## 5. Visão Lógica
 
   A visão lógica é a organização conceitual do software em termos das camadas, subsistemas, pacotes, frameworks, classes e interfaces mais importantes. Também resume a funcionalidade dos principais elementos de software. Visualizando com diagramas de classe, pacotes e comunicação da UML.
@@ -192,13 +213,27 @@ _Autor: Douglas Castro_
 
 ![Diagrama de Componentes](./img/diagrama-Componentes.jpg)
 
-_Autor: Marcos Vinícius_
+<center> Autor: Marcos Vinícius </center>
 
 ## 9. Visão de Dados
 
+Para a visão de dados, representamos aqui como a Aplicação do Cardeal persiste e acessa todas as informações. O modelo de entidade-relacionamento (ME-R), bem como o diagrama entidade-relacionamento (DE-R), somado ao diagrama lógico de dados (DLD) foram utilizados. Por questões relacionadas ao tamanho deste documento, apresentamos abaixo somente o DE-R e o DLD entretanto toda a estrutura documentada pode ser acessada no [Diagrama Relacional](../diagramaRelacional/diagrama_relacional.md). 
+
+### 9.1 DE-R
+
+![DE-R](../diagramaRelacional/img/Cardeal_Conceitual.jpg)
+
+<center> Autores: Bruno Nunes e Marcos Vinícius</center>
+
+### 9.2 DLD
+
+![DE-R](../diagramaRelacional/img/Cardeal_Logico.jpg)
+
+<center> Autores: Bruno Nunes e Marcos Vinícius</center>
+
 ## 10. Tamanho e Desempenho
  
-O tamanho do projeto não pode ser precisamente estimado até a data de escrita desse 06//10/2021, pois o mesmo ainda encontrava-se em fase de desenvolvimento e evolução do projeto, não sendo possui-vel mesurar com precisão o tamanho final. Levando em conta seus repositórios Back-end e Front-end do site da corretora Cardeal, a somatórios dos dois não passará de 1GB, não sendo necessário o download ou instalação de qualquer programa para acesso ao mesmo, tendo em vista de que este se trata de uma aplicação web, tendo seu acesso disponível pelo navegador, assim que o mesmo encontrar-se hospedado em um servidor.
+O tamanho do projeto não pode ser precisamente estimado até a data de escrita desse 06/10/2021, pois o mesmo ainda encontrava-se em fase de desenvolvimento e evolução do projeto, não sendo possui-vel mesurar com precisão o tamanho final. Levando em conta seus repositórios Back-end e Front-end do site da corretora Cardeal, a somatórios dos dois não passará de 1GB, não sendo necessário o download ou instalação de qualquer programa para acesso ao mesmo, tendo em vista de que este se trata de uma aplicação web, tendo seu acesso disponível pelo navegador, assim que o mesmo encontrar-se hospedado em um servidor.
 
 Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e à testes de Stress. Sendo capaz de: 
 - O sistema deve ser capaz de suportar usuários simultâneos em seu site;
@@ -281,4 +316,5 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 | 08/10/2021 | 1.0 | Adição do tópico qualidade| Giovana Dionisio  |
 | 10/10/2021 | 1.1 | Adição do tópico visão de processo| Gustavo Moreira  |
 | 11/10/2021 | 1.2 | Adição da visão lógica com diagramas | Bruno Nunes  |
+| 12/10/2021 | 1.3 | Adição da visão de Casos de uso e visão de Dados  | Marcos Vinícius  |
 
