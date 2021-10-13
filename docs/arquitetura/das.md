@@ -213,13 +213,27 @@ _Autor: Douglas Castro_
 
 ![Diagrama de Componentes](./img/diagrama-Componentes.jpg)
 
-_Autor: Marcos Vinícius_
+<center> Autor: Marcos Vinícius </center>
 
 ## 9. Visão de Dados
 
+Para a visão de dados, representamos aqui como a Aplicação do Cardeal persiste e acessa todas as informações. O modelo de entidade-relacionamento (ME-R), bem como o diagrama entidade-relacionamento (DE-R), somado ao diagrama lógico de dados (DLD) foram utilizados. Por questões relacionadas ao tamanho deste documento, apresentamos abaixo somente o DE-R e o DLD entretanto toda a estrutura documentada pode ser acessada no [Diagrama Relacional](../diagramaRelacional/diagrama_relacional.md). 
+
+### 9.1 DE-R
+
+![DE-R](../diagramaRelacional/img/Cardeal_Conceitual.jpg)
+
+<center> Autores: Bruno Nunes e Marcos Vinícius</center>
+
+### 9.2 DLD
+
+![DE-R](../diagramaRelacional/img/Cardeal_Logico.jpg)
+
+<center> Autores: Bruno Nunes e Marcos Vinícius</center>
+
 ## 10. Tamanho e Desempenho
  
-O tamanho do projeto não pode ser precisamente estimado até a data de escrita desse 06//10/2021, pois o mesmo ainda encontrava-se em fase de desenvolvimento e evolução do projeto, não sendo possui-vel mesurar com precisão o tamanho final. Levando em conta seus repositórios Back-end e Front-end do site da corretora Cardeal, a somatórios dos dois não passará de 1GB, não sendo necessário o download ou instalação de qualquer programa para acesso ao mesmo, tendo em vista de que este se trata de uma aplicação web, tendo seu acesso disponível pelo navegador, assim que o mesmo encontrar-se hospedado em um servidor.
+O tamanho do projeto não pode ser precisamente estimado até a data de escrita desse 06/10/2021, pois o mesmo ainda encontrava-se em fase de desenvolvimento e evolução do projeto, não sendo possui-vel mesurar com precisão o tamanho final. Levando em conta seus repositórios Back-end e Front-end do site da corretora Cardeal, a somatórios dos dois não passará de 1GB, não sendo necessário o download ou instalação de qualquer programa para acesso ao mesmo, tendo em vista de que este se trata de uma aplicação web, tendo seu acesso disponível pelo navegador, assim que o mesmo encontrar-se hospedado em um servidor.
 
 Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e à testes de Stress. Sendo capaz de: 
 - O sistema deve ser capaz de suportar usuários simultâneos em seu site;
@@ -302,4 +316,5 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 | 08/10/2021 | 1.0 | Adição do tópico qualidade| Giovana Dionisio  |
 | 10/10/2021 | 1.1 | Adição do tópico visão de processo| Gustavo Moreira  |
 | 11/10/2021 | 1.2 | Adição da visão lógica com diagramas | Bruno Nunes  |
+| 12/10/2021 | 1.3 | Adição da visão de Casos de uso e visão de Dados  | Marcos Vinícius  |
 
