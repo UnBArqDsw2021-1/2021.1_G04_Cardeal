@@ -140,13 +140,13 @@ Agrupamos várias funcionalidades de acordo com suas características em 4 épic
 Como pode ser observado, o diagrama de pacotes oferece uma visão de mais alto nível do modelo do sistema. Onde nele é separada em 4 partes:
 
 * Visualização web (PC ou Mobile)
-* Frontend(ReactJS)
+* Frontend(Angular)
 * Backend(NestJS)
 * Sistema gerenciamento de banco de dados (MySQL)
 
 ![DiagramaPacotes](./img/diagramaPacotes.png)
 
-Podemos observar a partir do MySQL, onde gerencia os dados, passa as informações para o o NestJS que interage os arquivos de cada pasta exibida, assim o controle de acesso, requisição e armazenamento de dados interage com o ReactJS, onde seus componentes então mostram para o usuário final a solução computacional da Imobiliária Cardeal.
+Podemos observar a partir do MySQL, onde gerencia os dados, passa as informações para o o NestJS que interage os arquivos de cada pasta exibida, assim o controle de acesso, requisição e armazenamento de dados interage com o Angular, onde seus componentes então mostram para o usuário final a solução computacional da Imobiliária Cardeal.
 
 ### 5.3 Diagrama de comunicação
 
@@ -317,4 +317,5 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 | 10/10/2021 | 1.1 | Adição do tópico visão de processo| Gustavo Moreira  |
 | 11/10/2021 | 1.2 | Adição da visão lógica com diagramas | Bruno Nunes  |
 | 12/10/2021 | 1.3 | Adição da visão de Casos de uso e visão de Dados  | Marcos Vinícius  |
+| 13/10/2021 | 1.4 | Correção diagrama de pacotes | Bruno Nunes  |
 
