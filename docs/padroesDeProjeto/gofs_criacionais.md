@@ -105,6 +105,7 @@ O padrão de projeto Abstract Factory não foi implementado, no entanto caso fos
 
 O padrão de projeto criacional singleton, trata-se de um padrão de projeto no qual se garante a existência apenas de uma instância de uma classe, enquanto este promove um ponto de acesso global a essa instância.
 Com o singleton se faz necessário somente uma instância da classe, o que vai garantir uma única chamada, havendo assim uma melhora significativa no desempenho. Sendo assim, usando o padrão singleton, é garantido dentro do projeto que a instância única irá ocorrer.
+De forma geral, "Singleton especifica que apenas uma instância da classe pode existir, e esta será utilizada por toda a aplicação. Dessa forma temos apenas um ponto de acesso central a esta instância da classe".
 
 ## 4.2. Metodologia
 
@@ -159,7 +160,7 @@ O padrão Object Pool não é encontrado no código do projeto Cardeal.
 
 ## 8.1. Introdução
 
-O padrão de projeto criacional Prototype, trata-se de um padrão de projeto no qual um novo objeto é criado a partir de uma objeto original ou protótipo clonado deste objeto. O padrão Prototype é aplicado quando existe a necessidade de clonar um objeto. Logo, funciona quando a aplicação necessita de cópias exatas daquele objeto, em tempo de execução, sendo este o padrão altamente recomendado para realizar esta atividade, tarefa.
+O padrão de projeto criacional Prototype, trata-se de um padrão de projeto no qual um novo objeto é criado a partir de uma objeto original ou protótipo clonado deste objeto. O padrão Prototype é aplicado quando existe a necessidade de clonar um objeto. Logo, funciona quando a aplicação necessita de cópias exatas daquele objeto, em tempo de execução, sendo este o padrão altamente recomendado para realizar esta atividade, tarefa. Assim temos, "Um detalhe que torna o Prototype único em relação aos outros padrões de criação é que ele utiliza objeto para criar os produtos, enquanto os outros utilizam classes".
 
 ## 8.2. Metodologia
 
@@ -224,7 +225,9 @@ O padrão builder é um padrão usado para incapsular a lógica de construção 
 > Padrões de Projeto Prototype. Disponível em: https://refactoring.guru/pt-br/design-patterns/prototype Acessado em: 18/09/2021
 > Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#:~:text=Prototype%2C%20na%20ci%C3%AAncia%20da%20computa%C3%A7%C3%A3o,ou%20prot%C3%B3tipo%20que%20%C3%A9%20clonado.&text=Evitar%20criar%20um%20novo%20objeto,diminui%20o%20custo%20de%20mem%C3%B3ria Acessado em: 18/09/2021
 >  Padrões de Projeto Prototype. Disponível em: https://pt.wikipedia.org/wiki/Prototype#Estrutura  Acessado em: 18/09/2021
-
+> Padrões de Projeto Abstract Factory. Diposnível em : https://refactoring.guru/pt-br/design-patterns/abstract-factory Acessado 13/10/2021
+> Padrões de Projeto Singleton. Disponível em: https://www.opus-software.com.br/singleton-design-pattern/ Acessado em 13:10/2021
+> Padrões de Projeto Prototype. Disponível em: http://www.dpi.ufv.br/projetos/apri/?page_id=714 Acessado em 13/10/2021
 
 ## 10. Versionamento
 
@@ -247,3 +250,4 @@ O padrão builder é um padrão usado para incapsular a lógica de construção 
 | 20/09/2021 | 2.4    | Adicão do Abstract Factory |     Igor Araújo|
 | 20/09/2021 | 2.5   | Adicão do Builder |     Igor Araújo|
 | 20/09/2021 | 2.6   | Revisão e Correção ortográfica |     Bruno Nunes |
+| 13/10/2021 | 2.7   | Adição de referências, correção de links navegaveis e revisão e Correção ortográfica do documento |     Luiz Gustavo |
