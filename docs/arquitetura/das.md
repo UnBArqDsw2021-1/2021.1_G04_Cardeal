@@ -49,8 +49,8 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
  
 <a id="angula"></a>
  
-#### Angula
-&emsp;&emsp; Segundo a documentação oficial do Angula, ele é uma plataforma de desenvolvimento, construída em TypeScript. Como plataforma, o Angular inclui:
+#### Angular
+&emsp;&emsp; Segundo a documentação oficial do Angular, ele é uma plataforma de desenvolvimento, construída em TypeScript. Como plataforma, o Angular inclui:
  
 - Uma estrutura baseada em componentes para a construção de aplicativos da web escaláveis
 - Uma coleção de bibliotecas bem integradas que cobrem uma ampla variedade de recursos, incluindo roteamento, gerenciamento de formulários, comunicação cliente-servidor e muito mais
@@ -103,7 +103,28 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 - Público alvo: A aplicação deve atender usuários que desejam os serviços do site da corretora Cardeal.
 
 ## 4. Visão de caso de uso
- 
+
+Descreve o sistema como um conjunto de
+transações (funcionalidades) do ponto de
+vista dos atores externos (por eles
+desempenhadas) e mapeia o relacionamento das
+demais visões, mostrando como seus
+elementos interagem. 
+
+[Diagramas de casos de uso]((../modelagem/diagrama_casos_de_uso.md)).
+
+Abaixo uma visão geral do Projeto Cardeal com seus atores e com as principais funcionalidades que eles interagem.
+
+![img](img/diagramaCasosUso.jpg)<center> Autor: Marcos Vinícius</center>
+
+Agrupamos várias funcionalidades de acordo com suas características em 4 épicos. Todas essas funcionalidades podem ser encontradas de maneira detalhada no repositório da disciplina através de suas Users Stories.
+
+- [Épico 01](https://github.com/UnBArqDsw2021-1/2021.1_G04_Cardeal/issues?q=label%3A%22%C3%89pico+1%22+is%3Aclosed) - Contém as US relacionadas ao cadastro de clientes, proprietários e corretores.
+- [Épico 02](https://github.com/UnBArqDsw2021-1/2021.1_G04_Cardeal/issues?q=label%3A%22%C3%89pico+2%22+) - Contém as US relacionadas ao cadastro de imóveis e suas mídias.
+- [Épico 03](https://github.com/UnBArqDsw2021-1/2021.1_G04_Cardeal/issues?q=label%3A%22%C3%89pico+3%22+) - Contém as US relacionadas a busca e filtragem de imóveis.
+- [Épico 04](https://github.com/UnBArqDsw2021-1/2021.1_G04_Cardeal/issues?q=label%3A%22%C3%89pico+4%22+) - Contém as US relacionadas ao cadastro de agendamentos e contato com corretor.
+
+
 ## 5. Visão Lógica
 
   A visão lógica é a organização conceitual do software em termos das camadas, subsistemas, pacotes, frameworks, classes e interfaces mais importantes. Também resume a funcionalidade dos principais elementos de software. Visualizando com diagramas de classe, pacotes e comunicação da UML.
