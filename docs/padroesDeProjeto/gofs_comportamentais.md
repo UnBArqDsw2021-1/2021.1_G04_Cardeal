@@ -2,11 +2,13 @@
  
 ## 1. Introdução
 
-O GoF comportamental está preocupado com o algoritmo e a atribuição de responsabilidades entre objetos. Na área comportamental ele é descrito não somente como padrões de objetos ou classes, mas também como os padrões de comunicação entre eles. Esses padrões caracterizam um controle de fluxo complexo que é díficil de seguir no tempo de execução. Eles tiram de foco o controle de fluxo e lhe permite concentrar somente no caminho que os objetos estão interconectados. É mostrado abaixo os tipos de padrões comportamentais e também alguns exemplos que podem ser caracterizados em nossa aplicação.
+O GoF comportamental está preocupado com o algoritmo e a atribuição de responsabilidades entre objetos. Na área comportamental ele é descrito não somente como padrões de objetos ou classes, mas também como os padrões de comunicação entre eles. Esses padrões caracterizam um controle de fluxo complexo que é díficil de seguir no tempo de execução. Eles tiram de foco o controle de fluxo e lhe permite concentrar somente no caminho que os objetos estão interconectados. (GAMMA, 2007) 
+
+É mostrado abaixo os tipos de padrões comportamentais e também alguns exemplos que podem ser caracterizados em nossa aplicação.
 
 ## 2. Strategy
 
-O strategy define uma família de algoritmos, encapsulando cada um, e faz eles serem intercambiáveis. Deixando o algoritmo variar independentemente dos clientes que vão usá-lo.
+De acordo com Gamma (2007), o strategy define uma família de algoritmos, encapsulando cada um, e faz eles serem intercambiáveis. Deixando o algoritmo variar independentemente dos clientes que vão usá-lo.
 
 Uma motivação é que muitos algoritmos servem para quebrar um fluxo de texto em linhas. Construindo então esses algoritmos em classes que necessitam deles não são desejáveis por algumas razões como:
 
@@ -43,6 +45,8 @@ Algo de ficar de olho para o padrão Strategy que tem os seguintes beneficios e 
 
    Os Strategies aumentam o número de objetos numa aplicação. Às vezes você pode reduzir essa sobrecarga implementando strategies que são objetos sem estado num contexto que pode ser compartilhado. Strategies compartilhadas não deveriam ter um estado de manutenção entre as invocações.
 
+Fonte texto e imagens: (GAMMA, 2007)
+
 Utilizamos o Strategy como ToyExample para mostrar uma funcionalidade da nossa aplicação em relação a utilização de mídias, como imagens e vídeos onde serão mostrados na publicação de uma propriedade.
 
 [![Toy Example Strategy ](./img/ToyExampleStrategy.png)](./img/ToyExampleStrategy.png)
@@ -57,7 +61,7 @@ Fizemos esse exemplo em Java e o código pode ser visto na pasta "ToyExampleStra
 
 ## 3. State
 
-O State permite que um objeto altere seu comportamento quando o seu estado interno mudo. O objeto vai parecer que mudou sua classe.
+De acordo com Gamma (2007), o State permite que um objeto altere seu comportamento quando o seu estado interno mudo. O objeto vai parecer que mudou sua classe.
 
 Como motivação, considere uma classe TPConnection que representa uma conexão de rede. O objeto TCP-Connection pode estar em diferentes estados: Estabelecido, Escutando e Fechado. Quando o objeto TCPConnecttion recebe um pedido de outros objetos, ele responde diferentemente dependendo do seu estado atual. Como exemplo, o efeito de um pedido Aberto, depende de onde a conexão permanece se é num estado Fechado ou Estabelecido. Quando o padrão State descreve como TCPConnection pode exibir diferentes comportamentos em cada estado.
 Sendo assim, o estado da conexão delega todo o comportamento do objeto.
@@ -83,9 +87,11 @@ Esse padrão tem como consequências:
 
   Se o objeto State não tem instâncias de variáveis - isso é, o estado que eles representam está codificado totalmente ao seu tipo - então o contexto pode ser compartilhado a um objeto State.
 
+Fonte texto e imagens: (GAMMA, 2007)
+
 ## 4. Command
 
-O Command encapsula a solicitação como um objeto, deste modo permitindo você a parametrizar clientes com diferentes solicitações, filas ou solicitações de relatórios, e o suporte a operações desfeitas.
+De acordo com Gamma (2007), o Command encapsula a solicitação como um objeto, deste modo permitindo você a parametrizar clientes com diferentes solicitações, filas ou solicitações de relatórios, e o suporte a operações desfeitas.
 
 [![Estrutura Command](./img/CommandStructure.png)](./img/CommandStructure.png)
 
@@ -100,6 +106,8 @@ O padrão Command tem as seguintes consequências:
 - Command desacopla o objeto que invoca a operação daquele que sabe como fazer.
 - Commands são objetos de primeira classe. Eles podem ser manipulados ou estendidos como qualquer outro objeto.
 - É fácil adicionar novos Commands, porque vocÇẽ não tem que mudar classes existentes.
+
+Fonte texto e imagens: (GAMMA, 2007)
 
 ## 5. Iterator
 
@@ -273,7 +281,7 @@ Service é o objeto usado para organizar e/ou compartilhar estados de objetos e 
 
 ## 10. Memento
 
-O Memento tem como intenção, sem que viole a encapsulação, a captura e a externalização dos estados internos de um objeto para que o objeto possa ser restaurado para esse estado posteriormente.
+De acordo com Gamma (2007), o Memento tem como intenção, sem que viole a encapsulação, a captura e a externalização dos estados internos de um objeto para que o objeto possa ser restaurado para esse estado posteriormente.
 
 Algumas vezes é necessário gravar o estado inicial de um objeto. Sendo assim é necessário implementar checkpoint e desfazer mecanismos que deixem o usuário voltar nas tentativas anteriores de operações ou se recuperar de erros. Você tem que salvar o estado da informação em algum lugar, para que os objetos possam ser restaurados ao os estados anteriores. Mas os objetos normalmente encapsulam algumas ou todas as partes do seu estado, fazendo então inacessível a outros objetos é impossível de salvar externamente. Expondo esse estado pode violar a encapsulação, o que compromete a confiabilidade e extensibilidade da aplicação.
 
@@ -311,6 +319,8 @@ O padrão Memento tem consequências severas:
 - Custos escondidos em zelar por mementos.
 
   O caretaker é responsável pela deleção de mementos que ele zela. Portanto, o caretaker não tem ideia do quanto de informação está no memento. Sendo assim, um caretaker leve pode inferir num largo custo de armazenamento quando ele guarda os mementos.
+
+Fonte texto e imagens: (GAMMA, 2007)
 
 ## 11. Template Method
 ### 11.1 Introdução
@@ -395,4 +405,5 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 | 19/09/2021 | 0.7    | Adição ToyExample Strategy                | [Bruno Nunes](https://github.com/brunocmo)       |
 | 20/09/2021 | 0.8    | Adição do padrão 5                        | [Tomás Veloso](https://github.com/tomasvelos0)   |
 | 20/09/2021 | 0.9 | Revisão | Gustavo, Igor, Estevão, Giovana |
+| 13/10/2021 | 1.0    | Incluir no texto referencias            | [Bruno Nunes](https://github.com/brunocmo)  
  
