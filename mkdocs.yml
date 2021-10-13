@@ -63,7 +63,6 @@ nav:
       - 3.1. Padrões de Projeto GRASPs:
           - GRASPs: padroesDeProjeto/GRASPs.md
       - 3.2. Padrões de Projeto GoFs:
-          - Gofs: padroesDeProjeto/gofs.md
           - Gofs Criacionais: padroesDeProjeto/gofs_criacionais.md
           - Gofs Estruturais: padroesDeProjeto/gofs_estruturais.md
           - Gofs Comportamentais: padroesDeProjeto/gofs_comportamentais.md

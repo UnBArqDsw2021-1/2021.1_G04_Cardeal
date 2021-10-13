@@ -111,7 +111,7 @@ desempenhadas) e mapeia o relacionamento das
 demais visões, mostrando como seus
 elementos interagem. 
 
-[Diagramas de casos de uso]((../modelagem/diagrama_casos_de_uso.md)).
+[Diagramas de casos de uso](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_casos_de_uso/).
 
 Abaixo uma visão geral do Projeto Cardeal com seus atores e com as principais funcionalidades que eles interagem.
 
