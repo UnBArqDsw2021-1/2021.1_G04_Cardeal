@@ -90,6 +90,7 @@ Os dois exemplos acima envolvem reutilização planejada e interna, já que os m
 > [NestJS - Documentation](https://docs.nestjs.com/fundamentals/platform-agnosticism)
 
 ## Versionamento
-| Data       | Versão | Descrição          | Autores       |
-| ---------- | ------ | ------------------ | ------------- |
-| 24/09/2021 | 0.1    | Criação do arquivo | Estevao Reis  |
+| Data       | Versão | Descrição            | Autores       |
+| ---------- | ------ | -------------------- | ------------- |
+| 24/09/2021 | 0.1    | Criação do arquivo   | Estevao Reis  |
+| 12/10/2021 | 0.2    | Adição da introdução | Pedro Haick   |
