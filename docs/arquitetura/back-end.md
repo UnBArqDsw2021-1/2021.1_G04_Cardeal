@@ -97,3 +97,4 @@ Os dois exemplos acima envolvem reutilização planejada e interna, já que os m
 | 12/10/2021 | 0.3    | Adição dos tipos de reuso       | Pedro Haick   |
 | 12/10/2021 | 0.4    | Adição da reusabilidade nest    | Pedro Haick   |
 | 12/10/2021 | 0.5    | Adição da reusabilidade cardeal | Pedro Haick   |
+| 12/10/2021 | 0.6    | Adição das referências          | Pedro Haick   |
