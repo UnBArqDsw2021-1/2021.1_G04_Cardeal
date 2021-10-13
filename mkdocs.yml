@@ -86,12 +86,14 @@ nav:
           - Back-end: arquitetura/back-end.md
           - Front-end: arquitetura/front-end.md
       - Extras:
+          - Correções: arquitetura/correcoes.md
           - Atas:
             - 27/09/2021: arquitetura/atas/27-09-21.md
             - 01/10/2021: arquitetura/atas/01-10-21.md
             - 04/10/2021: arquitetura/atas/04-10-21.md
             - 09/10/2021: arquitetura/atas/09-10-21.md
             - 11/10/2021: arquitetura/atas/11-10-21.md
+            - 13/10/2021: arquitetura/atas/13-10-21.md
 extra_css:
   - stylesheets/extra.css
 
