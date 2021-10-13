@@ -1991,18 +1991,30 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../arquitetura/correcoes/" class="md-nav__link">
+        Correções
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_3_1" type="checkbox" id="__nav_6_3_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_3_2" type="checkbox" id="__nav_6_3_2" >
       
-      <label class="md-nav__link" for="__nav_6_3_1">
+      <label class="md-nav__link" for="__nav_6_3_2">
         Atas
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Atas" data-md-level="3">
-        <label class="md-nav__title" for="__nav_6_3_1">
+        <label class="md-nav__title" for="__nav_6_3_2">
           <span class="md-nav__icon md-icon"></span>
           Atas
         </label>
@@ -2015,6 +2027,66 @@
     <li class="md-nav__item">
       <a href="../../arquitetura/atas/27-09-21/" class="md-nav__link">
         27/09/2021
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../arquitetura/atas/01-10-21/" class="md-nav__link">
+        01/10/2021
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../arquitetura/atas/04-10-21/" class="md-nav__link">
+        04/10/2021
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../arquitetura/atas/09-10-21/" class="md-nav__link">
+        09/10/2021
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../arquitetura/atas/11-10-21/" class="md-nav__link">
+        11/10/2021
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../arquitetura/atas/13-10-21/" class="md-nav__link">
+        13/10/2021
       </a>
     </li>
   
@@ -2308,9 +2380,10 @@
                 
                 <h1 id="gofs-comportamentais">GoFs Comportamentais</h1>
 <h2 id="1-introducao">1. Introdução</h2>
-<p>O GoF comportamental está preocupado com o algoritmo e a atribuição de responsabilidades entre objetos. Na área comportamental ele é descrito não somente como padrões de objetos ou classes, mas também como os padrões de comunicação entre eles. Esses padrões caracterizam um controle de fluxo complexo que é díficil de seguir no tempo de execução. Eles tiram de foco o controle de fluxo e lhe permite concentrar somente no caminho que os objetos estão interconectados. É mostrado abaixo os tipos de padrões comportamentais e também alguns exemplos que podem ser caracterizados em nossa aplicação.</p>
+<p>O GoF comportamental está preocupado com o algoritmo e a atribuição de responsabilidades entre objetos. Na área comportamental ele é descrito não somente como padrões de objetos ou classes, mas também como os padrões de comunicação entre eles. Esses padrões caracterizam um controle de fluxo complexo que é díficil de seguir no tempo de execução. Eles tiram de foco o controle de fluxo e lhe permite concentrar somente no caminho que os objetos estão interconectados. (GAMMA, 2007) </p>
+<p>É mostrado abaixo os tipos de padrões comportamentais e também alguns exemplos que podem ser caracterizados em nossa aplicação.</p>
 <h2 id="2-strategy">2. Strategy</h2>
-<p>O strategy define uma família de algoritmos, encapsulando cada um, e faz eles serem intercambiáveis. Deixando o algoritmo variar independentemente dos clientes que vão usá-lo.</p>
+<p>De acordo com Gamma (2007), o strategy define uma família de algoritmos, encapsulando cada um, e faz eles serem intercambiáveis. Deixando o algoritmo variar independentemente dos clientes que vão usá-lo.</p>
 <p>Uma motivação é que muitos algoritmos servem para quebrar um fluxo de texto em linhas. Construindo então esses algoritmos em classes que necessitam deles não são desejáveis por algumas razões como:</p>
 <ul>
 <li>
@@ -2346,6 +2419,7 @@
 <li>Aumento no número de objetos.</li>
 </ol>
 <p>Os Strategies aumentam o número de objetos numa aplicação. Às vezes você pode reduzir essa sobrecarga implementando strategies que são objetos sem estado num contexto que pode ser compartilhado. Strategies compartilhadas não deveriam ter um estado de manutenção entre as invocações.</p>
+<p>Fonte texto e imagens: (GAMMA, 2007)</p>
 <p>Utilizamos o Strategy como ToyExample para mostrar uma funcionalidade da nossa aplicação em relação a utilização de mídias, como imagens e vídeos onde serão mostrados na publicação de uma propriedade.</p>
 <p><a href="../img/ToyExampleStrategy.png"><img alt="Toy Example Strategy " src="../img/ToyExampleStrategy.png" /></a></p>
 <p>Sendo assim, a ideia da pequena aplicação em java é justamente listar todas as mídias tanto em imagens como vídeo, o modesto console do java mostra como seria o fornecimento dessas informações.</p>
@@ -2353,7 +2427,7 @@
 <p>Fizemos esse exemplo em Java e o código pode ser visto na pasta "ToyExampleStrategy", onde abaixo temos uma parte do código:</p>
 <p><a href="../../assets/ToyExampleStrategy/Cardeal.java">Código Java</a></p>
 <h2 id="3-state">3. State</h2>
-<p>O State permite que um objeto altere seu comportamento quando o seu estado interno mudo. O objeto vai parecer que mudou sua classe.</p>
+<p>De acordo com Gamma (2007), o State permite que um objeto altere seu comportamento quando o seu estado interno mudo. O objeto vai parecer que mudou sua classe.</p>
 <p>Como motivação, considere uma classe TPConnection que representa uma conexão de rede. O objeto TCP-Connection pode estar em diferentes estados: Estabelecido, Escutando e Fechado. Quando o objeto TCPConnecttion recebe um pedido de outros objetos, ele responde diferentemente dependendo do seu estado atual. Como exemplo, o efeito de um pedido Aberto, depende de onde a conexão permanece se é num estado Fechado ou Estabelecido. Quando o padrão State descreve como TCPConnection pode exibir diferentes comportamentos em cada estado.
 Sendo assim, o estado da conexão delega todo o comportamento do objeto.</p>
 <p><a href="../img/tcpState.png"><img alt="TCP Connection Exemplo State" src="../img/tcpState.png" /></a></p>
@@ -2373,8 +2447,9 @@ Sendo assim, o estado da conexão delega todo o comportamento do objeto.</p>
 <li>Objetos State podem ser compartilhados</li>
 </ul>
 <p>Se o objeto State não tem instâncias de variáveis - isso é, o estado que eles representam está codificado totalmente ao seu tipo - então o contexto pode ser compartilhado a um objeto State.</p>
+<p>Fonte texto e imagens: (GAMMA, 2007)</p>
 <h2 id="4-command">4. Command</h2>
-<p>O Command encapsula a solicitação como um objeto, deste modo permitindo você a parametrizar clientes com diferentes solicitações, filas ou solicitações de relatórios, e o suporte a operações desfeitas.</p>
+<p>De acordo com Gamma (2007), o Command encapsula a solicitação como um objeto, deste modo permitindo você a parametrizar clientes com diferentes solicitações, filas ou solicitações de relatórios, e o suporte a operações desfeitas.</p>
 <p><a href="../img/CommandStructure.png"><img alt="Estrutura Command" src="../img/CommandStructure.png" /></a></p>
 <p>Utilizar quando:</p>
 <ul>
@@ -2388,6 +2463,7 @@ Sendo assim, o estado da conexão delega todo o comportamento do objeto.</p>
 <li>Commands são objetos de primeira classe. Eles podem ser manipulados ou estendidos como qualquer outro objeto.</li>
 <li>É fácil adicionar novos Commands, porque vocÇẽ não tem que mudar classes existentes.</li>
 </ul>
+<p>Fonte texto e imagens: (GAMMA, 2007)</p>
 <h2 id="5-iterator">5. Iterator</h2>
 <p align = "justify"> Iterator é um padrão de projeto para fornecer seus elementos sem que sua estrutura interna seja exposta. Portanto, é um padrão, onde em uma coleção de dados fornece diferentes maneiras de acessar esses dados sem expor o encapsulamento dessa coleção.
 A motivação para esse padrão de projeto, é não declarar todas as formas de percurso em um determinado conjunto de dados, em um objeto, mas deixar a critério do objeto Iterator em como será esse acesso aos elementos. Dessa forma, o usuário utilizando o iterator, percorre os dados da forma que deseja sem a necessidade de interagir com todos os dados da coleção. </p>
@@ -2529,7 +2605,7 @@ Seguem abaixo um exemplo onde é definido uma classe Imovel.</p>
 <p><a href="../../assets/imovel.model.ts">Código Model</a></p>
 <p><a href="../../assets/imovel.service.ts">Código Serviço</a></p>
 <h2 id="10-memento">10. Memento</h2>
-<p>O Memento tem como intenção, sem que viole a encapsulação, a captura e a externalização dos estados internos de um objeto para que o objeto possa ser restaurado para esse estado posteriormente.</p>
+<p>De acordo com Gamma (2007), o Memento tem como intenção, sem que viole a encapsulação, a captura e a externalização dos estados internos de um objeto para que o objeto possa ser restaurado para esse estado posteriormente.</p>
 <p>Algumas vezes é necessário gravar o estado inicial de um objeto. Sendo assim é necessário implementar checkpoint e desfazer mecanismos que deixem o usuário voltar nas tentativas anteriores de operações ou se recuperar de erros. Você tem que salvar o estado da informação em algum lugar, para que os objetos possam ser restaurados ao os estados anteriores. Mas os objetos normalmente encapsulam algumas ou todas as partes do seu estado, fazendo então inacessível a outros objetos é impossível de salvar externamente. Expondo esse estado pode violar a encapsulação, o que compromete a confiabilidade e extensibilidade da aplicação.</p>
 <p>Considere um exemplo de um editor gráfico que suporta a conectividade entre objetos. Um usuário pode mover então dois retângulos conectados a uma linha alterando então o formato dos objetos e o alargamento da linha.</p>
 <p><a href="../img/MementoExampleOne.png"><img alt="Exemplo 1 Memento" src="../img/MementoExampleOne.png" /></a></p>
@@ -2559,6 +2635,7 @@ Seguem abaixo um exemplo onde é definido uma classe Imovel.</p>
 <li>Custos escondidos em zelar por mementos.</li>
 </ul>
 <p>O caretaker é responsável pela deleção de mementos que ele zela. Portanto, o caretaker não tem ideia do quanto de informação está no memento. Sendo assim, um caretaker leve pode inferir num largo custo de armazenamento quando ele guarda os mementos.</p>
+<p>Fonte texto e imagens: (GAMMA, 2007)</p>
 <h2 id="11-template-method">11. Template Method</h2>
 <h3 id="111-introducao">11.1 Introdução</h3>
 <p align = "justify"> Template Method é padrão de projeto comportamental com o propósito de definir uma sequência que a solução computacional irá percorrer. Portanto, a ideia central é criar um template de métodos que serão executados em etapas, não importando o que constitui internamente o método, para diferentes classes herdadas da classe que tenha o papel do Template Method, mas que essas classes seguiram as etapas definidas pela super classe. </br>
@@ -2685,6 +2762,12 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 <td>0.9</td>
 <td>Revisão</td>
 <td>Gustavo, Igor, Estevão, Giovana</td>
+</tr>
+<tr>
+<td>13/10/2021</td>
+<td>1.0</td>
+<td>Incluir no texto referencias</td>
+<td><a href="https://github.com/brunocmo">Bruno Nunes</a></td>
 </tr>
 </tbody>
 </table>
