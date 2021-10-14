@@ -11,11 +11,11 @@ Na realização do Design Sprint durante a dinâmica, essa técnica foi utilizad
 
 ## Storyboard Imobiliária
 
-[![img](../img/imobiliaria-cardeal.png)](../img/imobiliaria-cardeal.png) 
+![Imobiliária Cardeal](./img/imobiliaria-cardeal.png)
 
 ## Storyboard Visão Corretor
 
-[![img](../img/visao-corretor.png)](../img/visao-corretor.png) 
+![Visão do Corretor](./img/visao-corretor.png)
 
 
 ## 3. Referências
