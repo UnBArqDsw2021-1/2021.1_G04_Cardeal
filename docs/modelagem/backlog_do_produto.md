@@ -82,7 +82,7 @@ Criação de uma imobiliária digital que possibilite a compra e aluguel de imó
 | US16 | EP2 | F05 | Eu, como corretor, gostaria de apagar as mídia(foto ou vídeo) do imóvel. |
 | US17 | EP3 | F06 | Eu, como usuário(corretor e/ou cliente), gostaria de filtrar imóveis por categorias. |
 | US18 | EP3 | F06 | Eu, como usuário(corretor e/ou cliente), gostaria de filtrar imóveis por localidade. |
-| US19 | EP3 | F06 | Eu, como usuário(corretor e/ou cliente), gostaria de filtrar imóveis por caracteristicas do imóvel (quantidade de quartos, banheiros, garagem, etc). |
+| US19 | EP3 | F06 | Eu, como usuário(corretor e/ou cliente), gostaria de filtrar imóveis por características do imóvel (quantidade de quartos, banheiros, garagem, etc). |
 | US20 | EP3 | F06 | Eu , como usuário(corretor e/ou cliente), gostaria de filtrar os imóveis pelo preço. |
 | US21 | EP3 | F07 | Eu, como usuário(corretor e/ou cliente), gostaria de visualizar lista de imóveis em destaque por preço do imóvel. |
 | US22 | EP3 | F07 | Eu, como usuário(corretor e/ou cliente), gostaria de visualizar lista de imóveis em destaque pelo tamanho do imóvel. |
@@ -94,7 +94,13 @@ Criação de uma imobiliária digital que possibilite a compra e aluguel de imó
 | US28 | EP4 | F10 | Eu, como corretor, gostaria de agendar uma reunião para o cliente. |
 | US29 | EP4 | F10 | Eu, como corretor, gostaria de visualizar os agendamentos cadastrados. |
 
-### 7. Versionamento
+### 7. Referências
+
+ > Lesson 1: Create the product backlog. https://www.ibm.com/docs/en/elm/7.0.2?topic=project-lesson-1-create-product-backlog. Acessado em 19/08/2021.
+ 
+ > What is a Product Backlog? https://www.scrum.org/resources/what-is-a-product-backlog. Acessado em 20/08/2021.
+
+### 8. Versionamento
 
 | Data       | Versão | Descrição                                | Autor             |
 | :--------- | :----- | :--------------------------------------- | :---------------- |
@@ -102,9 +108,4 @@ Criação de uma imobiliária digital que possibilite a compra e aluguel de imó
 | 21/08/2021 | 1.1    | Revisão do Documento          | Pedro Haick |
 | 08/09/2021 | 1.2    | Atualização do Backlog do Produto          | Douglas Castro |
 | 12/09/2021 | 1.3    | Adicão de histórias e reestruturação          | Douglas Castro |
-
-### 8. Referências Bibliográficas
-
- > Lesson 1: Create the product backlog. https://www.ibm.com/docs/en/elm/7.0.2?topic=project-lesson-1-create-product-backlog. Acessado em 19/08/2021.
- 
- > What is a Product Backlog? https://www.scrum.org/resources/what-is-a-product-backlog. Acessado em 20/08/2021.
+| 14/10/2021 | 1.4    | Correção da estrutura do documento          | Gustavo Moreira |

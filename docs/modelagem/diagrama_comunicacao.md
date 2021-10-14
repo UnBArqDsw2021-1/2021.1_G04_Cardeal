@@ -11,7 +11,7 @@ Este diagrama se diferencia do de sequência principalmente em dois fatores:
   - Composta (1.1, 1.2, 1.2.1, ...)
 
 ## 2. Discussão dos membros
-O artefato proposto foi decidida pela equipe [reunião de 13/08/17](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/Atas/13-08-2021/) e sua atribuição foi destinada ao membro do grupo Gustavo.
+O artefato proposto foi decidida pela equipe [reunião de 13/08/20](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/Atas/13-08-2021/) e sua atribuição foi destinada ao membro do grupo Gustavo.
 Para a elaboração do diagrama o estudo se iniciou com a visualização das aulas da professora Milene Serrano, por meio do curso Fábio Reis.
 
 
@@ -27,7 +27,7 @@ _Autor: Gustavo Duarte Moreira_
 
 
 
-## 4. Bibliografia
+## 4. Referências
 
 UML Communication Diagrams Overview. Disponível em: <https://www.uml-diagrams.org/communication-diagrams.html> Acessado em: 19/08/2021
 

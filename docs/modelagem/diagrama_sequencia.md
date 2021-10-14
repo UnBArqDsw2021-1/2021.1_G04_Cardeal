@@ -19,7 +19,7 @@ _Autor: Giovana Dionisio_
 [![img](https://i.ibb.co/qspkrB1/Diagramas-de-Sequ-ncia-Page-1.png)](https://i.ibb.co/qspkrB1/Diagramas-de-Sequ-ncia-Page-1.png)  
 _Autor: Giovana Dionisio_
 
-## 4. Referência
+## 4. Referências
 DE OLIVEIRA, Lucas Vieira. UML – Diagramas de Sequência. The Club, 2013. Disponível em: <http://www.theclub.com.br/restrito/revistas/201308/umld1308.aspx>
 
 DOS REIS, Fábio. Bóson Treinamentos. Youtube, 2019. Disponível em: <https://www.youtube.com/watch?v=UVkj3ed0ZuM>

@@ -78,7 +78,7 @@ Essas será as ferramentas utilizadas no desenvolvimento esse projeto:
 
  
 
-## 3. Referências Bibliográficas
+## 3. Referências
 
  > Desenvolvimento ágil de software. https://pt.wikipedia.org/wiki/Desenvolvimento_%C3%A1gil_de_software. Acessado em 03/08/2021
 
@@ -94,3 +94,4 @@ Essas será as ferramentas utilizadas no desenvolvimento esse projeto:
 | :--------- | :----- | :--------------------------------------- | :---------------- |
 | 03/08/2021 | 1.0    | Criação do Documento          | Estevao Reis   Igor Araujo|
 | 04/08/2021 | 1.1    | Padronização do documento       | Bruno Nunes e Marcos Rodrigues    |
+| 14/10/2021 | 1.2    | Correção do título referências       | Gustavo Moreira   |
