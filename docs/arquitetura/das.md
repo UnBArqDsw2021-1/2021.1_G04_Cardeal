@@ -10,7 +10,7 @@
 &emsp;&emsp; Neste contexto, este artefato abrange toda a arquitetura do Projeto Cardeal em seus diferentes níveis de desenvolvimento. Desta maneira, neste documento está descrita a estrutura e organização do produto de software, assim como o seu funcionamento, requisitos, restrições, componentes e as tecnologias que foram utilizadas ao longo da sua implementação.
 
 ### 1.3 Visão Geral
-&emsp;&emsp; Na [reunião em equipe do dia 27/09/21](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/arquitetura/atas/27-09-21/) foi debatido entre os membros quais tópicos seriam importantes e coerentes ao contexto do nosso projeto. Consultamos projetos elaborados nesta disciplina em outros semestres, além de verificar bibliografias para que soubessemos quais tópicos são obrigatórios ou não neste artefato.  
+&emsp;&emsp; Na [reunião em equipe do dia 27/09/21](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/arquitetura/atas/27-09-21/) foi debatido entre os membros quais tópicos seriam importantes e coerentes ao contexto do nosso projeto. Consultamos projetos elaborados nesta disciplina em outros semestres, além de verificar bibliografias para que soubéssemos quais tópicos são obrigatórios ou não neste artefato.  
 &emsp;&emsp; Por fim, o Documento de Arquitetura de Software do Projeto Cardeal está particionado da seguinte forma, onde cada tópico apresenta um aspecto sobre a arquitetura da aplicação:
 
 Número | Tópico | Descrição 
@@ -40,9 +40,8 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 &emsp;&emsp; Essa camada é responsável por gerenciar e controlar a forma como os dados se comportam por meio das funções lógica e regras de negócios estabelecidas. Ele é o detentor dos dados que recebe as informações do Controller, valida se ela está correta ou não e envia a resposta mais adequada. Foi utilizado para compor essa camada o framework [Express](#exp) e o [TypeORM](#orm), fazendo a abstração da camada de modelo e a utilização do banco de dados [MySQL](#my).
  
 &emsp;&emsp; Segue abaixo o diagrama, desenvolvido no [Canva](https://www.canva.com/), explicitando a relação entre as camadas e as tecnologias utilizadas em cada uma delas.
- 
- 
-![Diagrama](./img/arquitetura.png)
+  
+[![Diagrama](./img/arquitetura.png)](./img/arquitetura.png)
  
 ### 2.1. Tecnologias
 &emsp;&emsp; Neste tópico é abordado uma explicação geral sobre cada tecnologia utilizada na aplicação. Vale ressaltar que todas as tecnologias foram escolhidas pensando no suporte que elas possuem ao Typescript, visto que através dele podemos aplicar adequadamente os conceitos de Orientação a Objetos.
@@ -88,11 +87,16 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 ### 3.1 Metas 
    Dentro do que é referente às restrições, requisitos e objetivos da arquitetura do site online da corretora Cardeal, serão listados abaixo os pontos de maior importância para o projeto:
    
-* Segurança: A aplicação deve manter os dados dos usuários em segurança
-* Linguagem: A aplicação deve conter uma linguagem acessível e que possa ter um fácil entendimento pelo os usuários
-* Portabilidade: A aplicação deve ser funcionar e ser executada com desempenho igual ou próximo nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge
-* Usabilidade: é essencial que o sistema possibilite que o usuário a realize ações rapidamente e de maneira intuitiva
-* Escalabilidade: O software deve tornar possível sua evolução e manutenção.
+* Segurança: A aplicação deve manter os dados dos usuários em segurança;
+
+* Linguagem: A aplicação deve conter uma linguagem acessível e que possa ter um fácil entendimento pelo os usuários;
+
+* Portabilidade: A aplicação deve ser funcionar e ser executada com desempenho igual ou próximo nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge;
+
+* Usabilidade: é essencial que o sistema possibilite que o usuário a realize ações rapidamente e de maneira intuitiva;
+
+* Escalabilidade: O software deve tornar possível sua evolução e manutenção;
+
 * Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal.
 
 ### 3.2 Restrições
@@ -134,7 +138,7 @@ Agrupamos várias funcionalidades de acordo com suas características em 4 épic
 
    Na UML, uma classe é uma descrição de um conjunto de objetos que compartilham os mesmos atributos, operações, relacionamentos e semântica.
  
-![DiagramaClasse](./img/diagramaClasse.png)
+[![DiagramaClasse](./img/diagramaClasse.png)](./img/diagramaClasse.png)
 
 ### 5.2 Diagrama de Pacotes
 
@@ -145,7 +149,7 @@ Como pode ser observado, o diagrama de pacotes oferece uma visão de mais alto n
 * Backend(NestJS)
 * Sistema gerenciamento de banco de dados (MySQL)
 
-![DiagramaPacotes](./img/diagramaPacotes.png)
+[![DiagramaPacotes](./img/diagramaPacotes.png)](./img/diagramaPacotes.png)
 
 Podemos observar a partir do MySQL, onde gerencia os dados, passa as informações para o o NestJS que interage os arquivos de cada pasta exibida, assim o controle de acesso, requisição e armazenamento de dados interage com o Angular, onde seus componentes então mostram para o usuário final a solução computacional da Imobiliária Cardeal.
 
@@ -198,7 +202,7 @@ _Autor: Giovana Dionisio_
 
 ## 7.Visão de Implantação
 
-&emsp;&emsp;Essa visão busca explorar e avaliar as opções arquiteturais de alto nível. Ela irá promover um entendimento da estrutura para os patrocinadores e demais stakeholder. Para isso, é preciso levar em consideração o design das redes preexistentes e os bancos de dados preexistentes. A fim de descrever como o sistema é mapeado para o hardware (MONTEIRO, 2010).
+&emsp;&emsp;Essa visão busca explorar e avaliar as opções arquiteturais de alto nível. Ela irá promover um entendimento da estrutura para os patrocinadores e demais stakeholders. Para isso, é preciso levar em consideração o design das redes preexistentes e os bancos de dados preexistentes. A fim de descrever como o sistema é mapeado para o hardware (MONTEIRO, 2010).
 
 &emsp;&emsp; Os dados da aplicação Web ficam armazenados no banco de dados MySQL. As requisições são feitas pelo front-end, implementado com auxílio do Angular, para o back-end, implementado com o NestJS. Este e aquele construídos com a linguagem TypeScript.
 
@@ -212,7 +216,7 @@ _Autor: Douglas Castro_
 
 &emsp;&emsp; A finalidade da visão de implementação é captar as decisões de arquitetura tomadas para a implementação. Especifica os componentes de código do projeto, como organização dos arquivos, dependências e pacotes em diferentes camadas e subcamadas. Essa visão é representada principalmente pelo diagrama de componentes.
 
-![Diagrama de Componentes](./img/diagrama-Componentes.jpg)
+[![Diagrama de Componentes](./img/diagrama-Componentes.jpg)](./img/diagrama-Componentes.jpg)
 
 <center> Autor: Marcos Vinícius </center>
 
@@ -222,23 +226,27 @@ Para a visão de dados, representamos aqui como a Aplicação do Cardeal persist
 
 ### 9.1 DE-R
 
-![DE-R](../diagramaRelacional/img/Cardeal_Conceitual.jpg)
+[![DE-R](../diagramaRelacional/img/Cardeal_Conceitual.jpg)](../diagramaRelacional/img/Cardeal_Conceitual.jpg)
 
 <center> Autores: Bruno Nunes e Marcos Vinícius</center>
 
 ### 9.2 DLD
 
-![DE-R](../diagramaRelacional/img/Cardeal_Logico.jpg)
+[![DLD](../diagramaRelacional/img/Cardeal_Logico.jpg)](../diagramaRelacional/img/Cardeal_Logico.jpg)  
 
 <center> Autores: Bruno Nunes e Marcos Vinícius</center>
 
 ## 10. Tamanho e Desempenho
  
-O tamanho do projeto não pode ser precisamente estimado até a data de escrita desse 06/10/2021, pois o mesmo ainda encontrava-se em fase de desenvolvimento e evolução do projeto, não sendo possui-vel mesurar com precisão o tamanho final. Levando em conta seus repositórios Back-end e Front-end do site da corretora Cardeal, a somatórios dos dois não passará de 1GB, não sendo necessário o download ou instalação de qualquer programa para acesso ao mesmo, tendo em vista de que este se trata de uma aplicação web, tendo seu acesso disponível pelo navegador, assim que o mesmo encontrar-se hospedado em um servidor.
+O tamanho do projeto não pode ser precisamente estimado até a data de escrita desse 06/10/2021, pois o mesmo ainda encontrava-se em fase de desenvolvimento e evolução do projeto, não sendo possui-vel mesurar com precisão o tamanho final. Levando em conta seus repositórios Back-end e Front-end do site da corretora Cardeal, a somatórios dos dois não passará de 1GB, não sendo necessário o download ou instalação de qualquer programa para acesso ao mesmo, tendo em vista de que este se trata de uma aplicação web, tendo seu acesso disponível pelo navegador, assim que o mesmo encontra-se hospedado em um servidor.
 
-Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e à testes de Stress. Sendo capaz de: 
+Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e aos testes de Stress. 
+
+Sendo capaz de: 
+
 - O sistema deve ser capaz de suportar usuários simultâneos em seu site;
-- O sistema deve ser capaz de carregar suas páginas em alguns milisegundos, mas dependendo da quantidade de usuários simultaneos essas requisições iram demorar até um tempo máximo de 3 segundo para serem realizadas pelo sistema.
+
+- O sistema é capaz de carregar suas páginas em alguns milisegundos, mas dependendo da quantidade de usuários simultâneos esse tempo pode aumentar até um tempo máximo de 3 segundos garantindo uma utilização agradável da aplicação.
 
 ## 11. Qualidade
 &emsp;&emsp; Quanto à Qualidade, a arquitetura do Projeto Cardeal é orientado pelos atributos FURPS, sigla para _**F**uncionality, **U**sability, **R**eliability, **P**erformance_ e _**S**uportability_. Segundo PRESSMAN e MAXIM (2016), as seguintes definições podem ser aplicadas para esses atributos:  
@@ -254,7 +262,7 @@ No projeto desenvolvido, estes atributos de qualidade podem ser observadas em ca
 O produto de software tem sido desenvolvido pela equipe com base nos [requisitos](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/desenhoSoftwareBase/brainstorm/) levantados pela equipe. Tais requisitos, que deram origem ao [backlog do produto](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/backlog_do_produto/), garantem a funcionalidade do projeto.
 
 ### Usabilidade
-A interface elaborada para o projeto é minimalista, apresentado padrões de cores e fontes. Além disso, as principais funcionalidades do site são apresentadas na sua home page, o que facilita a navegação do usuário. Também é possível notar que o sistema utiliza linguagem clara e direta, simplificando o entendimento do que está sendo feito e o que se pode fazer.
+A interface elaborada para o projeto é minimalista, apresentando padrões de cores e fontes. Além disso, as principais funcionalidades do site são apresentadas na sua home page, o que facilita a navegação do usuário. Também é possível notar que o sistema utiliza linguagem clara e direta, simplificando o entendimento do que está sendo feito e o que se pode fazer.
 
 ### Confiabilidade
 O software da imobiliária Cardeal é projetado para estar constantemente disponível, podendo se recuperar de possíveis falhas apresentadas. 
@@ -305,18 +313,20 @@ Ao aplicarmos os padrões de projeto [GRASPs](https://unbarqdsw2021-1.github.io/
 | Data       | Versão | Descrição         | Autores       |
 | ---------- | ------ | ----------------- | ------------- |
 | 24/09/2021 | 0.1 | Criação do arquivo| Estevao Reis  |
-| 27/09/2021 | 0.2 | Estruturação dos tópicos do documento| Estevao Reis |
-| 30/09/2021 | 0.3 | Adição do tópico de Representação Arquitetural| Estevao Reis |
+| 27/09/2021 | 0.2 | Estruturação dos tópicos do documento| Estevão Reis |
+| 30/09/2021 | 0.3 | Adição do tópico de Representação Arquitetural| Estevão Reis |
 | 05/10/2021 | 0.4 | Criação inicial dos tópicos 3 e 10| Luiz Gustavo  |
 | 05/10/2021 | 0.5 | Criação inicial dos tópicos 3 e 10| Luiz Gustavo  |
 | 06/10/2021 | 0.6 | Correções nos tópicos 3 e 10| Luiz Gustavo  |
 | 07/10/2021 | 0.7 | Adição da visão de Implantação| Douglas Castro  |
 | 08/10/2021 | 0.8 | Adição da visão da Implementação| Douglas Castro  |
-| 08/10/2021 | 0.9 | Adição da Introdução | Giovana Dionisio  |
+| 08/10/2021 | 0.9 | Adição da Introdução | Giovana Dionísio  |
 | 09/10/2021 | 0.9.1 | Revisão da Introdução | Gustavo Moreira  |
 | 08/10/2021 | 1.0 | Adição do tópico qualidade| Giovana Dionisio  |
 | 10/10/2021 | 1.1 | Adição do tópico visão de processo| Gustavo Moreira  |
 | 11/10/2021 | 1.2 | Adição da visão lógica com diagramas | Bruno Nunes  |
 | 12/10/2021 | 1.3 | Adição da visão de Casos de uso e visão de Dados  | Marcos Vinícius  |
 | 13/10/2021 | 1.4 | Correção diagrama de pacotes | Bruno Nunes  |
+| 14/10/2021 | 1.5 | Revisão Geral | Bruno Nunes, Marcos Vinícius, Giovana Dionisio, Igor Araújo, Estevão Reis, Luiz Gustavo, Gustavo Moreira, Douglas Castro, Tomás Veloso, Pedro Haick. |
+
 
