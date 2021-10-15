@@ -294,3 +294,4 @@ https://www.devmedia.com.br/angular-components-conhecendo-e-configurando-no-seu-
 | ---------- | ------ | ------------------ | ---------------------------------------------- |
 | 24/09/2021 | 0.1    | Criação do arquivo | Estevao Reis                                   |
 | 15/10/2021 | 0.2    | Adição do conteúdo | [Tomás Veloso](https://github.com/tomasvelos0) |
+| 15/10/2021 | 0.2    | Revisão do documento | Giovana, Bruno, Douglas, Estevão, Gustavo, Igor, Marcos, Pedro, Luiz e Tomás |
