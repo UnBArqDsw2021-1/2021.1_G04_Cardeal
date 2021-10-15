@@ -79,38 +79,55 @@ https://drive.google.com/file/d/1amyyFE3ptUVjyf4e1vfkac_KyzSmKR6N/preview
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 
+### Documento de Arquitetura (DAS)
+
+#### DAS - Inicio
+![DAS - Documento de arquitetura de Software](./docs/screenshots/das.png)
+
+#### DAS - Diagrama relação camada e tecnologias
+![DAS - Model](./docs/arquitetura/img/arquitetura.png)
+
+
+### Reutilização de Software
+
+#### Reutilização - Back-end
+![Back-end](./docs/screenshots/backend.png)
+
+#### Reutilização - Front-end
+![Front-end](./docs/screenshots/frontend.png)
+
 ### Fluxo do cliente
 
 #### Filtragem dos Imóveis
 
-[Filtragem dos Imóveis](./docs/assets/FLUXO_CLIENTE/filtros.png)
+![Filtragem dos Imóveis](./docs/assets/FLUXO_CLIENTE/filtros.png)
 
 #### Exibir Imóveis
 
-[Exibir Imóveis](./docs/assets/FLUXO_CLIENTE/imoveis.png)
+![Exibir Imóveis](./docs/assets/FLUXO_CLIENTE/imoveis.png)
 
-#### FAC
+#### FAQ
 
-[FAC](./docs/assets/FLUXO_CLIENTE/fac.png)
+![FAQ](./docs/assets/FLUXO_CLIENTE/fac.png)
 
 
 ### Fluxo do corretor
 
 #### Login
 
-[Cadastrar Imóvel](./docs/assets/FLUXO_CORRETOR/login.png)
+![Cadastrar Imóvel](./docs/assets/FLUXO_CORRETOR/login.png)
 
 #### Cadastrar Imóvel
 
-[Cadastrar Imóvel](./docs/assets/FLUXO_CORRETOR/cadastro_imoveis.png)
+![Cadastrar Imóvel](./docs/assets/FLUXO_CORRETOR/cadastro_imoveis.png)
 
 #### Cadastrar Clientes
 
-[Cadastrar Imóvel](./docs/assets/FLUXO_CORRETOR/cadastro_cliente.png)
+![Cadastrar Imóvel](./docs/assets/FLUXO_CORRETOR/cadastro_cliente.png)
 
 #### Cadastrar Agendamentos
 
-[Cadastrar Imóvel](./docs/assets/FLUXO_CORRETOR/cadastro_agendamento.png)
+![Cadastrar Imóvel](./docs/assets/FLUXO_CORRETOR/cadastro_agendamento.png)
 
 ## Vídeo(s) Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 
@@ -133,6 +150,11 @@ https://drive.google.com/file/d/1amyyFE3ptUVjyf4e1vfkac_KyzSmKR6N/preview
 ( ) NÃO
 
 Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados em consultar o projeto.
+
+O site de acesso da aplicação está disponivel no link:
+
+* [Cardeal](https://front-cardeal.devopstests.com/
+)
 
 Encontra-se os scripts nos seguintes repositórios:
 
