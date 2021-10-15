@@ -32,6 +32,16 @@
 
 * Correção do [diagrama dos controladores](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/padroesDeProjeto/GRASPs/#321-diagrama).
 
+### 3.4. Gofs - Estruturais
+
+* Exclusão de tópicos não usados
+    * [Gofs comportamentais](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/padroesDeProjeto/gofs_comportamentais/)
+
+### 3.5. Gofs - Comportamental
+
+* Exclusão de tópicos não usados
+    * [Gofs estruturais](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/padroesDeProjeto/gofs_estruturais/)
+
 ## 4. Correções gerais
 
 * Padronização de títulos dos itens "Referências" em alguns documentos.
@@ -46,9 +56,10 @@
 | Data       | Versão | Descrição         | Autores       |
 | ---------- | ------ | ----------------- | ------------- |
 | 13/10/2021 | 0.1    | Criação do documento | Estevão Reis  |
-| 13/10/2021 | 0.2    | Correção referencias               | [Bruno Nunes](https://github.com/brunocmo)|
+| 13/10/2021 | 0.2    | Correção referencias               | Bruno Nunes|
 | 14/10/2021 | 0.3    | Padronização dos títulos de referências| Gustavo Moreira  | 
 | 14/10/2021 | 0.4    | Correção de imagens no Storyboard | Gustavo Moreira  |  
 | 14/10/2021 | 0.5    | Correção dos links da correção do Diagrama de Atividades | Douglas Castro |  
 | 14/10/2021 | 0.6    | Padronização das atas | Douglas Castro  |  
 | 15/10/2021 | 0.7    | Correção GRASP - Controlador | Douglas Castro  |  
+| 15/10/2021 | 0.8    | Correção Gofs - Remoção tópicos | Bruno e Marcos  |  

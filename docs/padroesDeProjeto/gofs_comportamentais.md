@@ -126,11 +126,9 @@ Segundo o livro, Padrões de Projeto: Soluções Reutilizáveis, o padrão de pr
 
 - para fornecer uma interface uniforme que percorra diferentes estruturas agregadas (ou seja, para suportar a iteração polimórfica).
 
-## 6. Mediator
+## 6. Chain of Responsibility
 
-## 7. Chain of Responsibility
-
-### 7.1. Introdução
+### 6.1. Introdução
 
 Esse design pattern também pode ser conhecido como CoR, Corrente de responsabilidade, Corrente de comando, Chain of command.
 
@@ -140,11 +138,11 @@ O Chain of Responsibility é um padrão de projeto comportamental que permite qu
 <p align = "center">Chain of Responsibility</p>
 
 Fonte: [wiki](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
-### 7.2. Metodologia
+### 6.2. Metodologia
 
  O padrão Chain of Responsibility foi estudado, e será utilizado mais a frente no projeto para lidar com a questão da implementação do login do Corretor na aplicação. A sua implementação seguirá o seu padrão característico, descrito na introdução de modo a preservar e ser possível identificá-lo de maneira clara no projeto.
 
-### 7.3. Estrutura
+### 6.3. Estrutura
 
 A redução do acoplamento é obtida dando a mais de um objeto a chance de lidar com a solicitação consequentemente. O item da cadeia recebe a solicitação e, após alguma lógica, passa a solicitação para o próximo handler ao longo da cadeia de handlers.
 
@@ -178,11 +176,11 @@ Contras
 
 - Algum pedido pode acabar sem tratamento
 
-### 7.4. Chain of Responsability aplicado ao projeto
+### 6.4. Chain of Responsability aplicado ao projeto
 
 O Padrão Chain of Responsability ainda não foi aplicado ao projeto. Quando implementado será referenciado neste tópico.
 
-## 8. Observer
+## 7. Observer
  
 O Observer é um padrão de projeto que permite que os objetos interessados sejam avisados de mudança de estado ou outros eventos que ocorram em um outro objeto. Ele também pode ser chamado de Publiser-Subscriber. GAMMA define o Observer da seguinte maneira:
  
@@ -191,19 +189,19 @@ O Observer é um padrão de projeto que permite que os objetos interessados seja
 [![img](https://upload.wikimedia.org/wikipedia/commons/8/8d/Observer.svg)](https://upload.wikimedia.org/wikipedia/commons/8/8d/Observer.svg)
 _Fonte: https://pt.wikipedia.org/wiki/Observer_ 
  
-### 8.1 Metodologia
+### 7.1 Metodologia
 
 A partir da reunião realizada no dia [17/09/2021](./atas/17-09-21.md) ficou decidido entre os membros do grupo que os padrões de projeto seriam explicados para fins didáticos para enriquecer a documentação e aumentar a compreensão do conteúdo nos participantes do trabalho.
 
-### 8.2 Aplicação no projeto
+### 7.2 Aplicação no projeto
  
 O padrão Observer foi identificado e aplicado no front-end do projeto. O Observable é uma classe que aplica o padrão Observer. É emitida uma notificação para o Observable sempre que ocorre uma mudança em um de seus itens e a partir disto podemos executar uma ação. Em nosso projeto ele foi aplicado para observar a resposta das requisições da API, retornando um objeto assim que a requisição concluir sua tarefa, ou retornando um erro caso não seja possível concluir a requisição.
  
 ![Observer](./img/gof-observe.png)
 
-## 9. Visitor 
+## 8. Visitor 
 
-### 9.1. Introdução
+### 8.1. Introdução
 
 Imagine que temos um objeto composto que consiste em componentes. A estrutura do objeto é fixa - não podemos alterá-la ou não planejamos adicionar novos tipos de elementos à estrutura.
 
@@ -216,11 +214,11 @@ Dessa forma, nossos componentes permitirão que a implementação do visitante o
 Em outras palavras, extraímos o algoritmo que será aplicado à estrutura do objeto das classes.
 
 Consequentemente, fazemos bom uso do princípio Aberto / Fechado, pois não modificamos o código, mas ainda seremos capazes de estender a funcionalidade fornecendo uma nova implementação de Visitante.
-### 9.2. Metodologia
+### 8.2. Metodologia
 
  O padrão Chain of Responsibility foi estudado, e será utilizado mais a frente no projeto para lidar com a questão da implementação do login do Corretor na aplicação. A sua implementação seguirá o seu padrão característico, descrito na introdução de modo a preservar e ser possível identificá-lo de maneira clara no projeto.
 
-### 9.3. Estrutura
+### 8.3. Estrutura
 
 ![ilustracao-visitor](./img/visitor3.png)
 <p align = "center">Diagrama UML - Visitor</p>
@@ -258,7 +256,7 @@ Contras
 - Você precisa atualizar todos os visitantes cada vez que uma classe é adicionada ou removida da hierarquia de elementos.
 - Os visitantes podem não ter acesso necessário aos campos e métodos particulares dos elementos com os quais devem trabalhar.
 
-### 9.4. Visitor aplicado ao projeto
+### 8.4. Visitor aplicado ao projeto
 
 O Padrão Visitor foi aplicado ao projeto. 
 Seguem abaixo um exemplo onde é definido uma classe Imovel.
@@ -279,7 +277,7 @@ Service é o objeto usado para organizar e/ou compartilhar estados de objetos e 
 
 [Código Serviço](../assets/imovel.service.ts)
 
-## 10. Memento
+## 9. Memento
 
 De acordo com Gamma (2007), o Memento tem como intenção, sem que viole a encapsulação, a captura e a externalização dos estados internos de um objeto para que o objeto possa ser restaurado para esse estado posteriormente.
 
@@ -322,21 +320,21 @@ O padrão Memento tem consequências severas:
 
 Fonte texto e imagens: (GAMMA, 2007)
 
-## 11. Template Method
-### 11.1 Introdução
+## 10. Template Method
+### 10.1 Introdução
  
 <p align = "justify"> Template Method é padrão de projeto comportamental com o propósito de definir uma sequência que a solução computacional irá percorrer. Portanto, a ideia central é criar um template de métodos que serão executados em etapas, não importando o que constitui internamente o método, para diferentes classes herdadas da classe que tenha o papel do Template Method, mas que essas classes seguiram as etapas definidas pela super classe. </br>
 <cite>"Definir o esqueleto de um algoritmo em uma operação, postergando alguns passos para
 as subclasses. Template Method permite que subclasses redefinam certos passos de um
 algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</p>
 
-### 11.2. Metodologia
+### 10.2. Metodologia
 
 <p align = "justify"> Para a criação do template method, foi estudado uma forma de implementar o padrão no projeto. Foi criado assim uma estrutura no <a href="https://app.diagrams.net/" target="_blank">Draw.io</a> e no momento de desenvolvimento do front-end verificar se essa estrutura pode ser implementada ou não neste momento. Assim, esse modelo poderá ser atualizado ao longo do tempo para melhor adaptar-se ao projeto.</p>
 
-### 11.3. Template Method
+### 10.3. Template Method
 
-#### 11.3.1. Template Method Estrutura
+#### 10.3.1. Template Method Estrutura
 
 <p align = "justify"> A abordagem do Template Method é criar uma classe (TemplateMethodClass), para especificar a sequência de métodos que serão executados em ordem, assim, protegendo as subclasses para seguirem essa ordem estabelecida. Essa sequência de métodos pode ser sobrescrita nas classes herdadas, assim cada subclasse possui sua particularidade no método, mas não na sequência, ou o método da sequência pode ser padrão para todas as subclasses. </p></br>
  
@@ -344,7 +342,7 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
  
 [![Template Method Estrutura](./img/exemplo_TemplateMethod1.png)](./img/exemplo_TemplateMethod1.png){target=\_blank}
  
-#### 11.3.2 Template Method Projeto
+#### 10.3.2 Template Method Projeto
 
 <p align = "justify"> A abordagem do Template Method para o projeto foi criada para que a sequência de métodos seja seguida por todas as subclasses, mas apenas um método da subclasse é diferente. Portanto a sequência foi esquematizada com o primeiro método fazendo a requisição para o banco de dados das postagens, o método da subclasse que diferencia entre os outros, é o método da filtragem, assim cada classe concreta, possui uma filtragem diferente, escolhida pelo usuário, e a última etapa da sequência é o método de exibição das postagens na página. </p></br>
  
@@ -354,7 +352,7 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
  
 <h6 align = "center">Fonte: Site <a href="https://app.diagrams.net/" target="_blank">Draw.io</a></h6></br>
 
-## 12. Referências
+## 11. Referências
 
 > GAMMA, Erich; HELM, Richard; JOHNSON, Ralph; VLISSIDES, John. **Padrões de Projeto**: Soluções reutilizáveis de software orientado a objetos. Porto Alegre: Bookman, 2007.
  
@@ -392,7 +390,7 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 
 ---
 
-## 13. Versionamento
+## 12. Versionamento
 
 | Data       | Versão | Descrição                                 | Autores                                          |
 | ---------- | ------ | ----------------------------------------- | ------------------------------------------------ |
@@ -406,4 +404,5 @@ algoritmo sem mudar a estrutura do mesmo."</cite> (GAMMA et al., 2000, p.301).</
 | 20/09/2021 | 0.8    | Adição do padrão 5                        | [Tomás Veloso](https://github.com/tomasvelos0)   |
 | 20/09/2021 | 0.9 | Revisão | Gustavo, Igor, Estevão, Giovana |
 | 13/10/2021 | 1.0    | Incluir no texto referencias            | [Bruno Nunes](https://github.com/brunocmo)  
+| 15/10/2021 | 1.1    | Formatação da numeração do documento    | Bruno e Marcos
  
