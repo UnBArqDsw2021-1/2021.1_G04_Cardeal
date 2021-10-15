@@ -133,11 +133,11 @@ https://drive.google.com/file/d/1amyyFE3ptUVjyf4e1vfkac_KyzSmKR6N/preview
 
 ### Documento de Arquitetura (DAS)
 
-*
+* [Apresentação](https://drive.google.com/file/d/1KBpWkxU5C6Bb0HteBmdXK4bP8SxXFh3T/view?usp=sharing)
 
 ### Reutilização de Software e Iniciativas Extras
 
-*
+* [Apresentação](https://drive.google.com/file/d/13q2d5M5S8yrDRSNCz8_oSrO_kx52etf-/view?usp=sharing)
 
 ## Descritivo dos Principais Aspectos Técnicos 
 **Principal Metodologia Adotada**: Scrum<br>
