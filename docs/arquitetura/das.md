@@ -135,7 +135,7 @@ Agrupamos várias funcionalidades de acordo com suas características em 4 épic
  
 ![DiagramaClasse](./img/diagramaClasse.png)
 
- ### 5.2 Diagrama de Pacotes
+### 5.2 Diagrama de Pacotes
 
 Como pode ser observado, o diagrama de pacotes oferece uma visão de mais alto nível do modelo do sistema. Onde nele é separada em 4 partes:
 
