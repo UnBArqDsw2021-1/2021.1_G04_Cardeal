@@ -12,7 +12,7 @@
       
       
       <link rel="icon" href="../../assets/Icon.png">
-      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.4">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.1">
     
     
       
@@ -20,10 +20,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.f7f47774.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1118c9be.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ba0d045b.min.css">
         
       
     
@@ -1732,6 +1732,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#2-metodologia" class="md-nav__link">
+    2. Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#2-framework" class="md-nav__link">
     2. Framework
   </a>
@@ -1767,15 +1774,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-servicos" class="md-nav__link">
-    3. Serviços
+  <a href="#4-servicos" class="md-nav__link">
+    4. Serviços
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-servicos-aplicacao-no-projeto" class="md-nav__link">
-    3. Serviços - Aplicação no projeto
+  <a href="#41-servicos-aplicacao-no-projeto" class="md-nav__link">
+    4.1. Serviços - Aplicação no projeto
   </a>
   
 </li>
@@ -1985,6 +1992,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#2-metodologia" class="md-nav__link">
+    2. Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#2-framework" class="md-nav__link">
     2. Framework
   </a>
@@ -2020,15 +2034,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-servicos" class="md-nav__link">
-    3. Serviços
+  <a href="#4-servicos" class="md-nav__link">
+    4. Serviços
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-servicos-aplicacao-no-projeto" class="md-nav__link">
-    3. Serviços - Aplicação no projeto
+  <a href="#41-servicos-aplicacao-no-projeto" class="md-nav__link">
+    4.1. Serviços - Aplicação no projeto
   </a>
   
 </li>
@@ -2052,13 +2066,14 @@
                 
                 <h1 id="reutilizacao-de-software-no-front-end">Reutilização de Software no Front-end</h1>
 <h2 id="1-introducao">1. Introdução</h2>
-<p align = "justify"> A reutilização de software possui a finalidade de tornar uma solução de software reutilizável. Assim, projetos bem sucedidos podem ser usados novamente para projetos futuros, reaproveitando soluções aprovadas, melhorando a qualidade de desenvolvimento e poupando esforços. Reutilização de software não se aplica apenas ao nível de código, mas também em vários contextos aplicados ao desenvolvimento de software, ou seja, em soluções que podem ser reaproveitadas. Padrões de projetos tem uma boa aplicação para a reutilização de software, pois padrões de projetos são adequados para problemas recorrentes que possuem soluções bem sucedidas e aceitas pela comunidade, assim, é uma forma de reutilizar algo, que possui características semelhantes, e que já provou ser uma boa solução. </p>
+<p align = "justify"> A reutilização de software, como mencionado no documento <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/arquitetura/back-end/" target="_blank"><b>Reutilização de Software Back-End</b></a>, possui a finalidade de tornar uma solução de software reutilizável. Assim, projetos bem sucedidos podem ser usados novamente para projetos futuros, reaproveitando soluções aprovadas, melhorando a qualidade de desenvolvimento e poupando esforços. Reutilização de software não se aplica apenas ao nível de código, mas também em vários contextos aplicados ao desenvolvimento de software, ou seja, em soluções que podem ser reaproveitadas. Padrões de projetos tem uma boa aplicação para a reutilização de software, pois padrões de projetos são adequados para problemas recorrentes que possuem soluções bem sucedidas e aceitas pela comunidade, assim, é uma forma de reutilizar algo, que possui características semelhantes, e que já provou ser uma boa solução. </p>
 
-<p align = "justify"></p>
+<h2 id="2-metodologia">2. Metodologia</h2>
+<p align = "justify">Este documento tem o propósito de detalhar a reutilização de software no <a href="https://github.com/UnBArqDsw2021-1/2021.1-g04-cardeal-frontend" target="_blank"><b>Front-End do Projeto Cardeal</b></a>. Portanto o foco principal será na aplicação dos conceitos de framework, bibliotecas e outra forma de utilização de software na aplicação web, e no desenvolvimento do código. O <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/arquitetura/back-end/" target="_blank"><b>Documento Reutilização de Software Back-End</b></a>, explica como foram usados e aplicados no projeto, os conceitos de reuso de software no <a href="https://github.com/UnBArqDsw2021-1/2021.1-g04-cardeal-back-end" target="_blank"><b>Back-end do Projeto Cardeal</b></a>. Para maior entendimento de todas as tecnologias usadas, estilos e padrões arquiteturais, é detalhado no <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/arquitetura/das/" target="_blank"><b>Documento de Arquitetura de Software</b></a>.</p>
 
 <h2 id="2-framework">2. Framework</h2>
-<p align = "justify"><cite>O framework dita a arquitetura da sua aplicação. Ele irá definir a estrutura geral, sua divisão em classes e objetos e em consequência as responsabilidades-chave das classes de objetos, como estas colaboram, e o fluxo de controle. Um framework pré-define esses parâmetros de projeto, de maneira que você, projetista/implementador da aplicação, possa se concentrar nos aspectos específicos da sua aplicação.</cite> (GAMMA et al., 2000, p.42).
-    Framework é aplicado para desenvolver  soluções que possuem o mesmo domínio cognitivo ou similares, sendo uma estrutura geral que atenda um conjunto de aplicações similares. Uma forma de aplicar a reutilização de software é pelo o uso de framework, facilitando no desenvolvimento de novas aplicações. </p>
+<p align = "justify"><cite>O framework dita a arquitetura da sua aplicação. Ele irá definir a estrutura geral, sua divisão em classes e objetos e em consequência as responsabilidades-chave das classes de objetos, como estas colaboram, e o fluxo de controle. Um framework pré-define esses parâmetros de projeto, de maneira que você, projetista/implementador da aplicação, possa se concentrar nos aspectos específicos da sua aplicação.</cite> (GAMMA et al., 2000, p.42).<br/></p>
+<p align = "justify">Framework é aplicado para desenvolver  soluções que possuem o mesmo domínio cognitivo ou similares, sendo uma estrutura geral que atenda um conjunto de aplicações similares. Uma forma de aplicar a reutilização de software é pelo o uso de framework, facilitando no desenvolvimento de novas aplicações. </p>
 
 <h2 id="21-framework-hot-spots-e-frozen-spots">2.1. Framework - Hot-Spots e Frozen-Spots</h2>
 <p align = "justify">Hot-spots representam uma parte da reutilização de software de um framework, mas de uma forma genérica, o que possibilita o desenvolvedor adaptá-las ao contexto da aplicação, de forma que suas funcionalidades podem ser complementadas pelo programador. O Frozen-spots é diferente por não permitir a alteração, ou seja, foi projetado para não ter adaptação, sua funcionalidade continua igual em todos os momentos que são instanciados. Exemplos de aplicações Hot-Spots, Classes abstratas, métodos abstratos, métodos hook. Classes concretas e métodos template são exemplos de Frozen-spots.</p>
@@ -2091,31 +2106,30 @@
 <h6 align = "center">Fonte:<a href="https://aprender3.unb.br/pluginfile.php/897154/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Reutiliza%C3%A7%C3%A3o%20%20Framework%20-%20Profa.%20Milene.pdf" target="_blank"> Milene Serrano - Aula Reutilização & Framework</a>, adaptado.</h6>
 <p></br></p>
 <h2 id="22-framework-aplicacao-no-projeto">2.2. Framework - Aplicação no projeto</h2>
-<p align = "justify">Utilizamos o framework <a href="https://angular.io/" target="_blank"><b>Angular</b></a> para o desenvolvimento da aplicação web. <a href="https://angular.io/" target="_blank"><b>Angular</b></a> é um framework que utiliza de Typescript para a criação de páginas web, é caracterizado por ser uma "Sigle-Page Applications (SPA)", ou seja, diferente de outras aplicações web, que ao interagir com alguma informação da página, toda a aplicação é atualizada, o Angular a comunicação com o back-end é feita de forma dinâmica. <a href="https://angular.io/" target="_blank"><b>Angular</b></a> é instalado através do gerenciador de pacotes do NodeJS, um software para execução de javascript.</p>
+<p align = "justify">Utilizamos o framework <a href="https://angular.io/" target="_blank"><b>Angular</b></a> para o desenvolvimento da aplicação web. <a href="https://angular.io/" target="_blank"><b>Angular</b></a> é um framework que utiliza de <a href="https://www.typescriptlang.org/" target="_blank"><b>Typescript</b></a> para a criação de páginas web, é caracterizado por ser uma "Sigle-Page Applications (SPA)", ou seja, diferente de outras aplicações web, que ao interagir com alguma informação da página, toda a aplicação é atualizada, e a comunicação com o back-end é feita de forma dinâmica. O <a href="https://angular.io/" target="_blank"><b>Angular</b></a> é instalado através do gerenciador de pacotes do <a href="https://nodejs.org/en/" target="_blank"><b>NodeJS</b></a>, um software para execução de <a href="https://www.javascript.com/" target="_blank"><b>javascript</b></a>.</p>
 <p></br></p>
-<p align = "justify">A Imagem 1, mostra os pacotes do projeto utilizando o framework Angular. É um exemplo de como a organização dos diretórios devem seguir de acordo com a pré-estruturação do framework. Portanto é a forma genérica de como deve ser a estrutura, e os desenvolvedores especializam o código.</p>
+<p align = "justify">A Imagem 1, mostra os pacotes do projeto utilizando o framework <a href="https://angular.io/" target="_blank"><b>Angular</b></a>. É um exemplo de como a organização dos diretórios devem seguir de acordo com a pré-estruturação do framework. Portanto é a forma genérica de como deve ser a estrutura, e os desenvolvedores especializam o código.</p>
 
 <p><center></p>
 <p><a href="../img/arq_angular.png" target="_blank"><img alt="Pastas do projeto em Angular" src="../img/arq_angular.png" /></a></p>
 <p></center></p>
 <h6 align = "center">Imagem 1: Diretório do projeto.</h6>
 <p></br></p>
-<p markdown="1" align="justify">A próxima imagem, mostra como é feita a estrutura de um componente em Angular, desenvolvido em Typescript. Um componente em Angular é uma classe que recebe o decorator em @Component, e algumas propriedades relacionadas à classe, template (HTML) e  estilo (CSS). Depois da estrutura padrão do framework, os desenvolvedores especializam essa instância.</p>
+<p markdown="1" align="justify">A próxima imagem, mostra como é feita a estrutura de um componente em <a href="https://angular.io/" target="_blank"><b>Angular</b></a>, desenvolvido em <a href="https://www.typescriptlang.org/" target="_blank"><b>Typescript</b></a>. Um componente em <a href="https://angular.io/" target="_blank"><b>Angular</b></a> é uma classe que recebe o decorator em @Component, e algumas propriedades relacionadas à classe, template (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><b>HTML</b></a>) e  estilo (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><b>CSS</b></a>). Depois da estrutura padrão do framework, os desenvolvedores especializam essa instância.</p>
 
 <p><center></p>
 <p><a href="../img/component.png" target="_blank"><img alt="Pastas do projeto em Angular" src="../img/component.png" /></a></p>
 <p></center></p>
-<h6 align = "center">Imagem 2: Classe no Angular.</h6>
+<h6 align = "center">Imagem 2: Classe no <a href="https://angular.io/" target="_blank"><b>Angular</b></a>.</h6>
 <p></br></p>
-<p markdown="1" align="justify">Pode-se reutilizar um componente em outros locais da aplicação, a Imagem 3, descreve como é feito a reutilização do código, evitando assim partes de código duplicado. Na aplicação, por exemplo, um componente chamado "Postagens" é utilizado em vários momentos na aplicação, como na página "Buscar imóveis" e na página "Meus Imóveis". Caracterizando como um framework Hot Spot.</p>
+<p markdown="1" align="justify">Pode-se reutilizar um componente em outros locais da aplicação, a Imagem 3, descreve como é feito a reutilização do código, evitando assim partes de código duplicado. Na aplicação, por exemplo, um componente chamado "Postagens" é utilizado em vários momentos na aplicação, como na página <a href="https://front-cardeal.devopstests.com/buscar-imovel" target="_blank"><b>"Buscar Imóveis"</b></a> e na página "Meus Imóveis" (visível apenas para o corretor logado).</p>
 
 <p><center></p>
 <p><a href="../img/postagens.png" target="_blank"><img alt="Pastas do projeto em Angular" src="../img/postagens.png" /></a></p>
 <p></center></p>
 <h6 align = "center">Imagem 3: Componente Postagens.</h6>
 <p></br></p>
-<p><center></p>
-<p markdown="1" align="justify">A importância da reutilização é utilizar de algo que mostrou ser bom para determinada situação, evitando assim, o gasto de tempo, recursos e tendo menos riscos. No exemplo prático, esse trecho de código não é duplicado para ser usado em cada momento que necessita do uso dessas informações. </p>
+<p markdown="1" align="justify">A importância da reutilização é utilizar de algo que mostrou ser bom para determinada situação, evitando assim, o gasto de tempo, recursos e tendo menos riscos de falhas. No exemplo prático, esse trecho de código não é duplicado para ser usado em cada momento que necessita do uso dessas informações, e com apenas a chamada à essa instância, todas suas informações e funções podem ser usadas em outros momentos, algumas abstrações existem dependendo de onde é chamado esse trecho de código, por exemplo, na página de <a href="https://front-cardeal.devopstests.com/buscar-imovel" target="_blank"><b>visualizar os imóveis</b></a> não é disponível as funções de editar as informações do imóvel ou até excluir, funções acessíveis apenas para o corretor, depois de passar pelos métodos de autenticação. </p>
 
 <pre><code class="language-JS">import { ToastService } from 'src/app/services/toast.service';
 import { Component, Input, OnInit } from '@angular/core';
@@ -2166,9 +2180,7 @@ export class PostagensComponent implements OnInit {
 
   lerImoveisCorretor() {
     let corretor = this.corretorService.CorretorAtual();
-    console.log(corretor);
     this.urlFiltro = `/${corretor.id}`
-    console.log(this.urlFiltro);
     this.service.listarImovelFiltro(this.urlFiltro).subscribe(
       (resultado) =&gt; {
         this.imoveis = resultado;
@@ -2180,7 +2192,6 @@ export class PostagensComponent implements OnInit {
   deleteImovel(imovel: any) {
     this.service.deletarImovel(imovel.id).subscribe(
       (resultado) =&gt; {
-        console.log(imovel);
         this.toast.showSucessToast('Imóvel removido com sucesso');
         this.lerimoveis();
       },
@@ -2189,7 +2200,6 @@ export class PostagensComponent implements OnInit {
   }
 
   view(imovel: any) {
-    console.log(imovel.id);
     this.service.MostraImovel(imovel.id).subscribe(
       (resultado) =&gt; {
         this.route.navigateByUrl('/imovel/' + imovel.id);
@@ -2202,7 +2212,6 @@ export class PostagensComponent implements OnInit {
   }
 
   atualizarImovel(imovel: any) {
-    console.log(imovel.id);
     this.service.MostraImovel(imovel.id).subscribe(
       (resultado) =&gt; {
         this.route.navigateByUrl('/update-imovel/' + imovel.id);
@@ -2219,15 +2228,14 @@ export class PostagensComponent implements OnInit {
   }
 }
 </code></pre>
-<p></center></p>
-<p markdown="1" align="justify">A utilização das informações geradas pelo código, são os cards relacionados aos imóveis:</p>
+<p markdown="1" align="justify">A utilização das informações geradas pelo código, são os cards relacionados aos imóveis. Podendo ser melhor visto no site do projeto, na página <a href="https://front-cardeal.devopstests.com/buscar-imovel" target="_blank"><b>Buscar Imóveis</b></a>.</p>
 
 <p><center></p>
 <p><a href="../img/cards.png" target="_blank"><img alt="Pastas do projeto em Angular" src="../img/cards.png" /></a></p>
 <p></center></p>
 <h6 align = "center">Imagem 5: Cards gerados pelo component Postagens.</h6>
 <p></br></p>
-<p markdown="1" align="justify">A utilização do trecho de código em outras páginas da aplicação web é realizado no Angular, da seguinte forma: </p>
+<p markdown="1" align="justify">A utilização do trecho de código em outras páginas da aplicação web é realizado no <a href="https://angular.io/" target="_blank"><b>Angular</b></a>, da seguinte forma: </p>
 
 <pre><code class="language-html">&lt;app-postagens [icon]=&quot;true&quot;&gt;&lt;/app-postagens&gt;
 </code></pre>
@@ -2242,18 +2250,18 @@ export class PostagensComponent implements OnInit {
 <p markdown="1" align="justify">O reuso de software pode ser feitor através de um Biblioteca, que é uma solução para um problema em particular. Dessa forma, bibliotecas auxiliam no desenvolvimento de software, pois podem ser usadas em qualquer momento para incorporar uma solução, por meio de funções e métodos. Entre as diferenças que uma biblioteca possui para o framework, é que a biblioteca é chamada pelo desenvolvedor, e seu uso é feito com grau de liberdade maior, já os frameworks devem ser respeitados em seus relacionamentos. </p>
 
 <h2 id="31-bibliotecas-aplicacao-no-projeto">3.1. Bibliotecas - Aplicação no projeto</h2>
-<p markdown="1" align="justify"> O próprio framework Angular possui algumas bibliotecas, no desenvolvimento do projeto foram utilizadas essas bibliotecas. Um exemplo de aplicação de uma biblioteca do Angular no projeto foi no uso do Angular Router, responsável pela navegação pelas páginas da aplicação web. A biblioteca Angular HttpClient, foi utilizada na aplicação, pois é uma solução para a comunicação com o servidor de banco de dados. Outro exemplo de utilização de uma biblioteca, foi a aplicação do Angular Forms, que é um sistema para uso de formulários. </p>
+<p markdown="1" align="justify"> O próprio framework <a href="https://angular.io/" target="_blank"><b>Angular</b></a> possui algumas bibliotecas, no desenvolvimento do projeto foram utilizadas essas bibliotecas. Um exemplo de aplicação de uma biblioteca do <a href="https://angular.io/" target="_blank"><b>Angular</b></a> no projeto foi no uso do Angular Router, responsável pela navegação pelas páginas da aplicação web. A biblioteca Angular HttpClient, foi utilizada na aplicação, pois é uma solução para a comunicação com o servidor de banco de dados. Outro exemplo de utilização de uma biblioteca, foi a aplicação do Angular Forms, que é um sistema para uso de formulários. </p>
 
 <p><center></p>
 <p><a href="../img/bibliotecas.png" target="_blank"><img alt="Pastas do projeto em Angular" src="../img/bibliotecas.png" /></a></p>
 <p></center></p>
 <h6 align = "center">Imagem 7: Bibliotecas.</h6>
 <p></br></p>
-<h2 id="3-servicos">3. Serviços</h2>
-<p markdown="1" align="justify">Os serviços são usados para que tenha comunicação com os diversos sistemas envolvidos em uma solução de software. Existindo assim, uma acessibilidade entre os diversos serviços por meio de padrões.</p>
+<h2 id="4-servicos">4. Serviços</h2>
+<p markdown="1" align="justify">Os serviços são usados para que tenha comunicação com os diversos sistemas envolvidos em uma solução de software. Existindo assim, uma acessibilidade entre os diversos serviços por meio de padrões e métodos.</p>
 
-<h2 id="3-servicos-aplicacao-no-projeto">3. Serviços - Aplicação no projeto</h2>
-<p markdown="1" align="justify">A aplicação de serviço no projeto, é estabelecida com o usuário fazendo a comunicação, por intermédio do browser, com o serviço web de forma padronizada.</p>
+<h2 id="41-servicos-aplicacao-no-projeto">4.1. Serviços - Aplicação no projeto</h2>
+<p markdown="1" align="justify">A aplicação de serviço no projeto, é estabelecida com o usuário fazendo a comunicação, por intermédio do browser, com o serviço web de forma padronizada. Melhor detalhada no <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/arquitetura/das/#7visao-de-implantacao" target="_blank"><b>Documento de Arquitetura de Software no tópico 7</b></a> sobre Visão de Implantação.</p>
 
 <p><center></p>
 <p><a href="../img/implantacao.jpg" target="_blank"><img alt="Pastas do projeto em Angular" src="../img/implantacao.jpg" /></a></p>
@@ -2267,7 +2275,7 @@ export class PostagensComponent implements OnInit {
 <p></center></p>
 <h6 align = "center">Imagem 9: Fonte:<a href="https://aprender3.unb.br/pluginfile.php/897154/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Reutiliza%C3%A7%C3%A3o%20%20Framework%20-%20Profa.%20Milene.pdf" target="_blank"> Milene Serrano - Aula Reutilização & Framework</a>, adaptado.</h6>
 <p></br></p>
-<p markdown="1" align="justify">Utilizando o framework Angular, alguns serviços foram desenvolvidos para que façam comunicação usando o REST.</p>
+<p markdown="1" align="justify">Utilizando o framework <a href="https://angular.io/" target="_blank"><b>Angular</b></a>, alguns serviços foram desenvolvidos para que façam comunicação usando o REST.</p>
 
 <p><center></p>
 <p><a href="../img/services.png" target="_blank"><img alt="Pastas do projeto em Angular" src="../img/services.png" /></a></p>
@@ -2314,7 +2322,34 @@ Applications and Experience, páginas 57-71. Addison-Wesley, Reading, MA, 1989.<
 <blockquote>
 <p><a href="https://www.devmedia.com.br/angular-components-conhecendo-e-configurando-no-seu-projeto/40734" target="_blank">DEVMEDIA: Angular Components: Conhecendo e configurando no seu projeto.</a>, acessado dia 14 de outubro de 2021.</p>
 </blockquote>
-<p>https://www.devmedia.com.br/angular-components-conhecendo-e-configurando-no-seu-projeto/40734</p>
+<hr />
+<blockquote>
+<p><a href="https://www.typescriptlang.org/" target="_blank">TypeScript is JavaScript with syntax for types.</a>, acessado dia 15 de outubro de 2021.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p><a href="https://nodejs.org/en/" target="_blank">Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.</a>, acessado dia 15 de outubro de 2021.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p><a href="https://www.javascript.com/" target="_blank">JavaScript</a>, acessado dia 15 de outubro de 2021.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML: Linguagem de Marcação de Hipertexto</a>, acessado dia 15 de outubro de 2021.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p><a href="https://github.com/UnBArqDsw2021-1/2021.1-g04-cardeal-frontend" target="_blank">Projeto Cardeal: repositório Front-End</a>, acessado dia 15 de outubro de 2021.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p><a href="https://github.com/UnBArqDsw2021-1/2021.1-g04-cardeal-back-end" target="_blank">Projeto Cardeal: repositório Back-End</a>, acessado dia 15 de outubro de 2021.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p><a href="https://front-cardeal.devopstests.com/" target="_blank">Projeto Cardeal: Encontre o lugar ideal para você!</a>, acessado dia 15 de outubro de 2021.</p>
+</blockquote>
 <h2 id="versionamento">Versionamento</h2>
 <table>
 <thead>
@@ -2343,6 +2378,24 @@ Applications and Experience, páginas 57-71. Addison-Wesley, Reading, MA, 1989.<
 <td>0.2</td>
 <td>Revisão do documento</td>
 <td>Giovana, Bruno, Douglas, Estevão, Gustavo, Igor, Marcos, Pedro, Luiz e Tomás</td>
+</tr>
+<tr>
+<td>15/10/2021</td>
+<td>0.3</td>
+<td>Adição da Metodologia</td>
+<td><a href="https://github.com/tomasvelos0">Tomás Veloso</a></td>
+</tr>
+<tr>
+<td>15/10/2021</td>
+<td>0.3</td>
+<td>Adição dos links</td>
+<td><a href="https://github.com/tomasvelos0">Tomás Veloso</a></td>
+</tr>
+<tr>
+<td>15/10/2021</td>
+<td>0.3</td>
+<td>Adição da rastreabilidade</td>
+<td><a href="https://github.com/tomasvelos0">Tomás Veloso</a></td>
 </tr>
 </tbody>
 </table>
@@ -2434,10 +2487,10 @@ Applications and Experience, páginas 57-71. Addison-Wesley, Reading, MA, 1989.<
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "content.tabs.link", "header.autohide", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.709b4209.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "content.tabs.link", "header.autohide", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.53c85856.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.febc23d1.min.js"></script>
+      <script src="../../assets/javascripts/bundle.716f8af4.min.js"></script>
       
     
   </body>
