@@ -50,7 +50,7 @@
 </center>
 <h6 align = "center">Imagem 2: Classe no Angular.</h6></br>
 
-<p markdown="1" align="justify">Pode reutilizar um componente em outros locais da aplicação, a Imagem 3, descreve como é feito a reutilização do código, evitando assim partes de código duplicado. Na aplicação, por exemplo, um componente chamado "Postagens" é utilizado em vários momentos na aplicação, como na página "Buscar imóveis" e na página "Meus Imóveis". Caracterizando como um framework Hot Spot.</p>
+<p markdown="1" align="justify">Pode-se reutilizar um componente em outros locais da aplicação, a Imagem 3, descreve como é feito a reutilização do código, evitando assim partes de código duplicado. Na aplicação, por exemplo, um componente chamado "Postagens" é utilizado em vários momentos na aplicação, como na página "Buscar imóveis" e na página "Meus Imóveis". Caracterizando como um framework Hot Spot.</p>
 
 <center>
 
