@@ -21,7 +21,7 @@
 |                                        **Hot-Spots**                                         |                                                         **Frozen-Spots**                                                         |
 | :------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------: |
 | Representam as partes do framework de aplicação que são específicas de sistemas individuais. | Definem a arquitetura geral de um sistema de software, ou seja, seus componentes básicos bem como os relacionamentos entre eles. |
-|    São projetados para serem genéricos, cabendo adaptá-los às necessidades da aplicação.     |                              Permanecem fixos em todas as instanciações do framework de aplicação.                               |
+|    São projetados para serem genéricos, cabendo adaptá-los às necessidades da aplicação.     |                              Permanecem fixos em todas as instâncias do framework de aplicação.                               |
 |                      Normalmente, representados com classes abstratas.                       |                                           Também conhecidos como "core" do framework.                                            |
 
 </center>
