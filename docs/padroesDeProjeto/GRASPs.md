@@ -50,31 +50,27 @@ classe A.
  
 #### 3.2.1. Diagrama
  
-![Controladores](./img/controller1.svg)
+![Controladores](./img/controller_diagram.jpg)
  
 <p align = "center">Autor: Douglas Castro</p>
- 
+
+<p align = "center">Para ver com mais detalhes <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/padroesDeProjeto/img/controller_diagram.jpg">clique aqui</a>.</p>
+
 #### 3.2.2. Controlador de Clientes
  
 ![Code Example](./img/clientController.png)
  
 <p align = "center">Autores: Douglas Castro e Pedro Haick</p>
+
+<p align = "center">O código acima pode ser visto com mais detalhes <a href="https://github.com/UnBArqDsw2021-1/2021.1-g04-cardeal-back-end/blob/feature/sistema_de_cliente/src/modules/clients/clients.controller.ts">aqui</a>.</p>
  
-O código acima pode ser visto com mais detalhes [aqui](https://github.com/UnBArqDsw2021-1/2021.1-g04-cardeal-back-end/blob/feature/sistema_de_cliente/src/modules/clients/clients.controller.ts).
- 
-#### 3.2.3. Diagrama
- 
-![Controladores](./img/controller2.svg)
- 
-<p align = "center">Autor: Douglas Castro</p>
- 
-#### 3.2.4. Controlador de Propriedades
+#### 3.2.3. Controlador de Propriedades
  
 ![Code Example](./img/propertyController.png)
  
 <p align = "center">Autores: Bruno Nunes e Gustavo Duarte</p>
- 
-O código acima pode ser visto com mais detalhes [aqui](https://github.com/UnBArqDsw2021-1/2021.1-g04-cardeal-back-end/blob/feature/US04/src/properties/properties.controller.ts).
+
+<p align = "center">O código acima pode ser visto com mais detalhes <a href="https://github.com/UnBArqDsw2021-1/2021.1-g04-cardeal-back-end/blob/feature/US04/src/properties/properties.controller.ts">aqui</a>.</p>
  
 ## 4. Polimorfismo
 <p align="justify">&emsp;&emsp;Polimorfismo corresponde ao padrão de projeto que determina que "as responsabilidades devem ser atribuídas a abstrações e não a objetos concretos, permitindo que eles possam variar conforme a necessidade" (BOAS, 2019). Ou seja, ao aplicar-se o polimorfismo, cria-se uma interface que possa ser implementada por classes diferentes mas que compartilhem certos comportamentos e características. </p>
