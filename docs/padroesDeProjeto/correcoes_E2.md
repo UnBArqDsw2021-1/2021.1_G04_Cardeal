@@ -69,15 +69,15 @@
 </center>
 
 ### 1.6. Diagrama de Atividades
-<p align = "justify">No documento dos <a [href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_estados/](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/)"><b>Diagramas de Atividades</b></a>, foram adicionadas correções requeridas no feedback referente à segunda entrega:</p>
+<p align = "justify">No documento dos <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/"><b>Diagramas de Atividades</b></a>, foram adicionadas correções requeridas no feedback referente à segunda entrega:</p>
 
 <center>
 
 | **Critério adicionado** |                                                **Tópico alterado**                                                 | **Descrição**                              |
 | :---------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------- |
 |   :heavy_check_mark:    | **[Documento](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/)** | Padronização do documento |
-|   :heavy_check_mark:    | **[Referências](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/)** | Correção nas referências usadas no texto |
-|   :heavy_check_mark:    | **[Revisão do Léxico](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/)** | O léxico usado foi alterado de deletar para apagar imóvel  |
+|   :heavy_check_mark:    | **[Referências](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/#5-referencias)** | Correção nas referências usadas no texto |
+|   :heavy_check_mark:    | **[Revisão do Léxico](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/#34-apagar-imovel)** | O léxico usado foi alterado de deletar para apagar imóvel  |
 
 </center>
 
@@ -93,4 +93,5 @@
 | 10/09/2021 |  1.3   | Criação do Tópico 1.4 | [Giovana Dionisio](https://github.com/giovanadionisio) |
 | 19/09/2021 |  1.4   | Criação do Tópico 1.5 | [Pedro Haick](https://github.com/peHaick) |
 | 19/09/2021 |  1.5   | Criação do Tópico 1.6 | [Douglas Castro](https://github.com/douglasffcastro) |
+| 14/10/2021 |  1.6   | Correção dos links das correções do diagrama de atividades | [Douglas Castro](https://github.com/douglasffcastro) |
 
