@@ -8,12 +8,12 @@
 
 <p align = "justify">Este documento tem o propósito de detalhar a reutilização de software no <a href="https://github.com/UnBArqDsw2021-1/2021.1-g04-cardeal-frontend" target="_blank"><b>Front-End do Projeto Cardeal</b></a>. Portanto o foco principal será na aplicação dos conceitos de framework, bibliotecas e outra forma de utilização de software na aplicação web, e no desenvolvimento do código. O <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/arquitetura/back-end/" target="_blank"><b>Documento Reutilização de Software Back-End</b></a>, explica como foram usados e aplicados no projeto, os conceitos de reuso de software no <a href="https://github.com/UnBArqDsw2021-1/2021.1-g04-cardeal-back-end" target="_blank"><b>Back-end do Projeto Cardeal</b></a>. Para maior entendimento de todas as tecnologias usadas, estilos e padrões arquiteturais, é detalhado no <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/arquitetura/das/" target="_blank"><b>Documento de Arquitetura de Software</b></a>.</p>
 
-## 2. Framework
+## 3. Framework
 
 <p align = "justify"><cite>O framework dita a arquitetura da sua aplicação. Ele irá definir a estrutura geral, sua divisão em classes e objetos e em consequência as responsabilidades-chave das classes de objetos, como estas colaboram, e o fluxo de controle. Um framework pré-define esses parâmetros de projeto, de maneira que você, projetista/implementador da aplicação, possa se concentrar nos aspectos específicos da sua aplicação.</cite> (GAMMA et al., 2000, p.42).<br/></p>
 <p align = "justify">Framework é aplicado para desenvolver  soluções que possuem o mesmo domínio cognitivo ou similares, sendo uma estrutura geral que atenda um conjunto de aplicações similares. Uma forma de aplicar a reutilização de software é pelo o uso de framework, facilitando no desenvolvimento de novas aplicações. </p>
 
-## 2.1. Framework - Hot-Spots e Frozen-Spots
+## 3.1. Framework - Hot-Spots e Frozen-Spots
 
 <p align = "justify">Hot-spots representam uma parte da reutilização de software de um framework, mas de uma forma genérica, o que possibilita o desenvolvedor adaptá-las ao contexto da aplicação, de forma que suas funcionalidades podem ser complementadas pelo programador. O Frozen-spots é diferente por não permitir a alteração, ou seja, foi projetado para não ter adaptação, sua funcionalidade continua igual em todos os momentos que são instanciados. Exemplos de aplicações Hot-Spots, Classes abstratas, métodos abstratos, métodos hook. Classes concretas e métodos template são exemplos de Frozen-spots.</p>
 
@@ -30,7 +30,7 @@
 
 <h6 align = "center">Fonte:<a href="https://aprender3.unb.br/pluginfile.php/897154/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Reutiliza%C3%A7%C3%A3o%20%20Framework%20-%20Profa.%20Milene.pdf" target="_blank"> Milene Serrano - Aula Reutilização & Framework</a>, adaptado.</h6></br>
 
-## 2.2. Framework - Aplicação no projeto
+## 3.2. Framework - Aplicação no projeto
 
 <p align = "justify">Utilizamos o framework <a href="https://angular.io/" target="_blank"><b>Angular</b></a> para o desenvolvimento da aplicação web. <a href="https://angular.io/" target="_blank"><b>Angular</b></a> é um framework que utiliza de <a href="https://www.typescriptlang.org/" target="_blank"><b>Typescript</b></a> para a criação de páginas web, é caracterizado por ser uma "Sigle-Page Applications (SPA)", ou seja, diferente de outras aplicações web, que ao interagir com alguma informação da página, toda a aplicação é atualizada, e a comunicação com o back-end é feita de forma dinâmica. O <a href="https://angular.io/" target="_blank"><b>Angular</b></a> é instalado através do gerenciador de pacotes do <a href="https://nodejs.org/en/" target="_blank"><b>NodeJS</b></a>, um software para execução de <a href="https://www.javascript.com/" target="_blank"><b>javascript</b></a>.</p></br>
 
@@ -186,11 +186,11 @@ export class PostagensComponent implements OnInit {
 
 <!-- <p markdown="1" align="justify">Portanto, nesses exemplos, o modelo criado trata-se de um Hotspot, pois possui componentes que são usados em outros momentos, mas é especializado no momento que é usado.</p> -->
 
-## 3. Bibliotecas
+## 4. Bibliotecas
 
 <p markdown="1" align="justify">O reuso de software pode ser feitor através de um Biblioteca, que é uma solução para um problema em particular. Dessa forma, bibliotecas auxiliam no desenvolvimento de software, pois podem ser usadas em qualquer momento para incorporar uma solução, por meio de funções e métodos. Entre as diferenças que uma biblioteca possui para o framework, é que a biblioteca é chamada pelo desenvolvedor, e seu uso é feito com grau de liberdade maior, já os frameworks devem ser respeitados em seus relacionamentos. </p>
 
-## 3.1. Bibliotecas - Aplicação no projeto
+## 4.1. Bibliotecas - Aplicação no projeto
 
 <p markdown="1" align="justify"> O próprio framework <a href="https://angular.io/" target="_blank"><b>Angular</b></a> possui algumas bibliotecas, no desenvolvimento do projeto foram utilizadas essas bibliotecas. Um exemplo de aplicação de uma biblioteca do <a href="https://angular.io/" target="_blank"><b>Angular</b></a> no projeto foi no uso do Angular Router, responsável pela navegação pelas páginas da aplicação web. A biblioteca Angular HttpClient, foi utilizada na aplicação, pois é uma solução para a comunicação com o servidor de banco de dados. Outro exemplo de utilização de uma biblioteca, foi a aplicação do Angular Forms, que é um sistema para uso de formulários. </p>
 
@@ -201,11 +201,11 @@ export class PostagensComponent implements OnInit {
 </center>
 <h6 align = "center">Imagem 7: Bibliotecas.</h6></br>
 
-## 4. Serviços
+## 5. Serviços
 
 <p markdown="1" align="justify">Os serviços são usados para que tenha comunicação com os diversos sistemas envolvidos em uma solução de software. Existindo assim, uma acessibilidade entre os diversos serviços por meio de padrões e métodos.</p>
 
-## 4.1. Serviços - Aplicação no projeto
+## 5.1. Serviços - Aplicação no projeto
 
 <p markdown="1" align="justify">A aplicação de serviço no projeto, é estabelecida com o usuário fazendo a comunicação, por intermédio do browser, com o serviço web de forma padronizada. Melhor detalhada no <a href="https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/arquitetura/das/#7visao-de-implantacao" target="_blank"><b>Documento de Arquitetura de Software no tópico 7</b></a> sobre Visão de Implantação.</p>
 
