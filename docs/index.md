@@ -6,6 +6,8 @@
 <h3 id="sobre-o-projeto">Sobre o projeto</h3>
 <p align="justify">O projeto é uma aplicação web de uma imobiliária que tem como seu principal objetivo auxiliar os clientes a encontrar seus futuros e possíveis imóveis, que gostariam de comprar ou alugar. </p>
 
+O Projeto pode ser acessado utilizando o seguinte link: [https://front-cardeal.devopstests.com/](https://front-cardeal.devopstests.com/)
+
 <h3 id="equipe">Equipe</h3>
 <table>
     <tr>
