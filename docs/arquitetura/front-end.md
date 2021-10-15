@@ -41,7 +41,7 @@
 </center>
 <h6 align = "center">Imagem 1: Diretório do projeto.</h6></br>
 
-<p markdown="1" align="justify">A próxima imagem, mostra como é feito a estrutura de um componente em Angular, desenvolvido em Typescript. Um componente em Angular é uma classe que recebe o decorator em @Component, e algumas propriedades relacionadas à classe, template (HTML) e  estilo (CSS). Depois da estrutura padrão do framework, os desenvolvedores especializam essa instância.</p>
+<p markdown="1" align="justify">A próxima imagem, mostra como é feita a estrutura de um componente em Angular, desenvolvido em Typescript. Um componente em Angular é uma classe que recebe o decorator em @Component, e algumas propriedades relacionadas à classe, template (HTML) e  estilo (CSS). Depois da estrutura padrão do framework, os desenvolvedores especializam essa instância.</p>
 
 <center>
 
