@@ -88,12 +88,12 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 ### 3.1 Metas 
    Dentro do que é referente às restrições, requisitos e objetivos da arquitetura do site online da corretora Cardeal, serão listados abaixo os pontos de maior importância para o projeto:
    
-- Segurança: A aplicação deve manter os dados dos usuários em segurança
-- Linguagem: A aplicação deve conter uma linguagem acessível e que possa ter um fácil entendimento pelo os usuários
-- Portabilidade: A aplicação deve ser funcionar e ser executada com desempenho igual ou próximo nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge
-- Usabilidade: é essencial que o sistema possibilite que o usuário a realize ações rapidamente e de maneira intuitiva
-- Escalabilidade: O software deve tornar possível sua evolução e manutenção.
-- Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal.
+* Segurança: A aplicação deve manter os dados dos usuários em segurança
+* Linguagem: A aplicação deve conter uma linguagem acessível e que possa ter um fácil entendimento pelo os usuários
+* Portabilidade: A aplicação deve ser funcionar e ser executada com desempenho igual ou próximo nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge
+* Usabilidade: é essencial que o sistema possibilite que o usuário a realize ações rapidamente e de maneira intuitiva
+* Escalabilidade: O software deve tornar possível sua evolução e manutenção.
+* Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal.
 
 ### 3.2 Restrições
 
