@@ -43,4 +43,8 @@
 
 ### 4.1. Apresentação 1 - Documento de Arquitetura (DAS)
 
+<iframe src="https://drive.google.com/file/d/1KBpWkxU5C6Bb0HteBmdXK4bP8SxXFh3T/preview" width="640" height="360" allow="autoplay"></iframe>
+
 ### 4.2. Apresentação 2 - Reutilização de Software
+
+<iframe src="https://drive.google.com/file/d/13q2d5M5S8yrDRSNCz8_oSrO_kx52etf-/preview" width="640" height="360" allow="autoplay"></iframe>
