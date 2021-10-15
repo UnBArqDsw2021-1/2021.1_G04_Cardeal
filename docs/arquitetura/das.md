@@ -87,12 +87,13 @@ Nesta camada, foi utilizado o framework front-end javascript [Angular](#angula)
 
 ### 3.1 Metas 
    Dentro do que é referente às restrições, requisitos e objetivos da arquitetura do site online da corretora Cardeal, serão listados abaixo os pontos de maior importância para o projeto:
-- Segurança: A aplicação deve manter os dados dos usuários em segurança
-- Linguagem: A aplicação deve conter uma linguagem acessível e que possa ter um fácil entendimento pelo os usuários
-- Portabilidade: A aplicação deve ser funcionar e ser executada com desempenho igual ou próximo nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge
-- Usabilidade: é essencial que o sistema possibilite que o usuário a realize ações rapidamente e de maneira intuitiva
-- Escalabilidade: O software deve tornar possível sua evolução e manutenção.
-- Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal.
+   
+* Segurança: A aplicação deve manter os dados dos usuários em segurança
+* Linguagem: A aplicação deve conter uma linguagem acessível e que possa ter um fácil entendimento pelo os usuários
+* Portabilidade: A aplicação deve ser funcionar e ser executada com desempenho igual ou próximo nos navegadores Google Chrome, Mozilla Firefox e Microsoft Edge
+* Usabilidade: é essencial que o sistema possibilite que o usuário a realize ações rapidamente e de maneira intuitiva
+* Escalabilidade: O software deve tornar possível sua evolução e manutenção.
+* Manutenibilidade: A aplicação deve permitir manutenção e melhorias de maneira a não gerar custo e tempo muito acima do normal.
 
 ### 3.2 Restrições
 
@@ -237,7 +238,7 @@ O tamanho do projeto não pode ser precisamente estimado até a data de escrita 
 
 Em relação à performance, o sistema foi desenvolvido com foco na otimização de resposta às requisições. Sendo assim, é esperado que o desempenho geral do sistema atenda às expectativas e à testes de Stress. Sendo capaz de: 
 - O sistema deve ser capaz de suportar usuários simultâneos em seu site;
-- O sistema deve ser capaz de carregar suas páginas em menos de 10 segundos.
+- O sistema deve ser capaz de carregar suas páginas em alguns milisegundos, mas dependendo da quantidade de usuários simultaneos essas requisições iram demorar até um tempo máximo de 3 segundo para serem realizadas pelo sistema.
 
 ## 11. Qualidade
 &emsp;&emsp; Quanto à Qualidade, a arquitetura do Projeto Cardeal é orientado pelos atributos FURPS, sigla para _**F**uncionality, **U**sability, **R**eliability, **P**erformance_ e _**S**uportability_. Segundo PRESSMAN e MAXIM (2016), as seguintes definições podem ser aplicadas para esses atributos:  
