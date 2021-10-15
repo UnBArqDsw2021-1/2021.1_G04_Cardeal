@@ -199,7 +199,7 @@ export class PostagensComponent implements OnInit {
 
 ## 3.1. Bibliotecas - Aplicação no projeto
 
-<p markdown="1" align="justify"> O próprio framework Angular possui algumas bibliotecas, no desenvolvimento do projeto foram utilizadas essas bibliotecas. Um exemplo de aplicação de uma biblioteca do Angular no projeto foi no uso do Angular Router, reponsável pela navegação pelas páginas da aplicação web. A biblioteca Angular HttpClient, foi utilizada na aplicação, pois é uma solução para a comunicação com o servidor de banco de dados. Outro exemplo de utilização de uma biblioteca, foi a aplicação do Angular Forms, que é um sistema para uso de formulários. </p>
+<p markdown="1" align="justify"> O próprio framework Angular possui algumas bibliotecas, no desenvolvimento do projeto foram utilizadas essas bibliotecas. Um exemplo de aplicação de uma biblioteca do Angular no projeto foi no uso do Angular Router, responsável pela navegação pelas páginas da aplicação web. A biblioteca Angular HttpClient, foi utilizada na aplicação, pois é uma solução para a comunicação com o servidor de banco de dados. Outro exemplo de utilização de uma biblioteca, foi a aplicação do Angular Forms, que é um sistema para uso de formulários. </p>
 
 <center>
 
