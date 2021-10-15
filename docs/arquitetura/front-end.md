@@ -191,7 +191,7 @@ export class PostagensComponent implements OnInit {
 </center>
 <h6 align = "center">Imagem 6: Reutilizando Componente.</h6></br>
 
-<!-- <p markdown="1" align="justify">Portando, nesses exemplos, o modelo criado trata-se de um Hotspot, pois possui componentes que são usados em outros momentos, mas é especializado no momento que é usado.</p> -->
+<!-- <p markdown="1" align="justify">Portanto, nesses exemplos, o modelo criado trata-se de um Hotspot, pois possui componentes que são usados em outros momentos, mas é especializado no momento que é usado.</p> -->
 
 ## 3. Bibliotecas
 
