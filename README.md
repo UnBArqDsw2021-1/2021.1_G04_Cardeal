@@ -78,21 +78,89 @@ https://drive.google.com/file/d/1amyyFE3ptUVjyf4e1vfkac_KyzSmKR6N/preview
 [Padrões de Projeto Emergentes](https://drive.google.com/file/d/1aK_dIJugrnfpWBiblseDTMgTwr5qs1qk/view?usp=sharing)
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+
+### Documento de Arquitetura (DAS)
+
+#### DAS - Inicio
+![DAS - Documento de arquitetura de Software](./docs/screenshots/das.png)
+
+#### DAS - Diagrama relação camada e tecnologias
+![DAS - Model](./docs/arquitetura/img/arquitetura.png)
+
+
+### Reutilização de Software
+
+#### Reutilização - Back-end
+![Back-end](./docs/screenshots/backend.png)
+
+#### Reutilização - Front-end
+![Front-end](./docs/screenshots/frontend.png)
+
+### Fluxo do cliente
+
+#### Filtragem dos Imóveis
+
+![Filtragem dos Imóveis](./docs/assets/FLUXO_CLIENTE/filtros.png)
+
+#### Exibir Imóveis
+
+![Exibir Imóveis](./docs/assets/FLUXO_CLIENTE/imoveis.png)
+
+#### FAQ
+
+![FAQ](./docs/assets/FLUXO_CLIENTE/fac.png)
+
+
+### Fluxo do corretor
+
+#### Login
+
+![Cadastrar Imóvel](./docs/assets/FLUXO_CORRETOR/login.png)
+
+#### Cadastrar Imóvel
+
+![Cadastrar Imóvel](./docs/assets/FLUXO_CORRETOR/cadastro_imoveis.png)
+
+#### Cadastrar Clientes
+
+![Cadastrar Imóvel](./docs/assets/FLUXO_CORRETOR/cadastro_cliente.png)
+
+#### Cadastrar Agendamentos
+
+![Cadastrar Imóvel](./docs/assets/FLUXO_CORRETOR/cadastro_agendamento.png)
 
 ## Vídeo(s) Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
-Adicione o(s)s vídeo(s) da Entrega Final.
+
+### Documento de Arquitetura (DAS)
+
+*
+
+### Reutilização de Software e Iniciativas Extras
+
+*
 
 ## Descritivo dos Principais Aspectos Técnicos 
-**Principal(is) Metodologia(s) Adotada(s)**: xxxxxx<br>
-**Principais Linguagens Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principais Tecnologias Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
+**Principal Metodologia Adotada**: Scrum<br>
+**Principal Linguagem Utilizada**: TypeScript<br>
+**Principais Tecnologias Utilizadas**: NestJS(back-end) e Angular(front-end)<br>
+**Principal Estilo Arquitetural Adotado**: MVC<br>
 
 ## O Projeto está rodando?
-( ) SIM
+(X) SIM
 ( ) NÃO
+
 Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados em consultar o projeto.
+
+O site de acesso da aplicação está disponivel no link:
+
+* [Cardeal](https://front-cardeal.devopstests.com/
+)
+
+Encontra-se os scripts nos seguintes repositórios:
+
+* [Back-end: Servidor - API](https://github.com/UnBArqDsw2021-1/2021.1-g04-cardeal-back-end)
+
+* [Front-end](https://github.com/UnBArqDsw2021-1/2021.1-g04-cardeal-frontend)
 
 ## Informações Complementares 
 

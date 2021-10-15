@@ -197,8 +197,7 @@ A partir da reunião realizada no dia [17/09/2021](./atas/17-09-21.md) ficou dec
 O padrão Decorator não foi aplicado ao projeto.
  
  
-## 6. Facade
-## 7. Flyweight
+## 6. Flyweight
  
 O Flyweight(peso-mosca) é um padrão de projeto estrutural que é apropriado quando muitos objetos precisam ser manipulados em memória RAM e possuem informações repetidas. Os objetos compartilham partes comuns do estado, em vez de manter todos os dados em cada objeto. Otimizando o uso de memória.
  
@@ -209,36 +208,36 @@ O Flyweight(peso-mosca) é um padrão de projeto estrutural que é apropriado qu
 _Fonte: https://refactoring.guru/pt-br/design-patterns/flyweight_
 </center>
  
-### 7.1 Metodologia
+### 6.1 Metodologia
  
 A partir da reunião realizada no dia [17/09/2021](./atas/17-09-21.md) ficou decidido entre os membros do grupo que o padrão Flyweight seria estudado. Porém, conforme o escopo do projeto foi definido não foi visualizada a necessidade de implementação do padrão.
  
-### 7.2 Aplicação no projeto
+### 6.2 Aplicação no projeto
  
 O padrão Flyweight não foi aplicado ao projeto.
  
-## 8. Proxy
+## 7. Proxy
  
-## 8.1. Introdução
+## 7.1. Introdução
  
 O padrão de projeto estrutural Proxy, é um padrão de projeto no qual uma classe irá funcionar de interface para outra coisa. Sendo assim, o Proxy pode fazer interface com praticamente qualquer coisa, desde uma conexão de rede a um arquivo.
  
-## 8.2. Metodologia
+## 7.2. Metodologia
  
 O padrão Proxy foi estudado, porém não está implementado de maneira direta no projeto. Mas se sim, a sua implementação seguiria o seu padrão característico descrito na introdução de modo a preservar e ser possível identificá-lo de maneira clara no projeto.
  
-## 8.3. Estrutura
+## 7.3. Estrutura
  
 A abordagem do Proxy é feita do seguinte modo e seguindo os seguintes parâmetros, o Proxy é um objeto wrapper que está sendo chamado pelo cliente para acessar o objeto de serviço real. Ao se chamar o Proxy, pode se encaminhar direto para o uso do serviço real ou oferecer uma lógica adicional, complementar aquele objeto, antes de propriamente encaminhar para ele, podendo fornecer um substituto ( ou placeholder ), adiciona nível extra de indireção e adicionar um agregador para proteger o componente real de complexidade indevida.
  
 ![ilustracao-utilizacao-proxy](https://user-images.githubusercontent.com/82710878/133911984-fe0ee114-3a83-4a03-8a7d-28dc27c3ad4c.png)
  
  
-## 8.4. Proxy aplicado ao projeto
+## 7.4. Proxy aplicado ao projeto
  
 O padrão proxy não foi aplicado ao projeto.
  
-## 9. Referências
+## 8. Referências
  
 > Padrões de Projeto Proxy. Disponível em: <https://pt.wikipedia.org/wiki/Proxy_(padr%C3%B5es_de_projeto)>.  Acessado em: 18/09/2021
  
@@ -278,7 +277,7 @@ Vlissides . Design patterns: elements of reusable objectoriented software. Readi
 > Bridge Design Pattern. Disponível em: <https://www.geeksforgeeks.org/bridge-design-pattern/>. Acessado em 19/09/2021.
  
  
-## 10. Versionamento
+## 9. Versionamento
  
 | Data       | Versão | Descrição         | Autores       |
 | ---------- | ------ | ----------------- | ------------- |
@@ -289,3 +288,4 @@ Vlissides . Design patterns: elements of reusable objectoriented software. Readi
 | 19/09/2021 | 0.5    | Adição dos padrões Composite, Decorator e Flyweight | Gustavo Moreira |
 | 19/09/2021 | 0.6    | Adição Introdução, Adapter e Bridge Pattern | Marcos Vinícius |
 | 19/09/2021 | 0.7 | Revisão | Bruno, Marcos, Luiz, Tomás, Gustavo, Igor, Estevão, Giovana |
+| 15/10/2021 | 0.8    | Formatação da numeração do documento    | Bruno e Marcos
