@@ -26,7 +26,7 @@
 
 </center>
 
-<h6 align = "center">Fonte:<a href="https://www.figma.com/proto/DKWzd4WjiCNoDUUINY1U4v/Identidade-Visual-Cardeal?node-id=6%3A6" target="_blank">Milene Serrano - Aula Reutilização & Framework</a>, adaptado.</h6></br>
+<h6 align = "center">Fonte:<a href="https://aprender3.unb.br/pluginfile.php/897154/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Reutiliza%C3%A7%C3%A3o%20%20Framework%20-%20Profa.%20Milene.pdf" target="_blank"> Milene Serrano - Aula Reutilização & Framework</a>, adaptado.</h6></br>
 
 ## 2.2. Framework - Aplicação no projeto
 
@@ -230,7 +230,8 @@ export class PostagensComponent implements OnInit {
 [![Pastas do projeto em Angular](./img/servicos.png)](./img/servicos.png){target=\_blank}
 
 </center>
-<h6 align = "center">Imagem 9: REST Web Service. Fonte: Milene Serrano - Aula - REUTILIZAÇÃO & FRAMEWORK, p. 58, (Adaptado).</h6></br>
+
+<h6 align = "center">Imagem 9: Fonte:<a href="https://aprender3.unb.br/pluginfile.php/897154/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Reutiliza%C3%A7%C3%A3o%20%20Framework%20-%20Profa.%20Milene.pdf" target="_blank"> Milene Serrano - Aula Reutilização & Framework</a>, adaptado.</h6></br>
 
 <p markdown="1" align="justify">Utilizando o framework Angular, alguns serviços foram desenvolvidos para que façam comunicação usando o REST.</p>
 
