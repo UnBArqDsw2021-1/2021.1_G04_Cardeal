@@ -18,6 +18,10 @@
 
 ## 3. Referentes à terceira entrega
 
+### 3.1.2 Padronização das atas
+
+* [Ata do dia 13/09/2021](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/padroesDeProjeto/atas/13-09-21/)
+
 ## 4. Correções gerais
 
 * Padronização de títulos dos itens "Referências" em alguns documentos.
