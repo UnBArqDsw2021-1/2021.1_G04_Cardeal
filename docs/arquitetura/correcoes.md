@@ -18,6 +18,12 @@
 
 ## 3. Referentes à terceira entrega
 
+### 3.1.1 [Extras: Correções](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/padroesDeProjeto/correcoes_E2)
+
+#### Correções no [Diagrama de Atividades](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/modelagem/diagrama_atividades/)
+
+* [Correção dos links](https://unbarqdsw2021-1.github.io/2021.1_G04_Cardeal/padroesDeProjeto/correcoes_E2/#16-diagrama-de-atividades)
+
 ## 4. Correções gerais
 
 * Padronização de títulos dos itens "Referências" em alguns documentos.
